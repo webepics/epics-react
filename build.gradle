@@ -1,0 +1,83 @@
+apply plugin: 'java'
+apply plugin: askap
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+// all the sass gradle plugins are crap. So I wrote one myself based on sass. So the problem
+// is that sass has to be installed.
+sass {
+    inputFile = 'WebContent/scss/askap.scss'
+    outputFile = 'WebContent/css/askap.css'
+}
+
+// build.dependsOn ASKAPSass
+
+class askap implements Plugin<Project> {
+    void apply(Project project) {
+	project.extensions.create("sass", SassPluginExtension)
+
+        project.task('SassPre') << {
+	    project.ASKAPSass.executable = 'sass'
+	    project.ASKAPSass.args = [project.sass.inputFile, project.sass.outputFile]
+	}
+
+        project.task('ASKAPSass', type:Exec) {
+	    dependsOn project.SassPre
+        }
+    }
+}
+
+class SassPluginExtension {
+    String inputFile
+    String outputFile
+}
+
+repositories {
+    // Use 'jcenter' for resolving your dependencies.
+    jcenter()
+}
+
+// JDK version source compatibility
+// sourceCompatibility = 1.7
+
+// War file name
+war.baseName = 'CSS'
+
+// Web directory, this overrides the default value "webapp"
+project.webAppDirName = 'WebContent'
+
+// Set source directory
+sourceSets {
+        main {
+            java {
+                srcDir 'src'
+            }
+            resources {
+                srcDir 'resources'
+            }
+        }
+}
+
+// clean {
+//    delete "${projectDir}/WebContent/css/askap.css"
+// }
+
+
+// to build for difference environments: gradlew build -Pprofile=QA
+// 					 gradlew build -Pprofile=PROD
+processResources {
+    def profile = (project.hasProperty('profile') ? project.profile : 'qa').toLowerCase()
+    include "**/log4j.properties"
+    include "**/obs_${profile}.properties"
+    rename ( "obs_${profile}.properties", 'obs.properties' )
+}
+
+dependencies {
+    providedCompile 'javax.websocket:javax.websocket-api:1.1'
+    providedCompile 'org.apache.tomcat:tomcat-catalina:8.0.30'
+
+    compile files(fileTree(dir: 'WebContent/WEB-INF/lib', includes: ['*.jar']))
+
+    compile 'javax.servlet:jstl:1.2'
+}
+

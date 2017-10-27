@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/2f5877ef15adb721421e80f5aa2b6fe069eec8ed/jstl-1.2-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/2219ea40c324a4d6b58cab250e701b3a8c4f34c4/javax.websocket-api-1.1-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/13b8cb26dfb76ac8c28294b06b4b8419e22e9ea1/javax.websocket-api-1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-catalina/8.0.30/9eb00bfbd46b44f35edb646b7634bdb38c35ddf7/tomcat-catalina-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-catalina/8.0.30/42352792087804f9a169038d2f5258b786470948/tomcat-catalina-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-servlet-api/8.0.30/f7b0510cadf06a04e7a30f351ef39940e0c7f335/tomcat-servlet-api-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-servlet-api/8.0.30/5660e615dc4c25eade43878f5fa46dceed61497a/tomcat-servlet-api-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jsp-api/8.0.30/76e5b5d6ad7316a85e2bdc562229ae7632d0a405/tomcat-jsp-api-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jsp-api/8.0.30/d84912a78c79c7e41a224a0c3b8cd68d08cdfc72/tomcat-jsp-api-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.0.30/fb38fdaf9525ba2a675bc8c962032e2058da3e94/tomcat-juli-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.0.30/48258c438c681d1322ccb15f01d58238d14c1274/tomcat-juli-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.0.30/702bdc9d8356c1ee6a6e0ab6ad9229aa5956b978/tomcat-annotations-api-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/8.0.30/2467c8d00d9db0a21d4106226e38d6f009a65010/tomcat-annotations-api-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-api/8.0.30/93249684f315e16a312b0a392324c26fd4923686/tomcat-api-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-api/8.0.30/197335766f2d8299b70a62ca7b6dd7cee3b454f2/tomcat-api-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jni/8.0.30/32a306cbc1e3d39983bf8b3ddde354a69fe25fa6/tomcat-jni-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jni/8.0.30/c1839b48d4bcd8f32dfce790a5ce3279245751e2/tomcat-jni-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-coyote/8.0.30/a07a438dfbec4f536360dba6fa74da512d561662/tomcat-coyote-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-coyote/8.0.30/8e61fbc36f22d65a1e264549210737f6249d98b1/tomcat-coyote-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/8.0.30/363f9ece8022ca08c517d42964d01003a26c5400/tomcat-util-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/8.0.30/9375d9aacf55b38358c3c0465fb7c0a2fd2e2cd5/tomcat-util-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util-scan/8.0.30/bba8602db9334afec3ceab5fe585b891051bb1df/tomcat-util-scan-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util-scan/8.0.30/60eb36da532abbe3e0cf96a70a6b581b6435165/tomcat-util-scan-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-el-api/8.0.30/cd5d7ae582268c9e9a47461009d91c753b9fc82a/tomcat-el-api-8.0.30-sources.jar" kind="lib" path="/Users/wu049/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-el-api/8.0.30/1073bfd266d98fd63241c89631e872d20929076/tomcat-el-api-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/caj-1.1.15-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/caj-1.1.15-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/caj-1.1.15.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-ntypes-0.2.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-ntypes-0.2.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-ntypes-0.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaccess-5.0.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaccess-5.0.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaccess-5.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaclient-4.2.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaclient-4.2.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaclient-4.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdata-6.0.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdata-6.0.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdata-6.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdatabase-4.2.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdatabase-4.2.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdatabase-4.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/gson-2.2.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/jca-2.3.6-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/jca-2.3.6-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/jca-2.3.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/log4j-1.2.15.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/slf4j-api-1.7.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>

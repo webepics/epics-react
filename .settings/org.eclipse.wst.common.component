@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="CSS">
+		<property name="context-root" value="CSS"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src"/>
+		<wb-resource deploy-path="/" source-path="WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/caj-1.1.15-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/caj-1.1.15-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/caj-1.1.15.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-ntypes-0.2.2-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-ntypes-0.2.2-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-ntypes-0.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaccess-5.0.2-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaccess-5.0.2-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaccess-5.0.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaclient-4.2.2-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaclient-4.2.2-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvaclient-4.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdata-6.0.2-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdata-6.0.2-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdata-6.0.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdatabase-4.2.2-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdatabase-4.2.2-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/epics-pvdatabase-4.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/gson-2.2.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/jca-2.3.6-javadoc.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/jca-2.3.6-sources.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/jca-2.3.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/log4j-1.2.15.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/wu049/CSSReplacement/WebApp/CSS/WebContent/WEB-INF/lib/slf4j-api-1.7.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
