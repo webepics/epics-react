@@ -18,6 +18,8 @@ public class ResponseMessage {
 	
 	JsonObject value;
 	
+	String channel = "event";
+	
 	ResponseType type;
 	boolean connected;
 	boolean writeConnected;
@@ -56,41 +58,45 @@ public class ResponseMessage {
 		
 	}
 	
-	public static ResponseMessage createErrorMessage(long id, String errorMsg) {
+	public static ResponseMessage createErrorMessage(long id, String pvName, String errorMsg) {
 		ResponseMessage response = new ResponseMessage();
 		response.id = id;
 		response.type = ResponseType.error;
 		response.error = errorMsg;
+		response.channel = pvName;
 
 		return response;
 	}
 	
-	public static ResponseMessage createConnectedMessage(long id, boolean connected, boolean writeConnected) {
+	public static ResponseMessage createConnectedMessage(long id, String pvName, boolean connected, boolean writeConnected) {
 		ResponseMessage response = new ResponseMessage();
 		response.id = id;
 		response.type = ResponseType.connection;
 		response.connected = connected;
 		response.writeConnected = writeConnected;
+		response.channel = pvName;
 		
 		return response;		
 	}
 
 	
-	public static ResponseMessage createValueMessage(long id, JsonObject value) {
+	public static ResponseMessage createValueMessage(long id, String pvName, JsonObject value) {
 		ResponseMessage response = new ResponseMessage();
 		response.id = id;
 		response.type = ResponseType.value;
 		response.value = value;
+		response.channel = pvName;
 		
 		return response;		
 	}
 
-	public static ResponseMessage createWriteResponseMessage(long id, boolean successful, String error) {
+	public static ResponseMessage createWriteResponseMessage(long id, String pvName, boolean successful, String error) {
 		ResponseMessage response = new ResponseMessage();
 		response.id = id;
 		response.type = ResponseType.writeCompleted;
 		response.successful = successful;
 		response.error = error;
+		response.channel = pvName;
 		
 		return response;
 	}

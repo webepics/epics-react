@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import wsManager from './WSManager'
 
 export default class ListBaseWidget extends React.Component {
 	
@@ -8,15 +9,14 @@ export default class ListBaseWidget extends React.Component {
 		this.subIdList = new Map();
 	}
 
-	componentWillMount() {
+	connect(pv) {
 		// need to subscribe to multiple pvs
-		for (var i=0; i<this.props.pv.length; i++) {
-			for (var j=0; j<this.props.pv[i].length; j++) {
-				var subId = wsManager.subscribe(this.props.pv[i][j], (message)=>this.processUpdate(message));
-				this.subIdList.set(subId, [i, j]);
+		for (var i=0; i<pv.length; i++) {
+			for (var property in pv[i]) {
+				var subId = wsManager.subscribe(pv[i][property], (message)=>this.processUpdate(message));
+				this.subIdList.set(subId, [i, property]);
 			}
-		}
-		
+		}		
 		this.interval = setInterval(() => this.update(), 500);
 	}
 
@@ -28,5 +28,6 @@ export default class ListBaseWidget extends React.Component {
 		this.subIdList.clear();
 		clearInterval(this.interval);
 	}
+	
 };
 

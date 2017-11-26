@@ -31,16 +31,23 @@ class WSManager {
 	        json = JSON.parse(evt.data);
 	        that.dispatchMessage(json);
 		};
+		
 		this.websocket.onerror = function(evt) {
 			console.log('ERROR: ' + evt.data);
+			that.handleConnection(false);
 		};
+		
 		this.websocket.onclose = function(evt) {
 			console.log('CLOSE: ' + evt.data);
             that.isConnected = false;
+			that.handleConnection(false);
 		};
+		
 	}
 
     handleConnected() {
+    	this.handleConnection(true);
+    	
         for (let [key, subscriber] of this.subscriptionMap) {
             subscriber.isConnected = this.isConnected;
 
@@ -54,6 +61,16 @@ class WSManager {
         }
     }
 
+    handleConnection(isConnected) {
+    	if (this.connectionHandler)
+    		this.connectionHandler(isConnected);
+    }
+    
+    setConnectionHandler(callback) {
+    	this.connectionHandler = callback;
+    	this.handleConnection(this.isConnected);
+    }
+    
     subscribe(pvname, callback) {
 	    this.channelIDIndex++;
 	
@@ -112,3 +129,4 @@ class WSManager {
 }
 
 var wsManager = new WSManager();
+export default wsManager;

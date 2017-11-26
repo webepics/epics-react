@@ -4,7 +4,7 @@
   "description": "cs-studio replacement prototype",
   "main": "index.html",
   "scripts": {
-    "build": "browserify -t [babelify] askap-js-es2015/BaseWidget.js -o askap-js/BaseWidget.js & babel askap-js-es2015/WSManager.js -o askap-js/WSManager.js  & browserify -t [babelify] askap-js-es2015/widgets.js -o askap-js/widgets.js & browserify -t [babelify] askap-js-es2015/TableWidget.js -o askap-js/TableWidget.js & browserify -t [babelify] askap-js-es2015/combined.js -o askap-js/combined.js & browserify -t [babelify] askap-js-es2015/apps.js -o askap-js/apps.js",
+    "build": "globify 'askap-js-es2015/**/*.js' -t [babelify] -o 'askap-js/*.js'",
     "js:watch": "onchange 'askap-js-es2015/*.js' -v -- npm run build",
     "build:watch": "parallelshell 'npm run js:watch'"
   },
@@ -17,6 +17,7 @@
     "babel-preset-stage-1": "^6.24.1",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
+    "globify": "^2.2.0",
     "jQuery": "^1.7.4",
     "nodemon": "^1.12.1",
     "onchange": "^3.2.1"

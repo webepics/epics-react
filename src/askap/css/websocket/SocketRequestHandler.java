@@ -47,6 +47,7 @@ import askap.css.websocket.RequestMessage.MessageType;
  * {
  *   “message” : “event”,
  *   “id” : <unique-id-integer>,
+ *   “channel” : <channel-name>
  *   “type” : “connection”,
  *   “connected” : <boolean>,
  *   “writeConnected” :<boolean>
@@ -55,6 +56,7 @@ import askap.css.websocket.RequestMessage.MessageType;
  * {
  *   “message” : “event”,
  *   “id” : <unique-id-integer>,
+ *   “channel” : <channel-name>
  *   “type” : ”value”,
  *   “value” : <json-value>
  * }
@@ -62,6 +64,7 @@ import askap.css.websocket.RequestMessage.MessageType;
  * {
  *   “message” : “event”,
  *   “id” : <unique-id-integer>,
+ *   “channel” : <channel-name>
  *   “type” : ”error”,
  *   “error” : <message-string>
  * }
@@ -69,6 +72,7 @@ import askap.css.websocket.RequestMessage.MessageType;
  * {
  *   “message” : “event”,
  *   “id” : <unique-id-integer>,
+ *   “channel” : <channel-name>
  *   “type” : ”writeCompleted”,
  *   “successful” : <boolean>,
  *   “error” : <message-string>
@@ -120,7 +124,7 @@ public class SocketRequestHandler {
 		
 		ClientManager manager = sessionClientManagerMap.get(session.getId());
 		if (manager==null) {			
-			sendErrorResponse("No PC Channel found.", request.id, session);
+			sendErrorResponse("No PV Channel found.", request.channel, request.id, session);
 			return;
 		}
 					
@@ -133,8 +137,8 @@ public class SocketRequestHandler {
 		}
 	}
 	
-	public static void sendErrorResponse(String errorMsg, long id, Session session) {
-		ResponseMessage response = ResponseMessage.createErrorMessage(id, errorMsg);
+	public static void sendErrorResponse(String errorMsg, String pvName, long id, Session session) {
+		ResponseMessage response = ResponseMessage.createErrorMessage(id, pvName, errorMsg);
 		sendResponse(session, response);
 	}
 	

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import wsManager from './WSManager'
 
 export default class BaseWidget extends React.Component {
 

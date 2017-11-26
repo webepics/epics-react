@@ -21,7 +21,7 @@ public class PVChannelManager {
 	
 	private static PVChannelManager theChannelManager;
 	
-	PvaClient pva= PvaClient.get("pva");
+	PvaClient pvClient= PvaClient.get("pva ca");
 
 	
 	private PVChannelManager() {	
@@ -35,13 +35,24 @@ public class PVChannelManager {
 		
 		return theChannelManager;
 	}
-	
+
 	public PvaClientChannel connect(String pvName) throws Exception {
+		return this.connect(pvName, "pva");
+	}
+	
+	/**
+	 * 
+	 * @param pvName
+	 * @param provider: 'pva' or 'ca'
+	 * @return
+	 * @throws Exception
+	 */
+	public PvaClientChannel connect(String pvName, String provider) throws Exception {
 		
 		synchronized (pvChannelMap) {
 			PvaClientChannel channel = pvChannelMap.get(pvName);
 			if ( channel == null) {
-				channel = pva.createChannel(pvName);
+				channel = pvClient.createChannel(pvName, provider);
 				pvChannelMap.put(pvName, channel);
 				
 				channel.issueConnect();

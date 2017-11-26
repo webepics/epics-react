@@ -30,7 +30,7 @@ public class Client implements PvaClientMonitorRequester {
 			PVChannelManager.getPVChannelManager().connect(this.pvName);
 			connected();
 		} catch (Exception e) {
-			SocketRequestHandler.sendErrorResponse(e.getMessage(), this.id, this.session);			
+			SocketRequestHandler.sendErrorResponse(e.getMessage(), pvName, this.id, this.session);			
 		}
 	}
 	
@@ -39,7 +39,7 @@ public class Client implements PvaClientMonitorRequester {
 			PVChannelManager.getPVChannelManager().subscriber(this.pvName, this);
 		} catch (Exception e) {
 			logger.error("Could not subscribe to pv: " + pvName);
-			SocketRequestHandler.sendErrorResponse(e.getMessage(), this.id, this.session);			
+			SocketRequestHandler.sendErrorResponse(e.getMessage(), pvName, this.id, this.session);			
 		}		
 	}
 
@@ -54,13 +54,13 @@ public class Client implements PvaClientMonitorRequester {
 
 	public void connected() {
 		// send connected event
-		ResponseMessage response = ResponseMessage.createConnectedMessage(this.id, true, false);
+		ResponseMessage response = ResponseMessage.createConnectedMessage(this.id, pvName, true, false);
 		SocketRequestHandler.sendResponse(this.session, response);
 	}
 	
 	public void writeCompleted(boolean success, String errorMsg) {		
 		// send writeCompleted event
-		ResponseMessage response = ResponseMessage.createWriteResponseMessage(this.id, success, errorMsg);
+		ResponseMessage response = ResponseMessage.createWriteResponseMessage(this.id, pvName, success, errorMsg);
 		SocketRequestHandler.sendResponse(this.session, response);
 	}
 	
@@ -73,7 +73,7 @@ public class Client implements PvaClientMonitorRequester {
 		
 		while (clientMonitor.poll()) {
 			PvaClientMonitorData monitorData = clientMonitor.getData();
-			ResponseMessage response = ResponseMessage.createValueMessage(this.id, VTypeJsonConvert.PVToJson(monitorData));
+			ResponseMessage response = ResponseMessage.createValueMessage(this.id, pvName, VTypeJsonConvert.PVToJson(monitorData));
 			SocketRequestHandler.sendResponse(this.session, response);
 			clientMonitor.releaseEvent();
 		}
