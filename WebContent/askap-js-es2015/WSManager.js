@@ -10,8 +10,9 @@ class Subscriber {
 class WSManager {
 
     constructor() {
-	    var wsUri = "ws://localhost:8080/CSS/ws/pv";
-	
+    	
+	    var wsUri = "ws://" + window.location.host + "/epics-react/ws/pv";	
+
 	    this.channelIDIndex = 0;
 	    this.subscriptionMap = new Map();
 

@@ -7,7 +7,7 @@ export default class SummaryTable extends React.Component {
 	
 	constructor(props) {
 		super(props);
-		
+/*		
 		this.pvs = [{name:':bul:fpga:temp', description:'tempurature', unit:'C'}, 
 			{name:':bul:fpga:vccAux', description:'Aux Voltage', unit:'V'}, 
 			{name:':bul:fpga:vccInt', description:'Int Voltage', unit:'V'}, 
@@ -18,14 +18,25 @@ export default class SummaryTable extends React.Component {
 			{name:':bul:atx3V3:iout', description:'atx 3 v3 current out', unit:'amp'}, 
 			{name:':bul:atx3V3:vout', description:'atx 3 v3 voltage out', unit:'V'}, 
 			{name:':bul:atx5V:iout', description:'atx 5V current out', unit:'amp'}];
+*/
 		
 		// code here to load pv and descriptions from file specified in this.props.type
+		var jsonurl = 'DataFetcher?type=' + props.type + '&subsystem=' + props.subsystem;
+		var that = this;
+		$.ajax({
+			  url: jsonurl,
+			  dataType: 'json',
+			  async: false,
+			  success: function(data) {
+				  that.pvs=data;
+			  }
+		});
 	}
 	
 	render() {
 		return (
 			<div className='summary-table'>
-			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} />
+			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} type={this.props.type}/>
 			</div>
 		)
 	}

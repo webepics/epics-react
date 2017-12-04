@@ -1,4 +1,4 @@
-package askap.css.websocket;
+package askap.css.janus.websocket;
 
 import java.util.ArrayList;
 import java.util.HashMap;

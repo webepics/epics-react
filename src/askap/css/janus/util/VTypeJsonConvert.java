@@ -1,4 +1,4 @@
-package askap.css.util;
+package askap.css.janus.util;
 
 import org.apache.log4j.Logger;
 import org.epics.pvaClient.PvaClientMonitorData;
@@ -8,11 +8,9 @@ import org.epics.pvdata.property.TimeStamp;
 import org.epics.pvdata.pv.BooleanArrayData;
 import org.epics.pvdata.pv.ByteArrayData;
 import org.epics.pvdata.pv.DoubleArrayData;
-import org.epics.pvdata.pv.Field;
 import org.epics.pvdata.pv.FloatArrayData;
 import org.epics.pvdata.pv.IntArrayData;
 import org.epics.pvdata.pv.LongArrayData;
-import org.epics.pvdata.pv.PVArray;
 import org.epics.pvdata.pv.PVBoolean;
 import org.epics.pvdata.pv.PVBooleanArray;
 import org.epics.pvdata.pv.PVByte;
@@ -32,6 +30,7 @@ import org.epics.pvdata.pv.PVShort;
 import org.epics.pvdata.pv.PVShortArray;
 import org.epics.pvdata.pv.PVString;
 import org.epics.pvdata.pv.PVStringArray;
+import org.epics.pvdata.pv.PVStructure;
 import org.epics.pvdata.pv.ScalarType;
 import org.epics.pvdata.pv.ShortArrayData;
 import org.epics.pvdata.pv.StringArrayData;
@@ -67,6 +66,18 @@ import com.google.gson.JsonPrimitive;
  *   "timestamp": UNIX epoch millisec
  * }
  * 
+ * Structure Type:
+ * {
+ *     "type": "structure",
+ *     "value":"OK",
+ *     "index": 1,
+ *     "choices" : ["BAD","OK"], 
+ *     "alarm": {
+ *       "severity": "NONE",
+ *       "status": "NONE",
+ *     },
+ *     "timestamp": UNIX epoch millisec
+ * }
  * 
  * For json to vtype, no need timestamp or alarm, just type and value
  * 
@@ -79,6 +90,7 @@ import com.google.gson.JsonPrimitive;
  *   "type": "doubleArray",
  *   "value": [1.54, 0.0, 3.14]
  * }
+ 
  * 
  * @author wu049
  *
@@ -87,9 +99,7 @@ import com.google.gson.JsonPrimitive;
 
 public class VTypeJsonConvert {
 
-	private static Gson theGson = (new GsonBuilder()).setPrettyPrinting().create();
 	private static Logger logger = Logger.getLogger(VTypeJsonConvert.class);
-
 	
 	public static void jsonToPVData(String value, PvaClientPutData pvData) throws Exception {
 		JsonParser parser = new JsonParser();
@@ -329,7 +339,32 @@ public class VTypeJsonConvert {
 	        	logger.error("Write error: " + type.toString() + " not support.");        	
 	        }
         } else {
-        	logger.error("Write error: " + monitorData.toString() + " not support.");        	
+        	
+        	PVStructure pvStructure = monitorData.getPVStructure();
+        	if (pvStructure!=null) {
+        		PVStructure valueField = pvStructure.getSubField(PVStructure.class, "value");
+
+        		PVInt pvIndex = valueField.getSubField(PVInt.class, "index");
+        		PVStringArray pvChoices = valueField.getSubField(PVStringArray.class, "choices");
+        		
+	        	StringArrayData data = new StringArrayData();
+	        	pvChoices.get(0, pvChoices.getLength(), data);
+        		
+        		int index = pvIndex.get();
+        		
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (String d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+
+	        	obj.addProperty("type", "structure");
+	        	obj.addProperty("index", index);
+	        	obj.addProperty("value", jsonArray.get(index).getAsString());
+	        	obj.add("choices", jsonArray);	        	
+        	} else {        	
+        		logger.error("Write error: " + monitorData.toString() + " not support.");
+        	}
         }
               
         // deal with timestamp

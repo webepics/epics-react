@@ -16,12 +16,13 @@ export default class TableWidget extends ListBaseWidget {
 			var rowData = {};
 			var pvrow = {};
 
-			rowData['description'] = props.pvdescription[i].description
-			rowData['unit'] = props.pvdescription[i].unit
+			rowData['description'] = props.pvdescription[i].description;
+			rowData['unit'] = props.pvdescription[i].unit;
+			rowData['pvname'] = props.pvdescription[i].name;
 				
 			for (var r in row) {
 				var pvName = props.antenna + ":" + props.subsystem + ":" + row[r] + props.pvdescription[i].name;
-				rowData[row[r]] = {'value': 'N/A', 'state': 'disconnected', 'name': pvName};
+				rowData[row[r]] = {'value': 'N/A', 'state': 'disconnected'};
 				pvrow[row[r]]  = pvName;
 			}
 			
@@ -30,7 +31,7 @@ export default class TableWidget extends ListBaseWidget {
 		}
 		
 		this.numUpdates = 0;
-		this.state = { data: this.virtualData};
+		this.state = { data: this.virtualData, showPVName: false };
 		this.connect(pvs);
 	}
 
@@ -60,17 +61,27 @@ export default class TableWidget extends ListBaseWidget {
 		}
 	}
 	
+	toggleDisplayPVName(event) {
+		this.setState({showPVName: event.target.checked});
+	}
+	
 	render() {
         return (
+        	<div>	
+        		<input type='checkbox'
+        			onChange={this.toggleDisplayPVName.bind(this)}
+        		    defaultChecked={this.state.showPVName}
+        		/>
+        		<p>display PV names</p>
         		<ReactTable data={this.state.data}
         		    columns={[
         		      {
-        		          Header: 'DRX Table',
+        		          Header: this.props.antenna + ' ' + this.props.subsystem + ' ' + this.props.type,
         		          columns : [
         		        	  
   	        		    	{Header: "Description",	        		    		
   		        		      accessor: "description",
-  		        		      minWidth: 200
+  		        		      minWidth: 100
   		        		    },
   		        		    	
   	        		    	{
@@ -78,7 +89,14 @@ export default class TableWidget extends ListBaseWidget {
   		        		      accessor: "unit",
   		        		      minWidth: 50
   		        		    },
-        		        	  
+
+  	        		    	{
+		        		      Header: "PV Name",	        		    		
+		        		      accessor: "pvname",
+		        		      minWidth: 100,
+		        		      show: this.state.showPVName
+		        		    },
+  		        		    
 	        		    	{Header: "c01",	        		    		
 		        		      accessor: "c01",
 		        		      Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
@@ -157,6 +175,7 @@ export default class TableWidget extends ListBaseWidget {
         			showPagination= {false}
         		    className="-striped -highlight"
         		/>
+        	</div>
         );
 	}
 }

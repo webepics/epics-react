@@ -1,4 +1,4 @@
-package askap.css.websocket;
+package askap.css.janus.websocket;
 
 import javax.websocket.Session;
 
@@ -7,8 +7,8 @@ import org.epics.pvaClient.PvaClientMonitor;
 import org.epics.pvaClient.PvaClientMonitorData;
 import org.epics.pvaClient.PvaClientMonitorRequester;
 
-import askap.css.pvmanager.PVChannelManager;
-import askap.css.util.VTypeJsonConvert;;
+import askap.css.janus.pvmanager.PVChannelManager;
+import askap.css.janus.util.VTypeJsonConvert;;
 
 public class Client implements PvaClientMonitorRequester {
 	

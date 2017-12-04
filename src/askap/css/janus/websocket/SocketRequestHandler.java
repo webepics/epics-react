@@ -1,4 +1,4 @@
-package askap.css.websocket;
+package askap.css.janus.websocket;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import askap.css.websocket.RequestMessage.MessageType;
+import askap.css.janus.websocket.RequestMessage.MessageType;
 
 /**
  * 

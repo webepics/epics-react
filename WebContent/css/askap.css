@@ -59,4 +59,16 @@ body {
 .askap .ReactTable .rt-thead {
 	font-weight: bold;
 }
+.askap .ReactTable .-headerGroups {
+	font-size: 150%;
+}
 
+.askap input {
+    margin: 10px 5px 5px 5px;
+}
+.askap p {
+	display: inline;
+    margin: 10px 5px 0px 10px;
+    font-size: 110%;
+    margin: 10px 5px 5px 5px;
+}

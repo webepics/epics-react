@@ -1,4 +1,4 @@
-package askap.css.pvmanager;
+package askap.css.janus.pvmanager;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,8 +10,8 @@ import org.epics.pvaClient.PvaClientPut;
 import org.epics.pvaccess.client.Channel.ConnectionState;
 import org.epics.pvdata.pv.Status;
 
-import askap.css.util.VTypeJsonConvert;
-import askap.css.websocket.Client;
+import askap.css.janus.util.VTypeJsonConvert;
+import askap.css.janus.websocket.Client;
 
 
 public class PVChannelManager {
@@ -37,7 +37,8 @@ public class PVChannelManager {
 	}
 
 	public PvaClientChannel connect(String pvName) throws Exception {
-		return this.connect(pvName, "pva");
+//		return this.connect(pvName, "pva");
+		return this.connect(pvName, "ca");
 	}
 	
 	/**
