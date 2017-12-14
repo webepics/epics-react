@@ -12,16 +12,16 @@ export default class TableWidget extends ListBaseWidget {
 		var pvs = [];
 		
 		for (var i=0; i<props.pvdescription.length; i++) {
-			var row = ['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12'];
+			var row = props.rows;
 			var rowData = {};
 			var pvrow = {};
 
 			rowData['description'] = props.pvdescription[i].description;
-			rowData['unit'] = props.pvdescription[i].unit;
+			rowData['unit'] = props.pvdescription[i].units;
 			rowData['pvname'] = props.pvdescription[i].name;
 				
 			for (var r in row) {
-				var pvName = props.antenna + ":" + props.subsystem + ":" + row[r] + props.pvdescription[i].name;
+				var pvName = props.antenna + ":" + props.subsystem + ":" + row[r] + ":" + props.pvdescription[i].name;
 				rowData[row[r]] = {'value': 'N/A', 'state': 'disconnected'};
 				pvrow[row[r]]  = pvName;
 			}
@@ -53,8 +53,10 @@ export default class TableWidget extends ListBaseWidget {
 			var indexes = this.subIdList.get(message.id);
 			
 			var val = message.value.value;			
-			if (!isNaN(val))
-				val = val.toFixed(2);
+			if (!isNaN(val)) {
+				if (val.toFixed)
+					val = val.toFixed(2);
+			}
 				
 			this.virtualData[indexes[0]][indexes[1]]['value'] = val;		
 			this.virtualData[indexes[0]][indexes[1]]['state'] = message.value.alarm.severity;		
@@ -66,6 +68,34 @@ export default class TableWidget extends ListBaseWidget {
 	}
 	
 	render() {
+		
+		var columns = [];
+		
+		columns.push({Header: "Description",	        		    		
+				      accessor: "description",
+				      minWidth: 100
+					});
+		    	
+		columns.push({Header: "Unit",
+				      accessor: "unit",
+				      minWidth: 50
+				    });
+
+		columns.push({Header: "PV Name",	        		    		
+				      accessor: "pvname",
+				      minWidth: 100,
+				      show: this.state.showPVName
+	    			});
+
+		var rows = this.props.rows;
+		for (var r in rows) {
+			columns.push({Header: rows[r],	        		    		
+  		      accessor: rows[r],
+  		      Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
+    		      minWidth: 50
+  		    });
+		}
+	
         return (
         	<div>	
         		<input type='checkbox'
@@ -74,103 +104,7 @@ export default class TableWidget extends ListBaseWidget {
         		/>
         		<p>display PV names</p>
         		<ReactTable data={this.state.data}
-        		    columns={[
-        		      {
-        		          Header: this.props.antenna + ' ' + this.props.subsystem + ' ' + this.props.type,
-        		          columns : [
-        		        	  
-  	        		    	{Header: "Description",	        		    		
-  		        		      accessor: "description",
-  		        		      minWidth: 100
-  		        		    },
-  		        		    	
-  	        		    	{
-  		        		      Header: "Unit",	        		    		
-  		        		      accessor: "unit",
-  		        		      minWidth: 50
-  		        		    },
-
-  	        		    	{
-		        		      Header: "PV Name",	        		    		
-		        		      accessor: "pvname",
-		        		      minWidth: 100,
-		        		      show: this.state.showPVName
-		        		    },
-  		        		    
-	        		    	{Header: "c01",	        		    		
-		        		      accessor: "c01",
-		        		      Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-  		        		      minWidth: 50
-		        		    },
-	        		    	
-	        		    	{Header: "c02",
-		            		  accessor: 'c02',
-		            		  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-  		        		      minWidth: 50
-		        		    },
-		        		    
-	        		    	{Header: "c03",
-		                	  accessor: 'c03',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-  		        		      minWidth: 50
-		        		    },
-		        		    
-	        		    	{Header: "c04",
-		                	  accessor: 'c04',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-  		        		      minWidth: 50
-		        		    },
-		        		    
-	        		    	{Header: "c05",
-		                	  accessor: 'c05',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c06",
-		                	  accessor: 'c06',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c07",
-		                	  accessor: 'c07',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c08",
-		                	  accessor: 'c08',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c09",
-		                	  accessor: 'c09',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c10",
-		                	  accessor: 'c10',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c11",
-		                	  accessor: 'c11',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    
-	        		    	{Header: "c12",
-		                	  accessor: 'c12',
-		                	  Cell: row => (<label className={row.value.state}>{row.value.value}</label>),
-	  		        		  minWidth: 50
-	        		    	},
-	        		    ]
-        		      }
-        		    ]}
+        		    columns={columns}
         			defaultPageSize= {this.virtualData.length}
         			showPagination= {false}
         		    className="-striped -highlight"

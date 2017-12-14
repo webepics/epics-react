@@ -5,6 +5,7 @@ import jQuery from 'jquery'
 
 import SummaryTable from './SummaryTable'
 import wsManager from './WSManager'
+import LabelWidget from './Label'
 
 class Header extends React.Component {
 	
@@ -45,25 +46,25 @@ class Header extends React.Component {
 				<span className={this.state.brokenHeart} ></span>
 			</div>
 	      
-	        <div>
+	        <div class='alarm-menu'>
 	          <h4>Online Critical Alarms</h4>
 	          <ul>
-	            <li>
-	              <Link to={"/" + antenna + "/" + subsystem + "/alignment"}>Alignment</Link>
+	            <li class='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/alignment"}>Alignment</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_alignment:alarm'}/>
 	            </li>
 	          </ul>
 
 	          
 	          <h4>Summary Alarms</h4>
-	          <ul>
-	            <li>
-	              <Link to={"/" + antenna + "/" + subsystem + "/bat"}>Bat</Link>
+	          <ul class='alarm-menu'>
+	            <li class='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/bat"}>Bat</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_batStatus:alarm'}/>
 	            </li>
-	            <li>
-	              <Link to={"/" + antenna + "/" + subsystem + "/fanspeed"}>Fanspeed</Link>
+	            <li class='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/fanspeed"}>Fanspeed</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_fans:alarm'}/>
 	            </li>
-	            <li>
-	              <Link to={"/" + antenna + "/" + subsystem + "/temperature"}>Temperature</Link>
+	            <li class='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/temperature"}>Temperature</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_temps:alarm'}/>
 	            </li>
 	          </ul>
 	          	          
@@ -77,19 +78,23 @@ class Header extends React.Component {
  * https://reacttraining.com/react-router/web/example/url-params
  */
 const Alignment = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment'/>);
+    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment' 
+    	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
 }
 
 const Bat = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='bat' />);
+    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='bat'
+	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
 }
 
 const FanSpeed = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='fanspeed' />);
+    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='fanspeed'
+    	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
 }
 
 const Temperature = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='temperature' />);
+    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='temperature'
+	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
 }
 
     		

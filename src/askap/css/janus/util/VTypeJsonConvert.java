@@ -17,7 +17,6 @@ import org.epics.pvdata.pv.PVByte;
 import org.epics.pvdata.pv.PVByteArray;
 import org.epics.pvdata.pv.PVDouble;
 import org.epics.pvdata.pv.PVDoubleArray;
-import org.epics.pvdata.pv.PVField;
 import org.epics.pvdata.pv.PVFloat;
 import org.epics.pvdata.pv.PVFloatArray;
 import org.epics.pvdata.pv.PVInt;
@@ -35,8 +34,6 @@ import org.epics.pvdata.pv.ScalarType;
 import org.epics.pvdata.pv.ShortArrayData;
 import org.epics.pvdata.pv.StringArrayData;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

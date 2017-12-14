@@ -13,7 +13,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 public class Util {
@@ -55,7 +54,8 @@ public class Util {
 		String fileNames[] = new String[tokenizer.countTokens()];
 		int i=0;
 		while (tokenizer.hasMoreTokens()) {
-			fileNames[i] = tokenizer.nextToken();
+			fileNames[i] = tokenizer.nextToken().trim();
+			i++;
 		}
 		
 		return fileNames;
@@ -71,7 +71,7 @@ public class Util {
 		
 		for (String fileName : fileNames) {
 			
-			String fullFileName = PVFILE_LOCATION + "/" + fileName;
+			String fullFileName = PVFILE_LOCATION + "/" + fileName.trim();
 			
 			JsonParser parser = new JsonParser();
 			 JsonArray obj = parser.parse(new FileReader(new File(fullFileName))).getAsJsonArray();

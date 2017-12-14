@@ -1,17 +1,17 @@
 [
   {
-	"name": ":alignmentOK",
+	"name": "alignmentOK",
 	"description": "Alignment OK",
-	"unit": ""
+	"units": ""
   },
   {
-	"name": ":alignmentStatus1:alignmentErrors",
+	"name": "alignmentStatus1:alignmentErrors",
 	"description": "FPGA:alignment error count Voltage",
-	"unit": ""
+	"units": ""
   },
   {
-	"name": ":alignmentStatus1:statusCode",
+	"name": "alignmentStatus1:statusCode",
 	"description": "FPGA:alignment status codes",
-	"unit": ""
+	"units": ""
   }
 ]

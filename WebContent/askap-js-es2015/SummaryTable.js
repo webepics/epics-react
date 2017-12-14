@@ -36,7 +36,7 @@ export default class SummaryTable extends React.Component {
 	render() {
 		return (
 			<div className='summary-table'>
-			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} type={this.props.type}/>
+			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} type={this.props.type} rows={this.props.rows}/>
 			</div>
 		)
 	}

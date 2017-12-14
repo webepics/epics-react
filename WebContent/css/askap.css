@@ -72,3 +72,24 @@ body {
     font-size: 110%;
     margin: 10px 5px 5px 5px;
 }
+
+.askap .alarm-menu .alarm-menu-item {
+	margin-bottom: 15px;	
+}
+
+.askap .alarm-menu .alarm-menu-item div {
+	float: right;
+    width: 30%;
+}
+
+.askap .alarm-menu .alarm-menu-item div label {
+	text-align: center;
+}
+
+.askap .alarm-menu .NONE {
+	background: #66BB6A;
+}
+
+.tooltip .tooltiptext {
+	font-size: 150%;
+}
