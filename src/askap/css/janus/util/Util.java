@@ -38,30 +38,6 @@ public class Util {
 
 	
 	/**
-	 * returns a list of file names for the given type
-	 * @param type
-	 * @return
-	 */
-	public static String[] getPVFileNames(String type, String subsystem) {
-		if (type==null || type.trim().isEmpty())
-			return new String[0];
-		
-		String fileNameStr = parset.getProperty("pvfiles." + subsystem + '.' + type);
-		if (fileNameStr==null || fileNameStr.trim().isEmpty())
-			return new String[0];
-				
-		StringTokenizer tokenizer = new StringTokenizer(fileNameStr, ",");
-		String fileNames[] = new String[tokenizer.countTokens()];
-		int i=0;
-		while (tokenizer.hasMoreTokens()) {
-			fileNames[i] = tokenizer.nextToken().trim();
-			i++;
-		}
-		
-		return fileNames;
-	}
-	
-	/**
 	 * merge the json contents of all given filesnames into a single json list
 	 * @param fileNames
 	 * @return

@@ -7,21 +7,9 @@ export default class SummaryTable extends React.Component {
 	
 	constructor(props) {
 		super(props);
-/*		
-		this.pvs = [{name:':bul:fpga:temp', description:'tempurature', unit:'C'}, 
-			{name:':bul:fpga:vccAux', description:'Aux Voltage', unit:'V'}, 
-			{name:':bul:fpga:vccInt', description:'Int Voltage', unit:'V'}, 
-			{name:':bul:fpga:status', description:'fpga status', unit:'C'}, 
-			{name:':bul:atxInPower', description:'atx In power', unit:'W'},
-			{name:':bul:atxOutPower', description:'atx Out power', unit:'W'}, 
-			{name:':bul:atx12V:iout', description:'atx 12 v current out', unit:'amp'}, 
-			{name:':bul:atx3V3:iout', description:'atx 3 v3 current out', unit:'amp'}, 
-			{name:':bul:atx3V3:vout', description:'atx 3 v3 voltage out', unit:'V'}, 
-			{name:':bul:atx5V:iout', description:'atx 5V current out', unit:'amp'}];
-*/
-		
+
 		// code here to load pv and descriptions from file specified in this.props.type
-		var jsonurl = 'DataFetcher?type=' + props.type + '&subsystem=' + props.subsystem;
+		var jsonurl = 'DataFetcher?pvfiles=' + props.pvfiles;
 		var that = this;
 		$.ajax({
 			  url: jsonurl,

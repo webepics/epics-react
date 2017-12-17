@@ -1,6 +1,7 @@
 package askap.css.janus.servlets;
 
 import java.io.IOException;
+import java.util.StringTokenizer;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -57,10 +58,8 @@ public class DataFetcher extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String type = request.getParameter("type");
-        String subsystem = request.getParameter("subsystem");
-
-        JsonElement obj = getPVNames(type, subsystem);
+        String pvfiles = request.getParameter("pvfiles");
+        JsonElement obj = getPVNames(pvfiles);
         
         String json = new Gson().toJson(obj);
         response.setContentType("application/json");
@@ -68,38 +67,32 @@ public class DataFetcher extends HttpServlet {
         response.getWriter().write(json);		
 	}
 	
-	private JsonElement getPVNames(String type, String subsystem) {
-        JsonObject obj = new JsonObject();
-        if (type==null || type.trim().isEmpty()) {
-        	obj.addProperty("status", "ERROR");
-         	obj.addProperty("message", "'type' not supplied");
-         	
-         	return obj;
-        }
-        if (subsystem==null || subsystem.trim().isEmpty()) {
-        	obj.addProperty("status", "ERROR");
-         	obj.addProperty("message", "'subsystem' not supplied");
-         	
-         	return obj;
-        }
+	private JsonElement getPVNames(String pvfiles) {
 		
-        
-        String fileNames[] = Util.getPVFileNames(type, subsystem);
-        if (fileNames==null || fileNames.length==0) {
+        JsonObject obj = new JsonObject();
+        if (pvfiles==null || pvfiles.trim().isEmpty()) {
         	obj.addProperty("status", "ERROR");
-         	obj.addProperty("message", "No PVFileNames found for type: " + type);
+         	obj.addProperty("message", "'pvfiles' not supplied");
          	
          	return obj;
+        }
+        
+        StringTokenizer tokenizer = new StringTokenizer(pvfiles, ",");
+        int i = 0;
+        String fileNames[]  = new String[tokenizer.countTokens()];
+        while (tokenizer.hasMoreTokens()) {
+        	fileNames[i] = tokenizer.nextToken().trim();
+        	i++;
         }
         
         try {
 			return Util.mergeJsonFiles(fileNames);
 		} catch (Exception e) {
 			
-			logger.error("Could not load pvfiles for " + type, e);
+			logger.error("Could not load pvfiles for " + pvfiles, e);
 			
         	obj.addProperty("status", "ERROR");
-         	obj.addProperty("message", "Could not load pvfiles for " + type + ": " + e.getMessage());
+         	obj.addProperty("message", "Could not load pvfiles for " + pvfiles + ": " + e.getMessage());
          	
          	return obj;
 		}

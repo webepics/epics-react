@@ -79,12 +79,14 @@ class Header extends React.Component {
  */
 const Alignment = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment' 
-    	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
+    	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
+    		 pvfiles='alignment.json' />);
 }
 
 const Bat = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='bat'
-	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
+	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
+         pvfiles='alignment.json,bat.json' />);
 }
 
 const FanSpeed = ({match}) => {
