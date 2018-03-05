@@ -145,7 +145,10 @@ public class SocketRequestHandler {
 	public static void sendResponse(Session session, ResponseMessage response) {				
 		synchronized (session) {		
 			if (!session.isOpen()) {
-				logger.error("Session closed, could not send message");
+				logger.debug("Session closed, could not send message");
+				ClientManager manager = sessionClientManagerMap.remove(session.getId());
+				if (manager!=null)
+					manager.close();		
 				return;
 			}
 			
@@ -154,23 +157,30 @@ public class SocketRequestHandler {
 				session.getBasicRemote().sendText(message);				
 			} catch (Exception e) {
 				logger.error("Could not send message", e);
+				ClientManager manager = sessionClientManagerMap.remove(session.getId());
+				if (manager!=null)
+					manager.close();		
 			}
 		}		
+	}
+	
+	public static void send(Session session, List<String> messages) {
+		synchronized (session) {                
+			if (!session.isOpen()) {
+		       logger.error("Session closed, could not send message");
+		       return;
+			}
+		   
+			try {
+	           for (String message : messages)
+	                   session.getBasicRemote().sendText(message);
+			} catch (Exception e) {
+		       logger.error("Could not send message", e);
+		       ClientManager manager = sessionClientManagerMap.remove(session.getId());
+		       if (manager!=null)
+		    	       manager.close();                
+			}
+        }               
 	}
 
-	public static void send(Session session, List<String> messages) {
-		synchronized (session) {		
-			if (!session.isOpen()) {
-				logger.error("Session closed, could not send message");
-				return;
-			}
-			
-			try {
-				for (String message : messages)
-					session.getBasicRemote().sendText(message);
-			} catch (Exception e) {
-				logger.error("Could not send message", e);
-			}
-		}		
-	}
 }

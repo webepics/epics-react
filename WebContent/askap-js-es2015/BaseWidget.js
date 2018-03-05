@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import wsManager from './WSManager'
+import WSManager from './WSManager'
 
 export default class BaseWidget extends React.Component {
 
@@ -8,11 +8,12 @@ export default class BaseWidget extends React.Component {
 	}
 
 	componentWillMount() {
-		this.subId = wsManager.subscribe(this.props.pv, (message)=>this.processUpdate(message));
+		this.wsManager = new WSManager();
+		this.subId = this.wsManager.subscribe(this.props.pv, (message)=>this.processUpdate(message));
 	}
 
 	componentWillUnmount() {
-		wsManager.unsubscribe(this.subId);
+		this.wsManager.unsubscribe(this.subId);
 	}
 };
 

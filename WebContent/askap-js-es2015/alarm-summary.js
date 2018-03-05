@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import jQuery from 'jquery'
 
 import SummaryTable from './SummaryTable'
-import wsManager from './WSManager'
+import WSManager from './WSManager'
 import LabelWidget from './Label'
 
 class Header extends React.Component {
@@ -16,7 +16,8 @@ class Header extends React.Component {
 	}
 
 	componentDidMount() {
-		wsManager.setConnectionHandler((isConnected)=>this.processWebsocketConnection(isConnected));		
+		this.wsManager = new WSManager();
+		this.wsManager.setConnectionHandler((isConnected)=>this.processWebsocketConnection(isConnected));		
 	}
 	
 	processWebsocketConnection(isConnected) {
@@ -80,26 +81,26 @@ class Header extends React.Component {
 const Alignment = ({match}) => {
 	var filter = [{field:'name', filter:'alignment'}];
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment' 
-    	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
+    	shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
     		 pvfiles='bullant_bullant_redback_dragonfly.json' filter={filter}
     		 title='Digital Receiver Alignment Summary' />);
 }
 
 const Bat = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='bat'
-	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
+	     shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
          pvfiles='bullant_BatFrame.json'        	 
         	 title='Beamformer BAT Summary'/>);
 }
 
 const FanSpeed = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='fanspeed'
-    	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
+    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
 }
 
 const Temperature = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='temperature'
-	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
+    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
 }
 
     		

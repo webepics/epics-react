@@ -7,7 +7,7 @@ class Subscriber {
     }
 }
 
-class WSManager {
+export default class WSManager {
 
     constructor() {
     	
@@ -103,6 +103,7 @@ class WSManager {
                 "id" : this.channelIDIndex,
             });
 	    this.websocket.send(message);
+	    this.websocket.close();
     }
     
     write(id, type, value) {
@@ -128,6 +129,3 @@ class WSManager {
 	    }
 	}
 }
-
-var wsManager = new WSManager();
-export default wsManager;
