@@ -1,0 +1,158 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_downloadSpectras:exec_O",
+    "name": "F_downloadSpectras:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "ADC Spectra integration time",
+    "pvname": "$(p)$(card)F_downloadSpectras:intTime_O",
+    "name": "F_downloadSpectras:intTime_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_downloadSpectras:numChannels",
+    "name": "F_downloadSpectras:numChannels",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_downloadSpectras:freqRange",
+    "name": "F_downloadSpectras:freqRange",
+    "size": "768"
+  },
+  {
+    "description": "download ready count",
+    "pvname": "$(p)$(card)F_downloadSpectras:count",
+    "name": "F_downloadSpectras:count",
+    "size": "1"
+  },
+  {
+    "description": "1 if download complete",
+    "pvname": "$(p)$(card)F_downloadSpectras:done",
+    "name": "F_downloadSpectras:done",
+    "size": "1"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port1:spectra",
+    "name": "F_downloadSpectras:port1:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port2:spectra",
+    "name": "F_downloadSpectras:port2:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port3:spectra",
+    "name": "F_downloadSpectras:port3:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port4:spectra",
+    "name": "F_downloadSpectras:port4:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port5:spectra",
+    "name": "F_downloadSpectras:port5:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port6:spectra",
+    "name": "F_downloadSpectras:port6:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port7:spectra",
+    "name": "F_downloadSpectras:port7:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port8:spectra",
+    "name": "F_downloadSpectras:port8:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port9:spectra",
+    "name": "F_downloadSpectras:port9:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port10:spectra",
+    "name": "F_downloadSpectras:port10:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port11:spectra",
+    "name": "F_downloadSpectras:port11:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port12:spectra",
+    "name": "F_downloadSpectras:port12:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port13:spectra",
+    "name": "F_downloadSpectras:port13:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port14:spectra",
+    "name": "F_downloadSpectras:port14:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port15:spectra",
+    "name": "F_downloadSpectras:port15:spectra",
+    "size": "768"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadSpectras:port16:spectra",
+    "name": "F_downloadSpectras:port16:spectra",
+    "size": "768"
+  },
+  {
+    "description": "PAF port",
+    "pvname": "$(p)$(card)F_downloadSpectras:port",
+    "name": "F_downloadSpectras:port",
+    "size": "16"
+  },
+  {
+    "description": "ADC Spectra all ports",
+    "pvname": "$(p)$(card)F_downloadSpectras:spectra",
+    "name": "F_downloadSpectras:spectra",
+    "size": "12288"
+  },
+  {
+    "description": "integration counts",
+    "pvname": "$(p)$(card)F_downloadSpectras:intCounts",
+    "name": "F_downloadSpectras:intCounts",
+    "size": "16"
+  },
+  {
+    "description": "download status",
+    "pvname": "$(p)$(card)F_downloadSpectras:status",
+    "name": "F_downloadSpectras:status",
+    "size": "16"
+  }
+]

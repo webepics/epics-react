@@ -1,0 +1,8 @@
+[
+  {
+    "description": "BAT of cycle interrupt",
+    "pvname": "$(p)$(card)intCycle:startBATStr",
+    "name": "intCycle:startBATStr",
+    "size": "1"
+  }
+]

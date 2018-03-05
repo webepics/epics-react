@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_setupSynthesiser:exec_O",
+    "name": "F_setupSynthesiser:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "synthesiser frequency",
+    "pvname": "$(p)$(card)F_setupSynthesiser:frequency_O",
+    "name": "F_setupSynthesiser:frequency_O",
+    "size": "1"
+  },
+  {
+    "description": "synthesiser amplitude",
+    "pvname": "$(p)$(card)F_setupSynthesiser:amplitude_O",
+    "name": "F_setupSynthesiser:amplitude_O",
+    "size": "1"
+  },
+  {
+    "description": "synthesiser noise seed value",
+    "pvname": "$(p)$(card)F_setupSynthesiser:noiseSeed_O",
+    "name": "F_setupSynthesiser:noiseSeed_O",
+    "size": "1"
+  },
+  {
+    "description": "synthesiser noise low limit",
+    "pvname": "$(p)$(card)F_setupSynthesiser:noiseLow_O",
+    "name": "F_setupSynthesiser:noiseLow_O",
+    "size": "1"
+  },
+  {
+    "description": "synthesiser noise high limit",
+    "pvname": "$(p)$(card)F_setupSynthesiser:noiseHigh_O",
+    "name": "F_setupSynthesiser:noiseHigh_O",
+    "size": "1"
+  },
+  {
+    "description": "dds multiplexer selection:dds multiplexer selection",
+    "pvname": "$(p)$(card)F_setupSynthesiser:mux_O",
+    "name": "F_setupSynthesiser:mux_O",
+    "size": "1"
+  },
+  {
+    "description": "dds port select",
+    "pvname": "$(p)$(card)F_setupSynthesiser:port_O",
+    "name": "F_setupSynthesiser:port_O",
+    "size": "1"
+  }
+]

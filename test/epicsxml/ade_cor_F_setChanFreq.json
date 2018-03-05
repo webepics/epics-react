@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_setChanFreq:exec_O",
+    "name": "F_setChanFreq:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "list of sky frequencies",
+    "pvname": "$(p)$(card)F_setChanFreq:bandList_O",
+    "name": "F_setChanFreq:bandList_O",
+    "size": "384"
+  },
+  {
+    "description": "channel list from hardware",
+    "pvname": "$(p)$(card)F_setChanFreq:chans",
+    "name": "F_setChanFreq:chans",
+    "size": "384"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_ctrl:exec_O",
+    "name": "F_ctrl:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "port mapping",
+    "pvname": "$(p)$(card)F_ctrl:portMap_O",
+    "name": "F_ctrl:portMap_O",
+    "size": "192"
+  },
+  {
+    "description": "attenuation settings",
+    "pvname": "$(p)$(card)F_ctrl:attenuation_O",
+    "name": "F_ctrl:attenuation_O",
+    "size": "192"
+  },
+  {
+    "description": "show reference ports",
+    "pvname": "$(p)$(card)F_ctrl:showRefPorts_O",
+    "name": "F_ctrl:showRefPorts_O",
+    "size": "1"
+  }
+]

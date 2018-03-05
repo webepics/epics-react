@@ -1,0 +1,38 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_acmDownload:exec_O",
+    "name": "F_acmDownload:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "ACM integration time",
+    "pvname": "$(p)$(card)F_acmDownload:intTime_O",
+    "name": "F_acmDownload:intTime_O",
+    "size": "1"
+  },
+  {
+    "description": "ACM download time",
+    "pvname": "$(p)$(card)F_acmDownload:dlTime_O",
+    "name": "F_acmDownload:dlTime_O",
+    "size": "1"
+  },
+  {
+    "description": "Frequency Index",
+    "pvname": "$(p)$(card)F_acmDownload:freqSelect_O",
+    "name": "F_acmDownload:freqSelect_O",
+    "size": "1"
+  },
+  {
+    "description": "start ACM download",
+    "pvname": "$(p)$(card)F_acmDownload:start_O",
+    "name": "F_acmDownload:start_O",
+    "size": "1"
+  },
+  {
+    "description": "stop ACM download",
+    "pvname": "$(p)$(card)F_acmDownload:stop_O",
+    "name": "F_acmDownload:stop_O",
+    "size": "1"
+  }
+]

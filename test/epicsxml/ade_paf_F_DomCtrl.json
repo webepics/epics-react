@@ -1,0 +1,5055 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d1:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d1:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d1:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d1:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:monitoringEnable_O",
+    "name": "F_DomCtrl:monitoringEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:monitoringInterval_O",
+    "name": "F_DomCtrl:monitoringInterval_O",
+    "units": "s",
+    "size": "1"
+  },
+  {
+    "description": "force monitoring update now",
+    "pvname": "$(p)F_DomCtrl:updateNow_O",
+    "name": "F_DomCtrl:updateNow_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:backplane_O",
+    "name": "F_DomCtrl:backplane_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:domino_O",
+    "name": "F_DomCtrl:domino_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:channel_O",
+    "name": "F_DomCtrl:channel_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:dominoPowerEnable_O",
+    "name": "F_DomCtrl:dominoPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:dominoOpticalPower_O",
+    "name": "F_DomCtrl:dominoOpticalPower_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:opticalPowerMemMonCh1",
+    "name": "F_DomCtrl:opticalPowerMemMonCh1",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:opticalPowerMemMonCh2",
+    "name": "F_DomCtrl:opticalPowerMemMonCh2",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d1:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d2:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d2:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d3:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d3:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d4:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d4:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d5:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d5:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d6:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d6:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d7:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d7:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d8:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d8:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d9:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d9:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d10:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d10:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d11:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d11:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d12:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d12:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d13:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d13:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d14:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d14:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d15:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d15:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d16:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d16:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d17:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d17:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d18:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d18:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d19:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d19:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d20:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d20:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d21:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d21:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d22:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d22:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d23:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d23:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d24:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp1:d24:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d1:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d1:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d2:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d2:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d3:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d3:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d4:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d4:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d5:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d5:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d6:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d6:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d7:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d7:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d8:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d8:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d9:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d9:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d10:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d10:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d11:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d11:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d12:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d12:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d13:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d13:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d14:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d14:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d15:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d15:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d16:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d16:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d17:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d17:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d18:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d18:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d19:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d19:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d20:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d20:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d21:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d21:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d22:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d22:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d23:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d23:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d24:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp2:d24:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d1:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d1:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d2:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d2:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d3:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d3:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d4:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d4:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d5:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d5:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d6:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d6:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d7:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d7:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d8:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d8:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d9:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d9:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d10:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d10:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d11:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d11:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d12:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d12:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d13:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d13:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d14:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d14:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d15:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d15:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d16:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d16:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d17:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d17:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d18:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d18:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d19:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d19:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d20:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d20:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d21:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d21:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d22:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d22:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d23:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d23:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d24:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp3:d24:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d1:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d1:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d2:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d2:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d3:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d3:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d4:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d4:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d5:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d5:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d6:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d6:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d7:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d7:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d8:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d8:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d9:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d9:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d10:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d10:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d11:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d11:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d12:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d12:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d13:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d13:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d14:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d14:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d15:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d15:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d16:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d16:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d17:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d17:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d18:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d18:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d19:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d19:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d20:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d20:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d21:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d21:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d22:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d22:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d23:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d23:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c1:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d24:c1:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c2:opticalPower_O",
+    "name": "F_DomCtrl:bp4:d24:c2:opticalPower_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d1:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d2:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d2:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d3:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d3:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d4:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d4:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d5:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d5:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d6:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d6:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d7:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d7:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d8:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d8:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d9:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d9:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d10:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d10:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d11:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d11:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d12:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d12:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d13:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d13:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d14:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d14:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d15:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d15:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d16:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d16:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d17:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d17:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d18:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d18:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d19:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d19:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d20:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d20:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d21:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d21:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d22:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d22:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d23:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d23:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d24:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp1:d24:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d1:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d1:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d2:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d2:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d3:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d3:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d4:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d4:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d5:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d5:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d6:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d6:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d7:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d7:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d8:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d8:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d9:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d9:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d10:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d10:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d11:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d11:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d12:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d12:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d13:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d13:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d14:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d14:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d15:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d15:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d16:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d16:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d17:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d17:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d18:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d18:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d19:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d19:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d20:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d20:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d21:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d21:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d22:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d22:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d23:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d23:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d24:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp2:d24:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d1:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d1:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d2:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d2:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d3:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d3:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d4:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d4:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d5:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d5:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d6:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d6:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d7:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d7:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d8:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d8:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d9:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d9:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d10:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d10:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d11:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d11:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d12:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d12:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d13:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d13:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d14:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d14:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d15:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d15:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d16:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d16:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d17:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d17:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d18:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d18:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d19:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d19:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d20:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d20:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d21:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d21:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d22:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d22:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d23:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d23:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d24:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp3:d24:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d1:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d1:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d2:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d2:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d3:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d3:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d4:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d4:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d5:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d5:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d6:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d6:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d7:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d7:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d8:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d8:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d9:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d9:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d10:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d10:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d11:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d11:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d12:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d12:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d13:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d13:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d14:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d14:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d15:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d15:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d16:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d16:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d17:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d17:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d18:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d18:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d19:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d19:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d20:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d20:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d21:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d21:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d22:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d22:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d23:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d23:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c1:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d24:c1:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c2:rfAtten_O",
+    "name": "F_DomCtrl:bp4:d24:c2:rfAtten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d1:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d2:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d2:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d3:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d3:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d4:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d4:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d5:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d5:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d6:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d6:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d7:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d7:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d8:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d8:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d9:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d9:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d10:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d10:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d11:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d11:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d12:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d12:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d13:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d13:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d14:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d14:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d15:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d15:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d16:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d16:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d17:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d17:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d18:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d18:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d19:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d19:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d20:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d20:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d21:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d21:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d22:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d22:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d23:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d23:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d24:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp1:d24:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d1:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d1:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d2:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d2:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d3:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d3:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d4:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d4:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d5:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d5:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d6:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d6:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d7:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d7:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d8:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d8:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d9:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d9:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d10:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d10:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d11:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d11:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d12:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d12:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d13:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d13:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d14:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d14:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d15:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d15:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d16:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d16:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d17:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d17:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d18:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d18:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d19:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d19:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d20:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d20:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d21:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d21:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d22:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d22:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d23:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d23:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d24:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp2:d24:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d1:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d1:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d2:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d2:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d3:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d3:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d4:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d4:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d5:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d5:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d6:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d6:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d7:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d7:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d8:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d8:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d9:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d9:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d10:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d10:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d11:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d11:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d12:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d12:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d13:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d13:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d14:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d14:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d15:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d15:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d16:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d16:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d17:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d17:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d18:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d18:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d19:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d19:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d20:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d20:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d21:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d21:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d22:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d22:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d23:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d23:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d24:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp3:d24:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d1:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d1:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d2:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d2:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d3:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d3:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d4:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d4:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d5:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d5:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d6:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d6:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d7:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d7:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d8:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d8:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d9:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d9:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d10:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d10:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d11:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d11:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d12:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d12:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d13:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d13:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d14:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d14:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d15:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d15:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d16:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d16:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d17:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d17:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d18:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d18:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d19:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d19:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d20:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d20:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d21:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d21:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d22:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d22:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d23:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d23:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c1:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d24:c1:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c2:powerEnable_O",
+    "name": "F_DomCtrl:bp4:d24:c2:powerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d1:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d1:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d2:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d2:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d2:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d3:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d3:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d3:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d4:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d4:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d4:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d5:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d5:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d5:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d6:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d6:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d6:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d7:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d7:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d7:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d8:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d8:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d8:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d9:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d9:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d9:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d10:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d10:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d10:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d11:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d11:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d11:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d12:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d12:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d12:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d13:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d13:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d13:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d14:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d14:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d14:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d15:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d15:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d15:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d16:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d16:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d16:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d17:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d17:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d17:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d18:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d18:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d18:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d19:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d19:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d19:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d20:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d20:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d20:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d21:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d21:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d21:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d22:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d22:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d22:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d23:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d23:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d23:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d24:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp1:d24:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp1:d24:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d1:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d1:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d1:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d2:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d2:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d2:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d3:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d3:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d3:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d4:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d4:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d4:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d5:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d5:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d5:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d6:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d6:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d6:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d7:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d7:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d7:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d8:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d8:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d8:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d9:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d9:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d9:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d10:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d10:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d10:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d11:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d11:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d11:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d12:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d12:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d12:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d13:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d13:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d13:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d14:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d14:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d14:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d15:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d15:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d15:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d16:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d16:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d16:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d17:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d17:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d17:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d18:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d18:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d18:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d19:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d19:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d19:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d20:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d20:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d20:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d21:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d21:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d21:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d22:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d22:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d22:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d23:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d23:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d23:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d24:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp2:d24:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp2:d24:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d1:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d1:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d1:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d2:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d2:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d2:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d3:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d3:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d3:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d4:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d4:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d4:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d5:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d5:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d5:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d6:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d6:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d6:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d7:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d7:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d7:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d8:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d8:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d8:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d9:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d9:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d9:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d10:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d10:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d10:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d11:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d11:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d11:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d12:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d12:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d12:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d13:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d13:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d13:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d14:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d14:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d14:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d15:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d15:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d15:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d16:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d16:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d16:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d17:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d17:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d17:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d18:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d18:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d18:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d19:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d19:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d19:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d20:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d20:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d20:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d21:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d21:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d21:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d22:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d22:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d22:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d23:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d23:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d23:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d24:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp3:d24:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp3:d24:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d1:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d1:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d1:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d2:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d2:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d2:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d3:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d3:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d3:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d4:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d4:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d4:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d5:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d5:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d5:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d6:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d6:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d6:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d7:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d7:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d7:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d8:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d8:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d8:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d9:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d9:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d9:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d10:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d10:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d10:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d11:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d11:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d11:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d12:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d12:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d12:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d13:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d13:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d13:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d14:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d14:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d14:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d15:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d15:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d15:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d16:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d16:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d16:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d17:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d17:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d17:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d18:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d18:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d18:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d19:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d19:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d19:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d20:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d20:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d20:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d21:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d21:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d21:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d22:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d22:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d22:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d23:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d23:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d23:c2:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c1:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d24:c1:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_DomCtrl:bp4:d24:c2:lnaPowerEnable_O",
+    "name": "F_DomCtrl:bp4:d24:c2:lnaPowerEnable_O",
+    "size": "1"
+  }
+]

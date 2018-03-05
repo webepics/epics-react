@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:exec_O",
+    "name": "F_laserCalFecT1T4:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:txNum_O",
+    "name": "F_laserCalFecT1T4:txNum_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:lcNum",
+    "name": "F_laserCalFecT1T4:lcNum",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:level_O",
+    "name": "F_laserCalFecT1T4:level_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:adjustment_O",
+    "name": "F_laserCalFecT1T4:adjustment_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:txMon",
+    "name": "F_laserCalFecT1T4:txMon",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:memMon",
+    "name": "F_laserCalFecT1T4:memMon",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT1T4:end_O",
+    "name": "F_laserCalFecT1T4:end_O",
+    "size": "1"
+  }
+]

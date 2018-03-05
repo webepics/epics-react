@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_setADCSampleDelay:exec_O",
+    "name": "F_setADCSampleDelay:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "DRX port",
+    "pvname": "$(p)$(card)F_setADCSampleDelay:port_O",
+    "name": "F_setADCSampleDelay:port_O",
+    "size": "1"
+  },
+  {
+    "description": "delay in sample units",
+    "pvname": "$(p)$(card)F_setADCSampleDelay:delay_O",
+    "name": "F_setADCSampleDelay:delay_O",
+    "size": "1"
+  }
+]

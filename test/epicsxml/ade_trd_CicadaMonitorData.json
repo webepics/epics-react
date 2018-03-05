@@ -1,0 +1,596 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)cicada:status",
+    "name": "CicadaMonitorData:status",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 1:Temperature",
+    "pvname": "$(p)$(card)cicada:tempADC1:temp",
+    "name": "CicadaMonitorData:tempADC1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 1:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:tempADC1:status",
+    "name": "CicadaMonitorData:tempADC1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 2:Temperature",
+    "pvname": "$(p)$(card)cicada:tempADC2:temp",
+    "name": "CicadaMonitorData:tempADC2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 2:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:tempADC2:status",
+    "name": "CicadaMonitorData:tempADC2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 3:Temperature",
+    "pvname": "$(p)$(card)cicada:tempADC3:temp",
+    "name": "CicadaMonitorData:tempADC3:temp",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 3:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:tempADC3:status",
+    "name": "CicadaMonitorData:tempADC3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 4:Temperature",
+    "pvname": "$(p)$(card)cicada:tempADC4:temp",
+    "name": "CicadaMonitorData:tempADC4:temp",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 4:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:tempADC4:status",
+    "name": "CicadaMonitorData:tempADC4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Round trip TX bias current",
+    "pvname": "$(p)$(card)cicada:rtbias",
+    "name": "CicadaMonitorData:rtbias",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "Noise source TX bias current",
+    "pvname": "$(p)$(card)cicada:roarbias",
+    "name": "CicadaMonitorData:roarbias",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "Round Trip photodiode optical output power",
+    "pvname": "$(p)$(card)cicada:rtPD",
+    "name": "CicadaMonitorData:rtPD",
+    "units": "mW",
+    "size": "1"
+  },
+  {
+    "description": "Noise source photodiode optical output power",
+    "pvname": "$(p)$(card)cicada:roarPD",
+    "name": "CicadaMonitorData:roarPD",
+    "units": "mW",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)cicada:vcc3v3:iout",
+    "name": "CicadaMonitorData:vcc3v3:iout",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vcc3v3:vout",
+    "name": "CicadaMonitorData:vcc3v3:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B0",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B1",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B2",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B3",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B4",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B5",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc3v3:supplyStatus:B6",
+    "name": "CicadaMonitorData:vcc3v3:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vcc3v3:status",
+    "name": "CicadaMonitorData:vcc3v3:status",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)cicada:vcc5v:iout",
+    "name": "CicadaMonitorData:vcc5v:iout",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vcc5v:vout",
+    "name": "CicadaMonitorData:vcc5v:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B0",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B1",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B2",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B3",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B4",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B5",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc5v:supplyStatus:B6",
+    "name": "CicadaMonitorData:vcc5v:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "5V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vcc5v:status",
+    "name": "CicadaMonitorData:vcc5v:status",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vcc12v:vout",
+    "name": "CicadaMonitorData:vcc12v:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B0",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B1",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B2",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B3",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B4",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B5",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc12v:supplyStatus:B6",
+    "name": "CicadaMonitorData:vcc12v:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "12V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vcc12v:status",
+    "name": "CicadaMonitorData:vcc12v:status",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Output voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vcc15v:vout",
+    "name": "CicadaMonitorData:vcc15v:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Input voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vcc15v:vin",
+    "name": "CicadaMonitorData:vcc15v:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B0",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B1",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B2",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B3",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B4",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B5",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vcc15v:supplyStatus:B6",
+    "name": "CicadaMonitorData:vcc15v:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vcc15v:status",
+    "name": "CicadaMonitorData:vcc15v:status",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Output current of regulator",
+    "pvname": "$(p)$(card)cicada:vccn5va:iout",
+    "name": "CicadaMonitorData:vccn5va:iout",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Output voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vccn5va:vout",
+    "name": "CicadaMonitorData:vccn5va:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B0",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B1",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B2",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B3",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B4",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B5",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5va:supplyStatus:B6",
+    "name": "CicadaMonitorData:vccn5va:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for ROAR:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vccn5va:status",
+    "name": "CicadaMonitorData:vccn5va:status",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Output current of regulator",
+    "pvname": "$(p)$(card)cicada:vccn5vb:iout",
+    "name": "CicadaMonitorData:vccn5vb:iout",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Output voltage of regulator",
+    "pvname": "$(p)$(card)cicada:vccn5vb:vout",
+    "name": "CicadaMonitorData:vccn5vb:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B0",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B1",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B2",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B3",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B4",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B5",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn5vb:supplyStatus:B6",
+    "name": "CicadaMonitorData:vccn5vb:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "-5V Supply for Round Trip:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vccn5vb:status",
+    "name": "CicadaMonitorData:vccn5vb:status",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)cicada:vccn7v:iout",
+    "name": "CicadaMonitorData:vccn7v:iout",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B0",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B1",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B2",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B3",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B4",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B5",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:Power regulator status",
+    "pvname": "$(p)$(card)cicada:vccn7v:supplyStatus:B6",
+    "name": "CicadaMonitorData:vccn7v:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "-7V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)cicada:vccn7v:status",
+    "name": "CicadaMonitorData:vccn7v:status",
+    "size": "1"
+  },
+  {
+    "description": "Cicada RF attenuator",
+    "pvname": "$(p)$(card)cicada:rfAtt",
+    "name": "CicadaMonitorData:rfAtt",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "Optic switch state",
+    "pvname": "$(p)$(card)cicada:opticSwitch",
+    "name": "CicadaMonitorData:opticSwitch",
+    "size": "1"
+  },
+  {
+    "description": "Cicada ROAR laser",
+    "pvname": "$(p)$(card)cicada:roarEnabled",
+    "name": "CicadaMonitorData:roarEnabled",
+    "size": "1"
+  },
+  {
+    "description": "Cicada RT laser",
+    "pvname": "$(p)$(card)cicada:rtEnabled",
+    "name": "CicadaMonitorData:rtEnabled",
+    "size": "1"
+  },
+  {
+    "description": "Cicada noise source",
+    "pvname": "$(p)$(card)cicada:noiseEnabled",
+    "name": "CicadaMonitorData:noiseEnabled",
+    "size": "1"
+  },
+  {
+    "description": "Cicada RT attenuator",
+    "pvname": "$(p)$(card)cicada:rfRTAtt",
+    "name": "CicadaMonitorData:rfRTAtt",
+    "units": "dB",
+    "size": "1"
+  }
+]

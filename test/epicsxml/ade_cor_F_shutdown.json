@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_shutdown:exec_O",
+    "name": "F_shutdown:exec_O",
+    "size": "1"
+  }
+]

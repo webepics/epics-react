@@ -1,0 +1,44 @@
+[
+  {
+    "description": "power status",
+    "pvname": "$(p)$(card)DRStatus:powerStatus",
+    "name": "DRStatus:powerStatus",
+    "size": "1"
+  },
+  {
+    "description": "FPGA configured",
+    "pvname": "$(p)$(card)DRStatus:fpgaConfigured",
+    "name": "DRStatus:fpgaConfigured",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Mode",
+    "pvname": "$(p)$(card)DRStatus:fpgaMode",
+    "name": "DRStatus:fpgaMode",
+    "size": "1"
+  },
+  {
+    "description": "Band:Band",
+    "pvname": "$(p)$(card)DRStatus:band",
+    "name": "DRStatus:band",
+    "size": "1"
+  },
+  {
+    "description": "Port Map",
+    "pvname": "$(p)$(card)DRStatus:portMap",
+    "name": "DRStatus:portMap",
+    "size": "192"
+  },
+  {
+    "description": "Base port number of DRX",
+    "pvname": "$(p)$(card)DRStatus:basePort",
+    "name": "DRStatus:basePort",
+    "size": "1"
+  },
+  {
+    "description": "Antenna number",
+    "pvname": "$(p)$(card)DRStatus:antennaNo",
+    "name": "DRStatus:antennaNo",
+    "size": "1"
+  }
+]

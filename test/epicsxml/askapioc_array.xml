@@ -1,0 +1,23 @@
+<macros>
+  <Group name="array:size" type="iocPoint">
+    <comment>number of cards in array</comment>
+    <name>array:size</name>
+    <pv>$(p)array:size</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="array:state" type="iocEnumValue">
+    <comment>current array state:current array state</comment>
+    <name>array:state</name>
+    <pv>$(p)array:state</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="array:mask_O" type="iocPoint">
+    <comment>mask of cards in use</comment>
+    <name>array:mask_O</name>
+    <pv>$(p)array:mask_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

@@ -1,0 +1,56 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)commsLinkStat:status",
+    "name": "CommsLinkStatus1D:status",
+    "size": "1"
+  },
+  {
+    "description": "Low speed Control Link:AdbeStatus",
+    "pvname": "$(p)commsLinkStat:ctrlPort:status",
+    "name": "CommsLinkStatus1D:controlPort:status",
+    "size": "1"
+  },
+  {
+    "description": "Low speed Control Link:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)commsLinkStat:ctrlPort:upstreamCRCErrors",
+    "name": "CommsLinkStatus1D:controlPort:upstreamCRCErrors",
+    "size": "1"
+  },
+  {
+    "description": "Low speed Control Link:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)commsLinkStat:ctrlPort:downstreamCRCErrors",
+    "name": "CommsLinkStatus1D:controlPort:downstreamCRCErrors",
+    "size": "1"
+  },
+  {
+    "description": "Low speed Control Link:link valid",
+    "pvname": "$(p)commsLinkStat:ctrlPort:linkValid",
+    "name": "CommsLinkStatus1D:controlPort:linkValid",
+    "size": "1"
+  },
+  {
+    "description": "High speed Data Link:AdbeStatus",
+    "pvname": "$(p)commsLinkStat:dataPort:status",
+    "name": "CommsLinkStatus1D:dataPort:status",
+    "size": "1"
+  },
+  {
+    "description": "High speed Data Link:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)commsLinkStat:dataPort:upstreamCRCErrors",
+    "name": "CommsLinkStatus1D:dataPort:upstreamCRCErrors",
+    "size": "1"
+  },
+  {
+    "description": "High speed Data Link:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)commsLinkStat:dataPort:downstreamCRCErrors",
+    "name": "CommsLinkStatus1D:dataPort:downstreamCRCErrors",
+    "size": "1"
+  },
+  {
+    "description": "High speed Data Link:link valid",
+    "pvname": "$(p)commsLinkStat:dataPort:linkValid",
+    "name": "CommsLinkStatus1D:dataPort:linkValid",
+    "size": "1"
+  }
+]

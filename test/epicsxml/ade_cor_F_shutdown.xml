@@ -1,0 +1,9 @@
+<macros>
+  <Group name="F_shutdown:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_shutdown:exec_O</name>
+    <pv>$(p)$(card)F_shutdown:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

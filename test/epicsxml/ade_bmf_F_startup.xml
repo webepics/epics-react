@@ -1,0 +1,157 @@
+<macros>
+  <Group name="F_startup:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_startup:exec_O</name>
+    <pv>$(p)$(card)F_startup:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:sequence_O" type="iocPoint">
+    <comment>sequence number in</comment>
+    <name>F_startup:sequence_O</name>
+    <pv>$(p)$(card)F_startup:sequence_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:sequence_RB" type="iocPoint">
+    <comment>sequence number out</comment>
+    <name>F_startup:sequence_RB</name>
+    <pv>$(p)$(card)F_startup:sequence_RB</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:inhibit_O" type="iocEnumBit">
+    <comment>inhibit startup</comment>
+    <name>F_startup:inhibit_O</name>
+    <pv>$(p)$(card)F_startup:inhibit_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:programFPGA_O" type="iocEnumBit">
+    <comment>program FPGA at startup</comment>
+    <name>F_startup:programFPGA_O</name>
+    <pv>$(p)$(card)F_startup:programFPGA_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:band_O" type="iocEnumValue">
+    <comment>filter band:filter band</comment>
+    <name>F_startup:band_O</name>
+    <pv>$(p)$(card)F_startup:band_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:zoom_O" type="iocEnumValue">
+    <comment>zoom mode:zoom mode</comment>
+    <name>F_startup:zoom_O</name>
+    <pv>$(p)$(card)F_startup:zoom_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:center_O" type="iocPoint">
+    <comment>center frequency</comment>
+    <name>F_startup:center_O</name>
+    <pv>$(p)$(card)F_startup:center_O</pv>
+    <egu>MHz</egu>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:enableTxOptics_O" type="iocEnumBit">
+    <comment>enable TX optics</comment>
+    <name>F_startup:enableTxOptics_O</name>
+    <pv>$(p)$(card)F_startup:enableTxOptics_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block1_O" type="iocPoint">
+    <comment>corr block 1 num cards</comment>
+    <name>F_startup:block1_O</name>
+    <pv>$(p)$(card)F_startup:block1_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block2_O" type="iocPoint">
+    <comment>corr block 2 num cards</comment>
+    <name>F_startup:block2_O</name>
+    <pv>$(p)$(card)F_startup:block2_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block3_O" type="iocPoint">
+    <comment>corr block 3 num cards</comment>
+    <name>F_startup:block3_O</name>
+    <pv>$(p)$(card)F_startup:block3_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block4_O" type="iocPoint">
+    <comment>corr block 4 num cards</comment>
+    <name>F_startup:block4_O</name>
+    <pv>$(p)$(card)F_startup:block4_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block5_O" type="iocPoint">
+    <comment>corr block 5 num cards</comment>
+    <name>F_startup:block5_O</name>
+    <pv>$(p)$(card)F_startup:block5_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block6_O" type="iocPoint">
+    <comment>corr block 6 num cards</comment>
+    <name>F_startup:block6_O</name>
+    <pv>$(p)$(card)F_startup:block6_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block7_O" type="iocPoint">
+    <comment>corr block 7 num cards</comment>
+    <name>F_startup:block7_O</name>
+    <pv>$(p)$(card)F_startup:block7_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:block8_O" type="iocPoint">
+    <comment>corr block 8 num cards</comment>
+    <name>F_startup:block8_O</name>
+    <pv>$(p)$(card)F_startup:block8_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:status" type="iocPoint">
+    <comment></comment>
+    <name>F_startup:status</name>
+    <pv>$(p)$(card)F_startup:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:state" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:state</name>
+    <pv>$(p)$(card)F_startup:state</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:done" type="iocEnumBit">
+    <comment></comment>
+    <name>F_startup:done</name>
+    <pv>$(p)$(card)F_startup:done</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:paramSet" type="iocEnumBit">
+    <comment></comment>
+    <name>F_startup:paramSet</name>
+    <pv>$(p)$(card)F_startup:paramSet</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:downloadDelay_O" type="iocPoint">
+    <comment></comment>
+    <name>F_startup:downloadDelay_O</name>
+    <pv>$(p)$(card)F_startup:downloadDelay_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

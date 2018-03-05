@@ -1,0 +1,23 @@
+<macros>
+  <Group name="F_setADCSampleDelay:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_setADCSampleDelay:exec_O</name>
+    <pv>$(p)$(card)F_setADCSampleDelay:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setADCSampleDelay:port_O" type="iocPoint">
+    <comment>DRX port</comment>
+    <name>F_setADCSampleDelay:port_O</name>
+    <pv>$(p)$(card)F_setADCSampleDelay:port_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setADCSampleDelay:delay_O" type="iocPoint">
+    <comment>delay in sample units</comment>
+    <name>F_setADCSampleDelay:delay_O</name>
+    <pv>$(p)$(card)F_setADCSampleDelay:delay_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

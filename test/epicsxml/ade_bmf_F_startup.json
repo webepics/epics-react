@@ -1,0 +1,135 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:exec_O",
+    "name": "F_startup:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "sequence number in",
+    "pvname": "$(p)$(card)F_startup:sequence_O",
+    "name": "F_startup:sequence_O",
+    "size": "1"
+  },
+  {
+    "description": "sequence number out",
+    "pvname": "$(p)$(card)F_startup:sequence_RB",
+    "name": "F_startup:sequence_RB",
+    "size": "1"
+  },
+  {
+    "description": "inhibit startup",
+    "pvname": "$(p)$(card)F_startup:inhibit_O",
+    "name": "F_startup:inhibit_O",
+    "size": "1"
+  },
+  {
+    "description": "program FPGA at startup",
+    "pvname": "$(p)$(card)F_startup:programFPGA_O",
+    "name": "F_startup:programFPGA_O",
+    "size": "1"
+  },
+  {
+    "description": "filter band:filter band",
+    "pvname": "$(p)$(card)F_startup:band_O",
+    "name": "F_startup:band_O",
+    "size": "1"
+  },
+  {
+    "description": "zoom mode:zoom mode",
+    "pvname": "$(p)$(card)F_startup:zoom_O",
+    "name": "F_startup:zoom_O",
+    "size": "1"
+  },
+  {
+    "description": "center frequency",
+    "pvname": "$(p)$(card)F_startup:center_O",
+    "name": "F_startup:center_O",
+    "units": "MHz",
+    "size": "1"
+  },
+  {
+    "description": "enable TX optics",
+    "pvname": "$(p)$(card)F_startup:enableTxOptics_O",
+    "name": "F_startup:enableTxOptics_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 1 num cards",
+    "pvname": "$(p)$(card)F_startup:block1_O",
+    "name": "F_startup:block1_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 2 num cards",
+    "pvname": "$(p)$(card)F_startup:block2_O",
+    "name": "F_startup:block2_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 3 num cards",
+    "pvname": "$(p)$(card)F_startup:block3_O",
+    "name": "F_startup:block3_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 4 num cards",
+    "pvname": "$(p)$(card)F_startup:block4_O",
+    "name": "F_startup:block4_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 5 num cards",
+    "pvname": "$(p)$(card)F_startup:block5_O",
+    "name": "F_startup:block5_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 6 num cards",
+    "pvname": "$(p)$(card)F_startup:block6_O",
+    "name": "F_startup:block6_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 7 num cards",
+    "pvname": "$(p)$(card)F_startup:block7_O",
+    "name": "F_startup:block7_O",
+    "size": "1"
+  },
+  {
+    "description": "corr block 8 num cards",
+    "pvname": "$(p)$(card)F_startup:block8_O",
+    "name": "F_startup:block8_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:status",
+    "name": "F_startup:status",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:state",
+    "name": "F_startup:state",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:done",
+    "name": "F_startup:done",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:paramSet",
+    "name": "F_startup:paramSet",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:downloadDelay_O",
+    "name": "F_startup:downloadDelay_O",
+    "size": "1"
+  }
+]

@@ -1,0 +1,58 @@
+<macros>
+  <Group name="F_setupSynthesiser:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_setupSynthesiser:exec_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:frequency_O" type="iocPoint">
+    <comment>synthesiser frequency</comment>
+    <name>F_setupSynthesiser:frequency_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:frequency_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:amplitude_O" type="iocPoint">
+    <comment>synthesiser amplitude</comment>
+    <name>F_setupSynthesiser:amplitude_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:amplitude_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:noiseSeed_O" type="iocPoint">
+    <comment>synthesiser noise seed value</comment>
+    <name>F_setupSynthesiser:noiseSeed_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:noiseSeed_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:noiseLow_O" type="iocPoint">
+    <comment>synthesiser noise low limit</comment>
+    <name>F_setupSynthesiser:noiseLow_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:noiseLow_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:noiseHigh_O" type="iocPoint">
+    <comment>synthesiser noise high limit</comment>
+    <name>F_setupSynthesiser:noiseHigh_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:noiseHigh_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:mux_O" type="iocEnumValue">
+    <comment>dds multiplexer selection:dds multiplexer selection</comment>
+    <name>F_setupSynthesiser:mux_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:mux_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setupSynthesiser:port_O" type="iocPoint">
+    <comment>dds port select</comment>
+    <name>F_setupSynthesiser:port_O</name>
+    <pv>$(p)$(card)F_setupSynthesiser:port_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

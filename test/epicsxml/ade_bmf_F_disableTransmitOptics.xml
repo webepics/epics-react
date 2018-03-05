@@ -1,0 +1,16 @@
+<macros>
+  <Group name="F_disableTransmitOptics:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_disableTransmitOptics:exec_O</name>
+    <pv>$(p)$(card)F_disableTransmitOptics:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_disableTransmitOptics:enable_O" type="iocEnumBit">
+    <comment>false to disable optics</comment>
+    <name>F_disableTransmitOptics:enable_O</name>
+    <pv>$(p)$(card)F_disableTransmitOptics:enable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

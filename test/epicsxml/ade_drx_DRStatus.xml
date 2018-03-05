@@ -1,0 +1,58 @@
+<macros>
+  <Group name="DRStatus:powerStatus" type="iocPoint">
+    <comment>power status</comment>
+    <name>DRStatus:powerStatus</name>
+    <pv>$(p)$(card)DRStatus:powerStatus</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="DRStatus:fpgaConfigured" type="iocPoint">
+    <comment>FPGA configured</comment>
+    <name>DRStatus:fpgaConfigured</name>
+    <pv>$(p)$(card)DRStatus:fpgaConfigured</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="DRStatus:fpgaMode" type="iocPoint">
+    <comment>FPGA Mode</comment>
+    <name>DRStatus:fpgaMode</name>
+    <pv>$(p)$(card)DRStatus:fpgaMode</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="DRStatus:band" type="iocEnumValue">
+    <comment>Band:Band</comment>
+    <name>DRStatus:band</name>
+    <pv>$(p)$(card)DRStatus:band</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="DRStatus:channelNumbers" type="iocArray">
+    <comment>Channel Numbers</comment>
+    <name>DRStatus:channelNumbers</name>
+    <pv>$(p)$(card)DRStatus:channelNumbers</pv>
+    <type>label</type>
+    <size>1</size>
+  </Group>
+  <Group name="DRStatus:portMap" type="iocPoint">
+    <comment>Port Map</comment>
+    <name>DRStatus:portMap</name>
+    <pv>$(p)$(card)DRStatus:portMap</pv>
+    <type>uint32</type>
+    <size>192</size>
+  </Group>
+  <Group name="DRStatus:basePort" type="iocPoint">
+    <comment>Base port number of DRX</comment>
+    <name>DRStatus:basePort</name>
+    <pv>$(p)$(card)DRStatus:basePort</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="DRStatus:antennaNo" type="iocPoint">
+    <comment>Antenna number</comment>
+    <name>DRStatus:antennaNo</name>
+    <pv>$(p)$(card)DRStatus:antennaNo</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+</macros>

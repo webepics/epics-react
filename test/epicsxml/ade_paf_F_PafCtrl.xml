@@ -1,0 +1,172 @@
+<macros>
+  <Group name="F_PafCtrl:psuPowerEnable_O" type="iocEnumBit">
+    <comment>turn on main power</comment>
+    <name>F_PafCtrl:psuPowerEnable_O</name>
+    <pv>$(p)F_PafCtrl:psuPowerEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:tecPowerEnable_O" type="iocEnumBit">
+    <comment>turn on TEC power</comment>
+    <name>F_PafCtrl:tecPowerEnable_O</name>
+    <pv>$(p)F_PafCtrl:tecPowerEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:rhPowerEnable_O" type="iocEnumBit">
+    <comment>turn on rH sensor power</comment>
+    <name>F_PafCtrl:rhPowerEnable_O</name>
+    <pv>$(p)F_PafCtrl:rhPowerEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:psuAlarmReset_O" type="iocEnumBit">
+    <comment>reset PSU alarms</comment>
+    <name>F_PafCtrl:psuAlarmReset_O</name>
+    <pv>$(p)F_PafCtrl:psuAlarmReset_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:tecAlarmReset_O" type="iocEnumBit">
+    <comment>reset TEC alarms</comment>
+    <name>F_PafCtrl:tecAlarmReset_O</name>
+    <pv>$(p)F_PafCtrl:tecAlarmReset_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:lowTempAlarmDisable_O" type="iocEnumBit">
+    <comment>turn on main power</comment>
+    <name>F_PafCtrl:lowTempAlarmDisable_O</name>
+    <pv>$(p)F_PafCtrl:lowTempAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:hiTempAlarmDisable_O" type="iocEnumBit">
+    <comment>turn on TEC power</comment>
+    <name>F_PafCtrl:hiTempAlarmDisable_O</name>
+    <pv>$(p)F_PafCtrl:hiTempAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:hiRHAlarmDisable_O" type="iocEnumBit">
+    <comment>turn on rH sensor power</comment>
+    <name>F_PafCtrl:hiRHAlarmDisable_O</name>
+    <pv>$(p)F_PafCtrl:hiRHAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:interlockAlarmDisable_O" type="iocEnumBit">
+    <comment>Interlock Alarm Disable</comment>
+    <name>F_PafCtrl:interlockAlarmDisable_O</name>
+    <pv>$(p)F_PafCtrl:interlockAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:tecSetpoint_O" type="iocPoint">
+    <comment>TEC temp set point</comment>
+    <name>F_PafCtrl:tecSetpoint_O</name>
+    <pv>$(p)F_PafCtrl:tecSetpoint_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:resetErrorCounts_O" type="iocEnumBit">
+    <comment>reset comms error counts</comment>
+    <name>F_PafCtrl:resetErrorCounts_O</name>
+    <pv>$(p)F_PafCtrl:resetErrorCounts_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:ctrlMonEnable_O" type="iocEnumBit">
+    <comment>enable PAF Ctrl monitoring</comment>
+    <name>F_PafCtrl:ctrlMonEnable_O</name>
+    <pv>$(p)F_PafCtrl:ctrlMonEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:psuMonEnable_O" type="iocEnumBit">
+    <comment>enable PSU monitoring</comment>
+    <name>F_PafCtrl:psuMonEnable_O</name>
+    <pv>$(p)F_PafCtrl:psuMonEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:tecMonEnable_O" type="iocEnumBit">
+    <comment>enable TEC monitoring</comment>
+    <name>F_PafCtrl:tecMonEnable_O</name>
+    <pv>$(p)F_PafCtrl:tecMonEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:returnDelay_O" type="iocPoint">
+    <comment>set return delay</comment>
+    <name>F_PafCtrl:returnDelay_O</name>
+    <pv>$(p)F_PafCtrl:returnDelay_O</pv>
+    <egu>ms</egu>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:monitoringInterval_O" type="iocPoint">
+    <comment>monitoring interval</comment>
+    <name>F_PafCtrl:monitoringInterval_O</name>
+    <pv>$(p)F_PafCtrl:monitoringInterval_O</pv>
+    <egu>ms</egu>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:updateNow_O" type="iocEnumBit">
+    <comment>force monitoring update now</comment>
+    <name>F_PafCtrl:updateNow_O</name>
+    <pv>$(p)F_PafCtrl:updateNow_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:pollFecEo" type="iocEnumBit">
+    <comment>FEC-EO polling indicator</comment>
+    <name>F_PafCtrl:pollFecEo</name>
+    <pv>$(p)F_PafCtrl:pollFecEo</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:pollPafCtrl" type="iocEnumBit">
+    <comment>PAF Ctrl polling indicator</comment>
+    <name>F_PafCtrl:pollPafCtrl</name>
+    <pv>$(p)F_PafCtrl:pollPafCtrl</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:pollPafPsu" type="iocEnumBit">
+    <comment>PAF PSU polling indicator</comment>
+    <name>F_PafCtrl:pollPafPsu</name>
+    <pv>$(p)F_PafCtrl:pollPafPsu</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:pollTecCtrl" type="iocEnumBit">
+    <comment>TEC Ctrl polling inidicator</comment>
+    <name>F_PafCtrl:pollTecCtrl</name>
+    <pv>$(p)F_PafCtrl:pollTecCtrl</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:pollDominos" type="iocEnumBit">
+    <comment>Domino polling indicator</comment>
+    <name>F_PafCtrl:pollDominos</name>
+    <pv>$(p)F_PafCtrl:pollDominos</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:serialNumsRead" type="iocEnumBit">
+    <comment>Serial number update done</comment>
+    <name>F_PafCtrl:serialNumsRead</name>
+    <pv>$(p)F_PafCtrl:serialNumsRead</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_PafCtrl:logPsuTrip_O" type="iocPoint">
+    <comment>log PSU info after trip</comment>
+    <name>F_PafCtrl:logPsuTrip_O</name>
+    <pv>$(p)F_PafCtrl:logPsuTrip_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

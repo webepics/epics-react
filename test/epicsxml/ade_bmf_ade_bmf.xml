@@ -1,0 +1,23 @@
+<macros>
+  <Group name="refEpoch_O" type="iocPoint">
+    <comment>reference epoch</comment>
+    <name>refEpoch_O</name>
+    <pv>$(p)$(card)refEpoch_O</pv>
+    <type>input</type>
+    <size>2</size>
+  </Group>
+  <Group name="macIPAddr_O" type="iocPoint">
+    <comment></comment>
+    <name>macIPAddr_O</name>
+    <pv>$(p)$(card)macIPAddr_O</pv>
+    <type>input</type>
+    <size>6912</size>
+  </Group>
+  <Group name="setEpoch_O" type="iocEnumBit">
+    <comment>ref epoch from BAT</comment>
+    <name>setEpoch_O</name>
+    <pv>$(p)$(card)setEpoch_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

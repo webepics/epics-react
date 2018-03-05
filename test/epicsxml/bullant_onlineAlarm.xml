@@ -1,0 +1,23 @@
+<macros>
+  <Group name="onlineAlarm:card_O" type="iocPoint">
+    <comment>take state offline</comment>
+    <name>onlineAlarm:card_O</name>
+    <pv>$(p)$(card)onlineAlarm:card_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="onlineAlarm:global_O" type="iocPoint">
+    <comment>take state offline</comment>
+    <name>onlineAlarm:global_O</name>
+    <pv>$(p)$(card)onlineAlarm:global_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="onlineAlarm:latched_O" type="iocPoint">
+    <comment>don't auto return to online</comment>
+    <name>onlineAlarm:latched_O</name>
+    <pv>$(p)$(card)onlineAlarm:latched_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

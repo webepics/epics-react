@@ -1,0 +1,911 @@
+<macros>
+  <Group name="stat:monitorInterval_O" type="iocPoint">
+    <comment></comment>
+    <name>stat:monitorInterval_O</name>
+    <pv>$(p)stat:monitorInterval_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:hostUptime" type="iocPoint">
+    <comment></comment>
+    <name>stat:hostUptime</name>
+    <pv>$(p)stat:hostUptime</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:load1Minute" type="iocPoint">
+    <comment></comment>
+    <name>stat:load1Minute</name>
+    <pv>$(p)stat:load1Minute</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:load5Minutes" type="iocPoint">
+    <comment></comment>
+    <name>stat:load5Minutes</name>
+    <pv>$(p)stat:load5Minutes</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:load15Minutes" type="iocPoint">
+    <comment></comment>
+    <name>stat:load15Minutes</name>
+    <pv>$(p)stat:load15Minutes</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:numDirs" type="iocPoint">
+    <comment></comment>
+    <name>stat:numDirs</name>
+    <pv>$(p)stat:numDirs</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir" type="iocArray">
+    <comment></comment>
+    <name>stat:dir</name>
+    <pv>$(p)stat:dir</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir1" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir1</name>
+    <pv>$(p)stat:dir1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir1:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir1:name</name>
+    <pv>$(p)stat:dir1:name</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir1:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir1:total</name>
+    <pv>$(p)stat:dir1:total</pv>
+    <egu>MB</egu>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir1:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir1:used</name>
+    <pv>$(p)stat:dir1:used</pv>
+    <egu>MB</egu>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir1:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir1:free</name>
+    <pv>$(p)stat:dir1:free</pv>
+    <egu>%%</egu>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir2" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir2</name>
+    <pv>$(p)stat:dir2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir2:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir2:name</name>
+    <pv>$(p)stat:dir2:name</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir2:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir2:total</name>
+    <pv>$(p)stat:dir2:total</pv>
+    <egu>MB</egu>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir2:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir2:used</name>
+    <pv>$(p)stat:dir2:used</pv>
+    <egu>MB</egu>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir2:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir2:free</name>
+    <pv>$(p)stat:dir2:free</pv>
+    <egu>%%</egu>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir3" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir3</name>
+    <pv>$(p)stat:dir3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir3:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir3:name</name>
+    <pv>$(p)stat:dir3:name</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir3:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir3:total</name>
+    <pv>$(p)stat:dir3:total</pv>
+    <egu>MB</egu>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir3:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir3:used</name>
+    <pv>$(p)stat:dir3:used</pv>
+    <egu>MB</egu>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir3:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir3:free</name>
+    <pv>$(p)stat:dir3:free</pv>
+    <egu>%%</egu>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir4" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir4</name>
+    <pv>$(p)stat:dir4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir4:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir4:name</name>
+    <pv>$(p)stat:dir4:name</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir4:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir4:total</name>
+    <pv>$(p)stat:dir4:total</pv>
+    <egu>MB</egu>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir4:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir4:used</name>
+    <pv>$(p)stat:dir4:used</pv>
+    <egu>MB</egu>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir4:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir4:free</name>
+    <pv>$(p)stat:dir4:free</pv>
+    <egu>%%</egu>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir5" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir5</name>
+    <pv>$(p)stat:dir5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir5:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir5:name</name>
+    <pv>$(p)stat:dir5:name</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir5:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir5:total</name>
+    <pv>$(p)stat:dir5:total</pv>
+    <egu>MB</egu>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir5:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir5:used</name>
+    <pv>$(p)stat:dir5:used</pv>
+    <egu>MB</egu>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir5:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir5:free</name>
+    <pv>$(p)stat:dir5:free</pv>
+    <egu>%%</egu>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir6" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir6</name>
+    <pv>$(p)stat:dir6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir6:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir6:name</name>
+    <pv>$(p)stat:dir6:name</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir6:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir6:total</name>
+    <pv>$(p)stat:dir6:total</pv>
+    <egu>MB</egu>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir6:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir6:used</name>
+    <pv>$(p)stat:dir6:used</pv>
+    <egu>MB</egu>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir6:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir6:free</name>
+    <pv>$(p)stat:dir6:free</pv>
+    <egu>%%</egu>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir7" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir7</name>
+    <pv>$(p)stat:dir7</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir7:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir7:name</name>
+    <pv>$(p)stat:dir7:name</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir7:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir7:total</name>
+    <pv>$(p)stat:dir7:total</pv>
+    <egu>MB</egu>
+    <index>7</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir7:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir7:used</name>
+    <pv>$(p)stat:dir7:used</pv>
+    <egu>MB</egu>
+    <index>7</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir7:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir7:free</name>
+    <pv>$(p)stat:dir7:free</pv>
+    <egu>%%</egu>
+    <index>7</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir8" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir8</name>
+    <pv>$(p)stat:dir8</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir8:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir8:name</name>
+    <pv>$(p)stat:dir8:name</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir8:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir8:total</name>
+    <pv>$(p)stat:dir8:total</pv>
+    <egu>MB</egu>
+    <index>8</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir8:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir8:used</name>
+    <pv>$(p)stat:dir8:used</pv>
+    <egu>MB</egu>
+    <index>8</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir8:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir8:free</name>
+    <pv>$(p)stat:dir8:free</pv>
+    <egu>%%</egu>
+    <index>8</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir9" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir9</name>
+    <pv>$(p)stat:dir9</pv>
+    <index>9</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir9:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir9:name</name>
+    <pv>$(p)stat:dir9:name</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir9:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir9:total</name>
+    <pv>$(p)stat:dir9:total</pv>
+    <egu>MB</egu>
+    <index>9</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir9:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir9:used</name>
+    <pv>$(p)stat:dir9:used</pv>
+    <egu>MB</egu>
+    <index>9</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir9:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir9:free</name>
+    <pv>$(p)stat:dir9:free</pv>
+    <egu>%%</egu>
+    <index>9</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir10" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir10</name>
+    <pv>$(p)stat:dir10</pv>
+    <index>10</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir10:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir10:name</name>
+    <pv>$(p)stat:dir10:name</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir10:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir10:total</name>
+    <pv>$(p)stat:dir10:total</pv>
+    <egu>MB</egu>
+    <index>10</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir10:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir10:used</name>
+    <pv>$(p)stat:dir10:used</pv>
+    <egu>MB</egu>
+    <index>10</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir10:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir10:free</name>
+    <pv>$(p)stat:dir10:free</pv>
+    <egu>%%</egu>
+    <index>10</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir11" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir11</name>
+    <pv>$(p)stat:dir11</pv>
+    <index>11</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir11:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir11:name</name>
+    <pv>$(p)stat:dir11:name</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir11:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir11:total</name>
+    <pv>$(p)stat:dir11:total</pv>
+    <egu>MB</egu>
+    <index>11</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir11:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir11:used</name>
+    <pv>$(p)stat:dir11:used</pv>
+    <egu>MB</egu>
+    <index>11</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir11:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir11:free</name>
+    <pv>$(p)stat:dir11:free</pv>
+    <egu>%%</egu>
+    <index>11</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir12" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir12</name>
+    <pv>$(p)stat:dir12</pv>
+    <index>12</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir12:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir12:name</name>
+    <pv>$(p)stat:dir12:name</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir12:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir12:total</name>
+    <pv>$(p)stat:dir12:total</pv>
+    <egu>MB</egu>
+    <index>12</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir12:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir12:used</name>
+    <pv>$(p)stat:dir12:used</pv>
+    <egu>MB</egu>
+    <index>12</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir12:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir12:free</name>
+    <pv>$(p)stat:dir12:free</pv>
+    <egu>%%</egu>
+    <index>12</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir13" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir13</name>
+    <pv>$(p)stat:dir13</pv>
+    <index>13</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir13:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir13:name</name>
+    <pv>$(p)stat:dir13:name</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir13:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir13:total</name>
+    <pv>$(p)stat:dir13:total</pv>
+    <egu>MB</egu>
+    <index>13</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir13:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir13:used</name>
+    <pv>$(p)stat:dir13:used</pv>
+    <egu>MB</egu>
+    <index>13</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir13:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir13:free</name>
+    <pv>$(p)stat:dir13:free</pv>
+    <egu>%%</egu>
+    <index>13</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir14" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir14</name>
+    <pv>$(p)stat:dir14</pv>
+    <index>14</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir14:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir14:name</name>
+    <pv>$(p)stat:dir14:name</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir14:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir14:total</name>
+    <pv>$(p)stat:dir14:total</pv>
+    <egu>MB</egu>
+    <index>14</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir14:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir14:used</name>
+    <pv>$(p)stat:dir14:used</pv>
+    <egu>MB</egu>
+    <index>14</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir14:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir14:free</name>
+    <pv>$(p)stat:dir14:free</pv>
+    <egu>%%</egu>
+    <index>14</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir15" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir15</name>
+    <pv>$(p)stat:dir15</pv>
+    <index>15</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir15:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir15:name</name>
+    <pv>$(p)stat:dir15:name</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir15:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir15:total</name>
+    <pv>$(p)stat:dir15:total</pv>
+    <egu>MB</egu>
+    <index>15</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir15:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir15:used</name>
+    <pv>$(p)stat:dir15:used</pv>
+    <egu>MB</egu>
+    <index>15</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir15:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir15:free</name>
+    <pv>$(p)stat:dir15:free</pv>
+    <egu>%%</egu>
+    <index>15</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir16" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir16</name>
+    <pv>$(p)stat:dir16</pv>
+    <index>16</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir16:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir16:name</name>
+    <pv>$(p)stat:dir16:name</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir16:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir16:total</name>
+    <pv>$(p)stat:dir16:total</pv>
+    <egu>MB</egu>
+    <index>16</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir16:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir16:used</name>
+    <pv>$(p)stat:dir16:used</pv>
+    <egu>MB</egu>
+    <index>16</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir16:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir16:free</name>
+    <pv>$(p)stat:dir16:free</pv>
+    <egu>%%</egu>
+    <index>16</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir17" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir17</name>
+    <pv>$(p)stat:dir17</pv>
+    <index>17</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir17:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir17:name</name>
+    <pv>$(p)stat:dir17:name</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir17:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir17:total</name>
+    <pv>$(p)stat:dir17:total</pv>
+    <egu>MB</egu>
+    <index>17</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir17:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir17:used</name>
+    <pv>$(p)stat:dir17:used</pv>
+    <egu>MB</egu>
+    <index>17</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir17:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir17:free</name>
+    <pv>$(p)stat:dir17:free</pv>
+    <egu>%%</egu>
+    <index>17</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir18" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir18</name>
+    <pv>$(p)stat:dir18</pv>
+    <index>18</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir18:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir18:name</name>
+    <pv>$(p)stat:dir18:name</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir18:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir18:total</name>
+    <pv>$(p)stat:dir18:total</pv>
+    <egu>MB</egu>
+    <index>18</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir18:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir18:used</name>
+    <pv>$(p)stat:dir18:used</pv>
+    <egu>MB</egu>
+    <index>18</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir18:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir18:free</name>
+    <pv>$(p)stat:dir18:free</pv>
+    <egu>%%</egu>
+    <index>18</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir19" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir19</name>
+    <pv>$(p)stat:dir19</pv>
+    <index>19</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir19:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir19:name</name>
+    <pv>$(p)stat:dir19:name</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir19:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir19:total</name>
+    <pv>$(p)stat:dir19:total</pv>
+    <egu>MB</egu>
+    <index>19</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir19:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir19:used</name>
+    <pv>$(p)stat:dir19:used</pv>
+    <egu>MB</egu>
+    <index>19</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir19:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir19:free</name>
+    <pv>$(p)stat:dir19:free</pv>
+    <egu>%%</egu>
+    <index>19</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="stat:dir20" type="iocStructure">
+    <comment></comment>
+    <name>stat:dir20</name>
+    <pv>$(p)stat:dir20</pv>
+    <index>20</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="stat:dir20:name" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir20:name</name>
+    <pv>$(p)stat:dir20:name</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir20:total" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir20:total</name>
+    <pv>$(p)stat:dir20:total</pv>
+    <egu>MB</egu>
+    <index>20</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir20:used" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir20:used</name>
+    <pv>$(p)stat:dir20:used</pv>
+    <egu>MB</egu>
+    <index>20</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="stat:dir20:free" type="iocPoint">
+    <comment></comment>
+    <name>stat:dir20:free</name>
+    <pv>$(p)stat:dir20:free</pv>
+    <egu>%%</egu>
+    <index>20</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+</macros>

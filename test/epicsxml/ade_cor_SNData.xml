@@ -1,0 +1,261 @@
+<macros>
+  <Group name="SNData:type" type="iocEnumValue">
+    <comment>board type:board type</comment>
+    <name>SNData:type</name>
+    <pv>$(p)$(card)SNData:type</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:dsp_rev" type="iocPoint">
+    <comment>DSP card revision</comment>
+    <name>SNData:dsp_rev</name>
+    <pv>$(p)$(card)SNData:dsp_rev</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:bullant_rev" type="iocPoint">
+    <comment>Bullant revision</comment>
+    <name>SNData:bullant_rev</name>
+    <pv>$(p)$(card)SNData:bullant_rev</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:bullant_rom" type="iocPoint">
+    <comment>bullant rom</comment>
+    <name>SNData:bullant_rom</name>
+    <pv>$(p)$(card)SNData:bullant_rom</pv>
+    <type>uint64</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:dsp_rom" type="iocPoint">
+    <comment>dsp rom</comment>
+    <name>SNData:dsp_rom</name>
+    <pv>$(p)$(card)SNData:dsp_rom</pv>
+    <type>uint64</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:aux_rom" type="iocPoint">
+    <comment>aux rom</comment>
+    <name>SNData:aux_rom</name>
+    <pv>$(p)$(card)SNData:aux_rom</pv>
+    <type>uint64</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:bullant_sn" type="iocPoint">
+    <comment>bullant serial</comment>
+    <name>SNData:bullant_sn</name>
+    <pv>$(p)$(card)SNData:bullant_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:dsp_sn" type="iocPoint">
+    <comment>dsp serial</comment>
+    <name>SNData:dsp_sn</name>
+    <pv>$(p)$(card)SNData:dsp_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:bullant_ver" type="iocPoint">
+    <comment>bullant version</comment>
+    <name>SNData:bullant_ver</name>
+    <pv>$(p)$(card)SNData:bullant_ver</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:chassis_sn" type="iocPoint">
+    <comment>chassis serial</comment>
+    <name>SNData:chassis_sn</name>
+    <pv>$(p)$(card)SNData:chassis_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fanbackplane_sn" type="iocPoint">
+    <comment>fan backplane serial</comment>
+    <name>SNData:fanbackplane_sn</name>
+    <pv>$(p)$(card)SNData:fanbackplane_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:aux_sn" type="iocPoint">
+    <comment>Aux serial</comment>
+    <name>SNData:aux_sn</name>
+    <pv>$(p)$(card)SNData:aux_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:synthesiser_sn" type="iocPoint">
+    <comment>DRX Synthesiser serial</comment>
+    <name>SNData:synthesiser_sn</name>
+    <pv>$(p)$(card)SNData:synthesiser_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:linear_power_sn" type="iocPoint">
+    <comment>Linear Power supply serial</comment>
+    <name>SNData:linear_power_sn</name>
+    <pv>$(p)$(card)SNData:linear_power_sn</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fpga_ver" type="iocArray">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver</name>
+    <pv>$(p)$(card)SNData:fpga_ver</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="SNData:fpga_ver1" type="iocPoint">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver1</name>
+    <pv>$(p)$(card)SNData:fpga_ver1</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fpga_ver2" type="iocPoint">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver2</name>
+    <pv>$(p)$(card)SNData:fpga_ver2</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fpga_ver3" type="iocPoint">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver3</name>
+    <pv>$(p)$(card)SNData:fpga_ver3</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fpga_ver4" type="iocPoint">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver4</name>
+    <pv>$(p)$(card)SNData:fpga_ver4</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fpga_ver5" type="iocPoint">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver5</name>
+    <pv>$(p)$(card)SNData:fpga_ver5</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:fpga_ver6" type="iocPoint">
+    <comment>fpga verions</comment>
+    <name>SNData:fpga_ver6</name>
+    <pv>$(p)$(card)SNData:fpga_ver6</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="SNData:rfof_sn" type="iocArray">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn</name>
+    <pv>$(p)$(card)SNData:rfof_sn</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="SNData:rfof_sn1" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn1</name>
+    <pv>$(p)$(card)SNData:rfof_sn1</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn2" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn2</name>
+    <pv>$(p)$(card)SNData:rfof_sn2</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn3" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn3</name>
+    <pv>$(p)$(card)SNData:rfof_sn3</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn4" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn4</name>
+    <pv>$(p)$(card)SNData:rfof_sn4</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn5" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn5</name>
+    <pv>$(p)$(card)SNData:rfof_sn5</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn6" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn6</name>
+    <pv>$(p)$(card)SNData:rfof_sn6</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn7" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn7</name>
+    <pv>$(p)$(card)SNData:rfof_sn7</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:rfof_sn8" type="iocPoint">
+    <comment>rfof serial</comment>
+    <name>SNData:rfof_sn8</name>
+    <pv>$(p)$(card)SNData:rfof_sn8</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="SNData:sfpVendor" type="iocPoint">
+    <comment>SFP vendor</comment>
+    <name>SNData:sfpVendor</name>
+    <pv>$(p)$(card)SNData:sfpVendor</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:sfpPartNo" type="iocPoint">
+    <comment>SFP part no.</comment>
+    <name>SNData:sfpPartNo</name>
+    <pv>$(p)$(card)SNData:sfpPartNo</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:sfpRevision" type="iocPoint">
+    <comment>SFP revision</comment>
+    <name>SNData:sfpRevision</name>
+    <pv>$(p)$(card)SNData:sfpRevision</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:sfpSerial" type="iocPoint">
+    <comment>SFP serial</comment>
+    <name>SNData:sfpSerial</name>
+    <pv>$(p)$(card)SNData:sfpSerial</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="SNData:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>SNData:status</name>
+    <pv>$(p)$(card)SNData:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+</macros>

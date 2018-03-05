@@ -1,0 +1,65 @@
+<macros>
+  <Group name="BitfileInfo1D" type="iocStructure">
+    <comment></comment>
+    <name>BitfileInfo1D</name>
+    <pv>$(p)BitfileInfo1D</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="BitfileInfo1D:filename" type="iocPoint">
+    <comment>filename</comment>
+    <name>BitfileInfo1D:filename</name>
+    <pv>$(p)BitfileInfo1D:filename</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:options" type="iocPoint">
+    <comment>options</comment>
+    <name>BitfileInfo1D:options</name>
+    <pv>$(p)BitfileInfo1D:options</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:part" type="iocPoint">
+    <comment>part number</comment>
+    <name>BitfileInfo1D:part</name>
+    <pv>$(p)BitfileInfo1D:part</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:date" type="iocPoint">
+    <comment>date</comment>
+    <name>BitfileInfo1D:date</name>
+    <pv>$(p)BitfileInfo1D:date</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:time" type="iocPoint">
+    <comment>time</comment>
+    <name>BitfileInfo1D:time</name>
+    <pv>$(p)BitfileInfo1D:time</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:totalBytes" type="iocPoint">
+    <comment>file size</comment>
+    <name>BitfileInfo1D:totalBytes</name>
+    <pv>$(p)BitfileInfo1D:totalBytes</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:loadSpeed" type="iocPoint">
+    <comment>speed</comment>
+    <name>BitfileInfo1D:loadSpeed</name>
+    <pv>$(p)BitfileInfo1D:loadSpeed</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="BitfileInfo1D:md5Sum" type="iocPoint">
+    <comment>MD5 Sum</comment>
+    <name>BitfileInfo1D:md5Sum</name>
+    <pv>$(p)BitfileInfo1D:md5Sum</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

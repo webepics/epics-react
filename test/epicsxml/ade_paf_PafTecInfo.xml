@@ -1,0 +1,329 @@
+<macros>
+  <Group name="tec:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafTecInfo:status</name>
+    <pv>$(p)tec:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:totalErrors" type="iocPoint">
+    <comment>TEC combined comms errors</comment>
+    <name>PafTecInfo:totalErrors</name>
+    <pv>$(p)tec:totalErrors</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc1" type="iocStructure">
+    <comment></comment>
+    <name>PafTecInfo:adc1</name>
+    <pv>$(p)tec:adc1</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc1:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafTecInfo:adc1:status</name>
+    <pv>$(p)tec:adc1:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc1:errorCount" type="iocPoint">
+    <comment>PSU comms errors</comment>
+    <name>PafTecInfo:adc1:errorCount</name>
+    <pv>$(p)tec:adc1:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc1:cmiTemps" type="iocStructure">
+    <comment></comment>
+    <name>PafTecInfo:adc1:cmiTemps</name>
+    <pv>$(p)tec:adc1:cmiTemps</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc1:cmiTemps:temp" type="iocArray">
+    <comment>CMI Temps</comment>
+    <name>PafTecInfo:adc1:cmiTemps:temp</name>
+    <pv>$(p)tec:adc1:cmiTemps:temp</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc1:cmiTemps:temp1" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafTecInfo:adc1:cmiTemps:temp1</name>
+    <pv>$(p)tec:adc1:cmiTemps:temp1</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc1:cmiTemps:temp2" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafTecInfo:adc1:cmiTemps:temp2</name>
+    <pv>$(p)tec:adc1:cmiTemps:temp2</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc1:cmiTemps:temp3" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafTecInfo:adc1:cmiTemps:temp3</name>
+    <pv>$(p)tec:adc1:cmiTemps:temp3</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc1:cmiTemps:temp4" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafTecInfo:adc1:cmiTemps:temp4</name>
+    <pv>$(p)tec:adc1:cmiTemps:temp4</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="tec:adc2PInternal" type="iocStructure">
+    <comment>Internal Peltier Temp</comment>
+    <name>PafTecInfo:adc2PInternal</name>
+    <pv>$(p)tec:adc2PInternal</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc2PInternal:status" type="iocPoint">
+    <comment>Internal Peltier Temp:AdbeStatus</comment>
+    <name>PafTecInfo:adc2PInternal:status</name>
+    <pv>$(p)tec:adc2PInternal:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:errorCount" type="iocPoint">
+    <comment>Internal Peltier Temp:ADC2 Internal Comms Errors</comment>
+    <name>PafTecInfo:adc2PInternal:errorCount</name>
+    <pv>$(p)tec:adc2PInternal:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp" type="iocArray">
+    <comment>Internal Peltier Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp</name>
+    <pv>$(p)tec:adc2PInternal:temp</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc2PInternal:temp1" type="iocPoint">
+    <comment>Internal Peltier Temp 1:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp1</name>
+    <pv>$(p)tec:adc2PInternal:temp1</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp2" type="iocPoint">
+    <comment>Internal Peltier Temp 2:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp2</name>
+    <pv>$(p)tec:adc2PInternal:temp2</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp3" type="iocPoint">
+    <comment>Internal Peltier Temp 3:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp3</name>
+    <pv>$(p)tec:adc2PInternal:temp3</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp4" type="iocPoint">
+    <comment>Internal Peltier Temp 4:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp4</name>
+    <pv>$(p)tec:adc2PInternal:temp4</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp5" type="iocPoint">
+    <comment>Internal Peltier Temp 5:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp5</name>
+    <pv>$(p)tec:adc2PInternal:temp5</pv>
+    <egu>C</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp6" type="iocPoint">
+    <comment>Internal Peltier Temp 6:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp6</name>
+    <pv>$(p)tec:adc2PInternal:temp6</pv>
+    <egu>C</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp7" type="iocPoint">
+    <comment>Internal Peltier Temp 7:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp7</name>
+    <pv>$(p)tec:adc2PInternal:temp7</pv>
+    <egu>C</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PInternal:temp8" type="iocPoint">
+    <comment>Internal Peltier Temp 8:TEC Temp</comment>
+    <name>PafTecInfo:adc2PInternal:temp8</name>
+    <pv>$(p)tec:adc2PInternal:temp8</pv>
+    <egu>C</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="tec:adc2PExternal" type="iocStructure">
+    <comment>External Peltier Temp</comment>
+    <name>PafTecInfo:adc2PExternal</name>
+    <pv>$(p)tec:adc2PExternal</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc2PExternal:status" type="iocPoint">
+    <comment>External Peltier Temp:AdbeStatus</comment>
+    <name>PafTecInfo:adc2PExternal:status</name>
+    <pv>$(p)tec:adc2PExternal:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:errorCount" type="iocPoint">
+    <comment>External Peltier Temp:ADC2 Internal Comms Errors</comment>
+    <name>PafTecInfo:adc2PExternal:errorCount</name>
+    <pv>$(p)tec:adc2PExternal:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp" type="iocArray">
+    <comment>External Peltier Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp</name>
+    <pv>$(p)tec:adc2PExternal:temp</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:adc2PExternal:temp1" type="iocPoint">
+    <comment>External Peltier Temp 1:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp1</name>
+    <pv>$(p)tec:adc2PExternal:temp1</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp2" type="iocPoint">
+    <comment>External Peltier Temp 2:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp2</name>
+    <pv>$(p)tec:adc2PExternal:temp2</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp3" type="iocPoint">
+    <comment>External Peltier Temp 3:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp3</name>
+    <pv>$(p)tec:adc2PExternal:temp3</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp4" type="iocPoint">
+    <comment>External Peltier Temp 4:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp4</name>
+    <pv>$(p)tec:adc2PExternal:temp4</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp5" type="iocPoint">
+    <comment>External Peltier Temp 5:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp5</name>
+    <pv>$(p)tec:adc2PExternal:temp5</pv>
+    <egu>C</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp6" type="iocPoint">
+    <comment>External Peltier Temp 6:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp6</name>
+    <pv>$(p)tec:adc2PExternal:temp6</pv>
+    <egu>C</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp7" type="iocPoint">
+    <comment>External Peltier Temp 7:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp7</name>
+    <pv>$(p)tec:adc2PExternal:temp7</pv>
+    <egu>C</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:adc2PExternal:temp8" type="iocPoint">
+    <comment>External Peltier Temp 8:TEC Temp</comment>
+    <name>PafTecInfo:adc2PExternal:temp8</name>
+    <pv>$(p)tec:adc2PExternal:temp8</pv>
+    <egu>C</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="tec:gpio1" type="iocStructure">
+    <comment></comment>
+    <name>PafTecInfo:gpio1</name>
+    <pv>$(p)tec:gpio1</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tec:gpio1:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafTecInfo:gpio1:status</name>
+    <pv>$(p)tec:gpio1:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:gpio1:errorCount" type="iocPoint">
+    <comment>TEC GPIO1 comms errors</comment>
+    <name>PafTecInfo:gpio1:errorCount</name>
+    <pv>$(p)tec:gpio1:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:gpio1:tempAlm_L" type="iocEnumBit">
+    <comment>TEC Temp Alarm</comment>
+    <name>PafTecInfo:gpio1:tempAlm_L</name>
+    <pv>$(p)tec:gpio1:tempAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:gpio1:reset" type="iocEnumBit">
+    <comment>FPGA logic reset</comment>
+    <name>PafTecInfo:gpio1:reset</name>
+    <pv>$(p)tec:gpio1:reset</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tec:gpio1:adc2GrpSelect" type="iocEnumBit">
+    <comment>TEC output enable</comment>
+    <name>PafTecInfo:gpio1:adc2GrpSelect</name>
+    <pv>$(p)tec:gpio1:adc2GrpSelect</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

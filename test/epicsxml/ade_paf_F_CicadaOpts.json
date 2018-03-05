@@ -1,0 +1,38 @@
+[
+  {
+    "description": "Cicada attenuation (higher= >atten)",
+    "pvname": "$(p)F_CicadaOpts:ROARAtten_O",
+    "name": "F_CicadaOpts:ROARAtten_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_CicadaOpts:opticalSwitch_O",
+    "name": "F_CicadaOpts:opticalSwitch_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_CicadaOpts:enableROAR_O",
+    "name": "F_CicadaOpts:enableROAR_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_CicadaOpts:enableRT_O",
+    "name": "F_CicadaOpts:enableRT_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_CicadaOpts:enableNoise_O",
+    "name": "F_CicadaOpts:enableNoise_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_CicadaOpts:RTAtten_O",
+    "name": "F_CicadaOpts:RTAtten_O",
+    "size": "1"
+  }
+]

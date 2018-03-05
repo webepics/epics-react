@@ -1,0 +1,9 @@
+<macros>
+  <Group name="intCycle:startBATStr" type="iocPoint">
+    <comment>BAT of cycle interrupt</comment>
+    <name>intCycle:startBATStr</name>
+    <pv>$(p)$(card)intCycle:startBATStr</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+</macros>

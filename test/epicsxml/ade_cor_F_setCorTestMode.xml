@@ -1,0 +1,23 @@
+<macros>
+  <Group name="F_setCorTestMode:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_setCorTestMode:exec_O</name>
+    <pv>$(p)$(card)F_setCorTestMode:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setCorTestMode:testMemFile_O" type="iocPoint">
+    <comment>cor pattern upload file</comment>
+    <name>F_setCorTestMode:testMemFile_O</name>
+    <pv>$(p)$(card)F_setCorTestMode:testMemFile_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setCorTestMode:testMode_O" type="iocPoint">
+    <comment>cor test mode</comment>
+    <name>F_setCorTestMode:testMode_O</name>
+    <pv>$(p)$(card)F_setCorTestMode:testMode_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

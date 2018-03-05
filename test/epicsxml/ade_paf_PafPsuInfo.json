@@ -1,0 +1,146 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)psu:status",
+    "name": "PafPsuInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "PSU combined comms errors",
+    "pvname": "$(p)psu:totalErrors",
+    "name": "PafPsuInfo:totalErrors",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)psu:adc1:status",
+    "name": "PafPsuInfo:adc1:status",
+    "size": "1"
+  },
+  {
+    "description": "PSU comms errors",
+    "pvname": "$(p)psu:adc1:errorCount",
+    "name": "PafPsuInfo:adc1:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "RF Volts+",
+    "pvname": "$(p)psu:adc1:rfVoltsPos",
+    "name": "PafPsuInfo:adc1:rfVoltsPos",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "RF Current+",
+    "pvname": "$(p)psu:adc1:rfCurrentPos",
+    "name": "PafPsuInfo:adc1:rfCurrentPos",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "RF Volts-",
+    "pvname": "$(p)psu:adc1:rfVoltsNeg",
+    "name": "PafPsuInfo:adc1:rfVoltsNeg",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "RF Current-",
+    "pvname": "$(p)psu:adc1:rfCurrentNeg",
+    "name": "PafPsuInfo:adc1:rfCurrentNeg",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)psu:adc1:cmiTemps:temp1",
+    "name": "PafPsuInfo:adc1:cmiTemps:temp1",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)psu:adc1:cmiTemps:temp2",
+    "name": "PafPsuInfo:adc1:cmiTemps:temp2",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)psu:adc1:cmiTemps:temp3",
+    "name": "PafPsuInfo:adc1:cmiTemps:temp3",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)psu:adc1:cmiTemps:temp4",
+    "name": "PafPsuInfo:adc1:cmiTemps:temp4",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)psu:gpio1:status",
+    "name": "PafPsuInfo:gpio1:status",
+    "size": "1"
+  },
+  {
+    "description": "PSU GPIO1 comms errors",
+    "pvname": "$(p)psu:gpio1:errorCount",
+    "name": "PafPsuInfo:gpio1:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "FPGA logic reset",
+    "pvname": "$(p)psu:gpio1:reset",
+    "name": "PafPsuInfo:gpio1:reset",
+    "size": "1"
+  },
+  {
+    "description": "PSU Temp Alarm",
+    "pvname": "$(p)psu:gpio1:tempAlm_L",
+    "name": "PafPsuInfo:gpio1:tempAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "PSU Overcurrent Alarm +",
+    "pvname": "$(p)psu:gpio1:rfCurrentPosAlm_L",
+    "name": "PafPsuInfo:gpio1:rfCurrentPosAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "PSU Overcurrent Alarm-",
+    "pvname": "$(p)psu:gpio1:rfCurrentNegAlm_L",
+    "name": "PafPsuInfo:gpio1:rfCurrentNegAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "PSU Overvoltage Alarm +",
+    "pvname": "$(p)psu:gpio1:rfVoutPosHighAlm_L",
+    "name": "PafPsuInfo:gpio1:rfVoutPosHighAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "PSU Overvoltage Alarm -",
+    "pvname": "$(p)psu:gpio1:rfVoutNegHighAlm_L",
+    "name": "PafPsuInfo:gpio1:rfVoutNegHighAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "PSU Undervoltage Alarm +",
+    "pvname": "$(p)psu:gpio1:rfVoutPosLowAlm_L",
+    "name": "PafPsuInfo:gpio1:rfVoutPosLowAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "PSU Undervoltage Alarm -",
+    "pvname": "$(p)psu:gpio1:rfVoutNegLowAlm_L",
+    "name": "PafPsuInfo:gpio1:rfVoutNegLowAlm_L",
+    "size": "1"
+  }
+]

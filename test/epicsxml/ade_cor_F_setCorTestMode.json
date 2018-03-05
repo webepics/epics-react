@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_setCorTestMode:exec_O",
+    "name": "F_setCorTestMode:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "cor pattern upload file",
+    "pvname": "$(p)$(card)F_setCorTestMode:testMemFile_O",
+    "name": "F_setCorTestMode:testMemFile_O",
+    "size": "1"
+  },
+  {
+    "description": "cor test mode",
+    "pvname": "$(p)$(card)F_setCorTestMode:testMode_O",
+    "name": "F_setCorTestMode:testMode_O",
+    "size": "1"
+  }
+]

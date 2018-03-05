@@ -1,0 +1,30 @@
+<macros>
+  <Group name="F_ctrl:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_ctrl:exec_O</name>
+    <pv>$(p)$(card)F_ctrl:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:portMap_O" type="iocPoint">
+    <comment>port mapping</comment>
+    <name>F_ctrl:portMap_O</name>
+    <pv>$(p)$(card)F_ctrl:portMap_O</pv>
+    <type>input</type>
+    <size>192</size>
+  </Group>
+  <Group name="F_ctrl:attenuation_O" type="iocPoint">
+    <comment>attenuation settings</comment>
+    <name>F_ctrl:attenuation_O</name>
+    <pv>$(p)$(card)F_ctrl:attenuation_O</pv>
+    <type>input</type>
+    <size>192</size>
+  </Group>
+  <Group name="F_ctrl:showRefPorts_O" type="iocEnumBit">
+    <comment>show reference ports</comment>
+    <name>F_ctrl:showRefPorts_O</name>
+    <pv>$(p)$(card)F_ctrl:showRefPorts_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

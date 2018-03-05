@@ -1,0 +1,26 @@
+[
+  {
+    "description": "power status",
+    "pvname": "$(p)$(card)CXStatus:powerStatus",
+    "name": "CXStatus:powerStatus",
+    "size": "1"
+  },
+  {
+    "description": "FPGA configured",
+    "pvname": "$(p)$(card)CXStatus:fpgaConfigured",
+    "name": "CXStatus:fpgaConfigured",
+    "size": "1"
+  },
+  {
+    "description": "Band:Band",
+    "pvname": "$(p)$(card)CXStatus:band",
+    "name": "CXStatus:band",
+    "size": "1"
+  },
+  {
+    "description": "Zoom mode:Zoom mode",
+    "pvname": "$(p)$(card)CXStatus:zoom",
+    "name": "CXStatus:zoom",
+    "size": "1"
+  }
+]

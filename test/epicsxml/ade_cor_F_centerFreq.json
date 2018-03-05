@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_centerFreq:exec_O",
+    "name": "F_centerFreq:exec_O",
+    "size": "1"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "description": "power status",
+    "pvname": "$(p)$(card)BFStatus:powerStatus",
+    "name": "BFStatus:powerStatus",
+    "size": "1"
+  },
+  {
+    "description": "FPGA configured",
+    "pvname": "$(p)$(card)BFStatus:fpgaConfigured",
+    "name": "BFStatus:fpgaConfigured",
+    "size": "1"
+  },
+  {
+    "description": "Band:Band",
+    "pvname": "$(p)$(card)BFStatus:band",
+    "name": "BFStatus:band",
+    "size": "1"
+  },
+  {
+    "description": "center frequency",
+    "pvname": "$(p)$(card)BFStatus:centerFreq",
+    "name": "BFStatus:centerFreq",
+    "size": "1"
+  },
+  {
+    "description": "Zoom mode:Zoom mode",
+    "pvname": "$(p)$(card)BFStatus:zoom",
+    "name": "BFStatus:zoom",
+    "size": "1"
+  },
+  {
+    "description": "Port Map",
+    "pvname": "$(p)$(card)BFStatus:portMap",
+    "name": "BFStatus:portMap",
+    "size": "192"
+  },
+  {
+    "description": "Streaming output status",
+    "pvname": "$(p)$(card)BFStatus:streamStatus",
+    "name": "BFStatus:streamStatus",
+    "size": "1"
+  }
+]

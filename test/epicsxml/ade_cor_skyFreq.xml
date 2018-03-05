@@ -1,0 +1,9 @@
+<macros>
+  <Group name="skyFreq:skyFreqList" type="iocPoint">
+    <comment></comment>
+    <name>skyFreq:skyFreqList</name>
+    <pv>$(p)$(card)skyFreq:skyFreqList</pv>
+    <type>double</type>
+    <size>216</size>
+  </Group>
+</macros>

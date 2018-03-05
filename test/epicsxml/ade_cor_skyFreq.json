@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)skyFreq:skyFreqList",
+    "name": "skyFreq:skyFreqList",
+    "size": "216"
+  }
+]

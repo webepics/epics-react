@@ -1,0 +1,4858 @@
+<macros>
+  <Group name="PafSn:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafSnData:status</name>
+    <pv>$(p)PafSn:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:ctrlSerialNo" type="iocPoint">
+    <comment>Controller Serial No.</comment>
+    <name>PafSnData:ctrlSerialNo</name>
+    <pv>$(p)PafSn:ctrlSerialNo</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:ctrlFPGA_Version" type="iocPoint">
+    <comment>Controller Firmware Rev</comment>
+    <name>PafSnData:ctrlFPGA_Version</name>
+    <pv>$(p)PafSn:ctrlFPGA_Version</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:psuCmiSerialNo" type="iocPoint">
+    <comment>PSU CMI Serial No.</comment>
+    <name>PafSnData:psuCmiSerialNo</name>
+    <pv>$(p)PafSn:psuCmiSerialNo</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:psuCmiFPGA_Version" type="iocPoint">
+    <comment>PSU CMI Firmware Rev</comment>
+    <name>PafSnData:psuCmiFPGA_Version</name>
+    <pv>$(p)PafSn:psuCmiFPGA_Version</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:tecCmiSerialNo" type="iocPoint">
+    <comment>TEC CMI Serial No.</comment>
+    <name>PafSnData:tecCmiSerialNo</name>
+    <pv>$(p)PafSn:tecCmiSerialNo</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:tecCmiFPGA_Version" type="iocPoint">
+    <comment>TEC CMI Firmware Rev</comment>
+    <name>PafSnData:tecCmiFPGA_Version</name>
+    <pv>$(p)PafSn:tecCmiFPGA_Version</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:backplaneSnData" type="iocArray">
+    <comment></comment>
+    <name>PafSnData:backplaneSnData</name>
+    <pv>$(p)PafSn:backplaneSnData</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1</name>
+    <pv>$(p)PafSn:bp1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:status" type="iocPoint">
+    <comment> 1:AdbeStatus</comment>
+    <name>PafSnData:bp1:status</name>
+    <pv>$(p)PafSn:bp1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:errorCount" type="iocPoint">
+    <comment> 1:backplane comms errors</comment>
+    <name>PafSnData:bp1:errorCount</name>
+    <pv>$(p)PafSn:bp1:errorCount</pv>
+    <index>1</index>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:bpSerialNo" type="iocPoint">
+    <comment> 1:backplane serial no.</comment>
+    <name>PafSnData:bp1:backplaneSerialNo</name>
+    <pv>$(p)PafSn:bp1:bpSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:fpgaA_Version" type="iocPoint">
+    <comment> 1:FPGA A Version</comment>
+    <name>PafSnData:bp1:fpgaA_Version</name>
+    <pv>$(p)PafSn:bp1:fpgaA_Version</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:cardSnData" type="iocArray">
+    <comment></comment>
+    <name>PafSnData:bp1:cardSnData</name>
+    <pv>$(p)PafSn:bp1:cardSnData</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d1" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d1</name>
+    <pv>$(p)PafSn:bp1:d1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d1:status" type="iocPoint">
+    <comment> 1:AdbeStatus</comment>
+    <name>PafSnData:bp1:d1:status</name>
+    <pv>$(p)PafSn:bp1:d1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d1:rfofSerialNo" type="iocPoint">
+    <comment> 1:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d1:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d1:rfofSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d1:dominoSerialNo" type="iocPoint">
+    <comment> 1:domino serial no.</comment>
+    <name>PafSnData:bp1:d1:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d1:dominoSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d1:filterSerialNo" type="iocPoint">
+    <comment> 1:filter serial no.</comment>
+    <name>PafSnData:bp1:d1:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d1:filterSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d1:lnaSerialNo" type="iocPoint">
+    <comment> 1:LNA serial no.</comment>
+    <name>PafSnData:bp1:d1:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d1:lnaSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d2" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d2</name>
+    <pv>$(p)PafSn:bp1:d2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d2:status" type="iocPoint">
+    <comment> 2:AdbeStatus</comment>
+    <name>PafSnData:bp1:d2:status</name>
+    <pv>$(p)PafSn:bp1:d2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d2:rfofSerialNo" type="iocPoint">
+    <comment> 2:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d2:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d2:rfofSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d2:dominoSerialNo" type="iocPoint">
+    <comment> 2:domino serial no.</comment>
+    <name>PafSnData:bp1:d2:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d2:dominoSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d2:filterSerialNo" type="iocPoint">
+    <comment> 2:filter serial no.</comment>
+    <name>PafSnData:bp1:d2:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d2:filterSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d2:lnaSerialNo" type="iocPoint">
+    <comment> 2:LNA serial no.</comment>
+    <name>PafSnData:bp1:d2:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d2:lnaSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d3" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d3</name>
+    <pv>$(p)PafSn:bp1:d3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d3:status" type="iocPoint">
+    <comment> 3:AdbeStatus</comment>
+    <name>PafSnData:bp1:d3:status</name>
+    <pv>$(p)PafSn:bp1:d3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d3:rfofSerialNo" type="iocPoint">
+    <comment> 3:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d3:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d3:rfofSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d3:dominoSerialNo" type="iocPoint">
+    <comment> 3:domino serial no.</comment>
+    <name>PafSnData:bp1:d3:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d3:dominoSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d3:filterSerialNo" type="iocPoint">
+    <comment> 3:filter serial no.</comment>
+    <name>PafSnData:bp1:d3:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d3:filterSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d3:lnaSerialNo" type="iocPoint">
+    <comment> 3:LNA serial no.</comment>
+    <name>PafSnData:bp1:d3:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d3:lnaSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d4" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d4</name>
+    <pv>$(p)PafSn:bp1:d4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d4:status" type="iocPoint">
+    <comment> 4:AdbeStatus</comment>
+    <name>PafSnData:bp1:d4:status</name>
+    <pv>$(p)PafSn:bp1:d4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d4:rfofSerialNo" type="iocPoint">
+    <comment> 4:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d4:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d4:rfofSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d4:dominoSerialNo" type="iocPoint">
+    <comment> 4:domino serial no.</comment>
+    <name>PafSnData:bp1:d4:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d4:dominoSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d4:filterSerialNo" type="iocPoint">
+    <comment> 4:filter serial no.</comment>
+    <name>PafSnData:bp1:d4:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d4:filterSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d4:lnaSerialNo" type="iocPoint">
+    <comment> 4:LNA serial no.</comment>
+    <name>PafSnData:bp1:d4:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d4:lnaSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d5" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d5</name>
+    <pv>$(p)PafSn:bp1:d5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d5:status" type="iocPoint">
+    <comment> 5:AdbeStatus</comment>
+    <name>PafSnData:bp1:d5:status</name>
+    <pv>$(p)PafSn:bp1:d5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d5:rfofSerialNo" type="iocPoint">
+    <comment> 5:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d5:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d5:rfofSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d5:dominoSerialNo" type="iocPoint">
+    <comment> 5:domino serial no.</comment>
+    <name>PafSnData:bp1:d5:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d5:dominoSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d5:filterSerialNo" type="iocPoint">
+    <comment> 5:filter serial no.</comment>
+    <name>PafSnData:bp1:d5:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d5:filterSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d5:lnaSerialNo" type="iocPoint">
+    <comment> 5:LNA serial no.</comment>
+    <name>PafSnData:bp1:d5:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d5:lnaSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d6" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d6</name>
+    <pv>$(p)PafSn:bp1:d6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d6:status" type="iocPoint">
+    <comment> 6:AdbeStatus</comment>
+    <name>PafSnData:bp1:d6:status</name>
+    <pv>$(p)PafSn:bp1:d6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d6:rfofSerialNo" type="iocPoint">
+    <comment> 6:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d6:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d6:rfofSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d6:dominoSerialNo" type="iocPoint">
+    <comment> 6:domino serial no.</comment>
+    <name>PafSnData:bp1:d6:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d6:dominoSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d6:filterSerialNo" type="iocPoint">
+    <comment> 6:filter serial no.</comment>
+    <name>PafSnData:bp1:d6:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d6:filterSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d6:lnaSerialNo" type="iocPoint">
+    <comment> 6:LNA serial no.</comment>
+    <name>PafSnData:bp1:d6:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d6:lnaSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d7" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d7</name>
+    <pv>$(p)PafSn:bp1:d7</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d7:status" type="iocPoint">
+    <comment> 7:AdbeStatus</comment>
+    <name>PafSnData:bp1:d7:status</name>
+    <pv>$(p)PafSn:bp1:d7:status</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d7:rfofSerialNo" type="iocPoint">
+    <comment> 7:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d7:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d7:rfofSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d7:dominoSerialNo" type="iocPoint">
+    <comment> 7:domino serial no.</comment>
+    <name>PafSnData:bp1:d7:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d7:dominoSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d7:filterSerialNo" type="iocPoint">
+    <comment> 7:filter serial no.</comment>
+    <name>PafSnData:bp1:d7:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d7:filterSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d7:lnaSerialNo" type="iocPoint">
+    <comment> 7:LNA serial no.</comment>
+    <name>PafSnData:bp1:d7:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d7:lnaSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d8" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d8</name>
+    <pv>$(p)PafSn:bp1:d8</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d8:status" type="iocPoint">
+    <comment> 8:AdbeStatus</comment>
+    <name>PafSnData:bp1:d8:status</name>
+    <pv>$(p)PafSn:bp1:d8:status</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d8:rfofSerialNo" type="iocPoint">
+    <comment> 8:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d8:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d8:rfofSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d8:dominoSerialNo" type="iocPoint">
+    <comment> 8:domino serial no.</comment>
+    <name>PafSnData:bp1:d8:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d8:dominoSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d8:filterSerialNo" type="iocPoint">
+    <comment> 8:filter serial no.</comment>
+    <name>PafSnData:bp1:d8:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d8:filterSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d8:lnaSerialNo" type="iocPoint">
+    <comment> 8:LNA serial no.</comment>
+    <name>PafSnData:bp1:d8:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d8:lnaSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d9" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d9</name>
+    <pv>$(p)PafSn:bp1:d9</pv>
+    <index>9</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d9:status" type="iocPoint">
+    <comment> 9:AdbeStatus</comment>
+    <name>PafSnData:bp1:d9:status</name>
+    <pv>$(p)PafSn:bp1:d9:status</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d9:rfofSerialNo" type="iocPoint">
+    <comment> 9:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d9:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d9:rfofSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d9:dominoSerialNo" type="iocPoint">
+    <comment> 9:domino serial no.</comment>
+    <name>PafSnData:bp1:d9:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d9:dominoSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d9:filterSerialNo" type="iocPoint">
+    <comment> 9:filter serial no.</comment>
+    <name>PafSnData:bp1:d9:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d9:filterSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d9:lnaSerialNo" type="iocPoint">
+    <comment> 9:LNA serial no.</comment>
+    <name>PafSnData:bp1:d9:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d9:lnaSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d10" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d10</name>
+    <pv>$(p)PafSn:bp1:d10</pv>
+    <index>10</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d10:status" type="iocPoint">
+    <comment> 10:AdbeStatus</comment>
+    <name>PafSnData:bp1:d10:status</name>
+    <pv>$(p)PafSn:bp1:d10:status</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d10:rfofSerialNo" type="iocPoint">
+    <comment> 10:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d10:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d10:rfofSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d10:dominoSerialNo" type="iocPoint">
+    <comment> 10:domino serial no.</comment>
+    <name>PafSnData:bp1:d10:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d10:dominoSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d10:filterSerialNo" type="iocPoint">
+    <comment> 10:filter serial no.</comment>
+    <name>PafSnData:bp1:d10:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d10:filterSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d10:lnaSerialNo" type="iocPoint">
+    <comment> 10:LNA serial no.</comment>
+    <name>PafSnData:bp1:d10:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d10:lnaSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d11" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d11</name>
+    <pv>$(p)PafSn:bp1:d11</pv>
+    <index>11</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d11:status" type="iocPoint">
+    <comment> 11:AdbeStatus</comment>
+    <name>PafSnData:bp1:d11:status</name>
+    <pv>$(p)PafSn:bp1:d11:status</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d11:rfofSerialNo" type="iocPoint">
+    <comment> 11:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d11:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d11:rfofSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d11:dominoSerialNo" type="iocPoint">
+    <comment> 11:domino serial no.</comment>
+    <name>PafSnData:bp1:d11:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d11:dominoSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d11:filterSerialNo" type="iocPoint">
+    <comment> 11:filter serial no.</comment>
+    <name>PafSnData:bp1:d11:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d11:filterSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d11:lnaSerialNo" type="iocPoint">
+    <comment> 11:LNA serial no.</comment>
+    <name>PafSnData:bp1:d11:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d11:lnaSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d12" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d12</name>
+    <pv>$(p)PafSn:bp1:d12</pv>
+    <index>12</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d12:status" type="iocPoint">
+    <comment> 12:AdbeStatus</comment>
+    <name>PafSnData:bp1:d12:status</name>
+    <pv>$(p)PafSn:bp1:d12:status</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d12:rfofSerialNo" type="iocPoint">
+    <comment> 12:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d12:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d12:rfofSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d12:dominoSerialNo" type="iocPoint">
+    <comment> 12:domino serial no.</comment>
+    <name>PafSnData:bp1:d12:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d12:dominoSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d12:filterSerialNo" type="iocPoint">
+    <comment> 12:filter serial no.</comment>
+    <name>PafSnData:bp1:d12:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d12:filterSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d12:lnaSerialNo" type="iocPoint">
+    <comment> 12:LNA serial no.</comment>
+    <name>PafSnData:bp1:d12:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d12:lnaSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d13" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d13</name>
+    <pv>$(p)PafSn:bp1:d13</pv>
+    <index>13</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d13:status" type="iocPoint">
+    <comment> 13:AdbeStatus</comment>
+    <name>PafSnData:bp1:d13:status</name>
+    <pv>$(p)PafSn:bp1:d13:status</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d13:rfofSerialNo" type="iocPoint">
+    <comment> 13:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d13:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d13:rfofSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d13:dominoSerialNo" type="iocPoint">
+    <comment> 13:domino serial no.</comment>
+    <name>PafSnData:bp1:d13:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d13:dominoSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d13:filterSerialNo" type="iocPoint">
+    <comment> 13:filter serial no.</comment>
+    <name>PafSnData:bp1:d13:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d13:filterSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d13:lnaSerialNo" type="iocPoint">
+    <comment> 13:LNA serial no.</comment>
+    <name>PafSnData:bp1:d13:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d13:lnaSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d14" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d14</name>
+    <pv>$(p)PafSn:bp1:d14</pv>
+    <index>14</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d14:status" type="iocPoint">
+    <comment> 14:AdbeStatus</comment>
+    <name>PafSnData:bp1:d14:status</name>
+    <pv>$(p)PafSn:bp1:d14:status</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d14:rfofSerialNo" type="iocPoint">
+    <comment> 14:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d14:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d14:rfofSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d14:dominoSerialNo" type="iocPoint">
+    <comment> 14:domino serial no.</comment>
+    <name>PafSnData:bp1:d14:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d14:dominoSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d14:filterSerialNo" type="iocPoint">
+    <comment> 14:filter serial no.</comment>
+    <name>PafSnData:bp1:d14:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d14:filterSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d14:lnaSerialNo" type="iocPoint">
+    <comment> 14:LNA serial no.</comment>
+    <name>PafSnData:bp1:d14:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d14:lnaSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d15" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d15</name>
+    <pv>$(p)PafSn:bp1:d15</pv>
+    <index>15</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d15:status" type="iocPoint">
+    <comment> 15:AdbeStatus</comment>
+    <name>PafSnData:bp1:d15:status</name>
+    <pv>$(p)PafSn:bp1:d15:status</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d15:rfofSerialNo" type="iocPoint">
+    <comment> 15:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d15:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d15:rfofSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d15:dominoSerialNo" type="iocPoint">
+    <comment> 15:domino serial no.</comment>
+    <name>PafSnData:bp1:d15:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d15:dominoSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d15:filterSerialNo" type="iocPoint">
+    <comment> 15:filter serial no.</comment>
+    <name>PafSnData:bp1:d15:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d15:filterSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d15:lnaSerialNo" type="iocPoint">
+    <comment> 15:LNA serial no.</comment>
+    <name>PafSnData:bp1:d15:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d15:lnaSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d16" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d16</name>
+    <pv>$(p)PafSn:bp1:d16</pv>
+    <index>16</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d16:status" type="iocPoint">
+    <comment> 16:AdbeStatus</comment>
+    <name>PafSnData:bp1:d16:status</name>
+    <pv>$(p)PafSn:bp1:d16:status</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d16:rfofSerialNo" type="iocPoint">
+    <comment> 16:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d16:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d16:rfofSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d16:dominoSerialNo" type="iocPoint">
+    <comment> 16:domino serial no.</comment>
+    <name>PafSnData:bp1:d16:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d16:dominoSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d16:filterSerialNo" type="iocPoint">
+    <comment> 16:filter serial no.</comment>
+    <name>PafSnData:bp1:d16:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d16:filterSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d16:lnaSerialNo" type="iocPoint">
+    <comment> 16:LNA serial no.</comment>
+    <name>PafSnData:bp1:d16:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d16:lnaSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d17" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d17</name>
+    <pv>$(p)PafSn:bp1:d17</pv>
+    <index>17</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d17:status" type="iocPoint">
+    <comment> 17:AdbeStatus</comment>
+    <name>PafSnData:bp1:d17:status</name>
+    <pv>$(p)PafSn:bp1:d17:status</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d17:rfofSerialNo" type="iocPoint">
+    <comment> 17:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d17:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d17:rfofSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d17:dominoSerialNo" type="iocPoint">
+    <comment> 17:domino serial no.</comment>
+    <name>PafSnData:bp1:d17:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d17:dominoSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d17:filterSerialNo" type="iocPoint">
+    <comment> 17:filter serial no.</comment>
+    <name>PafSnData:bp1:d17:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d17:filterSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d17:lnaSerialNo" type="iocPoint">
+    <comment> 17:LNA serial no.</comment>
+    <name>PafSnData:bp1:d17:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d17:lnaSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d18" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d18</name>
+    <pv>$(p)PafSn:bp1:d18</pv>
+    <index>18</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d18:status" type="iocPoint">
+    <comment> 18:AdbeStatus</comment>
+    <name>PafSnData:bp1:d18:status</name>
+    <pv>$(p)PafSn:bp1:d18:status</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d18:rfofSerialNo" type="iocPoint">
+    <comment> 18:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d18:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d18:rfofSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d18:dominoSerialNo" type="iocPoint">
+    <comment> 18:domino serial no.</comment>
+    <name>PafSnData:bp1:d18:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d18:dominoSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d18:filterSerialNo" type="iocPoint">
+    <comment> 18:filter serial no.</comment>
+    <name>PafSnData:bp1:d18:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d18:filterSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d18:lnaSerialNo" type="iocPoint">
+    <comment> 18:LNA serial no.</comment>
+    <name>PafSnData:bp1:d18:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d18:lnaSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d19" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d19</name>
+    <pv>$(p)PafSn:bp1:d19</pv>
+    <index>19</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d19:status" type="iocPoint">
+    <comment> 19:AdbeStatus</comment>
+    <name>PafSnData:bp1:d19:status</name>
+    <pv>$(p)PafSn:bp1:d19:status</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d19:rfofSerialNo" type="iocPoint">
+    <comment> 19:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d19:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d19:rfofSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d19:dominoSerialNo" type="iocPoint">
+    <comment> 19:domino serial no.</comment>
+    <name>PafSnData:bp1:d19:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d19:dominoSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d19:filterSerialNo" type="iocPoint">
+    <comment> 19:filter serial no.</comment>
+    <name>PafSnData:bp1:d19:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d19:filterSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d19:lnaSerialNo" type="iocPoint">
+    <comment> 19:LNA serial no.</comment>
+    <name>PafSnData:bp1:d19:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d19:lnaSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d20" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d20</name>
+    <pv>$(p)PafSn:bp1:d20</pv>
+    <index>20</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d20:status" type="iocPoint">
+    <comment> 20:AdbeStatus</comment>
+    <name>PafSnData:bp1:d20:status</name>
+    <pv>$(p)PafSn:bp1:d20:status</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d20:rfofSerialNo" type="iocPoint">
+    <comment> 20:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d20:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d20:rfofSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d20:dominoSerialNo" type="iocPoint">
+    <comment> 20:domino serial no.</comment>
+    <name>PafSnData:bp1:d20:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d20:dominoSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d20:filterSerialNo" type="iocPoint">
+    <comment> 20:filter serial no.</comment>
+    <name>PafSnData:bp1:d20:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d20:filterSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d20:lnaSerialNo" type="iocPoint">
+    <comment> 20:LNA serial no.</comment>
+    <name>PafSnData:bp1:d20:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d20:lnaSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d21" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d21</name>
+    <pv>$(p)PafSn:bp1:d21</pv>
+    <index>21</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d21:status" type="iocPoint">
+    <comment> 21:AdbeStatus</comment>
+    <name>PafSnData:bp1:d21:status</name>
+    <pv>$(p)PafSn:bp1:d21:status</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d21:rfofSerialNo" type="iocPoint">
+    <comment> 21:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d21:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d21:rfofSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d21:dominoSerialNo" type="iocPoint">
+    <comment> 21:domino serial no.</comment>
+    <name>PafSnData:bp1:d21:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d21:dominoSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d21:filterSerialNo" type="iocPoint">
+    <comment> 21:filter serial no.</comment>
+    <name>PafSnData:bp1:d21:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d21:filterSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d21:lnaSerialNo" type="iocPoint">
+    <comment> 21:LNA serial no.</comment>
+    <name>PafSnData:bp1:d21:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d21:lnaSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d22" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d22</name>
+    <pv>$(p)PafSn:bp1:d22</pv>
+    <index>22</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d22:status" type="iocPoint">
+    <comment> 22:AdbeStatus</comment>
+    <name>PafSnData:bp1:d22:status</name>
+    <pv>$(p)PafSn:bp1:d22:status</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d22:rfofSerialNo" type="iocPoint">
+    <comment> 22:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d22:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d22:rfofSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d22:dominoSerialNo" type="iocPoint">
+    <comment> 22:domino serial no.</comment>
+    <name>PafSnData:bp1:d22:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d22:dominoSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d22:filterSerialNo" type="iocPoint">
+    <comment> 22:filter serial no.</comment>
+    <name>PafSnData:bp1:d22:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d22:filterSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d22:lnaSerialNo" type="iocPoint">
+    <comment> 22:LNA serial no.</comment>
+    <name>PafSnData:bp1:d22:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d22:lnaSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d23" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d23</name>
+    <pv>$(p)PafSn:bp1:d23</pv>
+    <index>23</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d23:status" type="iocPoint">
+    <comment> 23:AdbeStatus</comment>
+    <name>PafSnData:bp1:d23:status</name>
+    <pv>$(p)PafSn:bp1:d23:status</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d23:rfofSerialNo" type="iocPoint">
+    <comment> 23:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d23:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d23:rfofSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d23:dominoSerialNo" type="iocPoint">
+    <comment> 23:domino serial no.</comment>
+    <name>PafSnData:bp1:d23:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d23:dominoSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d23:filterSerialNo" type="iocPoint">
+    <comment> 23:filter serial no.</comment>
+    <name>PafSnData:bp1:d23:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d23:filterSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d23:lnaSerialNo" type="iocPoint">
+    <comment> 23:LNA serial no.</comment>
+    <name>PafSnData:bp1:d23:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d23:lnaSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp1:d24" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp1:d24</name>
+    <pv>$(p)PafSn:bp1:d24</pv>
+    <index>24</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp1:d24:status" type="iocPoint">
+    <comment> 24:AdbeStatus</comment>
+    <name>PafSnData:bp1:d24:status</name>
+    <pv>$(p)PafSn:bp1:d24:status</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d24:rfofSerialNo" type="iocPoint">
+    <comment> 24:RFoF serial no.</comment>
+    <name>PafSnData:bp1:d24:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp1:d24:rfofSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d24:dominoSerialNo" type="iocPoint">
+    <comment> 24:domino serial no.</comment>
+    <name>PafSnData:bp1:d24:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp1:d24:dominoSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d24:filterSerialNo" type="iocPoint">
+    <comment> 24:filter serial no.</comment>
+    <name>PafSnData:bp1:d24:filterSerialNo</name>
+    <pv>$(p)PafSn:bp1:d24:filterSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp1:d24:lnaSerialNo" type="iocPoint">
+    <comment> 24:LNA serial no.</comment>
+    <name>PafSnData:bp1:d24:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp1:d24:lnaSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2</name>
+    <pv>$(p)PafSn:bp2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:status" type="iocPoint">
+    <comment> 2:AdbeStatus</comment>
+    <name>PafSnData:bp2:status</name>
+    <pv>$(p)PafSn:bp2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:errorCount" type="iocPoint">
+    <comment> 2:backplane comms errors</comment>
+    <name>PafSnData:bp2:errorCount</name>
+    <pv>$(p)PafSn:bp2:errorCount</pv>
+    <index>2</index>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:bpSerialNo" type="iocPoint">
+    <comment> 2:backplane serial no.</comment>
+    <name>PafSnData:bp2:backplaneSerialNo</name>
+    <pv>$(p)PafSn:bp2:bpSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:fpgaA_Version" type="iocPoint">
+    <comment> 2:FPGA A Version</comment>
+    <name>PafSnData:bp2:fpgaA_Version</name>
+    <pv>$(p)PafSn:bp2:fpgaA_Version</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:cardSnData" type="iocArray">
+    <comment></comment>
+    <name>PafSnData:bp2:cardSnData</name>
+    <pv>$(p)PafSn:bp2:cardSnData</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d1" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d1</name>
+    <pv>$(p)PafSn:bp2:d1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d1:status" type="iocPoint">
+    <comment> 1:AdbeStatus</comment>
+    <name>PafSnData:bp2:d1:status</name>
+    <pv>$(p)PafSn:bp2:d1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d1:rfofSerialNo" type="iocPoint">
+    <comment> 1:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d1:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d1:rfofSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d1:dominoSerialNo" type="iocPoint">
+    <comment> 1:domino serial no.</comment>
+    <name>PafSnData:bp2:d1:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d1:dominoSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d1:filterSerialNo" type="iocPoint">
+    <comment> 1:filter serial no.</comment>
+    <name>PafSnData:bp2:d1:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d1:filterSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d1:lnaSerialNo" type="iocPoint">
+    <comment> 1:LNA serial no.</comment>
+    <name>PafSnData:bp2:d1:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d1:lnaSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d2" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d2</name>
+    <pv>$(p)PafSn:bp2:d2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d2:status" type="iocPoint">
+    <comment> 2:AdbeStatus</comment>
+    <name>PafSnData:bp2:d2:status</name>
+    <pv>$(p)PafSn:bp2:d2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d2:rfofSerialNo" type="iocPoint">
+    <comment> 2:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d2:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d2:rfofSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d2:dominoSerialNo" type="iocPoint">
+    <comment> 2:domino serial no.</comment>
+    <name>PafSnData:bp2:d2:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d2:dominoSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d2:filterSerialNo" type="iocPoint">
+    <comment> 2:filter serial no.</comment>
+    <name>PafSnData:bp2:d2:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d2:filterSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d2:lnaSerialNo" type="iocPoint">
+    <comment> 2:LNA serial no.</comment>
+    <name>PafSnData:bp2:d2:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d2:lnaSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d3" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d3</name>
+    <pv>$(p)PafSn:bp2:d3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d3:status" type="iocPoint">
+    <comment> 3:AdbeStatus</comment>
+    <name>PafSnData:bp2:d3:status</name>
+    <pv>$(p)PafSn:bp2:d3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d3:rfofSerialNo" type="iocPoint">
+    <comment> 3:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d3:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d3:rfofSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d3:dominoSerialNo" type="iocPoint">
+    <comment> 3:domino serial no.</comment>
+    <name>PafSnData:bp2:d3:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d3:dominoSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d3:filterSerialNo" type="iocPoint">
+    <comment> 3:filter serial no.</comment>
+    <name>PafSnData:bp2:d3:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d3:filterSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d3:lnaSerialNo" type="iocPoint">
+    <comment> 3:LNA serial no.</comment>
+    <name>PafSnData:bp2:d3:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d3:lnaSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d4" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d4</name>
+    <pv>$(p)PafSn:bp2:d4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d4:status" type="iocPoint">
+    <comment> 4:AdbeStatus</comment>
+    <name>PafSnData:bp2:d4:status</name>
+    <pv>$(p)PafSn:bp2:d4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d4:rfofSerialNo" type="iocPoint">
+    <comment> 4:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d4:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d4:rfofSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d4:dominoSerialNo" type="iocPoint">
+    <comment> 4:domino serial no.</comment>
+    <name>PafSnData:bp2:d4:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d4:dominoSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d4:filterSerialNo" type="iocPoint">
+    <comment> 4:filter serial no.</comment>
+    <name>PafSnData:bp2:d4:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d4:filterSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d4:lnaSerialNo" type="iocPoint">
+    <comment> 4:LNA serial no.</comment>
+    <name>PafSnData:bp2:d4:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d4:lnaSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d5" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d5</name>
+    <pv>$(p)PafSn:bp2:d5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d5:status" type="iocPoint">
+    <comment> 5:AdbeStatus</comment>
+    <name>PafSnData:bp2:d5:status</name>
+    <pv>$(p)PafSn:bp2:d5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d5:rfofSerialNo" type="iocPoint">
+    <comment> 5:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d5:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d5:rfofSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d5:dominoSerialNo" type="iocPoint">
+    <comment> 5:domino serial no.</comment>
+    <name>PafSnData:bp2:d5:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d5:dominoSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d5:filterSerialNo" type="iocPoint">
+    <comment> 5:filter serial no.</comment>
+    <name>PafSnData:bp2:d5:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d5:filterSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d5:lnaSerialNo" type="iocPoint">
+    <comment> 5:LNA serial no.</comment>
+    <name>PafSnData:bp2:d5:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d5:lnaSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d6" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d6</name>
+    <pv>$(p)PafSn:bp2:d6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d6:status" type="iocPoint">
+    <comment> 6:AdbeStatus</comment>
+    <name>PafSnData:bp2:d6:status</name>
+    <pv>$(p)PafSn:bp2:d6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d6:rfofSerialNo" type="iocPoint">
+    <comment> 6:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d6:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d6:rfofSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d6:dominoSerialNo" type="iocPoint">
+    <comment> 6:domino serial no.</comment>
+    <name>PafSnData:bp2:d6:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d6:dominoSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d6:filterSerialNo" type="iocPoint">
+    <comment> 6:filter serial no.</comment>
+    <name>PafSnData:bp2:d6:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d6:filterSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d6:lnaSerialNo" type="iocPoint">
+    <comment> 6:LNA serial no.</comment>
+    <name>PafSnData:bp2:d6:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d6:lnaSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d7" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d7</name>
+    <pv>$(p)PafSn:bp2:d7</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d7:status" type="iocPoint">
+    <comment> 7:AdbeStatus</comment>
+    <name>PafSnData:bp2:d7:status</name>
+    <pv>$(p)PafSn:bp2:d7:status</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d7:rfofSerialNo" type="iocPoint">
+    <comment> 7:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d7:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d7:rfofSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d7:dominoSerialNo" type="iocPoint">
+    <comment> 7:domino serial no.</comment>
+    <name>PafSnData:bp2:d7:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d7:dominoSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d7:filterSerialNo" type="iocPoint">
+    <comment> 7:filter serial no.</comment>
+    <name>PafSnData:bp2:d7:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d7:filterSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d7:lnaSerialNo" type="iocPoint">
+    <comment> 7:LNA serial no.</comment>
+    <name>PafSnData:bp2:d7:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d7:lnaSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d8" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d8</name>
+    <pv>$(p)PafSn:bp2:d8</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d8:status" type="iocPoint">
+    <comment> 8:AdbeStatus</comment>
+    <name>PafSnData:bp2:d8:status</name>
+    <pv>$(p)PafSn:bp2:d8:status</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d8:rfofSerialNo" type="iocPoint">
+    <comment> 8:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d8:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d8:rfofSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d8:dominoSerialNo" type="iocPoint">
+    <comment> 8:domino serial no.</comment>
+    <name>PafSnData:bp2:d8:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d8:dominoSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d8:filterSerialNo" type="iocPoint">
+    <comment> 8:filter serial no.</comment>
+    <name>PafSnData:bp2:d8:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d8:filterSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d8:lnaSerialNo" type="iocPoint">
+    <comment> 8:LNA serial no.</comment>
+    <name>PafSnData:bp2:d8:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d8:lnaSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d9" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d9</name>
+    <pv>$(p)PafSn:bp2:d9</pv>
+    <index>9</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d9:status" type="iocPoint">
+    <comment> 9:AdbeStatus</comment>
+    <name>PafSnData:bp2:d9:status</name>
+    <pv>$(p)PafSn:bp2:d9:status</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d9:rfofSerialNo" type="iocPoint">
+    <comment> 9:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d9:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d9:rfofSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d9:dominoSerialNo" type="iocPoint">
+    <comment> 9:domino serial no.</comment>
+    <name>PafSnData:bp2:d9:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d9:dominoSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d9:filterSerialNo" type="iocPoint">
+    <comment> 9:filter serial no.</comment>
+    <name>PafSnData:bp2:d9:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d9:filterSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d9:lnaSerialNo" type="iocPoint">
+    <comment> 9:LNA serial no.</comment>
+    <name>PafSnData:bp2:d9:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d9:lnaSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d10" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d10</name>
+    <pv>$(p)PafSn:bp2:d10</pv>
+    <index>10</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d10:status" type="iocPoint">
+    <comment> 10:AdbeStatus</comment>
+    <name>PafSnData:bp2:d10:status</name>
+    <pv>$(p)PafSn:bp2:d10:status</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d10:rfofSerialNo" type="iocPoint">
+    <comment> 10:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d10:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d10:rfofSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d10:dominoSerialNo" type="iocPoint">
+    <comment> 10:domino serial no.</comment>
+    <name>PafSnData:bp2:d10:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d10:dominoSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d10:filterSerialNo" type="iocPoint">
+    <comment> 10:filter serial no.</comment>
+    <name>PafSnData:bp2:d10:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d10:filterSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d10:lnaSerialNo" type="iocPoint">
+    <comment> 10:LNA serial no.</comment>
+    <name>PafSnData:bp2:d10:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d10:lnaSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d11" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d11</name>
+    <pv>$(p)PafSn:bp2:d11</pv>
+    <index>11</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d11:status" type="iocPoint">
+    <comment> 11:AdbeStatus</comment>
+    <name>PafSnData:bp2:d11:status</name>
+    <pv>$(p)PafSn:bp2:d11:status</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d11:rfofSerialNo" type="iocPoint">
+    <comment> 11:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d11:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d11:rfofSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d11:dominoSerialNo" type="iocPoint">
+    <comment> 11:domino serial no.</comment>
+    <name>PafSnData:bp2:d11:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d11:dominoSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d11:filterSerialNo" type="iocPoint">
+    <comment> 11:filter serial no.</comment>
+    <name>PafSnData:bp2:d11:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d11:filterSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d11:lnaSerialNo" type="iocPoint">
+    <comment> 11:LNA serial no.</comment>
+    <name>PafSnData:bp2:d11:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d11:lnaSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d12" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d12</name>
+    <pv>$(p)PafSn:bp2:d12</pv>
+    <index>12</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d12:status" type="iocPoint">
+    <comment> 12:AdbeStatus</comment>
+    <name>PafSnData:bp2:d12:status</name>
+    <pv>$(p)PafSn:bp2:d12:status</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d12:rfofSerialNo" type="iocPoint">
+    <comment> 12:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d12:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d12:rfofSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d12:dominoSerialNo" type="iocPoint">
+    <comment> 12:domino serial no.</comment>
+    <name>PafSnData:bp2:d12:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d12:dominoSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d12:filterSerialNo" type="iocPoint">
+    <comment> 12:filter serial no.</comment>
+    <name>PafSnData:bp2:d12:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d12:filterSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d12:lnaSerialNo" type="iocPoint">
+    <comment> 12:LNA serial no.</comment>
+    <name>PafSnData:bp2:d12:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d12:lnaSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d13" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d13</name>
+    <pv>$(p)PafSn:bp2:d13</pv>
+    <index>13</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d13:status" type="iocPoint">
+    <comment> 13:AdbeStatus</comment>
+    <name>PafSnData:bp2:d13:status</name>
+    <pv>$(p)PafSn:bp2:d13:status</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d13:rfofSerialNo" type="iocPoint">
+    <comment> 13:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d13:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d13:rfofSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d13:dominoSerialNo" type="iocPoint">
+    <comment> 13:domino serial no.</comment>
+    <name>PafSnData:bp2:d13:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d13:dominoSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d13:filterSerialNo" type="iocPoint">
+    <comment> 13:filter serial no.</comment>
+    <name>PafSnData:bp2:d13:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d13:filterSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d13:lnaSerialNo" type="iocPoint">
+    <comment> 13:LNA serial no.</comment>
+    <name>PafSnData:bp2:d13:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d13:lnaSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d14" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d14</name>
+    <pv>$(p)PafSn:bp2:d14</pv>
+    <index>14</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d14:status" type="iocPoint">
+    <comment> 14:AdbeStatus</comment>
+    <name>PafSnData:bp2:d14:status</name>
+    <pv>$(p)PafSn:bp2:d14:status</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d14:rfofSerialNo" type="iocPoint">
+    <comment> 14:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d14:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d14:rfofSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d14:dominoSerialNo" type="iocPoint">
+    <comment> 14:domino serial no.</comment>
+    <name>PafSnData:bp2:d14:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d14:dominoSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d14:filterSerialNo" type="iocPoint">
+    <comment> 14:filter serial no.</comment>
+    <name>PafSnData:bp2:d14:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d14:filterSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d14:lnaSerialNo" type="iocPoint">
+    <comment> 14:LNA serial no.</comment>
+    <name>PafSnData:bp2:d14:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d14:lnaSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d15" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d15</name>
+    <pv>$(p)PafSn:bp2:d15</pv>
+    <index>15</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d15:status" type="iocPoint">
+    <comment> 15:AdbeStatus</comment>
+    <name>PafSnData:bp2:d15:status</name>
+    <pv>$(p)PafSn:bp2:d15:status</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d15:rfofSerialNo" type="iocPoint">
+    <comment> 15:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d15:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d15:rfofSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d15:dominoSerialNo" type="iocPoint">
+    <comment> 15:domino serial no.</comment>
+    <name>PafSnData:bp2:d15:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d15:dominoSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d15:filterSerialNo" type="iocPoint">
+    <comment> 15:filter serial no.</comment>
+    <name>PafSnData:bp2:d15:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d15:filterSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d15:lnaSerialNo" type="iocPoint">
+    <comment> 15:LNA serial no.</comment>
+    <name>PafSnData:bp2:d15:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d15:lnaSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d16" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d16</name>
+    <pv>$(p)PafSn:bp2:d16</pv>
+    <index>16</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d16:status" type="iocPoint">
+    <comment> 16:AdbeStatus</comment>
+    <name>PafSnData:bp2:d16:status</name>
+    <pv>$(p)PafSn:bp2:d16:status</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d16:rfofSerialNo" type="iocPoint">
+    <comment> 16:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d16:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d16:rfofSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d16:dominoSerialNo" type="iocPoint">
+    <comment> 16:domino serial no.</comment>
+    <name>PafSnData:bp2:d16:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d16:dominoSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d16:filterSerialNo" type="iocPoint">
+    <comment> 16:filter serial no.</comment>
+    <name>PafSnData:bp2:d16:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d16:filterSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d16:lnaSerialNo" type="iocPoint">
+    <comment> 16:LNA serial no.</comment>
+    <name>PafSnData:bp2:d16:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d16:lnaSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d17" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d17</name>
+    <pv>$(p)PafSn:bp2:d17</pv>
+    <index>17</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d17:status" type="iocPoint">
+    <comment> 17:AdbeStatus</comment>
+    <name>PafSnData:bp2:d17:status</name>
+    <pv>$(p)PafSn:bp2:d17:status</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d17:rfofSerialNo" type="iocPoint">
+    <comment> 17:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d17:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d17:rfofSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d17:dominoSerialNo" type="iocPoint">
+    <comment> 17:domino serial no.</comment>
+    <name>PafSnData:bp2:d17:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d17:dominoSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d17:filterSerialNo" type="iocPoint">
+    <comment> 17:filter serial no.</comment>
+    <name>PafSnData:bp2:d17:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d17:filterSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d17:lnaSerialNo" type="iocPoint">
+    <comment> 17:LNA serial no.</comment>
+    <name>PafSnData:bp2:d17:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d17:lnaSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d18" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d18</name>
+    <pv>$(p)PafSn:bp2:d18</pv>
+    <index>18</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d18:status" type="iocPoint">
+    <comment> 18:AdbeStatus</comment>
+    <name>PafSnData:bp2:d18:status</name>
+    <pv>$(p)PafSn:bp2:d18:status</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d18:rfofSerialNo" type="iocPoint">
+    <comment> 18:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d18:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d18:rfofSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d18:dominoSerialNo" type="iocPoint">
+    <comment> 18:domino serial no.</comment>
+    <name>PafSnData:bp2:d18:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d18:dominoSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d18:filterSerialNo" type="iocPoint">
+    <comment> 18:filter serial no.</comment>
+    <name>PafSnData:bp2:d18:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d18:filterSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d18:lnaSerialNo" type="iocPoint">
+    <comment> 18:LNA serial no.</comment>
+    <name>PafSnData:bp2:d18:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d18:lnaSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d19" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d19</name>
+    <pv>$(p)PafSn:bp2:d19</pv>
+    <index>19</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d19:status" type="iocPoint">
+    <comment> 19:AdbeStatus</comment>
+    <name>PafSnData:bp2:d19:status</name>
+    <pv>$(p)PafSn:bp2:d19:status</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d19:rfofSerialNo" type="iocPoint">
+    <comment> 19:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d19:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d19:rfofSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d19:dominoSerialNo" type="iocPoint">
+    <comment> 19:domino serial no.</comment>
+    <name>PafSnData:bp2:d19:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d19:dominoSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d19:filterSerialNo" type="iocPoint">
+    <comment> 19:filter serial no.</comment>
+    <name>PafSnData:bp2:d19:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d19:filterSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d19:lnaSerialNo" type="iocPoint">
+    <comment> 19:LNA serial no.</comment>
+    <name>PafSnData:bp2:d19:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d19:lnaSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d20" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d20</name>
+    <pv>$(p)PafSn:bp2:d20</pv>
+    <index>20</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d20:status" type="iocPoint">
+    <comment> 20:AdbeStatus</comment>
+    <name>PafSnData:bp2:d20:status</name>
+    <pv>$(p)PafSn:bp2:d20:status</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d20:rfofSerialNo" type="iocPoint">
+    <comment> 20:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d20:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d20:rfofSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d20:dominoSerialNo" type="iocPoint">
+    <comment> 20:domino serial no.</comment>
+    <name>PafSnData:bp2:d20:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d20:dominoSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d20:filterSerialNo" type="iocPoint">
+    <comment> 20:filter serial no.</comment>
+    <name>PafSnData:bp2:d20:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d20:filterSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d20:lnaSerialNo" type="iocPoint">
+    <comment> 20:LNA serial no.</comment>
+    <name>PafSnData:bp2:d20:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d20:lnaSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d21" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d21</name>
+    <pv>$(p)PafSn:bp2:d21</pv>
+    <index>21</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d21:status" type="iocPoint">
+    <comment> 21:AdbeStatus</comment>
+    <name>PafSnData:bp2:d21:status</name>
+    <pv>$(p)PafSn:bp2:d21:status</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d21:rfofSerialNo" type="iocPoint">
+    <comment> 21:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d21:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d21:rfofSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d21:dominoSerialNo" type="iocPoint">
+    <comment> 21:domino serial no.</comment>
+    <name>PafSnData:bp2:d21:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d21:dominoSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d21:filterSerialNo" type="iocPoint">
+    <comment> 21:filter serial no.</comment>
+    <name>PafSnData:bp2:d21:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d21:filterSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d21:lnaSerialNo" type="iocPoint">
+    <comment> 21:LNA serial no.</comment>
+    <name>PafSnData:bp2:d21:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d21:lnaSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d22" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d22</name>
+    <pv>$(p)PafSn:bp2:d22</pv>
+    <index>22</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d22:status" type="iocPoint">
+    <comment> 22:AdbeStatus</comment>
+    <name>PafSnData:bp2:d22:status</name>
+    <pv>$(p)PafSn:bp2:d22:status</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d22:rfofSerialNo" type="iocPoint">
+    <comment> 22:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d22:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d22:rfofSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d22:dominoSerialNo" type="iocPoint">
+    <comment> 22:domino serial no.</comment>
+    <name>PafSnData:bp2:d22:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d22:dominoSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d22:filterSerialNo" type="iocPoint">
+    <comment> 22:filter serial no.</comment>
+    <name>PafSnData:bp2:d22:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d22:filterSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d22:lnaSerialNo" type="iocPoint">
+    <comment> 22:LNA serial no.</comment>
+    <name>PafSnData:bp2:d22:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d22:lnaSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d23" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d23</name>
+    <pv>$(p)PafSn:bp2:d23</pv>
+    <index>23</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d23:status" type="iocPoint">
+    <comment> 23:AdbeStatus</comment>
+    <name>PafSnData:bp2:d23:status</name>
+    <pv>$(p)PafSn:bp2:d23:status</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d23:rfofSerialNo" type="iocPoint">
+    <comment> 23:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d23:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d23:rfofSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d23:dominoSerialNo" type="iocPoint">
+    <comment> 23:domino serial no.</comment>
+    <name>PafSnData:bp2:d23:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d23:dominoSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d23:filterSerialNo" type="iocPoint">
+    <comment> 23:filter serial no.</comment>
+    <name>PafSnData:bp2:d23:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d23:filterSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d23:lnaSerialNo" type="iocPoint">
+    <comment> 23:LNA serial no.</comment>
+    <name>PafSnData:bp2:d23:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d23:lnaSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp2:d24" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp2:d24</name>
+    <pv>$(p)PafSn:bp2:d24</pv>
+    <index>24</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp2:d24:status" type="iocPoint">
+    <comment> 24:AdbeStatus</comment>
+    <name>PafSnData:bp2:d24:status</name>
+    <pv>$(p)PafSn:bp2:d24:status</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d24:rfofSerialNo" type="iocPoint">
+    <comment> 24:RFoF serial no.</comment>
+    <name>PafSnData:bp2:d24:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp2:d24:rfofSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d24:dominoSerialNo" type="iocPoint">
+    <comment> 24:domino serial no.</comment>
+    <name>PafSnData:bp2:d24:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp2:d24:dominoSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d24:filterSerialNo" type="iocPoint">
+    <comment> 24:filter serial no.</comment>
+    <name>PafSnData:bp2:d24:filterSerialNo</name>
+    <pv>$(p)PafSn:bp2:d24:filterSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp2:d24:lnaSerialNo" type="iocPoint">
+    <comment> 24:LNA serial no.</comment>
+    <name>PafSnData:bp2:d24:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp2:d24:lnaSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3</name>
+    <pv>$(p)PafSn:bp3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:status" type="iocPoint">
+    <comment> 3:AdbeStatus</comment>
+    <name>PafSnData:bp3:status</name>
+    <pv>$(p)PafSn:bp3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:errorCount" type="iocPoint">
+    <comment> 3:backplane comms errors</comment>
+    <name>PafSnData:bp3:errorCount</name>
+    <pv>$(p)PafSn:bp3:errorCount</pv>
+    <index>3</index>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:bpSerialNo" type="iocPoint">
+    <comment> 3:backplane serial no.</comment>
+    <name>PafSnData:bp3:backplaneSerialNo</name>
+    <pv>$(p)PafSn:bp3:bpSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:fpgaA_Version" type="iocPoint">
+    <comment> 3:FPGA A Version</comment>
+    <name>PafSnData:bp3:fpgaA_Version</name>
+    <pv>$(p)PafSn:bp3:fpgaA_Version</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:cardSnData" type="iocArray">
+    <comment></comment>
+    <name>PafSnData:bp3:cardSnData</name>
+    <pv>$(p)PafSn:bp3:cardSnData</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d1" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d1</name>
+    <pv>$(p)PafSn:bp3:d1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d1:status" type="iocPoint">
+    <comment> 1:AdbeStatus</comment>
+    <name>PafSnData:bp3:d1:status</name>
+    <pv>$(p)PafSn:bp3:d1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d1:rfofSerialNo" type="iocPoint">
+    <comment> 1:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d1:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d1:rfofSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d1:dominoSerialNo" type="iocPoint">
+    <comment> 1:domino serial no.</comment>
+    <name>PafSnData:bp3:d1:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d1:dominoSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d1:filterSerialNo" type="iocPoint">
+    <comment> 1:filter serial no.</comment>
+    <name>PafSnData:bp3:d1:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d1:filterSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d1:lnaSerialNo" type="iocPoint">
+    <comment> 1:LNA serial no.</comment>
+    <name>PafSnData:bp3:d1:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d1:lnaSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d2" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d2</name>
+    <pv>$(p)PafSn:bp3:d2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d2:status" type="iocPoint">
+    <comment> 2:AdbeStatus</comment>
+    <name>PafSnData:bp3:d2:status</name>
+    <pv>$(p)PafSn:bp3:d2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d2:rfofSerialNo" type="iocPoint">
+    <comment> 2:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d2:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d2:rfofSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d2:dominoSerialNo" type="iocPoint">
+    <comment> 2:domino serial no.</comment>
+    <name>PafSnData:bp3:d2:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d2:dominoSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d2:filterSerialNo" type="iocPoint">
+    <comment> 2:filter serial no.</comment>
+    <name>PafSnData:bp3:d2:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d2:filterSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d2:lnaSerialNo" type="iocPoint">
+    <comment> 2:LNA serial no.</comment>
+    <name>PafSnData:bp3:d2:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d2:lnaSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d3" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d3</name>
+    <pv>$(p)PafSn:bp3:d3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d3:status" type="iocPoint">
+    <comment> 3:AdbeStatus</comment>
+    <name>PafSnData:bp3:d3:status</name>
+    <pv>$(p)PafSn:bp3:d3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d3:rfofSerialNo" type="iocPoint">
+    <comment> 3:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d3:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d3:rfofSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d3:dominoSerialNo" type="iocPoint">
+    <comment> 3:domino serial no.</comment>
+    <name>PafSnData:bp3:d3:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d3:dominoSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d3:filterSerialNo" type="iocPoint">
+    <comment> 3:filter serial no.</comment>
+    <name>PafSnData:bp3:d3:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d3:filterSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d3:lnaSerialNo" type="iocPoint">
+    <comment> 3:LNA serial no.</comment>
+    <name>PafSnData:bp3:d3:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d3:lnaSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d4" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d4</name>
+    <pv>$(p)PafSn:bp3:d4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d4:status" type="iocPoint">
+    <comment> 4:AdbeStatus</comment>
+    <name>PafSnData:bp3:d4:status</name>
+    <pv>$(p)PafSn:bp3:d4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d4:rfofSerialNo" type="iocPoint">
+    <comment> 4:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d4:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d4:rfofSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d4:dominoSerialNo" type="iocPoint">
+    <comment> 4:domino serial no.</comment>
+    <name>PafSnData:bp3:d4:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d4:dominoSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d4:filterSerialNo" type="iocPoint">
+    <comment> 4:filter serial no.</comment>
+    <name>PafSnData:bp3:d4:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d4:filterSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d4:lnaSerialNo" type="iocPoint">
+    <comment> 4:LNA serial no.</comment>
+    <name>PafSnData:bp3:d4:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d4:lnaSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d5" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d5</name>
+    <pv>$(p)PafSn:bp3:d5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d5:status" type="iocPoint">
+    <comment> 5:AdbeStatus</comment>
+    <name>PafSnData:bp3:d5:status</name>
+    <pv>$(p)PafSn:bp3:d5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d5:rfofSerialNo" type="iocPoint">
+    <comment> 5:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d5:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d5:rfofSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d5:dominoSerialNo" type="iocPoint">
+    <comment> 5:domino serial no.</comment>
+    <name>PafSnData:bp3:d5:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d5:dominoSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d5:filterSerialNo" type="iocPoint">
+    <comment> 5:filter serial no.</comment>
+    <name>PafSnData:bp3:d5:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d5:filterSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d5:lnaSerialNo" type="iocPoint">
+    <comment> 5:LNA serial no.</comment>
+    <name>PafSnData:bp3:d5:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d5:lnaSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d6" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d6</name>
+    <pv>$(p)PafSn:bp3:d6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d6:status" type="iocPoint">
+    <comment> 6:AdbeStatus</comment>
+    <name>PafSnData:bp3:d6:status</name>
+    <pv>$(p)PafSn:bp3:d6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d6:rfofSerialNo" type="iocPoint">
+    <comment> 6:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d6:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d6:rfofSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d6:dominoSerialNo" type="iocPoint">
+    <comment> 6:domino serial no.</comment>
+    <name>PafSnData:bp3:d6:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d6:dominoSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d6:filterSerialNo" type="iocPoint">
+    <comment> 6:filter serial no.</comment>
+    <name>PafSnData:bp3:d6:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d6:filterSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d6:lnaSerialNo" type="iocPoint">
+    <comment> 6:LNA serial no.</comment>
+    <name>PafSnData:bp3:d6:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d6:lnaSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d7" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d7</name>
+    <pv>$(p)PafSn:bp3:d7</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d7:status" type="iocPoint">
+    <comment> 7:AdbeStatus</comment>
+    <name>PafSnData:bp3:d7:status</name>
+    <pv>$(p)PafSn:bp3:d7:status</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d7:rfofSerialNo" type="iocPoint">
+    <comment> 7:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d7:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d7:rfofSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d7:dominoSerialNo" type="iocPoint">
+    <comment> 7:domino serial no.</comment>
+    <name>PafSnData:bp3:d7:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d7:dominoSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d7:filterSerialNo" type="iocPoint">
+    <comment> 7:filter serial no.</comment>
+    <name>PafSnData:bp3:d7:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d7:filterSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d7:lnaSerialNo" type="iocPoint">
+    <comment> 7:LNA serial no.</comment>
+    <name>PafSnData:bp3:d7:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d7:lnaSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d8" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d8</name>
+    <pv>$(p)PafSn:bp3:d8</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d8:status" type="iocPoint">
+    <comment> 8:AdbeStatus</comment>
+    <name>PafSnData:bp3:d8:status</name>
+    <pv>$(p)PafSn:bp3:d8:status</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d8:rfofSerialNo" type="iocPoint">
+    <comment> 8:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d8:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d8:rfofSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d8:dominoSerialNo" type="iocPoint">
+    <comment> 8:domino serial no.</comment>
+    <name>PafSnData:bp3:d8:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d8:dominoSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d8:filterSerialNo" type="iocPoint">
+    <comment> 8:filter serial no.</comment>
+    <name>PafSnData:bp3:d8:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d8:filterSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d8:lnaSerialNo" type="iocPoint">
+    <comment> 8:LNA serial no.</comment>
+    <name>PafSnData:bp3:d8:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d8:lnaSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d9" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d9</name>
+    <pv>$(p)PafSn:bp3:d9</pv>
+    <index>9</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d9:status" type="iocPoint">
+    <comment> 9:AdbeStatus</comment>
+    <name>PafSnData:bp3:d9:status</name>
+    <pv>$(p)PafSn:bp3:d9:status</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d9:rfofSerialNo" type="iocPoint">
+    <comment> 9:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d9:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d9:rfofSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d9:dominoSerialNo" type="iocPoint">
+    <comment> 9:domino serial no.</comment>
+    <name>PafSnData:bp3:d9:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d9:dominoSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d9:filterSerialNo" type="iocPoint">
+    <comment> 9:filter serial no.</comment>
+    <name>PafSnData:bp3:d9:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d9:filterSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d9:lnaSerialNo" type="iocPoint">
+    <comment> 9:LNA serial no.</comment>
+    <name>PafSnData:bp3:d9:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d9:lnaSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d10" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d10</name>
+    <pv>$(p)PafSn:bp3:d10</pv>
+    <index>10</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d10:status" type="iocPoint">
+    <comment> 10:AdbeStatus</comment>
+    <name>PafSnData:bp3:d10:status</name>
+    <pv>$(p)PafSn:bp3:d10:status</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d10:rfofSerialNo" type="iocPoint">
+    <comment> 10:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d10:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d10:rfofSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d10:dominoSerialNo" type="iocPoint">
+    <comment> 10:domino serial no.</comment>
+    <name>PafSnData:bp3:d10:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d10:dominoSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d10:filterSerialNo" type="iocPoint">
+    <comment> 10:filter serial no.</comment>
+    <name>PafSnData:bp3:d10:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d10:filterSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d10:lnaSerialNo" type="iocPoint">
+    <comment> 10:LNA serial no.</comment>
+    <name>PafSnData:bp3:d10:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d10:lnaSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d11" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d11</name>
+    <pv>$(p)PafSn:bp3:d11</pv>
+    <index>11</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d11:status" type="iocPoint">
+    <comment> 11:AdbeStatus</comment>
+    <name>PafSnData:bp3:d11:status</name>
+    <pv>$(p)PafSn:bp3:d11:status</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d11:rfofSerialNo" type="iocPoint">
+    <comment> 11:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d11:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d11:rfofSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d11:dominoSerialNo" type="iocPoint">
+    <comment> 11:domino serial no.</comment>
+    <name>PafSnData:bp3:d11:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d11:dominoSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d11:filterSerialNo" type="iocPoint">
+    <comment> 11:filter serial no.</comment>
+    <name>PafSnData:bp3:d11:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d11:filterSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d11:lnaSerialNo" type="iocPoint">
+    <comment> 11:LNA serial no.</comment>
+    <name>PafSnData:bp3:d11:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d11:lnaSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d12" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d12</name>
+    <pv>$(p)PafSn:bp3:d12</pv>
+    <index>12</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d12:status" type="iocPoint">
+    <comment> 12:AdbeStatus</comment>
+    <name>PafSnData:bp3:d12:status</name>
+    <pv>$(p)PafSn:bp3:d12:status</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d12:rfofSerialNo" type="iocPoint">
+    <comment> 12:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d12:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d12:rfofSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d12:dominoSerialNo" type="iocPoint">
+    <comment> 12:domino serial no.</comment>
+    <name>PafSnData:bp3:d12:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d12:dominoSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d12:filterSerialNo" type="iocPoint">
+    <comment> 12:filter serial no.</comment>
+    <name>PafSnData:bp3:d12:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d12:filterSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d12:lnaSerialNo" type="iocPoint">
+    <comment> 12:LNA serial no.</comment>
+    <name>PafSnData:bp3:d12:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d12:lnaSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d13" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d13</name>
+    <pv>$(p)PafSn:bp3:d13</pv>
+    <index>13</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d13:status" type="iocPoint">
+    <comment> 13:AdbeStatus</comment>
+    <name>PafSnData:bp3:d13:status</name>
+    <pv>$(p)PafSn:bp3:d13:status</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d13:rfofSerialNo" type="iocPoint">
+    <comment> 13:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d13:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d13:rfofSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d13:dominoSerialNo" type="iocPoint">
+    <comment> 13:domino serial no.</comment>
+    <name>PafSnData:bp3:d13:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d13:dominoSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d13:filterSerialNo" type="iocPoint">
+    <comment> 13:filter serial no.</comment>
+    <name>PafSnData:bp3:d13:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d13:filterSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d13:lnaSerialNo" type="iocPoint">
+    <comment> 13:LNA serial no.</comment>
+    <name>PafSnData:bp3:d13:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d13:lnaSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d14" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d14</name>
+    <pv>$(p)PafSn:bp3:d14</pv>
+    <index>14</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d14:status" type="iocPoint">
+    <comment> 14:AdbeStatus</comment>
+    <name>PafSnData:bp3:d14:status</name>
+    <pv>$(p)PafSn:bp3:d14:status</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d14:rfofSerialNo" type="iocPoint">
+    <comment> 14:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d14:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d14:rfofSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d14:dominoSerialNo" type="iocPoint">
+    <comment> 14:domino serial no.</comment>
+    <name>PafSnData:bp3:d14:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d14:dominoSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d14:filterSerialNo" type="iocPoint">
+    <comment> 14:filter serial no.</comment>
+    <name>PafSnData:bp3:d14:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d14:filterSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d14:lnaSerialNo" type="iocPoint">
+    <comment> 14:LNA serial no.</comment>
+    <name>PafSnData:bp3:d14:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d14:lnaSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d15" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d15</name>
+    <pv>$(p)PafSn:bp3:d15</pv>
+    <index>15</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d15:status" type="iocPoint">
+    <comment> 15:AdbeStatus</comment>
+    <name>PafSnData:bp3:d15:status</name>
+    <pv>$(p)PafSn:bp3:d15:status</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d15:rfofSerialNo" type="iocPoint">
+    <comment> 15:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d15:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d15:rfofSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d15:dominoSerialNo" type="iocPoint">
+    <comment> 15:domino serial no.</comment>
+    <name>PafSnData:bp3:d15:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d15:dominoSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d15:filterSerialNo" type="iocPoint">
+    <comment> 15:filter serial no.</comment>
+    <name>PafSnData:bp3:d15:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d15:filterSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d15:lnaSerialNo" type="iocPoint">
+    <comment> 15:LNA serial no.</comment>
+    <name>PafSnData:bp3:d15:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d15:lnaSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d16" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d16</name>
+    <pv>$(p)PafSn:bp3:d16</pv>
+    <index>16</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d16:status" type="iocPoint">
+    <comment> 16:AdbeStatus</comment>
+    <name>PafSnData:bp3:d16:status</name>
+    <pv>$(p)PafSn:bp3:d16:status</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d16:rfofSerialNo" type="iocPoint">
+    <comment> 16:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d16:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d16:rfofSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d16:dominoSerialNo" type="iocPoint">
+    <comment> 16:domino serial no.</comment>
+    <name>PafSnData:bp3:d16:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d16:dominoSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d16:filterSerialNo" type="iocPoint">
+    <comment> 16:filter serial no.</comment>
+    <name>PafSnData:bp3:d16:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d16:filterSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d16:lnaSerialNo" type="iocPoint">
+    <comment> 16:LNA serial no.</comment>
+    <name>PafSnData:bp3:d16:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d16:lnaSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d17" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d17</name>
+    <pv>$(p)PafSn:bp3:d17</pv>
+    <index>17</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d17:status" type="iocPoint">
+    <comment> 17:AdbeStatus</comment>
+    <name>PafSnData:bp3:d17:status</name>
+    <pv>$(p)PafSn:bp3:d17:status</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d17:rfofSerialNo" type="iocPoint">
+    <comment> 17:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d17:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d17:rfofSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d17:dominoSerialNo" type="iocPoint">
+    <comment> 17:domino serial no.</comment>
+    <name>PafSnData:bp3:d17:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d17:dominoSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d17:filterSerialNo" type="iocPoint">
+    <comment> 17:filter serial no.</comment>
+    <name>PafSnData:bp3:d17:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d17:filterSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d17:lnaSerialNo" type="iocPoint">
+    <comment> 17:LNA serial no.</comment>
+    <name>PafSnData:bp3:d17:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d17:lnaSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d18" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d18</name>
+    <pv>$(p)PafSn:bp3:d18</pv>
+    <index>18</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d18:status" type="iocPoint">
+    <comment> 18:AdbeStatus</comment>
+    <name>PafSnData:bp3:d18:status</name>
+    <pv>$(p)PafSn:bp3:d18:status</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d18:rfofSerialNo" type="iocPoint">
+    <comment> 18:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d18:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d18:rfofSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d18:dominoSerialNo" type="iocPoint">
+    <comment> 18:domino serial no.</comment>
+    <name>PafSnData:bp3:d18:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d18:dominoSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d18:filterSerialNo" type="iocPoint">
+    <comment> 18:filter serial no.</comment>
+    <name>PafSnData:bp3:d18:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d18:filterSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d18:lnaSerialNo" type="iocPoint">
+    <comment> 18:LNA serial no.</comment>
+    <name>PafSnData:bp3:d18:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d18:lnaSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d19" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d19</name>
+    <pv>$(p)PafSn:bp3:d19</pv>
+    <index>19</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d19:status" type="iocPoint">
+    <comment> 19:AdbeStatus</comment>
+    <name>PafSnData:bp3:d19:status</name>
+    <pv>$(p)PafSn:bp3:d19:status</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d19:rfofSerialNo" type="iocPoint">
+    <comment> 19:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d19:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d19:rfofSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d19:dominoSerialNo" type="iocPoint">
+    <comment> 19:domino serial no.</comment>
+    <name>PafSnData:bp3:d19:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d19:dominoSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d19:filterSerialNo" type="iocPoint">
+    <comment> 19:filter serial no.</comment>
+    <name>PafSnData:bp3:d19:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d19:filterSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d19:lnaSerialNo" type="iocPoint">
+    <comment> 19:LNA serial no.</comment>
+    <name>PafSnData:bp3:d19:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d19:lnaSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d20" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d20</name>
+    <pv>$(p)PafSn:bp3:d20</pv>
+    <index>20</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d20:status" type="iocPoint">
+    <comment> 20:AdbeStatus</comment>
+    <name>PafSnData:bp3:d20:status</name>
+    <pv>$(p)PafSn:bp3:d20:status</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d20:rfofSerialNo" type="iocPoint">
+    <comment> 20:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d20:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d20:rfofSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d20:dominoSerialNo" type="iocPoint">
+    <comment> 20:domino serial no.</comment>
+    <name>PafSnData:bp3:d20:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d20:dominoSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d20:filterSerialNo" type="iocPoint">
+    <comment> 20:filter serial no.</comment>
+    <name>PafSnData:bp3:d20:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d20:filterSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d20:lnaSerialNo" type="iocPoint">
+    <comment> 20:LNA serial no.</comment>
+    <name>PafSnData:bp3:d20:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d20:lnaSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d21" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d21</name>
+    <pv>$(p)PafSn:bp3:d21</pv>
+    <index>21</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d21:status" type="iocPoint">
+    <comment> 21:AdbeStatus</comment>
+    <name>PafSnData:bp3:d21:status</name>
+    <pv>$(p)PafSn:bp3:d21:status</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d21:rfofSerialNo" type="iocPoint">
+    <comment> 21:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d21:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d21:rfofSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d21:dominoSerialNo" type="iocPoint">
+    <comment> 21:domino serial no.</comment>
+    <name>PafSnData:bp3:d21:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d21:dominoSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d21:filterSerialNo" type="iocPoint">
+    <comment> 21:filter serial no.</comment>
+    <name>PafSnData:bp3:d21:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d21:filterSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d21:lnaSerialNo" type="iocPoint">
+    <comment> 21:LNA serial no.</comment>
+    <name>PafSnData:bp3:d21:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d21:lnaSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d22" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d22</name>
+    <pv>$(p)PafSn:bp3:d22</pv>
+    <index>22</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d22:status" type="iocPoint">
+    <comment> 22:AdbeStatus</comment>
+    <name>PafSnData:bp3:d22:status</name>
+    <pv>$(p)PafSn:bp3:d22:status</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d22:rfofSerialNo" type="iocPoint">
+    <comment> 22:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d22:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d22:rfofSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d22:dominoSerialNo" type="iocPoint">
+    <comment> 22:domino serial no.</comment>
+    <name>PafSnData:bp3:d22:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d22:dominoSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d22:filterSerialNo" type="iocPoint">
+    <comment> 22:filter serial no.</comment>
+    <name>PafSnData:bp3:d22:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d22:filterSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d22:lnaSerialNo" type="iocPoint">
+    <comment> 22:LNA serial no.</comment>
+    <name>PafSnData:bp3:d22:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d22:lnaSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d23" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d23</name>
+    <pv>$(p)PafSn:bp3:d23</pv>
+    <index>23</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d23:status" type="iocPoint">
+    <comment> 23:AdbeStatus</comment>
+    <name>PafSnData:bp3:d23:status</name>
+    <pv>$(p)PafSn:bp3:d23:status</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d23:rfofSerialNo" type="iocPoint">
+    <comment> 23:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d23:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d23:rfofSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d23:dominoSerialNo" type="iocPoint">
+    <comment> 23:domino serial no.</comment>
+    <name>PafSnData:bp3:d23:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d23:dominoSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d23:filterSerialNo" type="iocPoint">
+    <comment> 23:filter serial no.</comment>
+    <name>PafSnData:bp3:d23:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d23:filterSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d23:lnaSerialNo" type="iocPoint">
+    <comment> 23:LNA serial no.</comment>
+    <name>PafSnData:bp3:d23:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d23:lnaSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp3:d24" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp3:d24</name>
+    <pv>$(p)PafSn:bp3:d24</pv>
+    <index>24</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp3:d24:status" type="iocPoint">
+    <comment> 24:AdbeStatus</comment>
+    <name>PafSnData:bp3:d24:status</name>
+    <pv>$(p)PafSn:bp3:d24:status</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d24:rfofSerialNo" type="iocPoint">
+    <comment> 24:RFoF serial no.</comment>
+    <name>PafSnData:bp3:d24:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp3:d24:rfofSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d24:dominoSerialNo" type="iocPoint">
+    <comment> 24:domino serial no.</comment>
+    <name>PafSnData:bp3:d24:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp3:d24:dominoSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d24:filterSerialNo" type="iocPoint">
+    <comment> 24:filter serial no.</comment>
+    <name>PafSnData:bp3:d24:filterSerialNo</name>
+    <pv>$(p)PafSn:bp3:d24:filterSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp3:d24:lnaSerialNo" type="iocPoint">
+    <comment> 24:LNA serial no.</comment>
+    <name>PafSnData:bp3:d24:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp3:d24:lnaSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4</name>
+    <pv>$(p)PafSn:bp4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:status" type="iocPoint">
+    <comment> 4:AdbeStatus</comment>
+    <name>PafSnData:bp4:status</name>
+    <pv>$(p)PafSn:bp4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:errorCount" type="iocPoint">
+    <comment> 4:backplane comms errors</comment>
+    <name>PafSnData:bp4:errorCount</name>
+    <pv>$(p)PafSn:bp4:errorCount</pv>
+    <index>4</index>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:bpSerialNo" type="iocPoint">
+    <comment> 4:backplane serial no.</comment>
+    <name>PafSnData:bp4:backplaneSerialNo</name>
+    <pv>$(p)PafSn:bp4:bpSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:fpgaA_Version" type="iocPoint">
+    <comment> 4:FPGA A Version</comment>
+    <name>PafSnData:bp4:fpgaA_Version</name>
+    <pv>$(p)PafSn:bp4:fpgaA_Version</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:cardSnData" type="iocArray">
+    <comment></comment>
+    <name>PafSnData:bp4:cardSnData</name>
+    <pv>$(p)PafSn:bp4:cardSnData</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d1" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d1</name>
+    <pv>$(p)PafSn:bp4:d1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d1:status" type="iocPoint">
+    <comment> 1:AdbeStatus</comment>
+    <name>PafSnData:bp4:d1:status</name>
+    <pv>$(p)PafSn:bp4:d1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d1:rfofSerialNo" type="iocPoint">
+    <comment> 1:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d1:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d1:rfofSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d1:dominoSerialNo" type="iocPoint">
+    <comment> 1:domino serial no.</comment>
+    <name>PafSnData:bp4:d1:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d1:dominoSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d1:filterSerialNo" type="iocPoint">
+    <comment> 1:filter serial no.</comment>
+    <name>PafSnData:bp4:d1:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d1:filterSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d1:lnaSerialNo" type="iocPoint">
+    <comment> 1:LNA serial no.</comment>
+    <name>PafSnData:bp4:d1:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d1:lnaSerialNo</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d2" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d2</name>
+    <pv>$(p)PafSn:bp4:d2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d2:status" type="iocPoint">
+    <comment> 2:AdbeStatus</comment>
+    <name>PafSnData:bp4:d2:status</name>
+    <pv>$(p)PafSn:bp4:d2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d2:rfofSerialNo" type="iocPoint">
+    <comment> 2:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d2:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d2:rfofSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d2:dominoSerialNo" type="iocPoint">
+    <comment> 2:domino serial no.</comment>
+    <name>PafSnData:bp4:d2:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d2:dominoSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d2:filterSerialNo" type="iocPoint">
+    <comment> 2:filter serial no.</comment>
+    <name>PafSnData:bp4:d2:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d2:filterSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d2:lnaSerialNo" type="iocPoint">
+    <comment> 2:LNA serial no.</comment>
+    <name>PafSnData:bp4:d2:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d2:lnaSerialNo</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d3" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d3</name>
+    <pv>$(p)PafSn:bp4:d3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d3:status" type="iocPoint">
+    <comment> 3:AdbeStatus</comment>
+    <name>PafSnData:bp4:d3:status</name>
+    <pv>$(p)PafSn:bp4:d3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d3:rfofSerialNo" type="iocPoint">
+    <comment> 3:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d3:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d3:rfofSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d3:dominoSerialNo" type="iocPoint">
+    <comment> 3:domino serial no.</comment>
+    <name>PafSnData:bp4:d3:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d3:dominoSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d3:filterSerialNo" type="iocPoint">
+    <comment> 3:filter serial no.</comment>
+    <name>PafSnData:bp4:d3:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d3:filterSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d3:lnaSerialNo" type="iocPoint">
+    <comment> 3:LNA serial no.</comment>
+    <name>PafSnData:bp4:d3:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d3:lnaSerialNo</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d4" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d4</name>
+    <pv>$(p)PafSn:bp4:d4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d4:status" type="iocPoint">
+    <comment> 4:AdbeStatus</comment>
+    <name>PafSnData:bp4:d4:status</name>
+    <pv>$(p)PafSn:bp4:d4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d4:rfofSerialNo" type="iocPoint">
+    <comment> 4:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d4:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d4:rfofSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d4:dominoSerialNo" type="iocPoint">
+    <comment> 4:domino serial no.</comment>
+    <name>PafSnData:bp4:d4:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d4:dominoSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d4:filterSerialNo" type="iocPoint">
+    <comment> 4:filter serial no.</comment>
+    <name>PafSnData:bp4:d4:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d4:filterSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d4:lnaSerialNo" type="iocPoint">
+    <comment> 4:LNA serial no.</comment>
+    <name>PafSnData:bp4:d4:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d4:lnaSerialNo</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d5" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d5</name>
+    <pv>$(p)PafSn:bp4:d5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d5:status" type="iocPoint">
+    <comment> 5:AdbeStatus</comment>
+    <name>PafSnData:bp4:d5:status</name>
+    <pv>$(p)PafSn:bp4:d5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d5:rfofSerialNo" type="iocPoint">
+    <comment> 5:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d5:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d5:rfofSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d5:dominoSerialNo" type="iocPoint">
+    <comment> 5:domino serial no.</comment>
+    <name>PafSnData:bp4:d5:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d5:dominoSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d5:filterSerialNo" type="iocPoint">
+    <comment> 5:filter serial no.</comment>
+    <name>PafSnData:bp4:d5:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d5:filterSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d5:lnaSerialNo" type="iocPoint">
+    <comment> 5:LNA serial no.</comment>
+    <name>PafSnData:bp4:d5:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d5:lnaSerialNo</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d6" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d6</name>
+    <pv>$(p)PafSn:bp4:d6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d6:status" type="iocPoint">
+    <comment> 6:AdbeStatus</comment>
+    <name>PafSnData:bp4:d6:status</name>
+    <pv>$(p)PafSn:bp4:d6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d6:rfofSerialNo" type="iocPoint">
+    <comment> 6:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d6:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d6:rfofSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d6:dominoSerialNo" type="iocPoint">
+    <comment> 6:domino serial no.</comment>
+    <name>PafSnData:bp4:d6:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d6:dominoSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d6:filterSerialNo" type="iocPoint">
+    <comment> 6:filter serial no.</comment>
+    <name>PafSnData:bp4:d6:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d6:filterSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d6:lnaSerialNo" type="iocPoint">
+    <comment> 6:LNA serial no.</comment>
+    <name>PafSnData:bp4:d6:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d6:lnaSerialNo</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d7" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d7</name>
+    <pv>$(p)PafSn:bp4:d7</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d7:status" type="iocPoint">
+    <comment> 7:AdbeStatus</comment>
+    <name>PafSnData:bp4:d7:status</name>
+    <pv>$(p)PafSn:bp4:d7:status</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d7:rfofSerialNo" type="iocPoint">
+    <comment> 7:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d7:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d7:rfofSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d7:dominoSerialNo" type="iocPoint">
+    <comment> 7:domino serial no.</comment>
+    <name>PafSnData:bp4:d7:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d7:dominoSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d7:filterSerialNo" type="iocPoint">
+    <comment> 7:filter serial no.</comment>
+    <name>PafSnData:bp4:d7:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d7:filterSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d7:lnaSerialNo" type="iocPoint">
+    <comment> 7:LNA serial no.</comment>
+    <name>PafSnData:bp4:d7:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d7:lnaSerialNo</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d8" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d8</name>
+    <pv>$(p)PafSn:bp4:d8</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d8:status" type="iocPoint">
+    <comment> 8:AdbeStatus</comment>
+    <name>PafSnData:bp4:d8:status</name>
+    <pv>$(p)PafSn:bp4:d8:status</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d8:rfofSerialNo" type="iocPoint">
+    <comment> 8:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d8:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d8:rfofSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d8:dominoSerialNo" type="iocPoint">
+    <comment> 8:domino serial no.</comment>
+    <name>PafSnData:bp4:d8:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d8:dominoSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d8:filterSerialNo" type="iocPoint">
+    <comment> 8:filter serial no.</comment>
+    <name>PafSnData:bp4:d8:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d8:filterSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d8:lnaSerialNo" type="iocPoint">
+    <comment> 8:LNA serial no.</comment>
+    <name>PafSnData:bp4:d8:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d8:lnaSerialNo</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d9" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d9</name>
+    <pv>$(p)PafSn:bp4:d9</pv>
+    <index>9</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d9:status" type="iocPoint">
+    <comment> 9:AdbeStatus</comment>
+    <name>PafSnData:bp4:d9:status</name>
+    <pv>$(p)PafSn:bp4:d9:status</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d9:rfofSerialNo" type="iocPoint">
+    <comment> 9:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d9:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d9:rfofSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d9:dominoSerialNo" type="iocPoint">
+    <comment> 9:domino serial no.</comment>
+    <name>PafSnData:bp4:d9:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d9:dominoSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d9:filterSerialNo" type="iocPoint">
+    <comment> 9:filter serial no.</comment>
+    <name>PafSnData:bp4:d9:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d9:filterSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d9:lnaSerialNo" type="iocPoint">
+    <comment> 9:LNA serial no.</comment>
+    <name>PafSnData:bp4:d9:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d9:lnaSerialNo</pv>
+    <index>9</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d10" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d10</name>
+    <pv>$(p)PafSn:bp4:d10</pv>
+    <index>10</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d10:status" type="iocPoint">
+    <comment> 10:AdbeStatus</comment>
+    <name>PafSnData:bp4:d10:status</name>
+    <pv>$(p)PafSn:bp4:d10:status</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d10:rfofSerialNo" type="iocPoint">
+    <comment> 10:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d10:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d10:rfofSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d10:dominoSerialNo" type="iocPoint">
+    <comment> 10:domino serial no.</comment>
+    <name>PafSnData:bp4:d10:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d10:dominoSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d10:filterSerialNo" type="iocPoint">
+    <comment> 10:filter serial no.</comment>
+    <name>PafSnData:bp4:d10:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d10:filterSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d10:lnaSerialNo" type="iocPoint">
+    <comment> 10:LNA serial no.</comment>
+    <name>PafSnData:bp4:d10:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d10:lnaSerialNo</pv>
+    <index>10</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d11" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d11</name>
+    <pv>$(p)PafSn:bp4:d11</pv>
+    <index>11</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d11:status" type="iocPoint">
+    <comment> 11:AdbeStatus</comment>
+    <name>PafSnData:bp4:d11:status</name>
+    <pv>$(p)PafSn:bp4:d11:status</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d11:rfofSerialNo" type="iocPoint">
+    <comment> 11:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d11:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d11:rfofSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d11:dominoSerialNo" type="iocPoint">
+    <comment> 11:domino serial no.</comment>
+    <name>PafSnData:bp4:d11:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d11:dominoSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d11:filterSerialNo" type="iocPoint">
+    <comment> 11:filter serial no.</comment>
+    <name>PafSnData:bp4:d11:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d11:filterSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d11:lnaSerialNo" type="iocPoint">
+    <comment> 11:LNA serial no.</comment>
+    <name>PafSnData:bp4:d11:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d11:lnaSerialNo</pv>
+    <index>11</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d12" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d12</name>
+    <pv>$(p)PafSn:bp4:d12</pv>
+    <index>12</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d12:status" type="iocPoint">
+    <comment> 12:AdbeStatus</comment>
+    <name>PafSnData:bp4:d12:status</name>
+    <pv>$(p)PafSn:bp4:d12:status</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d12:rfofSerialNo" type="iocPoint">
+    <comment> 12:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d12:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d12:rfofSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d12:dominoSerialNo" type="iocPoint">
+    <comment> 12:domino serial no.</comment>
+    <name>PafSnData:bp4:d12:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d12:dominoSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d12:filterSerialNo" type="iocPoint">
+    <comment> 12:filter serial no.</comment>
+    <name>PafSnData:bp4:d12:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d12:filterSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d12:lnaSerialNo" type="iocPoint">
+    <comment> 12:LNA serial no.</comment>
+    <name>PafSnData:bp4:d12:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d12:lnaSerialNo</pv>
+    <index>12</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d13" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d13</name>
+    <pv>$(p)PafSn:bp4:d13</pv>
+    <index>13</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d13:status" type="iocPoint">
+    <comment> 13:AdbeStatus</comment>
+    <name>PafSnData:bp4:d13:status</name>
+    <pv>$(p)PafSn:bp4:d13:status</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d13:rfofSerialNo" type="iocPoint">
+    <comment> 13:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d13:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d13:rfofSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d13:dominoSerialNo" type="iocPoint">
+    <comment> 13:domino serial no.</comment>
+    <name>PafSnData:bp4:d13:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d13:dominoSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d13:filterSerialNo" type="iocPoint">
+    <comment> 13:filter serial no.</comment>
+    <name>PafSnData:bp4:d13:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d13:filterSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d13:lnaSerialNo" type="iocPoint">
+    <comment> 13:LNA serial no.</comment>
+    <name>PafSnData:bp4:d13:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d13:lnaSerialNo</pv>
+    <index>13</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d14" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d14</name>
+    <pv>$(p)PafSn:bp4:d14</pv>
+    <index>14</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d14:status" type="iocPoint">
+    <comment> 14:AdbeStatus</comment>
+    <name>PafSnData:bp4:d14:status</name>
+    <pv>$(p)PafSn:bp4:d14:status</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d14:rfofSerialNo" type="iocPoint">
+    <comment> 14:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d14:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d14:rfofSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d14:dominoSerialNo" type="iocPoint">
+    <comment> 14:domino serial no.</comment>
+    <name>PafSnData:bp4:d14:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d14:dominoSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d14:filterSerialNo" type="iocPoint">
+    <comment> 14:filter serial no.</comment>
+    <name>PafSnData:bp4:d14:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d14:filterSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d14:lnaSerialNo" type="iocPoint">
+    <comment> 14:LNA serial no.</comment>
+    <name>PafSnData:bp4:d14:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d14:lnaSerialNo</pv>
+    <index>14</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d15" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d15</name>
+    <pv>$(p)PafSn:bp4:d15</pv>
+    <index>15</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d15:status" type="iocPoint">
+    <comment> 15:AdbeStatus</comment>
+    <name>PafSnData:bp4:d15:status</name>
+    <pv>$(p)PafSn:bp4:d15:status</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d15:rfofSerialNo" type="iocPoint">
+    <comment> 15:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d15:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d15:rfofSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d15:dominoSerialNo" type="iocPoint">
+    <comment> 15:domino serial no.</comment>
+    <name>PafSnData:bp4:d15:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d15:dominoSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d15:filterSerialNo" type="iocPoint">
+    <comment> 15:filter serial no.</comment>
+    <name>PafSnData:bp4:d15:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d15:filterSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d15:lnaSerialNo" type="iocPoint">
+    <comment> 15:LNA serial no.</comment>
+    <name>PafSnData:bp4:d15:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d15:lnaSerialNo</pv>
+    <index>15</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d16" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d16</name>
+    <pv>$(p)PafSn:bp4:d16</pv>
+    <index>16</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d16:status" type="iocPoint">
+    <comment> 16:AdbeStatus</comment>
+    <name>PafSnData:bp4:d16:status</name>
+    <pv>$(p)PafSn:bp4:d16:status</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d16:rfofSerialNo" type="iocPoint">
+    <comment> 16:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d16:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d16:rfofSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d16:dominoSerialNo" type="iocPoint">
+    <comment> 16:domino serial no.</comment>
+    <name>PafSnData:bp4:d16:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d16:dominoSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d16:filterSerialNo" type="iocPoint">
+    <comment> 16:filter serial no.</comment>
+    <name>PafSnData:bp4:d16:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d16:filterSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d16:lnaSerialNo" type="iocPoint">
+    <comment> 16:LNA serial no.</comment>
+    <name>PafSnData:bp4:d16:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d16:lnaSerialNo</pv>
+    <index>16</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d17" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d17</name>
+    <pv>$(p)PafSn:bp4:d17</pv>
+    <index>17</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d17:status" type="iocPoint">
+    <comment> 17:AdbeStatus</comment>
+    <name>PafSnData:bp4:d17:status</name>
+    <pv>$(p)PafSn:bp4:d17:status</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d17:rfofSerialNo" type="iocPoint">
+    <comment> 17:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d17:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d17:rfofSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d17:dominoSerialNo" type="iocPoint">
+    <comment> 17:domino serial no.</comment>
+    <name>PafSnData:bp4:d17:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d17:dominoSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d17:filterSerialNo" type="iocPoint">
+    <comment> 17:filter serial no.</comment>
+    <name>PafSnData:bp4:d17:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d17:filterSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d17:lnaSerialNo" type="iocPoint">
+    <comment> 17:LNA serial no.</comment>
+    <name>PafSnData:bp4:d17:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d17:lnaSerialNo</pv>
+    <index>17</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d18" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d18</name>
+    <pv>$(p)PafSn:bp4:d18</pv>
+    <index>18</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d18:status" type="iocPoint">
+    <comment> 18:AdbeStatus</comment>
+    <name>PafSnData:bp4:d18:status</name>
+    <pv>$(p)PafSn:bp4:d18:status</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d18:rfofSerialNo" type="iocPoint">
+    <comment> 18:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d18:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d18:rfofSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d18:dominoSerialNo" type="iocPoint">
+    <comment> 18:domino serial no.</comment>
+    <name>PafSnData:bp4:d18:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d18:dominoSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d18:filterSerialNo" type="iocPoint">
+    <comment> 18:filter serial no.</comment>
+    <name>PafSnData:bp4:d18:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d18:filterSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d18:lnaSerialNo" type="iocPoint">
+    <comment> 18:LNA serial no.</comment>
+    <name>PafSnData:bp4:d18:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d18:lnaSerialNo</pv>
+    <index>18</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d19" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d19</name>
+    <pv>$(p)PafSn:bp4:d19</pv>
+    <index>19</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d19:status" type="iocPoint">
+    <comment> 19:AdbeStatus</comment>
+    <name>PafSnData:bp4:d19:status</name>
+    <pv>$(p)PafSn:bp4:d19:status</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d19:rfofSerialNo" type="iocPoint">
+    <comment> 19:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d19:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d19:rfofSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d19:dominoSerialNo" type="iocPoint">
+    <comment> 19:domino serial no.</comment>
+    <name>PafSnData:bp4:d19:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d19:dominoSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d19:filterSerialNo" type="iocPoint">
+    <comment> 19:filter serial no.</comment>
+    <name>PafSnData:bp4:d19:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d19:filterSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d19:lnaSerialNo" type="iocPoint">
+    <comment> 19:LNA serial no.</comment>
+    <name>PafSnData:bp4:d19:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d19:lnaSerialNo</pv>
+    <index>19</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d20" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d20</name>
+    <pv>$(p)PafSn:bp4:d20</pv>
+    <index>20</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d20:status" type="iocPoint">
+    <comment> 20:AdbeStatus</comment>
+    <name>PafSnData:bp4:d20:status</name>
+    <pv>$(p)PafSn:bp4:d20:status</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d20:rfofSerialNo" type="iocPoint">
+    <comment> 20:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d20:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d20:rfofSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d20:dominoSerialNo" type="iocPoint">
+    <comment> 20:domino serial no.</comment>
+    <name>PafSnData:bp4:d20:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d20:dominoSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d20:filterSerialNo" type="iocPoint">
+    <comment> 20:filter serial no.</comment>
+    <name>PafSnData:bp4:d20:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d20:filterSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d20:lnaSerialNo" type="iocPoint">
+    <comment> 20:LNA serial no.</comment>
+    <name>PafSnData:bp4:d20:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d20:lnaSerialNo</pv>
+    <index>20</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d21" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d21</name>
+    <pv>$(p)PafSn:bp4:d21</pv>
+    <index>21</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d21:status" type="iocPoint">
+    <comment> 21:AdbeStatus</comment>
+    <name>PafSnData:bp4:d21:status</name>
+    <pv>$(p)PafSn:bp4:d21:status</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d21:rfofSerialNo" type="iocPoint">
+    <comment> 21:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d21:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d21:rfofSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d21:dominoSerialNo" type="iocPoint">
+    <comment> 21:domino serial no.</comment>
+    <name>PafSnData:bp4:d21:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d21:dominoSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d21:filterSerialNo" type="iocPoint">
+    <comment> 21:filter serial no.</comment>
+    <name>PafSnData:bp4:d21:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d21:filterSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d21:lnaSerialNo" type="iocPoint">
+    <comment> 21:LNA serial no.</comment>
+    <name>PafSnData:bp4:d21:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d21:lnaSerialNo</pv>
+    <index>21</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d22" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d22</name>
+    <pv>$(p)PafSn:bp4:d22</pv>
+    <index>22</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d22:status" type="iocPoint">
+    <comment> 22:AdbeStatus</comment>
+    <name>PafSnData:bp4:d22:status</name>
+    <pv>$(p)PafSn:bp4:d22:status</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d22:rfofSerialNo" type="iocPoint">
+    <comment> 22:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d22:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d22:rfofSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d22:dominoSerialNo" type="iocPoint">
+    <comment> 22:domino serial no.</comment>
+    <name>PafSnData:bp4:d22:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d22:dominoSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d22:filterSerialNo" type="iocPoint">
+    <comment> 22:filter serial no.</comment>
+    <name>PafSnData:bp4:d22:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d22:filterSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d22:lnaSerialNo" type="iocPoint">
+    <comment> 22:LNA serial no.</comment>
+    <name>PafSnData:bp4:d22:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d22:lnaSerialNo</pv>
+    <index>22</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d23" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d23</name>
+    <pv>$(p)PafSn:bp4:d23</pv>
+    <index>23</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d23:status" type="iocPoint">
+    <comment> 23:AdbeStatus</comment>
+    <name>PafSnData:bp4:d23:status</name>
+    <pv>$(p)PafSn:bp4:d23:status</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d23:rfofSerialNo" type="iocPoint">
+    <comment> 23:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d23:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d23:rfofSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d23:dominoSerialNo" type="iocPoint">
+    <comment> 23:domino serial no.</comment>
+    <name>PafSnData:bp4:d23:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d23:dominoSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d23:filterSerialNo" type="iocPoint">
+    <comment> 23:filter serial no.</comment>
+    <name>PafSnData:bp4:d23:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d23:filterSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d23:lnaSerialNo" type="iocPoint">
+    <comment> 23:LNA serial no.</comment>
+    <name>PafSnData:bp4:d23:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d23:lnaSerialNo</pv>
+    <index>23</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="PafSn:bp4:d24" type="iocStructure">
+    <comment></comment>
+    <name>PafSnData:bp4:d24</name>
+    <pv>$(p)PafSn:bp4:d24</pv>
+    <index>24</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="PafSn:bp4:d24:status" type="iocPoint">
+    <comment> 24:AdbeStatus</comment>
+    <name>PafSnData:bp4:d24:status</name>
+    <pv>$(p)PafSn:bp4:d24:status</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d24:rfofSerialNo" type="iocPoint">
+    <comment> 24:RFoF serial no.</comment>
+    <name>PafSnData:bp4:d24:rfofSerialNo</name>
+    <pv>$(p)PafSn:bp4:d24:rfofSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d24:dominoSerialNo" type="iocPoint">
+    <comment> 24:domino serial no.</comment>
+    <name>PafSnData:bp4:d24:dominoSerialNo</name>
+    <pv>$(p)PafSn:bp4:d24:dominoSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d24:filterSerialNo" type="iocPoint">
+    <comment> 24:filter serial no.</comment>
+    <name>PafSnData:bp4:d24:filterSerialNo</name>
+    <pv>$(p)PafSn:bp4:d24:filterSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="PafSn:bp4:d24:lnaSerialNo" type="iocPoint">
+    <comment> 24:LNA serial no.</comment>
+    <name>PafSnData:bp4:d24:lnaSerialNo</name>
+    <pv>$(p)PafSn:bp4:d24:lnaSerialNo</pv>
+    <index>24</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+</macros>

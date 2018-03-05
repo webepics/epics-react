@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_shutdownOnHighTemp:exec_O",
+    "name": "F_shutdownOnHighTemp:exec_O",
+    "size": "1"
+  }
+]

@@ -1,0 +1,79 @@
+<macros>
+  <Group name="F_processCorrelations:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_processCorrelations:exec_O</name>
+    <pv>$(p)$(card)F_processCorrelations:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:downloadBAT" type="iocPoint">
+    <comment>BAT from correlator</comment>
+    <name>F_processCorrelations:downloadBAT</name>
+    <pv>$(p)$(card)F_processCorrelations:downloadBAT</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:timeStampBATStr" type="iocPoint">
+    <comment>BAT from correlator download</comment>
+    <name>F_processCorrelations:timeStampBATStr</name>
+    <pv>$(p)$(card)F_processCorrelations:timeStampBATStr</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:intEpochBATStr" type="iocPoint">
+    <comment>integration epoch BAT</comment>
+    <name>F_processCorrelations:intEpochBATStr</name>
+    <pv>$(p)$(card)F_processCorrelations:intEpochBATStr</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:freqTimeStampBATStr" type="iocPoint">
+    <comment>BAT from cor integration</comment>
+    <name>F_processCorrelations:freqTimeStampBATStr</name>
+    <pv>$(p)$(card)F_processCorrelations:freqTimeStampBATStr</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:downloadCount" type="iocPoint">
+    <comment>Correlations processed count</comment>
+    <name>F_processCorrelations:downloadCount</name>
+    <pv>$(p)$(card)F_processCorrelations:downloadCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:timeoutCount" type="iocPoint">
+    <comment>Count of timeout errors</comment>
+    <name>F_processCorrelations:timeoutCount</name>
+    <pv>$(p)$(card)F_processCorrelations:timeoutCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:batError" type="iocEnumBit">
+    <comment>BAT error in data</comment>
+    <name>F_processCorrelations:batError</name>
+    <pv>$(p)$(card)F_processCorrelations:batError</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:batErrorCount" type="iocPoint">
+    <comment>count of BAT errors in data</comment>
+    <name>F_processCorrelations:batErrorCount</name>
+    <pv>$(p)$(card)F_processCorrelations:batErrorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_processCorrelations:pushErrorCounts" type="iocPoint">
+    <comment>Errors from data push</comment>
+    <name>F_processCorrelations:pushErrorCounts</name>
+    <pv>$(p)$(card)F_processCorrelations:pushErrorCounts</pv>
+    <type>int</type>
+    <size>6</size>
+  </Group>
+  <Group name="F_processCorrelations:skyFreqList" type="iocPoint">
+    <comment>list of channel frequencies</comment>
+    <name>F_processCorrelations:skyFreqList</name>
+    <pv>$(p)$(card)F_processCorrelations:skyFreqList</pv>
+    <type>double</type>
+    <size>216</size>
+  </Group>
+</macros>

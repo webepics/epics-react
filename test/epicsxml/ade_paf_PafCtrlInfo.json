@@ -1,0 +1,445 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)ctrl:status",
+    "name": "PafCtrlInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "Controller combined comms errors",
+    "pvname": "$(p)ctrl:totalErrors",
+    "name": "PafCtrlInfo:totalErrors",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:AdbeStatus",
+    "pvname": "$(p)ctrl:gpio1:status",
+    "name": "PafCtrlInfo:gpio1:status",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:GPIO1 comms errors",
+    "pvname": "$(p)ctrl:gpio1:errorCount",
+    "name": "PafCtrlInfo:gpio1:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:TEC Power",
+    "pvname": "$(p)ctrl:gpio1:pafTECPwr_cmd",
+    "name": "PafCtrlInfo:gpio1:pafTECPwr_cmd",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PS Power",
+    "pvname": "$(p)ctrl:gpio1:pafPSPwr_cmd",
+    "name": "PafCtrlInfo:gpio1:pafPSPwr_cmd",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:TX Error Test",
+    "pvname": "$(p)ctrl:gpio1:pafTXErrTest_L",
+    "name": "PafCtrlInfo:gpio1:pafTXErrTest_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:Interlock Override",
+    "pvname": "$(p)ctrl:gpio1:pafIntlkOvr_L",
+    "name": "PafCtrlInfo:gpio1:pafIntlkOvr_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:Optical Interlock Alarm",
+    "pvname": "$(p)ctrl:gpio1:pafOIntlkAlm_L",
+    "name": "PafCtrlInfo:gpio1:pafOIntlkAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:Debug",
+    "pvname": "$(p)ctrl:gpio1:pafDebug_L",
+    "name": "PafCtrlInfo:gpio1:pafDebug_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:RH Power Enabled",
+    "pvname": "$(p)ctrl:gpio1:pafRHPwr_enabled",
+    "name": "PafCtrlInfo:gpio1:pafRHPwr_enabled",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:RH High Alarm Disabled",
+    "pvname": "$(p)ctrl:gpio1:pafRHAlm_disabled",
+    "name": "PafCtrlInfo:gpio1:pafRHAlm_disabled",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PAF RH High",
+    "pvname": "$(p)ctrl:gpio1:pafHiRH_L",
+    "name": "PafCtrlInfo:gpio1:pafHiRH_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PAF Low Temp",
+    "pvname": "$(p)ctrl:gpio1:pafLowTemp_L",
+    "name": "PafCtrlInfo:gpio1:pafLowTemp_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PAF Low Temp Alarm Disabled",
+    "pvname": "$(p)ctrl:gpio1:pafLowTempAlm_disabled",
+    "name": "PafCtrlInfo:gpio1:pafLowTempAlm_disabled",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PAF Hi Temp",
+    "pvname": "$(p)ctrl:gpio1:pafHiTemp_L",
+    "name": "PafCtrlInfo:gpio1:pafHiTemp_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PAF Hi Temp Alarm Disabled",
+    "pvname": "$(p)ctrl:gpio1:pafHiTempAlm_disabled",
+    "name": "PafCtrlInfo:gpio1:pafHiTempAlm_disabled",
+    "size": "1"
+  },
+  {
+    "description": "GPIO1:PAF Interlock Alarm Disabled",
+    "pvname": "$(p)ctrl:gpio1:pafIntlkAlm_disabled",
+    "name": "PafCtrlInfo:gpio1:pafIntlkAlm_disabled",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:AdbeStatus",
+    "pvname": "$(p)ctrl:gpio2:status",
+    "name": "PafCtrlInfo:gpio2:status",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:GPIO2 comms errors",
+    "pvname": "$(p)ctrl:gpio2:errorCount",
+    "name": "PafCtrlInfo:gpio2:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:PSU Output Power OK",
+    "pvname": "$(p)ctrl:gpio2:pafPSOutputPwr",
+    "name": "PafCtrlInfo:gpio2:pafPSOutputPwr",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:Electrical Interlock Alarm",
+    "pvname": "$(p)ctrl:gpio2:pafEIntlkAlm",
+    "name": "PafCtrlInfo:gpio2:pafEIntlkAlm",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:PAF PSU OK",
+    "pvname": "$(p)ctrl:gpio2:pafPSStatusLED",
+    "name": "PafCtrlInfo:gpio2:pafPSStatusLED",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:PAF TEC OK",
+    "pvname": "$(p)ctrl:gpio2:pafTECStatusLED",
+    "name": "PafCtrlInfo:gpio2:pafTECStatusLED",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:PAF Temp, High RH or Interlock Alarm",
+    "pvname": "$(p)ctrl:gpio2:pafAlmStatusLED",
+    "name": "PafCtrlInfo:gpio2:pafAlmStatusLED",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:TEC Interrupt Alarm",
+    "pvname": "$(p)ctrl:gpio2:pafTECIntAAlm_L",
+    "name": "PafCtrlInfo:gpio2:pafTECIntAAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:TEC Output Power OK",
+    "pvname": "$(p)ctrl:gpio2:pafTECOutputPwr",
+    "name": "PafCtrlInfo:gpio2:pafTECOutputPwr",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:PSU Interrupt Alarm",
+    "pvname": "$(p)ctrl:gpio2:pafPSIntAAlm_L",
+    "name": "PafCtrlInfo:gpio2:pafPSIntAAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:PSU Input Power OK",
+    "pvname": "$(p)ctrl:gpio2:pafPSInputPwr",
+    "name": "PafCtrlInfo:gpio2:pafPSInputPwr",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:TEC Input Power OK",
+    "pvname": "$(p)ctrl:gpio2:pafTECInputPwr",
+    "name": "PafCtrlInfo:gpio2:pafTECInputPwr",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:Power supply command enabled",
+    "pvname": "$(p)ctrl:gpio2:pafPSPwrCmd_enabled",
+    "name": "PafCtrlInfo:gpio2:pafPSPwrCmd_enabled",
+    "size": "1"
+  },
+  {
+    "description": "GPIO2:TEC command enabled",
+    "pvname": "$(p)ctrl:gpio2:pafTECPwrCmd_enabled",
+    "name": "PafCtrlInfo:gpio2:pafTECPwrCmd_enabled",
+    "size": "1"
+  },
+  {
+    "description": "other:AdbeStatus",
+    "pvname": "$(p)ctrl:other:status",
+    "name": "PafCtrlInfo:other:status",
+    "size": "1"
+  },
+  {
+    "description": "other:TEC comms errors",
+    "pvname": "$(p)ctrl:other:errorCount",
+    "name": "PafCtrlInfo:other:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "other:PAF Ctrl TX control low level",
+    "pvname": "$(p)ctrl:other:txCtrlLowMemMon",
+    "name": "PafCtrlInfo:other:txCtrlLowMemMon",
+    "size": "1"
+  },
+  {
+    "description": "other:PAF Ctrl TX control high level",
+    "pvname": "$(p)ctrl:other:txCtrlHighMemMon",
+    "name": "PafCtrlInfo:other:txCtrlHighMemMon",
+    "size": "1"
+  },
+  {
+    "description": "other:PAF PS alarm/error during startup",
+    "pvname": "$(p)ctrl:other:pafPSAlmAtStartup",
+    "name": "PafCtrlInfo:other:pafPSAlmAtStartup",
+    "size": "1"
+  },
+  {
+    "description": "other:PAF TEC alarm/error during startup",
+    "pvname": "$(p)ctrl:other:pafTECAlmAtStartup",
+    "name": "PafCtrlInfo:other:pafTECAlmAtStartup",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:AdbeStatus",
+    "pvname": "$(p)ctrl:adc1:status",
+    "name": "PafCtrlInfo:adc1:status",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:ADC1 comms errors",
+    "pvname": "$(p)ctrl:adc1:errorCount",
+    "name": "PafCtrlInfo:adc1:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:Controller Temp",
+    "pvname": "$(p)ctrl:adc1:pafCtrlTemp",
+    "name": "PafCtrlInfo:adc1:pafCtrlTemp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:Relative Humidity",
+    "pvname": "$(p)ctrl:adc1:pafRH",
+    "name": "PafCtrlInfo:adc1:pafRH",
+    "units": "%",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:Dew Sensor Temp",
+    "pvname": "$(p)ctrl:adc1:pafDewTemp",
+    "name": "PafCtrlInfo:adc1:pafDewTemp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:PAF Av Temp",
+    "pvname": "$(p)ctrl:adc1:pafAvTemp",
+    "name": "PafCtrlInfo:adc1:pafAvTemp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "ADC1:PS Temp",
+    "pvname": "$(p)ctrl:adc1:pafPSTemp",
+    "name": "PafCtrlInfo:adc1:pafPSTemp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)ctrl:adc2:status",
+    "name": "PafCtrlInfo:adc2:status",
+    "size": "1"
+  },
+  {
+    "description": "ADC2 Comms Errors",
+    "pvname": "$(p)ctrl:adc2:errorCount",
+    "name": "PafCtrlInfo:adc2:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp1",
+    "name": "PafCtrlInfo:adc2:temp1",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp2",
+    "name": "PafCtrlInfo:adc2:temp2",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp3",
+    "name": "PafCtrlInfo:adc2:temp3",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp4",
+    "name": "PafCtrlInfo:adc2:temp4",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp5",
+    "name": "PafCtrlInfo:adc2:temp5",
+    "units": "C",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp6",
+    "name": "PafCtrlInfo:adc2:temp6",
+    "units": "C",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp7",
+    "name": "PafCtrlInfo:adc2:temp7",
+    "units": "C",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Internal Temp",
+    "pvname": "$(p)ctrl:adc2:temp8",
+    "name": "PafCtrlInfo:adc2:temp8",
+    "units": "C",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)ctrl:adc3:status",
+    "name": "PafCtrlInfo:adc3:status",
+    "size": "1"
+  },
+  {
+    "description": "ADC3 comms errors",
+    "pvname": "$(p)ctrl:adc3:errorCount",
+    "name": "PafCtrlInfo:adc3:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)ctrl:adc3:debugInfo:status",
+    "name": "PafCtrlInfo:adc3:debugInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl RX Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:rxMon1",
+    "name": "PafCtrlInfo:adc3:debugInfo:rxMon1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl RX Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:rxMon2",
+    "name": "PafCtrlInfo:adc3:debugInfo:rxMon2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl RX Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:rxMon3",
+    "name": "PafCtrlInfo:adc3:debugInfo:rxMon3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl RX Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:rxMon4",
+    "name": "PafCtrlInfo:adc3:debugInfo:rxMon4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl RX Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:rxMon5",
+    "name": "PafCtrlInfo:adc3:debugInfo:rxMon5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl TX Low Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:txMonLow",
+    "name": "PafCtrlInfo:adc3:debugInfo:txMonLow",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl TX High Level",
+    "pvname": "$(p)ctrl:adc3:debugInfo:txMonHigh",
+    "name": "PafCtrlInfo:adc3:debugInfo:txMonHigh",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl Laser Temp",
+    "pvname": "$(p)ctrl:adc3:pafCtrlLaserTemp",
+    "name": "PafCtrlInfo:adc3:pafCtrlLaserTemp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Ctrl Input Voltage",
+    "pvname": "$(p)ctrl:adc3:pafCtrlVSupply",
+    "name": "PafCtrlInfo:adc3:pafCtrlVSupply",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "domino monitoring:AdbeStatus",
+    "pvname": "$(p)ctrl:domino:status",
+    "name": "PafCtrlInfo:domino:status",
+    "size": "1"
+  },
+  {
+    "description": "domino monitoring:Domino Voltage",
+    "pvname": "$(p)ctrl:domino:dominoVolts",
+    "name": "PafCtrlInfo:domino:dominoVolts",
+    "units": "V",
+    "size": "1"
+  }
+]

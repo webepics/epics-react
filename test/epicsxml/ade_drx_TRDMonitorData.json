@@ -1,0 +1,571 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)tmon:status",
+    "name": "TRDMonitorData:status",
+    "size": "1"
+  },
+  {
+    "description": "Case temperature OCXO",
+    "pvname": "$(p)$(card)tmon:tempOCXO",
+    "name": "TRDMonitorData:tempOCXO",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Ambient case temperature",
+    "pvname": "$(p)$(card)tmon:tempLocal",
+    "name": "TRDMonitorData:tempLocal",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 1:Temperature",
+    "pvname": "$(p)$(card)tmon:tempADC1:temp",
+    "name": "TRDMonitorData:tempADC1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 1:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:tempADC1:status",
+    "name": "TRDMonitorData:tempADC1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 2:Temperature",
+    "pvname": "$(p)$(card)tmon:tempADC2:temp",
+    "name": "TRDMonitorData:tempADC2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 2:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:tempADC2:status",
+    "name": "TRDMonitorData:tempADC2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 3:Temperature",
+    "pvname": "$(p)$(card)tmon:tempADC3:temp",
+    "name": "TRDMonitorData:tempADC3:temp",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 3:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:tempADC3:status",
+    "name": "TRDMonitorData:tempADC3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 4:Temperature",
+    "pvname": "$(p)$(card)tmon:tempADC4:temp",
+    "name": "TRDMonitorData:tempADC4:temp",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 4:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:tempADC4:status",
+    "name": "TRDMonitorData:tempADC4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 5:Temperature",
+    "pvname": "$(p)$(card)tmon:tempADC5:temp",
+    "name": "TRDMonitorData:tempADC5:temp",
+    "units": "C",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 5:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:tempADC5:status",
+    "name": "TRDMonitorData:tempADC5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 6:Temperature",
+    "pvname": "$(p)$(card)tmon:tempADC6:temp",
+    "name": "TRDMonitorData:tempADC6:temp",
+    "units": "C",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC Temperatures 6:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:tempADC6:status",
+    "name": "TRDMonitorData:tempADC6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Phase Lock Loop Control Voltage",
+    "pvname": "$(p)$(card)tmon:vcoControl",
+    "name": "TRDMonitorData:vcoControl",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "VCO output power",
+    "pvname": "$(p)$(card)tmon:vcoLevel",
+    "name": "TRDMonitorData:vcoLevel",
+    "units": "dBm",
+    "size": "1"
+  },
+  {
+    "description": "Reference Photodiode optical input power",
+    "pvname": "$(p)$(card)tmon:refPD",
+    "name": "TRDMonitorData:refPD",
+    "units": "mW",
+    "size": "1"
+  },
+  {
+    "description": "BAT photodiode optical power input",
+    "pvname": "$(p)$(card)tmon:batPD",
+    "name": "TRDMonitorData:batPD",
+    "units": "mW",
+    "size": "1"
+  },
+  {
+    "description": "Output Level Distributor chip A",
+    "pvname": "$(p)$(card)tmon:lrdPowerA:value",
+    "name": "TRDMonitorData:lrdPowerA:value",
+    "units": "dBm",
+    "size": "1"
+  },
+  {
+    "description": "Output Level Distributor chip A:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:lrdPowerA:status",
+    "name": "TRDMonitorData:lrdPowerA:status",
+    "size": "1"
+  },
+  {
+    "description": "Output Level Distributor chip B",
+    "pvname": "$(p)$(card)tmon:lrdPowerB:value",
+    "name": "TRDMonitorData:lrdPowerB:value",
+    "units": "dBm",
+    "size": "1"
+  },
+  {
+    "description": "Output Level Distributor chip B:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:lrdPowerB:status",
+    "name": "TRDMonitorData:lrdPowerB:status",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Output current of regulator",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:iout",
+    "name": "TRDMonitorData:vcc1v8a:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Output voltage of regulator",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:vout",
+    "name": "TRDMonitorData:vcc1v8a:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B0",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B1",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B2",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B3",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B4",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B5",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:supplyStatus:B6",
+    "name": "TRDMonitorData:vcc1v8a:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "Power to 64MHz and BAT Distributor Ics:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:vcc1v8a:status",
+    "name": "TRDMonitorData:vcc1v8a:status",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Output current of regulator",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:iout",
+    "name": "TRDMonitorData:vcc1v8b:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Output voltage of regulator",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:vout",
+    "name": "TRDMonitorData:vcc1v8b:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B0",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B1",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B2",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B3",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B4",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B5",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:supplyStatus:B6",
+    "name": "TRDMonitorData:vcc1v8b:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "Power to SP1 and SP2 Distributor Ics:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:vcc1v8b:status",
+    "name": "TRDMonitorData:vcc1v8b:status",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Output current of regulator",
+    "pvname": "$(p)$(card)tmon:vcc3v3:iout",
+    "name": "TRDMonitorData:vcc3v3:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Output voltage of regulator",
+    "pvname": "$(p)$(card)tmon:vcc3v3:vout",
+    "name": "TRDMonitorData:vcc3v3:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B0",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B1",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B2",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B3",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B4",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B5",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc3v3:supplyStatus:B6",
+    "name": "TRDMonitorData:vcc3v3:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "Power to LRD:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:vcc3v3:status",
+    "name": "TRDMonitorData:vcc3v3:status",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Output voltage of regulator",
+    "pvname": "$(p)$(card)tmon:vcc15v:vout",
+    "name": "TRDMonitorData:vcc15v:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Input voltage of regulator",
+    "pvname": "$(p)$(card)tmon:vcc15v:vin",
+    "name": "TRDMonitorData:vcc15v:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus",
+    "name": "TRDMonitorData:vcc15v:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B0",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B1",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B2",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B3",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B4",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B5",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vcc15v:supplyStatus:B6",
+    "name": "TRDMonitorData:vcc15v:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "+15V unregulated:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:vcc15v:status",
+    "name": "TRDMonitorData:vcc15v:status",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Output current of regulator",
+    "pvname": "$(p)$(card)tmon:vccoxo:iout",
+    "name": "TRDMonitorData:vccoxo:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)tmon:vccoxo:vout",
+    "name": "TRDMonitorData:vccoxo:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus",
+    "name": "TRDMonitorData:vccoxo:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B0",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B1",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B2",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B3",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B4",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B5",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:Power regulator status",
+    "pvname": "$(p)$(card)tmon:vccoxo:supplyStatus:B6",
+    "name": "TRDMonitorData:vccoxo:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "OXCO Supply:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:vccoxo:status",
+    "name": "TRDMonitorData:vccoxo:status",
+    "size": "1"
+  },
+  {
+    "description": "Monitor ADC supply",
+    "pvname": "$(p)$(card)tmon:vcc5v",
+    "name": "TRDMonitorData:vcc5v",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Regulated VCO and PLL supply",
+    "pvname": "$(p)$(card)tmon:vcc5v_pll",
+    "name": "TRDMonitorData:vcc5v_pll",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Unregulated +6V In",
+    "pvname": "$(p)$(card)tmon:vcc6v",
+    "name": "TRDMonitorData:vcc6v",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+3V Supply to distributor chip A",
+    "pvname": "$(p)$(card)tmon:dist3va:value",
+    "name": "TRDMonitorData:dist3va:value",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+3V Supply to distributor chip A:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:dist3va:status",
+    "name": "TRDMonitorData:dist3va:status",
+    "size": "1"
+  },
+  {
+    "description": "+3V Supply to distributor chip B",
+    "pvname": "$(p)$(card)tmon:dist3vb:value",
+    "name": "TRDMonitorData:dist3vb:value",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "+3V Supply to distributor chip B:AdbeStatus",
+    "pvname": "$(p)$(card)tmon:dist3vb:status",
+    "name": "TRDMonitorData:dist3vb:status",
+    "size": "1"
+  },
+  {
+    "description": "TRD PLL Locked State:TRD PLL Locked State",
+    "pvname": "$(p)$(card)tmon:pllLocked",
+    "name": "TRDMonitorData:pllLocked",
+    "size": "1"
+  },
+  {
+    "description": "Optical power OK:Optical power OK",
+    "pvname": "$(p)$(card)tmon:batOK",
+    "name": "TRDMonitorData:batOK",
+    "size": "1"
+  },
+  {
+    "description": "Optical power OK:Optical power OK",
+    "pvname": "$(p)$(card)tmon:refOK",
+    "name": "TRDMonitorData:refOK",
+    "size": "1"
+  }
+]

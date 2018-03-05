@@ -1,0 +1,44 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_updateFirmware:exec_O",
+    "name": "F_updateFirmware:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "reset FPGA after load",
+    "pvname": "$(p)$(card)F_updateFirmware:reset_O",
+    "name": "F_updateFirmware:reset_O",
+    "size": "1"
+  },
+  {
+    "description": "verify current firmware only",
+    "pvname": "$(p)$(card)F_updateFirmware:verify_O",
+    "name": "F_updateFirmware:verify_O",
+    "size": "1"
+  },
+  {
+    "description": "firmware update / verify OK",
+    "pvname": "$(p)$(card)F_updateFirmware:firmwareOK",
+    "name": "F_updateFirmware:firmwareOK",
+    "size": "1"
+  },
+  {
+    "description": "trigger for FPGA reset",
+    "pvname": "$(p)$(card)F_updateFirmware:resetTrigger",
+    "name": "F_updateFirmware:resetTrigger",
+    "size": "1"
+  },
+  {
+    "description": "firmware update / verify progress",
+    "pvname": "$(p)$(card)F_updateFirmware:progress",
+    "name": "F_updateFirmware:progress",
+    "size": "1"
+  },
+  {
+    "description": "firmware erase/write cycle:firmware erase/write cycle",
+    "pvname": "$(p)$(card)F_updateFirmware:status",
+    "name": "F_updateFirmware:status",
+    "size": "1"
+  }
+]

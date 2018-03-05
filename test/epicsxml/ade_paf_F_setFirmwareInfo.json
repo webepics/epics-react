@@ -1,0 +1,32 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_setFirmwareInfo:exec_O",
+    "name": "F_setFirmwareInfo:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_setFirmwareInfo:cardType_O",
+    "name": "F_setFirmwareInfo:cardType_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_setFirmwareInfo:serial_O",
+    "name": "F_setFirmwareInfo:serial_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_setFirmwareInfo:revision_O",
+    "name": "F_setFirmwareInfo:revision_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_setFirmwareInfo:result",
+    "name": "F_setFirmwareInfo:result",
+    "size": "1"
+  }
+]

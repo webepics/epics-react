@@ -1,0 +1,32 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT5:exec_O",
+    "name": "F_laserCalFecT5:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT5:level_O",
+    "name": "F_laserCalFecT5:level_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT5:adjustment_O",
+    "name": "F_laserCalFecT5:adjustment_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT5:txMon",
+    "name": "F_laserCalFecT5:txMon",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalFecT5:memMon",
+    "name": "F_laserCalFecT5:memMon",
+    "size": "1"
+  }
+]

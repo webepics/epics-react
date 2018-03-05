@@ -1,0 +1,167 @@
+<macros>
+  <Group name="WeatherMonitorData:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>WeatherMonitorData:status</name>
+    <pv>$(p)WeatherMonitorData:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias" type="iocArray">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias</name>
+    <pv>$(p)WeatherMonitorData:laserBias</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="WeatherMonitorData:laserBias1" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias1</name>
+    <pv>$(p)WeatherMonitorData:laserBias1</pv>
+    <egu>mA</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias2" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias2</name>
+    <pv>$(p)WeatherMonitorData:laserBias2</pv>
+    <egu>mA</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias3" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias3</name>
+    <pv>$(p)WeatherMonitorData:laserBias3</pv>
+    <egu>mA</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias4" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias4</name>
+    <pv>$(p)WeatherMonitorData:laserBias4</pv>
+    <egu>mA</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias5" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias5</name>
+    <pv>$(p)WeatherMonitorData:laserBias5</pv>
+    <egu>mA</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias6" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias6</name>
+    <pv>$(p)WeatherMonitorData:laserBias6</pv>
+    <egu>mA</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias7" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias7</name>
+    <pv>$(p)WeatherMonitorData:laserBias7</pv>
+    <egu>mA</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:laserBias8" type="iocPoint">
+    <comment>Laser Bias Current</comment>
+    <name>WeatherMonitorData:laserBias8</name>
+    <pv>$(p)WeatherMonitorData:laserBias8</pv>
+    <egu>mA</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower" type="iocArray">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower</name>
+    <pv>$(p)WeatherMonitorData:rxPower</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="WeatherMonitorData:rxPower1" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower1</name>
+    <pv>$(p)WeatherMonitorData:rxPower1</pv>
+    <egu>mW</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower2" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower2</name>
+    <pv>$(p)WeatherMonitorData:rxPower2</pv>
+    <egu>mW</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower3" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower3</name>
+    <pv>$(p)WeatherMonitorData:rxPower3</pv>
+    <egu>mW</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower4" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower4</name>
+    <pv>$(p)WeatherMonitorData:rxPower4</pv>
+    <egu>mW</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower5" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower5</name>
+    <pv>$(p)WeatherMonitorData:rxPower5</pv>
+    <egu>mW</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower6" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower6</name>
+    <pv>$(p)WeatherMonitorData:rxPower6</pv>
+    <egu>mW</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower7" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower7</name>
+    <pv>$(p)WeatherMonitorData:rxPower7</pv>
+    <egu>mW</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="WeatherMonitorData:rxPower8" type="iocPoint">
+    <comment>Laser RX Power</comment>
+    <name>WeatherMonitorData:rxPower8</name>
+    <pv>$(p)WeatherMonitorData:rxPower8</pv>
+    <egu>mW</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

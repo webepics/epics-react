@@ -1,0 +1,86 @@
+<macros>
+  <Group name="commsLinkStat" type="iocStructure">
+    <comment></comment>
+    <name>CommsLinkStatus1D</name>
+    <pv>$(p)$(card)commsLinkStat</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="commsLinkStat:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>CommsLinkStatus1D:status</name>
+    <pv>$(p)$(card)commsLinkStat:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:ctrlPort" type="iocStructure">
+    <comment>Low speed Control Link</comment>
+    <name>CommsLinkStatus1D:controlPort</name>
+    <pv>$(p)$(card)commsLinkStat:ctrlPort</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="commsLinkStat:ctrlPort:status" type="iocPoint">
+    <comment>Low speed Control Link:AdbeStatus</comment>
+    <name>CommsLinkStatus1D:controlPort:status</name>
+    <pv>$(p)$(card)commsLinkStat:ctrlPort:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:ctrlPort:upstreamCRCErrors" type="iocPoint">
+    <comment>Low speed Control Link:FPGA to Bullant CRC Errors</comment>
+    <name>CommsLinkStatus1D:controlPort:upstreamCRCErrors</name>
+    <pv>$(p)$(card)commsLinkStat:ctrlPort:upstreamCRCErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:ctrlPort:downstreamCRCErrors" type="iocPoint">
+    <comment>Low speed Control Link:Bullant to FPGA CRC Errors</comment>
+    <name>CommsLinkStatus1D:controlPort:downstreamCRCErrors</name>
+    <pv>$(p)$(card)commsLinkStat:ctrlPort:downstreamCRCErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:ctrlPort:linkValid" type="iocEnumBit">
+    <comment>Low speed Control Link:link valid</comment>
+    <name>CommsLinkStatus1D:controlPort:linkValid</name>
+    <pv>$(p)$(card)commsLinkStat:ctrlPort:linkValid</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="commsLinkStat:dataPort" type="iocStructure">
+    <comment>High speed Data Link</comment>
+    <name>CommsLinkStatus1D:dataPort</name>
+    <pv>$(p)$(card)commsLinkStat:dataPort</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="commsLinkStat:dataPort:status" type="iocPoint">
+    <comment>High speed Data Link:AdbeStatus</comment>
+    <name>CommsLinkStatus1D:dataPort:status</name>
+    <pv>$(p)$(card)commsLinkStat:dataPort:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:dataPort:upstreamCRCErrors" type="iocPoint">
+    <comment>High speed Data Link:FPGA to Bullant CRC Errors</comment>
+    <name>CommsLinkStatus1D:dataPort:upstreamCRCErrors</name>
+    <pv>$(p)$(card)commsLinkStat:dataPort:upstreamCRCErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:dataPort:downstreamCRCErrors" type="iocPoint">
+    <comment>High speed Data Link:Bullant to FPGA CRC Errors</comment>
+    <name>CommsLinkStatus1D:dataPort:downstreamCRCErrors</name>
+    <pv>$(p)$(card)commsLinkStat:dataPort:downstreamCRCErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="commsLinkStat:dataPort:linkValid" type="iocEnumBit">
+    <comment>High speed Data Link:link valid</comment>
+    <name>CommsLinkStatus1D:dataPort:linkValid</name>
+    <pv>$(p)$(card)commsLinkStat:dataPort:linkValid</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+</macros>

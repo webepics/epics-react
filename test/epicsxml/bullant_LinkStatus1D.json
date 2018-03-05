@@ -1,0 +1,56 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus1D:status",
+    "name": "LinkStatus1D:status",
+    "size": "1"
+  },
+  {
+    "description": "Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus1D:crcErrors",
+    "name": "LinkStatus1D:crcErrors",
+    "size": "1"
+  },
+  {
+    "description": "TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus1D:tx_overflow",
+    "name": "LinkStatus1D:tx_overflow",
+    "size": "1"
+  },
+  {
+    "description": "RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus1D:rx_overflow",
+    "name": "LinkStatus1D:rx_overflow",
+    "size": "1"
+  },
+  {
+    "description": "TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus1D:tx_underflow",
+    "name": "LinkStatus1D:tx_underflow",
+    "size": "1"
+  },
+  {
+    "description": "RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus1D:rx_underflow",
+    "name": "LinkStatus1D:rx_underflow",
+    "size": "1"
+  },
+  {
+    "description": "Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus1D:linkSourceAntenna",
+    "name": "LinkStatus1D:linkSourceAntenna",
+    "size": "1"
+  },
+  {
+    "description": "ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus1D:linkBand",
+    "name": "LinkStatus1D:linkBand",
+    "size": "1"
+  },
+  {
+    "description": "link valid",
+    "pvname": "$(p)$(card)LinkStatus1D:linkValid",
+    "name": "LinkStatus1D:linkValid",
+    "size": "1"
+  }
+]

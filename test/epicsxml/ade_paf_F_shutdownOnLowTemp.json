@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_shutdownOnLowTemp:exec_O",
+    "name": "F_shutdownOnLowTemp:exec_O",
+    "size": "1"
+  }
+]

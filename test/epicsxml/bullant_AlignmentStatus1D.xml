@@ -1,0 +1,86 @@
+<macros>
+  <Group name="AlignmentStatus1D" type="iocStructure">
+    <comment></comment>
+    <name>AlignmentStatus1D</name>
+    <pv>$(p)$(card)AlignmentStatus1D</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AlignmentStatus1D:alignmentErrors" type="iocPoint">
+    <comment>alignment error count</comment>
+    <name>AlignmentStatus1D:alignmentErrors</name>
+    <pv>$(p)$(card)AlignmentStatus1D:alignmentErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:statusCode" type="iocPoint">
+    <comment>alignment status codes</comment>
+    <name>AlignmentStatus1D:statusCode</name>
+    <pv>$(p)$(card)AlignmentStatus1D:statusCode</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags" type="iocStructure">
+    <comment>flags</comment>
+    <name>AlignmentStatus1D:flags</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AlignmentStatus1D:flags:stage1_idOk" type="iocEnumValue">
+    <comment>flags:stage 1 ID OK:stage 1 ID OK</comment>
+    <name>AlignmentStatus1D:flags:stage1_idOk</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:stage1_idOk</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:stage2_idOk" type="iocEnumValue">
+    <comment>flags:stage 2 ID OK:stage 2 ID OK</comment>
+    <name>AlignmentStatus1D:flags:stage2_idOk</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:stage2_idOk</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:align2_underrun" type="iocEnumValue">
+    <comment>flags:stage 2 underrun:stage 2 underrun</comment>
+    <name>AlignmentStatus1D:flags:align2_underrun</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:align2_underrun</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:align2_overrun" type="iocEnumValue">
+    <comment>flags:stage 2 overrun:stage 2 overrun</comment>
+    <name>AlignmentStatus1D:flags:align2_overrun</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:align2_overrun</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:align2_aligned" type="iocEnumValue">
+    <comment>flags:stage 2 alignment:stage 2 alignment</comment>
+    <name>AlignmentStatus1D:flags:align2_aligned</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:align2_aligned</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:align1_underrun" type="iocEnumValue">
+    <comment>flags:stage 1 underrun:stage 1 underrun</comment>
+    <name>AlignmentStatus1D:flags:align1_underrun</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:align1_underrun</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:align1_overrun" type="iocEnumValue">
+    <comment>flags:stage 1 overrun:stage 1 overrun</comment>
+    <name>AlignmentStatus1D:flags:align1_overrun</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:align1_overrun</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="AlignmentStatus1D:flags:align1_aligned" type="iocEnumValue">
+    <comment>flags:stage 1 alignment:stage 1 alignment</comment>
+    <name>AlignmentStatus1D:flags:align1_aligned</name>
+    <pv>$(p)$(card)AlignmentStatus1D:flags:align1_aligned</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+</macros>

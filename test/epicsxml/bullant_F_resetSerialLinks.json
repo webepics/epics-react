@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_resetSerialLinks:exec_O",
+    "name": "F_resetSerialLinks:exec_O",
+    "size": "1"
+  }
+]

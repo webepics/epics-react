@@ -1,0 +1,243 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:exec_O",
+    "name": "F_startup:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "sequence number",
+    "pvname": "$(p)F_startup:sequence_O",
+    "name": "F_startup:sequence_O",
+    "size": "1"
+  },
+  {
+    "description": "sequence number out",
+    "pvname": "$(p)F_startup:sequence_RB",
+    "name": "F_startup:sequence_RB",
+    "size": "1"
+  },
+  {
+    "description": "inhibit startup",
+    "pvname": "$(p)F_startup:inhibit_O",
+    "name": "F_startup:inhibit_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:bp1:dominoMask_O",
+    "name": "F_startup:bp1:dominoMask_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:bp2:dominoMask_O",
+    "name": "F_startup:bp2:dominoMask_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:bp3:dominoMask_O",
+    "name": "F_startup:bp3:dominoMask_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:bp4:dominoMask_O",
+    "name": "F_startup:bp4:dominoMask_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on domino power",
+    "pvname": "$(p)F_startup:domPowerEnable_O",
+    "name": "F_startup:domPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on lna power",
+    "pvname": "$(p)F_startup:lnaPowerEnable_O",
+    "name": "F_startup:lnaPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on optical power",
+    "pvname": "$(p)F_startup:opticalPowerEnable_O",
+    "name": "F_startup:opticalPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "TEC Controller Present",
+    "pvname": "$(p)F_startup:tecPresent_O",
+    "name": "F_startup:tecPresent_O",
+    "size": "1"
+  },
+  {
+    "description": "PAF PSU Present",
+    "pvname": "$(p)F_startup:psPresent_O",
+    "name": "F_startup:psPresent_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on PAF power supply",
+    "pvname": "$(p)F_startup:psEnable_O",
+    "name": "F_startup:psEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on TEC",
+    "pvname": "$(p)F_startup:tecEnable_O",
+    "name": "F_startup:tecEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "disable RH alarm",
+    "pvname": "$(p)F_startup:rhAlarmDisable_O",
+    "name": "F_startup:rhAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "disable low temp alarm",
+    "pvname": "$(p)F_startup:lowTempAlarmDisable_O",
+    "name": "F_startup:lowTempAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "disable hi temp Alarm",
+    "pvname": "$(p)F_startup:hiTempAlarmDisable_O",
+    "name": "F_startup:hiTempAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "disable interloack alarm",
+    "pvname": "$(p)F_startup:interlockAlarmDisable_O",
+    "name": "F_startup:interlockAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "Bandpass filter select:Bandpass filter select",
+    "pvname": "$(p)F_startup:band_O",
+    "name": "F_startup:band_O",
+    "size": "1"
+  },
+  {
+    "description": "Bandpass filter select:Bandpass filter select",
+    "pvname": "$(p)F_startup:band_RB",
+    "name": "F_startup:band_RB",
+    "size": "1"
+  },
+  {
+    "description": "attenuator level",
+    "pvname": "$(p)F_startup:atten_O",
+    "name": "F_startup:atten_O",
+    "units": "dB",
+    "size": "1"
+  },
+  {
+    "description": "startup progress",
+    "pvname": "$(p)F_startup:status",
+    "name": "F_startup:status",
+    "size": "128"
+  },
+  {
+    "description": "startup result",
+    "pvname": "$(p)F_startup:result",
+    "name": "F_startup:result",
+    "size": "128"
+  },
+  {
+    "description": "domino startup progress",
+    "pvname": "$(p)F_startup:dominoProgress",
+    "name": "F_startup:dominoProgress",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:fecState",
+    "name": "F_startup:fecState",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:ctrlState",
+    "name": "F_startup:ctrlState",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:psState",
+    "name": "F_startup:psState",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:tecState",
+    "name": "F_startup:tecState",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:backplaneState",
+    "name": "F_startup:backplaneState",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:backplaneState1",
+    "name": "F_startup:backplaneState1",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:backplaneState2",
+    "name": "F_startup:backplaneState2",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:backplaneState3",
+    "name": "F_startup:backplaneState3",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:backplaneState4",
+    "name": "F_startup:backplaneState4",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:dominoState",
+    "name": "F_startup:dominoState",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_startup:done",
+    "name": "F_startup:done",
+    "size": "1"
+  },
+  {
+    "description": "TEC PSU enable output",
+    "pvname": "$(p)F_startup:tecPsuEnable",
+    "name": "F_startup:tecPsuEnable",
+    "size": "1"
+  },
+  {
+    "description": "TEC PID enable closed loop",
+    "pvname": "$(p)F_startup:tecPidEnable",
+    "name": "F_startup:tecPidEnable",
+    "size": "1"
+  },
+  {
+    "description": "TEC PID disable closed loop",
+    "pvname": "$(p)F_startup:tecPidDisable",
+    "name": "F_startup:tecPidDisable",
+    "size": "1"
+  },
+  {
+    "description": "comms fail test",
+    "pvname": "$(p)F_startup:noComms_O",
+    "name": "F_startup:noComms_O",
+    "size": "1"
+  }
+]

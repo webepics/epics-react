@@ -1,0 +1,148 @@
+[
+  {
+    "description": "turn on main power",
+    "pvname": "$(p)F_PafCtrl:psuPowerEnable_O",
+    "name": "F_PafCtrl:psuPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on TEC power",
+    "pvname": "$(p)F_PafCtrl:tecPowerEnable_O",
+    "name": "F_PafCtrl:tecPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on rH sensor power",
+    "pvname": "$(p)F_PafCtrl:rhPowerEnable_O",
+    "name": "F_PafCtrl:rhPowerEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "reset PSU alarms",
+    "pvname": "$(p)F_PafCtrl:psuAlarmReset_O",
+    "name": "F_PafCtrl:psuAlarmReset_O",
+    "size": "1"
+  },
+  {
+    "description": "reset TEC alarms",
+    "pvname": "$(p)F_PafCtrl:tecAlarmReset_O",
+    "name": "F_PafCtrl:tecAlarmReset_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on main power",
+    "pvname": "$(p)F_PafCtrl:lowTempAlarmDisable_O",
+    "name": "F_PafCtrl:lowTempAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on TEC power",
+    "pvname": "$(p)F_PafCtrl:hiTempAlarmDisable_O",
+    "name": "F_PafCtrl:hiTempAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "turn on rH sensor power",
+    "pvname": "$(p)F_PafCtrl:hiRHAlarmDisable_O",
+    "name": "F_PafCtrl:hiRHAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "Interlock Alarm Disable",
+    "pvname": "$(p)F_PafCtrl:interlockAlarmDisable_O",
+    "name": "F_PafCtrl:interlockAlarmDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "TEC temp set point",
+    "pvname": "$(p)F_PafCtrl:tecSetpoint_O",
+    "name": "F_PafCtrl:tecSetpoint_O",
+    "size": "1"
+  },
+  {
+    "description": "reset comms error counts",
+    "pvname": "$(p)F_PafCtrl:resetErrorCounts_O",
+    "name": "F_PafCtrl:resetErrorCounts_O",
+    "size": "1"
+  },
+  {
+    "description": "enable PAF Ctrl monitoring",
+    "pvname": "$(p)F_PafCtrl:ctrlMonEnable_O",
+    "name": "F_PafCtrl:ctrlMonEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "enable PSU monitoring",
+    "pvname": "$(p)F_PafCtrl:psuMonEnable_O",
+    "name": "F_PafCtrl:psuMonEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "enable TEC monitoring",
+    "pvname": "$(p)F_PafCtrl:tecMonEnable_O",
+    "name": "F_PafCtrl:tecMonEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "set return delay",
+    "pvname": "$(p)F_PafCtrl:returnDelay_O",
+    "name": "F_PafCtrl:returnDelay_O",
+    "units": "ms",
+    "size": "1"
+  },
+  {
+    "description": "monitoring interval",
+    "pvname": "$(p)F_PafCtrl:monitoringInterval_O",
+    "name": "F_PafCtrl:monitoringInterval_O",
+    "units": "ms",
+    "size": "1"
+  },
+  {
+    "description": "force monitoring update now",
+    "pvname": "$(p)F_PafCtrl:updateNow_O",
+    "name": "F_PafCtrl:updateNow_O",
+    "size": "1"
+  },
+  {
+    "description": "FEC-EO polling indicator",
+    "pvname": "$(p)F_PafCtrl:pollFecEo",
+    "name": "F_PafCtrl:pollFecEo",
+    "size": "1"
+  },
+  {
+    "description": "PAF Ctrl polling indicator",
+    "pvname": "$(p)F_PafCtrl:pollPafCtrl",
+    "name": "F_PafCtrl:pollPafCtrl",
+    "size": "1"
+  },
+  {
+    "description": "PAF PSU polling indicator",
+    "pvname": "$(p)F_PafCtrl:pollPafPsu",
+    "name": "F_PafCtrl:pollPafPsu",
+    "size": "1"
+  },
+  {
+    "description": "TEC Ctrl polling inidicator",
+    "pvname": "$(p)F_PafCtrl:pollTecCtrl",
+    "name": "F_PafCtrl:pollTecCtrl",
+    "size": "1"
+  },
+  {
+    "description": "Domino polling indicator",
+    "pvname": "$(p)F_PafCtrl:pollDominos",
+    "name": "F_PafCtrl:pollDominos",
+    "size": "1"
+  },
+  {
+    "description": "Serial number update done",
+    "pvname": "$(p)F_PafCtrl:serialNumsRead",
+    "name": "F_PafCtrl:serialNumsRead",
+    "size": "1"
+  },
+  {
+    "description": "log PSU info after trip",
+    "pvname": "$(p)F_PafCtrl:logPsuTrip_O",
+    "name": "F_PafCtrl:logPsuTrip_O",
+    "size": "1"
+  }
+]

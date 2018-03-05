@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)metadata:cycleBATStr",
+    "name": "metadata:cycleBATStr",
+    "size": "1"
+  }
+]

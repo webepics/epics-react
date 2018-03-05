@@ -1,0 +1,44 @@
+<macros>
+  <Group name="F_CicadaOpts:ROARAtten_O" type="iocPoint">
+    <comment>Cicada attenuation (higher= >atten)</comment>
+    <name>F_CicadaOpts:ROARAtten_O</name>
+    <pv>$(p)F_CicadaOpts:ROARAtten_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CicadaOpts:opticalSwitch_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_CicadaOpts:opticalSwitch_O</name>
+    <pv>$(p)F_CicadaOpts:opticalSwitch_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CicadaOpts:enableROAR_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_CicadaOpts:enableROAR_O</name>
+    <pv>$(p)F_CicadaOpts:enableROAR_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CicadaOpts:enableRT_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_CicadaOpts:enableRT_O</name>
+    <pv>$(p)F_CicadaOpts:enableRT_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CicadaOpts:enableNoise_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_CicadaOpts:enableNoise_O</name>
+    <pv>$(p)F_CicadaOpts:enableNoise_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CicadaOpts:RTAtten_O" type="iocPoint">
+    <comment></comment>
+    <name>F_CicadaOpts:RTAtten_O</name>
+    <pv>$(p)F_CicadaOpts:RTAtten_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

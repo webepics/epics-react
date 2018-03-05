@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_resetCorCounts:exec_O",
+    "name": "F_resetCorCounts:exec_O",
+    "size": "1"
+  }
+]

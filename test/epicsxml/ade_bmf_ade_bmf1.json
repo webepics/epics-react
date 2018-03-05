@@ -1,0 +1,8 @@
+[
+  {
+    "description": "FPGA subband ID",
+    "pvname": "$(p)$(card)fpgaSubbands",
+    "name": "fpgaSubbands",
+    "size": "6"
+  }
+]

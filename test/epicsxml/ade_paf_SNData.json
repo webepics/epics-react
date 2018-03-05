@@ -1,0 +1,214 @@
+[
+  {
+    "description": "board type:board type",
+    "pvname": "$(p)SNData:type",
+    "name": "SNData:type",
+    "size": "1"
+  },
+  {
+    "description": "DSP card revision",
+    "pvname": "$(p)SNData:dsp_rev",
+    "name": "SNData:dsp_rev",
+    "size": "1"
+  },
+  {
+    "description": "Bullant revision",
+    "pvname": "$(p)SNData:bullant_rev",
+    "name": "SNData:bullant_rev",
+    "size": "1"
+  },
+  {
+    "description": "bullant rom",
+    "pvname": "$(p)SNData:bullant_rom",
+    "name": "SNData:bullant_rom",
+    "size": "1"
+  },
+  {
+    "description": "dsp rom",
+    "pvname": "$(p)SNData:dsp_rom",
+    "name": "SNData:dsp_rom",
+    "size": "1"
+  },
+  {
+    "description": "aux rom",
+    "pvname": "$(p)SNData:aux_rom",
+    "name": "SNData:aux_rom",
+    "size": "1"
+  },
+  {
+    "description": "bullant serial",
+    "pvname": "$(p)SNData:bullant_sn",
+    "name": "SNData:bullant_sn",
+    "size": "1"
+  },
+  {
+    "description": "dsp serial",
+    "pvname": "$(p)SNData:dsp_sn",
+    "name": "SNData:dsp_sn",
+    "size": "1"
+  },
+  {
+    "description": "bullant version",
+    "pvname": "$(p)SNData:bullant_ver",
+    "name": "SNData:bullant_ver",
+    "size": "1"
+  },
+  {
+    "description": "chassis serial",
+    "pvname": "$(p)SNData:chassis_sn",
+    "name": "SNData:chassis_sn",
+    "size": "1"
+  },
+  {
+    "description": "fan backplane serial",
+    "pvname": "$(p)SNData:fanbackplane_sn",
+    "name": "SNData:fanbackplane_sn",
+    "size": "1"
+  },
+  {
+    "description": "Aux serial",
+    "pvname": "$(p)SNData:aux_sn",
+    "name": "SNData:aux_sn",
+    "size": "1"
+  },
+  {
+    "description": "DRX Synthesiser serial",
+    "pvname": "$(p)SNData:synthesiser_sn",
+    "name": "SNData:synthesiser_sn",
+    "size": "1"
+  },
+  {
+    "description": "Linear Power supply serial",
+    "pvname": "$(p)SNData:linear_power_sn",
+    "name": "SNData:linear_power_sn",
+    "size": "1"
+  },
+  {
+    "description": "fpga verions",
+    "pvname": "$(p)SNData:fpga_ver1",
+    "name": "SNData:fpga_ver1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "fpga verions",
+    "pvname": "$(p)SNData:fpga_ver2",
+    "name": "SNData:fpga_ver2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "fpga verions",
+    "pvname": "$(p)SNData:fpga_ver3",
+    "name": "SNData:fpga_ver3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "fpga verions",
+    "pvname": "$(p)SNData:fpga_ver4",
+    "name": "SNData:fpga_ver4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "fpga verions",
+    "pvname": "$(p)SNData:fpga_ver5",
+    "name": "SNData:fpga_ver5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "fpga verions",
+    "pvname": "$(p)SNData:fpga_ver6",
+    "name": "SNData:fpga_ver6",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn1",
+    "name": "SNData:rfof_sn1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn2",
+    "name": "SNData:rfof_sn2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn3",
+    "name": "SNData:rfof_sn3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn4",
+    "name": "SNData:rfof_sn4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn5",
+    "name": "SNData:rfof_sn5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn6",
+    "name": "SNData:rfof_sn6",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn7",
+    "name": "SNData:rfof_sn7",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "rfof serial",
+    "pvname": "$(p)SNData:rfof_sn8",
+    "name": "SNData:rfof_sn8",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "SFP vendor",
+    "pvname": "$(p)SNData:sfpVendor",
+    "name": "SNData:sfpVendor",
+    "size": "1"
+  },
+  {
+    "description": "SFP part no.",
+    "pvname": "$(p)SNData:sfpPartNo",
+    "name": "SNData:sfpPartNo",
+    "size": "1"
+  },
+  {
+    "description": "SFP revision",
+    "pvname": "$(p)SNData:sfpRevision",
+    "name": "SNData:sfpRevision",
+    "size": "1"
+  },
+  {
+    "description": "SFP serial",
+    "pvname": "$(p)SNData:sfpSerial",
+    "name": "SNData:sfpSerial",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)SNData:status",
+    "name": "SNData:status",
+    "size": "1"
+  }
+]

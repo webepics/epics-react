@@ -1,0 +1,9 @@
+<macros>
+  <Group name="F_loadSources:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_loadSources:exec_O</name>
+    <pv>$(p)F_loadSources:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

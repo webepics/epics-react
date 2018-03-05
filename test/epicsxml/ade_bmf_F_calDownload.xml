@@ -1,0 +1,58 @@
+<macros>
+  <Group name="F_calDownload:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_calDownload:exec_O</name>
+    <pv>$(p)$(card)F_calDownload:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:intTime_O" type="iocPoint">
+    <comment>cal correlator integration time</comment>
+    <name>F_calDownload:intTime_O</name>
+    <pv>$(p)$(card)F_calDownload:intTime_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:dlTime_O" type="iocPoint">
+    <comment>cal correltor download time</comment>
+    <name>F_calDownload:dlTime_O</name>
+    <pv>$(p)$(card)F_calDownload:dlTime_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:refDelay_O" type="iocPoint">
+    <comment>Reference Port Delay</comment>
+    <name>F_calDownload:refDelay_O</name>
+    <pv>$(p)$(card)F_calDownload:refDelay_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:refPort_O" type="iocPoint">
+    <comment>Reference Port</comment>
+    <name>F_calDownload:refPort_O</name>
+    <pv>$(p)$(card)F_calDownload:refPort_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:freqSelect_O" type="iocPoint">
+    <comment>Frequency Index</comment>
+    <name>F_calDownload:freqSelect_O</name>
+    <pv>$(p)$(card)F_calDownload:freqSelect_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:start_O" type="iocEnumBit">
+    <comment>start cal correlator download</comment>
+    <name>F_calDownload:start_O</name>
+    <pv>$(p)$(card)F_calDownload:start_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_calDownload:stop_O" type="iocEnumBit">
+    <comment>stop cal correlator download</comment>
+    <name>F_calDownload:stop_O</name>
+    <pv>$(p)$(card)F_calDownload:stop_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

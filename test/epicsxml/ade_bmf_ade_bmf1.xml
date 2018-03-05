@@ -1,0 +1,9 @@
+<macros>
+  <Group name="fpgaSubbands" type="iocPoint">
+    <comment>FPGA subband ID</comment>
+    <name>fpgaSubbands</name>
+    <pv>$(p)$(card)fpgaSubbands</pv>
+    <type>int</type>
+    <size>6</size>
+  </Group>
+</macros>

@@ -1,0 +1,196 @@
+<macros>
+  <Group name="psu:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafPsuInfo:status</name>
+    <pv>$(p)psu:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:totalErrors" type="iocPoint">
+    <comment>PSU combined comms errors</comment>
+    <name>PafPsuInfo:totalErrors</name>
+    <pv>$(p)psu:totalErrors</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1" type="iocStructure">
+    <comment></comment>
+    <name>PafPsuInfo:adc1</name>
+    <pv>$(p)psu:adc1</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="psu:adc1:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafPsuInfo:adc1:status</name>
+    <pv>$(p)psu:adc1:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:errorCount" type="iocPoint">
+    <comment>PSU comms errors</comment>
+    <name>PafPsuInfo:adc1:errorCount</name>
+    <pv>$(p)psu:adc1:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:rfVoltsPos" type="iocPoint">
+    <comment>RF Volts+</comment>
+    <name>PafPsuInfo:adc1:rfVoltsPos</name>
+    <pv>$(p)psu:adc1:rfVoltsPos</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:rfCurrentPos" type="iocPoint">
+    <comment>RF Current+</comment>
+    <name>PafPsuInfo:adc1:rfCurrentPos</name>
+    <pv>$(p)psu:adc1:rfCurrentPos</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:rfVoltsNeg" type="iocPoint">
+    <comment>RF Volts-</comment>
+    <name>PafPsuInfo:adc1:rfVoltsNeg</name>
+    <pv>$(p)psu:adc1:rfVoltsNeg</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:rfCurrentNeg" type="iocPoint">
+    <comment>RF Current-</comment>
+    <name>PafPsuInfo:adc1:rfCurrentNeg</name>
+    <pv>$(p)psu:adc1:rfCurrentNeg</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:cmiTemps" type="iocStructure">
+    <comment></comment>
+    <name>PafPsuInfo:adc1:cmiTemps</name>
+    <pv>$(p)psu:adc1:cmiTemps</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="psu:adc1:cmiTemps:temp" type="iocArray">
+    <comment>CMI Temps</comment>
+    <name>PafPsuInfo:adc1:cmiTemps:temp</name>
+    <pv>$(p)psu:adc1:cmiTemps:temp</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="psu:adc1:cmiTemps:temp1" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafPsuInfo:adc1:cmiTemps:temp1</name>
+    <pv>$(p)psu:adc1:cmiTemps:temp1</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:cmiTemps:temp2" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafPsuInfo:adc1:cmiTemps:temp2</name>
+    <pv>$(p)psu:adc1:cmiTemps:temp2</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:cmiTemps:temp3" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafPsuInfo:adc1:cmiTemps:temp3</name>
+    <pv>$(p)psu:adc1:cmiTemps:temp3</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:adc1:cmiTemps:temp4" type="iocPoint">
+    <comment>CMI Temps</comment>
+    <name>PafPsuInfo:adc1:cmiTemps:temp4</name>
+    <pv>$(p)psu:adc1:cmiTemps:temp4</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="psu:gpio1" type="iocStructure">
+    <comment></comment>
+    <name>PafPsuInfo:gpio1</name>
+    <pv>$(p)psu:gpio1</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="psu:gpio1:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafPsuInfo:gpio1:status</name>
+    <pv>$(p)psu:gpio1:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:errorCount" type="iocPoint">
+    <comment>PSU GPIO1 comms errors</comment>
+    <name>PafPsuInfo:gpio1:errorCount</name>
+    <pv>$(p)psu:gpio1:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:reset" type="iocEnumBit">
+    <comment>FPGA logic reset</comment>
+    <name>PafPsuInfo:gpio1:reset</name>
+    <pv>$(p)psu:gpio1:reset</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:tempAlm_L" type="iocEnumBit">
+    <comment>PSU Temp Alarm</comment>
+    <name>PafPsuInfo:gpio1:tempAlm_L</name>
+    <pv>$(p)psu:gpio1:tempAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:rfCurrentPosAlm_L" type="iocEnumBit">
+    <comment>PSU Overcurrent Alarm +</comment>
+    <name>PafPsuInfo:gpio1:rfCurrentPosAlm_L</name>
+    <pv>$(p)psu:gpio1:rfCurrentPosAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:rfCurrentNegAlm_L" type="iocEnumBit">
+    <comment>PSU Overcurrent Alarm-</comment>
+    <name>PafPsuInfo:gpio1:rfCurrentNegAlm_L</name>
+    <pv>$(p)psu:gpio1:rfCurrentNegAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:rfVoutPosHighAlm_L" type="iocEnumBit">
+    <comment>PSU Overvoltage Alarm +</comment>
+    <name>PafPsuInfo:gpio1:rfVoutPosHighAlm_L</name>
+    <pv>$(p)psu:gpio1:rfVoutPosHighAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:rfVoutNegHighAlm_L" type="iocEnumBit">
+    <comment>PSU Overvoltage Alarm -</comment>
+    <name>PafPsuInfo:gpio1:rfVoutNegHighAlm_L</name>
+    <pv>$(p)psu:gpio1:rfVoutNegHighAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:rfVoutPosLowAlm_L" type="iocEnumBit">
+    <comment>PSU Undervoltage Alarm +</comment>
+    <name>PafPsuInfo:gpio1:rfVoutPosLowAlm_L</name>
+    <pv>$(p)psu:gpio1:rfVoutPosLowAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="psu:gpio1:rfVoutNegLowAlm_L" type="iocEnumBit">
+    <comment>PSU Undervoltage Alarm -</comment>
+    <name>PafPsuInfo:gpio1:rfVoutNegLowAlm_L</name>
+    <pv>$(p)psu:gpio1:rfVoutNegLowAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

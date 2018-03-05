@@ -1,0 +1,62 @@
+[
+  {
+    "description": "alignment error count",
+    "pvname": "$(p)$(card)AlignmentStatus1D:alignmentErrors",
+    "name": "AlignmentStatus1D:alignmentErrors",
+    "size": "1"
+  },
+  {
+    "description": "alignment status codes",
+    "pvname": "$(p)$(card)AlignmentStatus1D:statusCode",
+    "name": "AlignmentStatus1D:statusCode",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 1 ID OK:stage 1 ID OK",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:stage1_idOk",
+    "name": "AlignmentStatus1D:flags:stage1_idOk",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 2 ID OK:stage 2 ID OK",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:stage2_idOk",
+    "name": "AlignmentStatus1D:flags:stage2_idOk",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 2 underrun:stage 2 underrun",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:align2_underrun",
+    "name": "AlignmentStatus1D:flags:align2_underrun",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 2 overrun:stage 2 overrun",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:align2_overrun",
+    "name": "AlignmentStatus1D:flags:align2_overrun",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 2 alignment:stage 2 alignment",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:align2_aligned",
+    "name": "AlignmentStatus1D:flags:align2_aligned",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 1 underrun:stage 1 underrun",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:align1_underrun",
+    "name": "AlignmentStatus1D:flags:align1_underrun",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 1 overrun:stage 1 overrun",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:align1_overrun",
+    "name": "AlignmentStatus1D:flags:align1_overrun",
+    "size": "1"
+  },
+  {
+    "description": "flags:stage 1 alignment:stage 1 alignment",
+    "pvname": "$(p)$(card)AlignmentStatus1D:flags:align1_aligned",
+    "name": "AlignmentStatus1D:flags:align1_aligned",
+    "size": "1"
+  }
+]

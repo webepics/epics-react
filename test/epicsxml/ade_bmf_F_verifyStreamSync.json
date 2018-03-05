@@ -1,0 +1,14 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_verifyStreamSync:exec_O",
+    "name": "F_verifyStreamSync:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "result of checking status",
+    "pvname": "$(p)$(card)F_verifyStreamSync:syncStat",
+    "name": "F_verifyStreamSync:syncStat",
+    "size": "1"
+  }
+]

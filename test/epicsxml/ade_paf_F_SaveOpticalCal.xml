@@ -1,0 +1,23 @@
+<macros>
+  <Group name="F_SaveOpticalCal:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_SaveOpticalCal:exec_O</name>
+    <pv>$(p)F_SaveOpticalCal:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_SaveOpticalCal:status" type="iocEnumValue">
+    <comment>0 - default, 1 - saving, 2 - save complete, 3 - save error:0 - default, 1 - saving, 2 - save complete, 3 - save error</comment>
+    <name>F_SaveOpticalCal:status</name>
+    <pv>$(p)F_SaveOpticalCal:status</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_SaveOpticalCal:progress" type="iocPoint">
+    <comment>Save progress</comment>
+    <name>F_SaveOpticalCal:progress</name>
+    <pv>$(p)F_SaveOpticalCal:progress</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+</macros>

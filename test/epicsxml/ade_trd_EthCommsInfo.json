@@ -1,0 +1,566 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)EthCommsInfo:status",
+    "name": "EthCommsInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "RX timeouts",
+    "pvname": "$(p)$(card)EthCommsInfo:rxTimeouts",
+    "name": "EthCommsInfo:rxTimeouts",
+    "size": "1"
+  },
+  {
+    "description": "TX errors",
+    "pvname": "$(p)$(card)EthCommsInfo:txErrors",
+    "name": "EthCommsInfo:txErrors",
+    "size": "1"
+  },
+  {
+    "description": "RX errors",
+    "pvname": "$(p)$(card)EthCommsInfo:rxErrors",
+    "name": "EthCommsInfo:rxErrors",
+    "size": "1"
+  },
+  {
+    "description": "bytes received",
+    "pvname": "$(p)$(card)EthCommsInfo:rxBytes",
+    "name": "EthCommsInfo:rxBytes",
+    "size": "1"
+  },
+  {
+    "description": "bytes transmitted",
+    "pvname": "$(p)$(card)EthCommsInfo:txBytes",
+    "name": "EthCommsInfo:txBytes",
+    "size": "1"
+  },
+  {
+    "description": "num packets received",
+    "pvname": "$(p)$(card)EthCommsInfo:rxPackets",
+    "name": "EthCommsInfo:rxPackets",
+    "size": "1"
+  },
+  {
+    "description": "num packets transmitted",
+    "pvname": "$(p)$(card)EthCommsInfo:txPackets",
+    "name": "EthCommsInfo:txPackets",
+    "size": "1"
+  },
+  {
+    "description": "interrupt bytes received",
+    "pvname": "$(p)$(card)EthCommsInfo:intBytes",
+    "name": "EthCommsInfo:intBytes",
+    "size": "1"
+  },
+  {
+    "description": "interrupt packets received",
+    "pvname": "$(p)$(card)EthCommsInfo:intPackets",
+    "name": "EthCommsInfo:intPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:AdbeStatus",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:status",
+    "name": "EthCommsInfo:controlPort:status",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Transmitted bytes",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txBytes",
+    "name": "EthCommsInfo:controlPort:txBytes",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:64-byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:tx64BytePackets",
+    "name": "EthCommsInfo:controlPort:tx64BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:65-127 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:tx127BytePackets",
+    "name": "EthCommsInfo:controlPort:tx127BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:128-255 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:tx255BytePackets",
+    "name": "EthCommsInfo:controlPort:tx255BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:256-511 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:tx511BytePackets",
+    "name": "EthCommsInfo:controlPort:tx511BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:512-1023 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:tx1023BytePackets",
+    "name": "EthCommsInfo:controlPort:tx1023BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:1024-9000 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txJumboPackets",
+    "name": "EthCommsInfo:controlPort:txJumboPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Oversized frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txOverSizedPackets",
+    "name": "EthCommsInfo:controlPort:txOverSizedPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txPackets",
+    "name": "EthCommsInfo:controlPort:txPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Broadcast frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txBroadcastPackets",
+    "name": "EthCommsInfo:controlPort:txBroadcastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Multicast frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txMulticastPackets",
+    "name": "EthCommsInfo:controlPort:txMulticastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Underrun errors",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txUnderrun",
+    "name": "EthCommsInfo:controlPort:txUnderrun",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Control frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txControlPackets",
+    "name": "EthCommsInfo:controlPort:txControlPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:VLAN tagged frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txVLANPackets",
+    "name": "EthCommsInfo:controlPort:txVLANPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Pause frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txPausePackets",
+    "name": "EthCommsInfo:controlPort:txPausePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Single Collision Frames",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txSingleColPkts",
+    "name": "EthCommsInfo:controlPort:txSingleCollisionPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Multiple Collision Frames",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txMultipleColPkts",
+    "name": "EthCommsInfo:controlPort:txMultipleCollisionPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frames with Deferred Transmissions",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txDefPkts",
+    "name": "EthCommsInfo:controlPort:txDeferredPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Late Collisions",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txLateColPkts",
+    "name": "EthCommsInfo:controlPort:txLateCollisionPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frames Aborted due to Excess collisions",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txAbortedPackets",
+    "name": "EthCommsInfo:controlPort:txAbortedPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frames with Excess Deferral",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:txExcessDefPkts",
+    "name": "EthCommsInfo:controlPort:txExcessDeferredPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Received bytes",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxBytes",
+    "name": "EthCommsInfo:controlPort:rxBytes",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Undersize frames received",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxUndersizePackets",
+    "name": "EthCommsInfo:controlPort:rxUndersizePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Fragment frames received",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxFragmentsPackets",
+    "name": "EthCommsInfo:controlPort:rxFragmentsPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:64 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rx64BytePackets",
+    "name": "EthCommsInfo:controlPort:rx64BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:65-127 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rx127BytePackets",
+    "name": "EthCommsInfo:controlPort:rx127BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:128-255 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rx255BytePackets",
+    "name": "EthCommsInfo:controlPort:rx255BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:256-511 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rx511BytePackets",
+    "name": "EthCommsInfo:controlPort:rx511BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:512-1023 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rx1023BytePackets",
+    "name": "EthCommsInfo:controlPort:rx1023BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:1024-9000 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxJumboPackets",
+    "name": "EthCommsInfo:controlPort:rxJumboPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Oversized frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxOverSizedPackets",
+    "name": "EthCommsInfo:controlPort:rxOverSizedPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frames Received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxPackets",
+    "name": "EthCommsInfo:controlPort:rxPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frame Check Sequence Errors",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxFCSErrors",
+    "name": "EthCommsInfo:controlPort:rxFCSErrors",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Broadcast frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxBroadcastPackets",
+    "name": "EthCommsInfo:controlPort:rxBroadcastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Multicast frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxMulticastPackets",
+    "name": "EthCommsInfo:controlPort:rxMulticastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Control frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxControlPackets",
+    "name": "EthCommsInfo:controlPort:rxControlPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Length/Type Out of Range",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxLengthTypeBad",
+    "name": "EthCommsInfo:controlPort:rxLengthTypeBad",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:VLAN tagged frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxVLANPackets",
+    "name": "EthCommsInfo:controlPort:rxVLANPackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Pause frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxPausePackets",
+    "name": "EthCommsInfo:controlPort:rxPausePackets",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Control Frames Received with Unsupported Opcode",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxControlPacketsBad",
+    "name": "EthCommsInfo:controlPort:rxControlPacketsBad",
+    "size": "1"
+  },
+  {
+    "description": "Control Ethernet Statistics:Frames received with Alignment Errors",
+    "pvname": "$(p)$(card)EthCommsInfo:ctrlPort:rxAlignErrorPackets",
+    "name": "EthCommsInfo:controlPort:rxAlignErrorPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:AdbeStatus",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:status",
+    "name": "EthCommsInfo:dataPort:status",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Transmitted bytes",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txBytes",
+    "name": "EthCommsInfo:dataPort:txBytes",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:64-byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:tx64BytePackets",
+    "name": "EthCommsInfo:dataPort:tx64BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:65-127 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:tx127BytePackets",
+    "name": "EthCommsInfo:dataPort:tx127BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:128-255 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:tx255BytePackets",
+    "name": "EthCommsInfo:dataPort:tx255BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:256-511 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:tx511BytePackets",
+    "name": "EthCommsInfo:dataPort:tx511BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:512-1023 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:tx1023BytePackets",
+    "name": "EthCommsInfo:dataPort:tx1023BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:1024-9000 byte frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txJumboPackets",
+    "name": "EthCommsInfo:dataPort:txJumboPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Oversized frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txOverSizedPackets",
+    "name": "EthCommsInfo:dataPort:txOverSizedPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txPackets",
+    "name": "EthCommsInfo:dataPort:txPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Broadcast frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txBroadcastPackets",
+    "name": "EthCommsInfo:dataPort:txBroadcastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Multicast frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txMulticastPackets",
+    "name": "EthCommsInfo:dataPort:txMulticastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Underrun errors",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txUnderrun",
+    "name": "EthCommsInfo:dataPort:txUnderrun",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Control frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txControlPackets",
+    "name": "EthCommsInfo:dataPort:txControlPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:VLAN tagged frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txVLANPackets",
+    "name": "EthCommsInfo:dataPort:txVLANPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Pause frames transmitted OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txPausePackets",
+    "name": "EthCommsInfo:dataPort:txPausePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Single Collision Frames",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txSingleColPkts",
+    "name": "EthCommsInfo:dataPort:txSingleCollisionPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Multiple Collision Frames",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txMultipleColPkts",
+    "name": "EthCommsInfo:dataPort:txMultipleCollisionPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frames with Deferred Transmissions",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txDefPkts",
+    "name": "EthCommsInfo:dataPort:txDeferredPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Late Collisions",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txLateColPkts",
+    "name": "EthCommsInfo:dataPort:txLateCollisionPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frames Aborted due to Excess collisions",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txAbortedPackets",
+    "name": "EthCommsInfo:dataPort:txAbortedPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frames with Excess Deferral",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:txExcessDefPkts",
+    "name": "EthCommsInfo:dataPort:txExcessDeferredPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Received bytes",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxBytes",
+    "name": "EthCommsInfo:dataPort:rxBytes",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Undersize frames received",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxUndersizePackets",
+    "name": "EthCommsInfo:dataPort:rxUndersizePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Fragment frames received",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxFragmentsPackets",
+    "name": "EthCommsInfo:dataPort:rxFragmentsPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:64 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rx64BytePackets",
+    "name": "EthCommsInfo:dataPort:rx64BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:65-127 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rx127BytePackets",
+    "name": "EthCommsInfo:dataPort:rx127BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:128-255 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rx255BytePackets",
+    "name": "EthCommsInfo:dataPort:rx255BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:256-511 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rx511BytePackets",
+    "name": "EthCommsInfo:dataPort:rx511BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:512-1023 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rx1023BytePackets",
+    "name": "EthCommsInfo:dataPort:rx1023BytePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:1024-9000 byte frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxJumboPackets",
+    "name": "EthCommsInfo:dataPort:rxJumboPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Oversized frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxOverSizedPackets",
+    "name": "EthCommsInfo:dataPort:rxOverSizedPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frames Received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxPackets",
+    "name": "EthCommsInfo:dataPort:rxPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frame Check Sequence Errors",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxFCSErrors",
+    "name": "EthCommsInfo:dataPort:rxFCSErrors",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Broadcast frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxBroadcastPackets",
+    "name": "EthCommsInfo:dataPort:rxBroadcastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Multicast frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxMulticastPackets",
+    "name": "EthCommsInfo:dataPort:rxMulticastPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Control frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxControlPackets",
+    "name": "EthCommsInfo:dataPort:rxControlPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Length/Type Out of Range",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxLengthTypeBad",
+    "name": "EthCommsInfo:dataPort:rxLengthTypeBad",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:VLAN tagged frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxVLANPackets",
+    "name": "EthCommsInfo:dataPort:rxVLANPackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Pause frames received OK",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxPausePackets",
+    "name": "EthCommsInfo:dataPort:rxPausePackets",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Control Frames Received with Unsupported Opcode",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxControlPacketsBad",
+    "name": "EthCommsInfo:dataPort:rxControlPacketsBad",
+    "size": "1"
+  },
+  {
+    "description": "Data Ethernet Statistics:Frames received with Alignment Errors",
+    "pvname": "$(p)$(card)EthCommsInfo:dataPort:rxAlignErrorPackets",
+    "name": "EthCommsInfo:dataPort:rxAlignErrorPackets",
+    "size": "1"
+  }
+]

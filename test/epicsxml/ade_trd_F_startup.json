@@ -1,0 +1,26 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:exec_O",
+    "name": "F_startup:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "inhibit startup",
+    "pvname": "$(p)$(card)F_startup:inhibit_O",
+    "name": "F_startup:inhibit_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:status",
+    "name": "F_startup:status",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_startup:done",
+    "name": "F_startup:done",
+    "size": "1"
+  }
+]

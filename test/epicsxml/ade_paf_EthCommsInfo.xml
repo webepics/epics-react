@@ -1,0 +1,674 @@
+<macros>
+  <Group name="EthCommsInfo:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>EthCommsInfo:status</name>
+    <pv>$(p)EthCommsInfo:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:rxTimeouts" type="iocPoint">
+    <comment>RX timeouts</comment>
+    <name>EthCommsInfo:rxTimeouts</name>
+    <pv>$(p)EthCommsInfo:rxTimeouts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:txErrors" type="iocPoint">
+    <comment>TX errors</comment>
+    <name>EthCommsInfo:txErrors</name>
+    <pv>$(p)EthCommsInfo:txErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:rxErrors" type="iocPoint">
+    <comment>RX errors</comment>
+    <name>EthCommsInfo:rxErrors</name>
+    <pv>$(p)EthCommsInfo:rxErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:rxBytes" type="iocPoint">
+    <comment>bytes received</comment>
+    <name>EthCommsInfo:rxBytes</name>
+    <pv>$(p)EthCommsInfo:rxBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:txBytes" type="iocPoint">
+    <comment>bytes transmitted</comment>
+    <name>EthCommsInfo:txBytes</name>
+    <pv>$(p)EthCommsInfo:txBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:rxPackets" type="iocPoint">
+    <comment>num packets received</comment>
+    <name>EthCommsInfo:rxPackets</name>
+    <pv>$(p)EthCommsInfo:rxPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:txPackets" type="iocPoint">
+    <comment>num packets transmitted</comment>
+    <name>EthCommsInfo:txPackets</name>
+    <pv>$(p)EthCommsInfo:txPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:intBytes" type="iocPoint">
+    <comment>interrupt bytes received</comment>
+    <name>EthCommsInfo:intBytes</name>
+    <pv>$(p)EthCommsInfo:intBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:intPackets" type="iocPoint">
+    <comment>interrupt packets received</comment>
+    <name>EthCommsInfo:intPackets</name>
+    <pv>$(p)EthCommsInfo:intPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort" type="iocStructure">
+    <comment>Control Ethernet Statistics</comment>
+    <name>EthCommsInfo:controlPort</name>
+    <pv>$(p)EthCommsInfo:ctrlPort</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="EthCommsInfo:ctrlPort:status" type="iocPoint">
+    <comment>Control Ethernet Statistics:AdbeStatus</comment>
+    <name>EthCommsInfo:controlPort:status</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txBytes" type="iocPoint">
+    <comment>Control Ethernet Statistics:Transmitted bytes</comment>
+    <name>EthCommsInfo:controlPort:txBytes</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:tx64BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:64-byte frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:tx64BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:tx64BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:tx127BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:65-127 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:tx127BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:tx127BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:tx255BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:128-255 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:tx255BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:tx255BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:tx511BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:256-511 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:tx511BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:tx511BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:tx1023BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:512-1023 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:tx1023BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:tx1023BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txJumboPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:1024-9000 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txJumboPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txJumboPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txOverSizedPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Oversized frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txOverSizedPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txOverSizedPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txBroadcastPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Broadcast frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txBroadcastPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txBroadcastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txMulticastPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Multicast frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txMulticastPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txMulticastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txUnderrun" type="iocPoint">
+    <comment>Control Ethernet Statistics:Underrun errors</comment>
+    <name>EthCommsInfo:controlPort:txUnderrun</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txUnderrun</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txControlPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Control frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txControlPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txControlPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txVLANPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:VLAN tagged frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txVLANPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txVLANPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txPausePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Pause frames transmitted OK</comment>
+    <name>EthCommsInfo:controlPort:txPausePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txPausePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txSingleColPkts" type="iocPoint">
+    <comment>Control Ethernet Statistics:Single Collision Frames</comment>
+    <name>EthCommsInfo:controlPort:txSingleCollisionPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txSingleColPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txMultipleColPkts" type="iocPoint">
+    <comment>Control Ethernet Statistics:Multiple Collision Frames</comment>
+    <name>EthCommsInfo:controlPort:txMultipleCollisionPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txMultipleColPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txDefPkts" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frames with Deferred Transmissions</comment>
+    <name>EthCommsInfo:controlPort:txDeferredPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txDefPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txLateColPkts" type="iocPoint">
+    <comment>Control Ethernet Statistics:Late Collisions</comment>
+    <name>EthCommsInfo:controlPort:txLateCollisionPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txLateColPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txAbortedPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frames Aborted due to Excess collisions</comment>
+    <name>EthCommsInfo:controlPort:txAbortedPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txAbortedPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:txExcessDefPkts" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frames with Excess Deferral</comment>
+    <name>EthCommsInfo:controlPort:txExcessDeferredPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:txExcessDefPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxBytes" type="iocPoint">
+    <comment>Control Ethernet Statistics:Received bytes</comment>
+    <name>EthCommsInfo:controlPort:rxBytes</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxUndersizePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Undersize frames received</comment>
+    <name>EthCommsInfo:controlPort:rxUndersizePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxUndersizePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxFragmentsPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Fragment frames received</comment>
+    <name>EthCommsInfo:controlPort:rxFragmentsPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxFragmentsPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rx64BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:64 byte frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rx64BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rx64BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rx127BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:65-127 byte frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rx127BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rx127BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rx255BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:128-255 byte frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rx255BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rx255BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rx511BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:256-511 byte frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rx511BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rx511BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rx1023BytePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:512-1023 byte frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rx1023BytePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rx1023BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxJumboPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:1024-9000 byte frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxJumboPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxJumboPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxOverSizedPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Oversized frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxOverSizedPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxOverSizedPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frames Received OK</comment>
+    <name>EthCommsInfo:controlPort:rxPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxFCSErrors" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frame Check Sequence Errors</comment>
+    <name>EthCommsInfo:controlPort:rxFCSErrors</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxFCSErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxBroadcastPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Broadcast frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxBroadcastPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxBroadcastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxMulticastPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Multicast frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxMulticastPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxMulticastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxControlPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Control frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxControlPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxControlPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxLengthTypeBad" type="iocPoint">
+    <comment>Control Ethernet Statistics:Length/Type Out of Range</comment>
+    <name>EthCommsInfo:controlPort:rxLengthTypeBad</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxLengthTypeBad</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxVLANPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:VLAN tagged frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxVLANPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxVLANPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxPausePackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Pause frames received OK</comment>
+    <name>EthCommsInfo:controlPort:rxPausePackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxPausePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxControlPacketsBad" type="iocPoint">
+    <comment>Control Ethernet Statistics:Control Frames Received with Unsupported Opcode</comment>
+    <name>EthCommsInfo:controlPort:rxControlPacketsBad</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxControlPacketsBad</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:ctrlPort:rxAlignErrorPackets" type="iocPoint">
+    <comment>Control Ethernet Statistics:Frames received with Alignment Errors</comment>
+    <name>EthCommsInfo:controlPort:rxAlignErrorPackets</name>
+    <pv>$(p)EthCommsInfo:ctrlPort:rxAlignErrorPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="EthCommsInfo:dataPort" type="iocStructure">
+    <comment>Data Ethernet Statistics</comment>
+    <name>EthCommsInfo:dataPort</name>
+    <pv>$(p)EthCommsInfo:dataPort</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="EthCommsInfo:dataPort:status" type="iocPoint">
+    <comment>Data Ethernet Statistics:AdbeStatus</comment>
+    <name>EthCommsInfo:dataPort:status</name>
+    <pv>$(p)EthCommsInfo:dataPort:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txBytes" type="iocPoint">
+    <comment>Data Ethernet Statistics:Transmitted bytes</comment>
+    <name>EthCommsInfo:dataPort:txBytes</name>
+    <pv>$(p)EthCommsInfo:dataPort:txBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:tx64BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:64-byte frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:tx64BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:tx64BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:tx127BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:65-127 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:tx127BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:tx127BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:tx255BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:128-255 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:tx255BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:tx255BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:tx511BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:256-511 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:tx511BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:tx511BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:tx1023BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:512-1023 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:tx1023BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:tx1023BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txJumboPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:1024-9000 byte frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txJumboPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txJumboPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txOverSizedPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Oversized frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txOverSizedPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txOverSizedPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txBroadcastPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Broadcast frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txBroadcastPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txBroadcastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txMulticastPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Multicast frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txMulticastPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txMulticastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txUnderrun" type="iocPoint">
+    <comment>Data Ethernet Statistics:Underrun errors</comment>
+    <name>EthCommsInfo:dataPort:txUnderrun</name>
+    <pv>$(p)EthCommsInfo:dataPort:txUnderrun</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txControlPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Control frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txControlPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txControlPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txVLANPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:VLAN tagged frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txVLANPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txVLANPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txPausePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Pause frames transmitted OK</comment>
+    <name>EthCommsInfo:dataPort:txPausePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txPausePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txSingleColPkts" type="iocPoint">
+    <comment>Data Ethernet Statistics:Single Collision Frames</comment>
+    <name>EthCommsInfo:dataPort:txSingleCollisionPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txSingleColPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txMultipleColPkts" type="iocPoint">
+    <comment>Data Ethernet Statistics:Multiple Collision Frames</comment>
+    <name>EthCommsInfo:dataPort:txMultipleCollisionPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txMultipleColPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txDefPkts" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frames with Deferred Transmissions</comment>
+    <name>EthCommsInfo:dataPort:txDeferredPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txDefPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txLateColPkts" type="iocPoint">
+    <comment>Data Ethernet Statistics:Late Collisions</comment>
+    <name>EthCommsInfo:dataPort:txLateCollisionPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txLateColPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txAbortedPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frames Aborted due to Excess collisions</comment>
+    <name>EthCommsInfo:dataPort:txAbortedPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txAbortedPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:txExcessDefPkts" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frames with Excess Deferral</comment>
+    <name>EthCommsInfo:dataPort:txExcessDeferredPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:txExcessDefPkts</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxBytes" type="iocPoint">
+    <comment>Data Ethernet Statistics:Received bytes</comment>
+    <name>EthCommsInfo:dataPort:rxBytes</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxBytes</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxUndersizePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Undersize frames received</comment>
+    <name>EthCommsInfo:dataPort:rxUndersizePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxUndersizePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxFragmentsPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Fragment frames received</comment>
+    <name>EthCommsInfo:dataPort:rxFragmentsPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxFragmentsPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rx64BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:64 byte frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rx64BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rx64BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rx127BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:65-127 byte frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rx127BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rx127BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rx255BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:128-255 byte frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rx255BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rx255BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rx511BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:256-511 byte frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rx511BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rx511BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rx1023BytePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:512-1023 byte frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rx1023BytePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rx1023BytePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxJumboPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:1024-9000 byte frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxJumboPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxJumboPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxOverSizedPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Oversized frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxOverSizedPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxOverSizedPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frames Received OK</comment>
+    <name>EthCommsInfo:dataPort:rxPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxFCSErrors" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frame Check Sequence Errors</comment>
+    <name>EthCommsInfo:dataPort:rxFCSErrors</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxFCSErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxBroadcastPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Broadcast frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxBroadcastPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxBroadcastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxMulticastPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Multicast frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxMulticastPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxMulticastPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxControlPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Control frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxControlPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxControlPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxLengthTypeBad" type="iocPoint">
+    <comment>Data Ethernet Statistics:Length/Type Out of Range</comment>
+    <name>EthCommsInfo:dataPort:rxLengthTypeBad</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxLengthTypeBad</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxVLANPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:VLAN tagged frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxVLANPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxVLANPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxPausePackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Pause frames received OK</comment>
+    <name>EthCommsInfo:dataPort:rxPausePackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxPausePackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxControlPacketsBad" type="iocPoint">
+    <comment>Data Ethernet Statistics:Control Frames Received with Unsupported Opcode</comment>
+    <name>EthCommsInfo:dataPort:rxControlPacketsBad</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxControlPacketsBad</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="EthCommsInfo:dataPort:rxAlignErrorPackets" type="iocPoint">
+    <comment>Data Ethernet Statistics:Frames received with Alignment Errors</comment>
+    <name>EthCommsInfo:dataPort:rxAlignErrorPackets</name>
+    <pv>$(p)EthCommsInfo:dataPort:rxAlignErrorPackets</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

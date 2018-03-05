@@ -1,0 +1,44 @@
+<macros>
+  <Group name="F_ctrlExample:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_ctrlExample:exec_O</name>
+    <pv>$(p)F_ctrlExample:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrlExample:param1_O" type="iocEnumBit">
+    <comment>bool input param 1</comment>
+    <name>F_ctrlExample:param1_O</name>
+    <pv>$(p)F_ctrlExample:param1_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrlExample:param2_O" type="iocPoint">
+    <comment>int input param 2</comment>
+    <name>F_ctrlExample:param2_O</name>
+    <pv>$(p)F_ctrlExample:param2_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrlExample:param3_O" type="iocPoint">
+    <comment>float input param 2</comment>
+    <name>F_ctrlExample:param3_O</name>
+    <pv>$(p)F_ctrlExample:param3_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrlExample:param4_O" type="iocPoint">
+    <comment>string input param 2</comment>
+    <name>F_ctrlExample:param4_O</name>
+    <pv>$(p)F_ctrlExample:param4_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrlExample:out" type="iocPoint">
+    <comment>progress</comment>
+    <name>F_ctrlExample:out</name>
+    <pv>$(p)F_ctrlExample:out</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

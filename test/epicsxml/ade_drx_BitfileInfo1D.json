@@ -1,0 +1,50 @@
+[
+  {
+    "description": "filename",
+    "pvname": "$(p)$(card)BitfileInfo1D:filename",
+    "name": "BitfileInfo1D:filename",
+    "size": "1"
+  },
+  {
+    "description": "options",
+    "pvname": "$(p)$(card)BitfileInfo1D:options",
+    "name": "BitfileInfo1D:options",
+    "size": "1"
+  },
+  {
+    "description": "part number",
+    "pvname": "$(p)$(card)BitfileInfo1D:part",
+    "name": "BitfileInfo1D:part",
+    "size": "1"
+  },
+  {
+    "description": "date",
+    "pvname": "$(p)$(card)BitfileInfo1D:date",
+    "name": "BitfileInfo1D:date",
+    "size": "1"
+  },
+  {
+    "description": "time",
+    "pvname": "$(p)$(card)BitfileInfo1D:time",
+    "name": "BitfileInfo1D:time",
+    "size": "1"
+  },
+  {
+    "description": "file size",
+    "pvname": "$(p)$(card)BitfileInfo1D:totalBytes",
+    "name": "BitfileInfo1D:totalBytes",
+    "size": "1"
+  },
+  {
+    "description": "speed",
+    "pvname": "$(p)$(card)BitfileInfo1D:loadSpeed",
+    "name": "BitfileInfo1D:loadSpeed",
+    "size": "1"
+  },
+  {
+    "description": "MD5 Sum",
+    "pvname": "$(p)$(card)BitfileInfo1D:md5Sum",
+    "name": "BitfileInfo1D:md5Sum",
+    "size": "1"
+  }
+]

@@ -1,0 +1,584 @@
+<macros>
+  <Group name="ctrl:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafCtrlInfo:status</name>
+    <pv>$(p)ctrl:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:totalErrors" type="iocPoint">
+    <comment>Controller combined comms errors</comment>
+    <name>PafCtrlInfo:totalErrors</name>
+    <pv>$(p)ctrl:totalErrors</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1" type="iocStructure">
+    <comment>GPIO1</comment>
+    <name>PafCtrlInfo:gpio1</name>
+    <pv>$(p)ctrl:gpio1</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:gpio1:status" type="iocPoint">
+    <comment>GPIO1:AdbeStatus</comment>
+    <name>PafCtrlInfo:gpio1:status</name>
+    <pv>$(p)ctrl:gpio1:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:errorCount" type="iocPoint">
+    <comment>GPIO1:GPIO1 comms errors</comment>
+    <name>PafCtrlInfo:gpio1:errorCount</name>
+    <pv>$(p)ctrl:gpio1:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafTECPwr_cmd" type="iocEnumBit">
+    <comment>GPIO1:TEC Power</comment>
+    <name>PafCtrlInfo:gpio1:pafTECPwr_cmd</name>
+    <pv>$(p)ctrl:gpio1:pafTECPwr_cmd</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafPSPwr_cmd" type="iocEnumBit">
+    <comment>GPIO1:PS Power</comment>
+    <name>PafCtrlInfo:gpio1:pafPSPwr_cmd</name>
+    <pv>$(p)ctrl:gpio1:pafPSPwr_cmd</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafTXErrTest_L" type="iocEnumBit">
+    <comment>GPIO1:TX Error Test</comment>
+    <name>PafCtrlInfo:gpio1:pafTXErrTest_L</name>
+    <pv>$(p)ctrl:gpio1:pafTXErrTest_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafIntlkOvr_L" type="iocEnumBit">
+    <comment>GPIO1:Interlock Override</comment>
+    <name>PafCtrlInfo:gpio1:pafIntlkOvr_L</name>
+    <pv>$(p)ctrl:gpio1:pafIntlkOvr_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafOIntlkAlm_L" type="iocEnumBit">
+    <comment>GPIO1:Optical Interlock Alarm</comment>
+    <name>PafCtrlInfo:gpio1:pafOIntlkAlm_L</name>
+    <pv>$(p)ctrl:gpio1:pafOIntlkAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafDebug_L" type="iocEnumBit">
+    <comment>GPIO1:Debug</comment>
+    <name>PafCtrlInfo:gpio1:pafDebug_L</name>
+    <pv>$(p)ctrl:gpio1:pafDebug_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafRHPwr_enabled" type="iocEnumBit">
+    <comment>GPIO1:RH Power Enabled</comment>
+    <name>PafCtrlInfo:gpio1:pafRHPwr_enabled</name>
+    <pv>$(p)ctrl:gpio1:pafRHPwr_enabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafRHAlm_disabled" type="iocEnumBit">
+    <comment>GPIO1:RH High Alarm Disabled</comment>
+    <name>PafCtrlInfo:gpio1:pafRHAlm_disabled</name>
+    <pv>$(p)ctrl:gpio1:pafRHAlm_disabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafHiRH_L" type="iocEnumBit">
+    <comment>GPIO1:PAF RH High</comment>
+    <name>PafCtrlInfo:gpio1:pafHiRH_L</name>
+    <pv>$(p)ctrl:gpio1:pafHiRH_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafLowTemp_L" type="iocEnumBit">
+    <comment>GPIO1:PAF Low Temp</comment>
+    <name>PafCtrlInfo:gpio1:pafLowTemp_L</name>
+    <pv>$(p)ctrl:gpio1:pafLowTemp_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafLowTempAlm_disabled" type="iocEnumBit">
+    <comment>GPIO1:PAF Low Temp Alarm Disabled</comment>
+    <name>PafCtrlInfo:gpio1:pafLowTempAlm_disabled</name>
+    <pv>$(p)ctrl:gpio1:pafLowTempAlm_disabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafHiTemp_L" type="iocEnumBit">
+    <comment>GPIO1:PAF Hi Temp</comment>
+    <name>PafCtrlInfo:gpio1:pafHiTemp_L</name>
+    <pv>$(p)ctrl:gpio1:pafHiTemp_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafHiTempAlm_disabled" type="iocEnumBit">
+    <comment>GPIO1:PAF Hi Temp Alarm Disabled</comment>
+    <name>PafCtrlInfo:gpio1:pafHiTempAlm_disabled</name>
+    <pv>$(p)ctrl:gpio1:pafHiTempAlm_disabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio1:pafIntlkAlm_disabled" type="iocEnumBit">
+    <comment>GPIO1:PAF Interlock Alarm Disabled</comment>
+    <name>PafCtrlInfo:gpio1:pafIntlkAlm_disabled</name>
+    <pv>$(p)ctrl:gpio1:pafIntlkAlm_disabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:gpio2" type="iocStructure">
+    <comment>GPIO2</comment>
+    <name>PafCtrlInfo:gpio2</name>
+    <pv>$(p)ctrl:gpio2</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:gpio2:status" type="iocPoint">
+    <comment>GPIO2:AdbeStatus</comment>
+    <name>PafCtrlInfo:gpio2:status</name>
+    <pv>$(p)ctrl:gpio2:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:errorCount" type="iocPoint">
+    <comment>GPIO2:GPIO2 comms errors</comment>
+    <name>PafCtrlInfo:gpio2:errorCount</name>
+    <pv>$(p)ctrl:gpio2:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafPSOutputPwr" type="iocEnumBit">
+    <comment>GPIO2:PSU Output Power OK</comment>
+    <name>PafCtrlInfo:gpio2:pafPSOutputPwr</name>
+    <pv>$(p)ctrl:gpio2:pafPSOutputPwr</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafEIntlkAlm" type="iocEnumBit">
+    <comment>GPIO2:Electrical Interlock Alarm</comment>
+    <name>PafCtrlInfo:gpio2:pafEIntlkAlm</name>
+    <pv>$(p)ctrl:gpio2:pafEIntlkAlm</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafPSStatusLED" type="iocEnumBit">
+    <comment>GPIO2:PAF PSU OK</comment>
+    <name>PafCtrlInfo:gpio2:pafPSStatusLED</name>
+    <pv>$(p)ctrl:gpio2:pafPSStatusLED</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafTECStatusLED" type="iocEnumBit">
+    <comment>GPIO2:PAF TEC OK</comment>
+    <name>PafCtrlInfo:gpio2:pafTECStatusLED</name>
+    <pv>$(p)ctrl:gpio2:pafTECStatusLED</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafAlmStatusLED" type="iocEnumBit">
+    <comment>GPIO2:PAF Temp, High RH or Interlock Alarm</comment>
+    <name>PafCtrlInfo:gpio2:pafAlmStatusLED</name>
+    <pv>$(p)ctrl:gpio2:pafAlmStatusLED</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafTECIntAAlm_L" type="iocEnumBit">
+    <comment>GPIO2:TEC Interrupt Alarm</comment>
+    <name>PafCtrlInfo:gpio2:pafTECIntAAlm_L</name>
+    <pv>$(p)ctrl:gpio2:pafTECIntAAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafTECOutputPwr" type="iocEnumBit">
+    <comment>GPIO2:TEC Output Power OK</comment>
+    <name>PafCtrlInfo:gpio2:pafTECOutputPwr</name>
+    <pv>$(p)ctrl:gpio2:pafTECOutputPwr</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafPSIntAAlm_L" type="iocEnumBit">
+    <comment>GPIO2:PSU Interrupt Alarm</comment>
+    <name>PafCtrlInfo:gpio2:pafPSIntAAlm_L</name>
+    <pv>$(p)ctrl:gpio2:pafPSIntAAlm_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafPSInputPwr" type="iocEnumBit">
+    <comment>GPIO2:PSU Input Power OK</comment>
+    <name>PafCtrlInfo:gpio2:pafPSInputPwr</name>
+    <pv>$(p)ctrl:gpio2:pafPSInputPwr</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafTECInputPwr" type="iocEnumBit">
+    <comment>GPIO2:TEC Input Power OK</comment>
+    <name>PafCtrlInfo:gpio2:pafTECInputPwr</name>
+    <pv>$(p)ctrl:gpio2:pafTECInputPwr</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafPSPwrCmd_enabled" type="iocEnumBit">
+    <comment>GPIO2:Power supply command enabled</comment>
+    <name>PafCtrlInfo:gpio2:pafPSPwrCmd_enabled</name>
+    <pv>$(p)ctrl:gpio2:pafPSPwrCmd_enabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:gpio2:pafTECPwrCmd_enabled" type="iocEnumBit">
+    <comment>GPIO2:TEC command enabled</comment>
+    <name>PafCtrlInfo:gpio2:pafTECPwrCmd_enabled</name>
+    <pv>$(p)ctrl:gpio2:pafTECPwrCmd_enabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:other" type="iocStructure">
+    <comment>other</comment>
+    <name>PafCtrlInfo:other</name>
+    <pv>$(p)ctrl:other</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:other:status" type="iocPoint">
+    <comment>other:AdbeStatus</comment>
+    <name>PafCtrlInfo:other:status</name>
+    <pv>$(p)ctrl:other:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:other:errorCount" type="iocPoint">
+    <comment>other:TEC comms errors</comment>
+    <name>PafCtrlInfo:other:errorCount</name>
+    <pv>$(p)ctrl:other:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:other:txCtrlLowMemMon" type="iocPoint">
+    <comment>other:PAF Ctrl TX control low level</comment>
+    <name>PafCtrlInfo:other:txCtrlLowMemMon</name>
+    <pv>$(p)ctrl:other:txCtrlLowMemMon</pv>
+    <type>uint16</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:other:txCtrlHighMemMon" type="iocPoint">
+    <comment>other:PAF Ctrl TX control high level</comment>
+    <name>PafCtrlInfo:other:txCtrlHighMemMon</name>
+    <pv>$(p)ctrl:other:txCtrlHighMemMon</pv>
+    <type>uint16</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:other:pafPSAlmAtStartup" type="iocEnumBit">
+    <comment>other:PAF PS alarm/error during startup</comment>
+    <name>PafCtrlInfo:other:pafPSAlmAtStartup</name>
+    <pv>$(p)ctrl:other:pafPSAlmAtStartup</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:other:pafTECAlmAtStartup" type="iocEnumBit">
+    <comment>other:PAF TEC alarm/error during startup</comment>
+    <name>PafCtrlInfo:other:pafTECAlmAtStartup</name>
+    <pv>$(p)ctrl:other:pafTECAlmAtStartup</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:adc1" type="iocStructure">
+    <comment>ADC1</comment>
+    <name>PafCtrlInfo:adc1</name>
+    <pv>$(p)ctrl:adc1</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:adc1:status" type="iocPoint">
+    <comment>ADC1:AdbeStatus</comment>
+    <name>PafCtrlInfo:adc1:status</name>
+    <pv>$(p)ctrl:adc1:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc1:errorCount" type="iocPoint">
+    <comment>ADC1:ADC1 comms errors</comment>
+    <name>PafCtrlInfo:adc1:errorCount</name>
+    <pv>$(p)ctrl:adc1:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc1:pafCtrlTemp" type="iocPoint">
+    <comment>ADC1:Controller Temp</comment>
+    <name>PafCtrlInfo:adc1:pafCtrlTemp</name>
+    <pv>$(p)ctrl:adc1:pafCtrlTemp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc1:pafRH" type="iocPoint">
+    <comment>ADC1:Relative Humidity</comment>
+    <name>PafCtrlInfo:adc1:pafRH</name>
+    <pv>$(p)ctrl:adc1:pafRH</pv>
+    <egu>%%</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc1:pafDewTemp" type="iocPoint">
+    <comment>ADC1:Dew Sensor Temp</comment>
+    <name>PafCtrlInfo:adc1:pafDewTemp</name>
+    <pv>$(p)ctrl:adc1:pafDewTemp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc1:pafAvTemp" type="iocPoint">
+    <comment>ADC1:PAF Av Temp</comment>
+    <name>PafCtrlInfo:adc1:pafAvTemp</name>
+    <pv>$(p)ctrl:adc1:pafAvTemp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc1:pafPSTemp" type="iocPoint">
+    <comment>ADC1:PS Temp</comment>
+    <name>PafCtrlInfo:adc1:pafPSTemp</name>
+    <pv>$(p)ctrl:adc1:pafPSTemp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:adc2" type="iocStructure">
+    <comment></comment>
+    <name>PafCtrlInfo:adc2</name>
+    <pv>$(p)ctrl:adc2</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:adc2:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafCtrlInfo:adc2:status</name>
+    <pv>$(p)ctrl:adc2:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:errorCount" type="iocPoint">
+    <comment>ADC2 Comms Errors</comment>
+    <name>PafCtrlInfo:adc2:errorCount</name>
+    <pv>$(p)ctrl:adc2:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp" type="iocArray">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp</name>
+    <pv>$(p)ctrl:adc2:temp</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:adc2:temp1" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp1</name>
+    <pv>$(p)ctrl:adc2:temp1</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp2" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp2</name>
+    <pv>$(p)ctrl:adc2:temp2</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp3" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp3</name>
+    <pv>$(p)ctrl:adc2:temp3</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp4" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp4</name>
+    <pv>$(p)ctrl:adc2:temp4</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp5" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp5</name>
+    <pv>$(p)ctrl:adc2:temp5</pv>
+    <egu>C</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp6" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp6</name>
+    <pv>$(p)ctrl:adc2:temp6</pv>
+    <egu>C</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp7" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp7</name>
+    <pv>$(p)ctrl:adc2:temp7</pv>
+    <egu>C</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc2:temp8" type="iocPoint">
+    <comment>Internal Temp</comment>
+    <name>PafCtrlInfo:adc2:temp8</name>
+    <pv>$(p)ctrl:adc2:temp8</pv>
+    <egu>C</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="ctrl:adc3" type="iocStructure">
+    <comment></comment>
+    <name>PafCtrlInfo:adc3</name>
+    <pv>$(p)ctrl:adc3</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:adc3:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafCtrlInfo:adc3:status</name>
+    <pv>$(p)ctrl:adc3:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:errorCount" type="iocPoint">
+    <comment>ADC3 comms errors</comment>
+    <name>PafCtrlInfo:adc3:errorCount</name>
+    <pv>$(p)ctrl:adc3:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo" type="iocStructure">
+    <comment></comment>
+    <name>PafCtrlInfo:adc3:debugInfo</name>
+    <pv>$(p)ctrl:adc3:debugInfo</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:adc3:debugInfo:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:status</name>
+    <pv>$(p)ctrl:adc3:debugInfo:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:rxMon" type="iocArray">
+    <comment>Ctrl RX Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:rxMon</name>
+    <pv>$(p)ctrl:adc3:debugInfo:rxMon</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:adc3:debugInfo:rxMon1" type="iocPoint">
+    <comment>Ctrl RX Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:rxMon1</name>
+    <pv>$(p)ctrl:adc3:debugInfo:rxMon1</pv>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:rxMon2" type="iocPoint">
+    <comment>Ctrl RX Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:rxMon2</name>
+    <pv>$(p)ctrl:adc3:debugInfo:rxMon2</pv>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:rxMon3" type="iocPoint">
+    <comment>Ctrl RX Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:rxMon3</name>
+    <pv>$(p)ctrl:adc3:debugInfo:rxMon3</pv>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:rxMon4" type="iocPoint">
+    <comment>Ctrl RX Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:rxMon4</name>
+    <pv>$(p)ctrl:adc3:debugInfo:rxMon4</pv>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:rxMon5" type="iocPoint">
+    <comment>Ctrl RX Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:rxMon5</name>
+    <pv>$(p)ctrl:adc3:debugInfo:rxMon5</pv>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:txMonLow" type="iocPoint">
+    <comment>Ctrl TX Low Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:txMonLow</name>
+    <pv>$(p)ctrl:adc3:debugInfo:txMonLow</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:debugInfo:txMonHigh" type="iocPoint">
+    <comment>Ctrl TX High Level</comment>
+    <name>PafCtrlInfo:adc3:debugInfo:txMonHigh</name>
+    <pv>$(p)ctrl:adc3:debugInfo:txMonHigh</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:adc3:pafCtrlLaserTemp" type="iocPoint">
+    <comment>Ctrl Laser Temp</comment>
+    <name>PafCtrlInfo:adc3:pafCtrlLaserTemp</name>
+    <pv>$(p)ctrl:adc3:pafCtrlLaserTemp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:adc3:pafCtrlVSupply" type="iocPoint">
+    <comment>Ctrl Input Voltage</comment>
+    <name>PafCtrlInfo:adc3:pafCtrlVSupply</name>
+    <pv>$(p)ctrl:adc3:pafCtrlVSupply</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="ctrl:domino" type="iocStructure">
+    <comment>domino monitoring</comment>
+    <name>PafCtrlInfo:domino</name>
+    <pv>$(p)ctrl:domino</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="ctrl:domino:status" type="iocPoint">
+    <comment>domino monitoring:AdbeStatus</comment>
+    <name>PafCtrlInfo:domino:status</name>
+    <pv>$(p)ctrl:domino:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="ctrl:domino:dominoVolts" type="iocPoint">
+    <comment>domino monitoring:Domino Voltage</comment>
+    <name>PafCtrlInfo:domino:dominoVolts</name>
+    <pv>$(p)ctrl:domino:dominoVolts</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

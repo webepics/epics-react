@@ -1,0 +1,74 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:inhibitUpdates_O",
+    "name": "debug:inhibitUpdates_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:batEnabled_O",
+    "name": "debug:batEnabled_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:emuMode_O",
+    "name": "debug:emuMode_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:emuRange_O",
+    "name": "debug:emuRange_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:emuReset_O",
+    "name": "debug:emuReset_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:emuDictSet_O",
+    "name": "debug:emuDictSet_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:emuDictKeys",
+    "name": "debug:emuDictKeys",
+    "size": "512"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:dumpParams_O",
+    "name": "debug:dumpParams_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:resetErrorCounts_O",
+    "name": "debug:resetErrorCounts_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:opticsDisable_O",
+    "name": "debug:opticsDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:rfofDisable_O",
+    "name": "debug:rfofDisable_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)debug:noComms_O",
+    "name": "debug:noComms_O",
+    "size": "1"
+  }
+]

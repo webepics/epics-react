@@ -1,0 +1,44 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_beamDelay:exec_O",
+    "name": "F_beamDelay:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "time offset",
+    "pvname": "$(p)$(card)F_beamDelay:toff_O",
+    "name": "F_beamDelay:toff_O",
+    "size": "13824"
+  },
+  {
+    "description": "time slope",
+    "pvname": "$(p)$(card)F_beamDelay:tslope_O",
+    "name": "F_beamDelay:tslope_O",
+    "size": "13824"
+  },
+  {
+    "description": "frequency slope",
+    "pvname": "$(p)$(card)F_beamDelay:fslope_O",
+    "name": "F_beamDelay:fslope_O",
+    "size": "13824"
+  },
+  {
+    "description": "frequency",
+    "pvname": "$(p)$(card)F_beamDelay:freq_O",
+    "name": "F_beamDelay:freq_O",
+    "size": "13824"
+  },
+  {
+    "description": "coarse delay",
+    "pvname": "$(p)$(card)F_beamDelay:coarseDelay_O",
+    "name": "F_beamDelay:coarseDelay_O",
+    "size": "36"
+  },
+  {
+    "description": "load new delays on completion",
+    "pvname": "$(p)$(card)F_beamDelay:loadOnComplete_O",
+    "name": "F_beamDelay:loadOnComplete_O",
+    "size": "1"
+  }
+]

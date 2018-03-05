@@ -1,0 +1,136 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)WeatherMonitorData:status",
+    "name": "WeatherMonitorData:status",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias1",
+    "name": "WeatherMonitorData:laserBias1",
+    "units": "mA",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias2",
+    "name": "WeatherMonitorData:laserBias2",
+    "units": "mA",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias3",
+    "name": "WeatherMonitorData:laserBias3",
+    "units": "mA",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias4",
+    "name": "WeatherMonitorData:laserBias4",
+    "units": "mA",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias5",
+    "name": "WeatherMonitorData:laserBias5",
+    "units": "mA",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias6",
+    "name": "WeatherMonitorData:laserBias6",
+    "units": "mA",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias7",
+    "name": "WeatherMonitorData:laserBias7",
+    "units": "mA",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Laser Bias Current",
+    "pvname": "$(p)WeatherMonitorData:laserBias8",
+    "name": "WeatherMonitorData:laserBias8",
+    "units": "mA",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower1",
+    "name": "WeatherMonitorData:rxPower1",
+    "units": "mW",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower2",
+    "name": "WeatherMonitorData:rxPower2",
+    "units": "mW",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower3",
+    "name": "WeatherMonitorData:rxPower3",
+    "units": "mW",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower4",
+    "name": "WeatherMonitorData:rxPower4",
+    "units": "mW",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower5",
+    "name": "WeatherMonitorData:rxPower5",
+    "units": "mW",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower6",
+    "name": "WeatherMonitorData:rxPower6",
+    "units": "mW",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower7",
+    "name": "WeatherMonitorData:rxPower7",
+    "units": "mW",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Laser RX Power",
+    "pvname": "$(p)WeatherMonitorData:rxPower8",
+    "name": "WeatherMonitorData:rxPower8",
+    "units": "mW",
+    "index": "8",
+    "size": "1"
+  }
+]

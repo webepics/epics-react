@@ -46,24 +46,24 @@ class Header extends React.Component {
 				<span className={this.state.brokenHeart} ></span>
 			</div>
 	      
-	        <div class='alarm-menu'>
+	        <div className='alarm-menu'>
 	          <h4>Online Critical Alarms</h4>
 	          <ul>
-	            <li class='alarm-menu-item'>
+	            <li className='alarm-menu-item'>
 	              <Link to={"/" + antenna + "/" + subsystem + "/alignment"}>Alignment</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_alignment:alarm'}/>
 	            </li>
 	          </ul>
 
 	          
 	          <h4>Summary Alarms</h4>
-	          <ul class='alarm-menu'>
-	            <li class='alarm-menu-item'>
+	          <ul className='alarm-menu'>
+	            <li className='alarm-menu-item'>
 	              <Link to={"/" + antenna + "/" + subsystem + "/bat"}>Bat</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_batStatus:alarm'}/>
 	            </li>
-	            <li class='alarm-menu-item'>
+	            <li className='alarm-menu-item'>
 	              <Link to={"/" + antenna + "/" + subsystem + "/fanspeed"}>Fanspeed</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_fans:alarm'}/>
 	            </li>
-	            <li class='alarm-menu-item'>
+	            <li className='alarm-menu-item'>
 	              <Link to={"/" + antenna + "/" + subsystem + "/temperature"}>Temperature</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_temps:alarm'}/>
 	            </li>
 	          </ul>
@@ -78,15 +78,18 @@ class Header extends React.Component {
  * https://reacttraining.com/react-router/web/example/url-params
  */
 const Alignment = ({match}) => {
+	var filter = [{field:'name', filter:'alignment'}];
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment' 
     	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-    		 pvfiles='alignment.json' />);
+    		 pvfiles='bullant_bullant_redback_dragonfly.json' filter={filter}
+    		 title='Digital Receiver Alignment Summary' />);
 }
 
 const Bat = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='bat'
 	     rows={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-         pvfiles='alignment.json,bat.json' />);
+         pvfiles='bullant_BatFrame.json'        	 
+        	 title='Beamformer BAT Summary'/>);
 }
 
 const FanSpeed = ({match}) => {

@@ -1,0 +1,5022 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)dig:status",
+    "name": "DragonflyMonitorData:status",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Speed",
+    "pvname": "$(p)$(card)dig:fans1:tacho",
+    "name": "DragonflyMonitorData:fans1:tacho",
+    "units": "RPM",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Ref Temp Sensor",
+    "pvname": "$(p)$(card)dig:fans1:ref_temp",
+    "name": "DragonflyMonitorData:fans1:ref_temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus",
+    "name": "DragonflyMonitorData:fans1:fanStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B0",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B1",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B2",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B2",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B3",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B3",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B4",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B4",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B5",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B5",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:Status",
+    "pvname": "$(p)$(card)dig:fans1:fanStatus:B6",
+    "name": "DragonflyMonitorData:fans1:fanStatus:B6",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fans1:status",
+    "name": "DragonflyMonitorData:fans1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Speed",
+    "pvname": "$(p)$(card)dig:fans2:tacho",
+    "name": "DragonflyMonitorData:fans2:tacho",
+    "units": "RPM",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Ref Temp Sensor",
+    "pvname": "$(p)$(card)dig:fans2:ref_temp",
+    "name": "DragonflyMonitorData:fans2:ref_temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus",
+    "name": "DragonflyMonitorData:fans2:fanStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B0",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B1",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B2",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B3",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B3",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B4",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B4",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B5",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B5",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:Status",
+    "pvname": "$(p)$(card)dig:fans2:fanStatus:B6",
+    "name": "DragonflyMonitorData:fans2:fanStatus:B6",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fans2:status",
+    "name": "DragonflyMonitorData:fans2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Speed",
+    "pvname": "$(p)$(card)dig:fans3:tacho",
+    "name": "DragonflyMonitorData:fans3:tacho",
+    "units": "RPM",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Ref Temp Sensor",
+    "pvname": "$(p)$(card)dig:fans3:ref_temp",
+    "name": "DragonflyMonitorData:fans3:ref_temp",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status 3:bitfield status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus",
+    "name": "DragonflyMonitorData:fans3:fanStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B0",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B1",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B2",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B2",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B3",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B4",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B4",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B5",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B5",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:Status",
+    "pvname": "$(p)$(card)dig:fans3:fanStatus:B6",
+    "name": "DragonflyMonitorData:fans3:fanStatus:B6",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fans3:status",
+    "name": "DragonflyMonitorData:fans3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Speed",
+    "pvname": "$(p)$(card)dig:fans4:tacho",
+    "name": "DragonflyMonitorData:fans4:tacho",
+    "units": "RPM",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Ref Temp Sensor",
+    "pvname": "$(p)$(card)dig:fans4:ref_temp",
+    "name": "DragonflyMonitorData:fans4:ref_temp",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status 4:bitfield status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus",
+    "name": "DragonflyMonitorData:fans4:fanStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B0",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B1",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B2",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B2",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B3",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B3",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B4",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B5",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B5",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:Status",
+    "pvname": "$(p)$(card)dig:fans4:fanStatus:B6",
+    "name": "DragonflyMonitorData:fans4:fanStatus:B6",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA Fans 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fans4:status",
+    "name": "DragonflyMonitorData:fans4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Upper Left:Temperature",
+    "pvname": "$(p)$(card)dig:tempUpperLeft:temp",
+    "name": "DragonflyMonitorData:tempUpperLeft:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Upper Left:AdbeStatus",
+    "pvname": "$(p)$(card)dig:tempUpperLeft:status",
+    "name": "DragonflyMonitorData:tempUpperLeft:status",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Upper Right:Temperature",
+    "pvname": "$(p)$(card)dig:tempUpperRight:temp",
+    "name": "DragonflyMonitorData:tempUpperRight:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Upper Right:AdbeStatus",
+    "pvname": "$(p)$(card)dig:tempUpperRight:status",
+    "name": "DragonflyMonitorData:tempUpperRight:status",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Lower Left:Temperature",
+    "pvname": "$(p)$(card)dig:tempLowerLeft:temp",
+    "name": "DragonflyMonitorData:tempLowerLeft:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Lower Left:AdbeStatus",
+    "pvname": "$(p)$(card)dig:tempLowerLeft:status",
+    "name": "DragonflyMonitorData:tempLowerLeft:status",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Lower Right:Temperature",
+    "pvname": "$(p)$(card)dig:tempLowerRight:temp",
+    "name": "DragonflyMonitorData:tempLowerRight:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly PCB Lower Right:AdbeStatus",
+    "pvname": "$(p)$(card)dig:tempLowerRight:status",
+    "name": "DragonflyMonitorData:tempLowerRight:status",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly Local 1:Temperature",
+    "pvname": "$(p)$(card)dig:tempLocal1:temp",
+    "name": "DragonflyMonitorData:tempLocal1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly Local 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:tempLocal1:status",
+    "name": "DragonflyMonitorData:tempLocal1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly Local 2:Temperature",
+    "pvname": "$(p)$(card)dig:tempLocal2:temp",
+    "name": "DragonflyMonitorData:tempLocal2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly Local 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:tempLocal2:status",
+    "name": "DragonflyMonitorData:tempLocal2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp1:temp",
+    "name": "DragonflyMonitorData:adcTemp1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp1:status",
+    "name": "DragonflyMonitorData:adcTemp1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 2:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp2:temp",
+    "name": "DragonflyMonitorData:adcTemp2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp2:status",
+    "name": "DragonflyMonitorData:adcTemp2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 3:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp3:temp",
+    "name": "DragonflyMonitorData:adcTemp3:temp",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp3:status",
+    "name": "DragonflyMonitorData:adcTemp3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 4:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp4:temp",
+    "name": "DragonflyMonitorData:adcTemp4:temp",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp4:status",
+    "name": "DragonflyMonitorData:adcTemp4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 5:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp5:temp",
+    "name": "DragonflyMonitorData:adcTemp5:temp",
+    "units": "C",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp5:status",
+    "name": "DragonflyMonitorData:adcTemp5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 6:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp6:temp",
+    "name": "DragonflyMonitorData:adcTemp6:temp",
+    "units": "C",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp6:status",
+    "name": "DragonflyMonitorData:adcTemp6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 7:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp7:temp",
+    "name": "DragonflyMonitorData:adcTemp7:temp",
+    "units": "C",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp7:status",
+    "name": "DragonflyMonitorData:adcTemp7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 8:Temperature",
+    "pvname": "$(p)$(card)dig:adcTemp8:temp",
+    "name": "DragonflyMonitorData:adcTemp8:temp",
+    "units": "C",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:adcTemp8:status",
+    "name": "DragonflyMonitorData:adcTemp8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power1V_1:iout",
+    "name": "DragonflyMonitorData:power1V_1:iout",
+    "units": "A",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V_1:vout",
+    "name": "DragonflyMonitorData:power1V_1:vout",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V_1:vin",
+    "name": "DragonflyMonitorData:power1V_1:vin",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B2",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B3",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B4",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B5",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_1:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power1V_1:supplyStatus:B6",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power1V_1:status",
+    "name": "DragonflyMonitorData:power1V_1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power1V_2:iout",
+    "name": "DragonflyMonitorData:power1V_2:iout",
+    "units": "A",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V_2:vout",
+    "name": "DragonflyMonitorData:power1V_2:vout",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V_2:vin",
+    "name": "DragonflyMonitorData:power1V_2:vin",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B3",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B4",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B5",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V_2:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power1V_2:supplyStatus:B6",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power1V_2:status",
+    "name": "DragonflyMonitorData:power1V_2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerMGT:iout",
+    "name": "DragonflyMonitorData:powerMGT:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerMGT:vout",
+    "name": "DragonflyMonitorData:powerMGT:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerMGT:vin",
+    "name": "DragonflyMonitorData:powerMGT:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerMGT:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerMGT:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "1V MGT Common Supply:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerMGT:status",
+    "name": "DragonflyMonitorData:powerMGT:status",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power1V2:iout",
+    "name": "DragonflyMonitorData:power1V2:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V2:vout",
+    "name": "DragonflyMonitorData:power1V2:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V2:vin",
+    "name": "DragonflyMonitorData:power1V2:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V2:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power1V2:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power1V2:status",
+    "name": "DragonflyMonitorData:power1V2:status",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power1V8:iout",
+    "name": "DragonflyMonitorData:power1V8:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V8:vout",
+    "name": "DragonflyMonitorData:power1V8:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power1V8:vin",
+    "name": "DragonflyMonitorData:power1V8:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power1V8:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power1V8:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "1.8V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power1V8:status",
+    "name": "DragonflyMonitorData:power1V8:status",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power2V4_1:iout",
+    "name": "DragonflyMonitorData:power2V4_1:iout",
+    "units": "A",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power2V4_1:vout",
+    "name": "DragonflyMonitorData:power2V4_1:vout",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power2V4_1:vin",
+    "name": "DragonflyMonitorData:power2V4_1:vin",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B2",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B3",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B4",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B5",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_1:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power2V4_1:supplyStatus:B6",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power2V4_1:status",
+    "name": "DragonflyMonitorData:power2V4_1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power2V4_2:iout",
+    "name": "DragonflyMonitorData:power2V4_2:iout",
+    "units": "A",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power2V4_2:vout",
+    "name": "DragonflyMonitorData:power2V4_2:vout",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power2V4_2:vin",
+    "name": "DragonflyMonitorData:power2V4_2:vin",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B3",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B4",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B5",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V4_2:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power2V4_2:supplyStatus:B6",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC Intermediate Supply 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power2V4_2:status",
+    "name": "DragonflyMonitorData:power2V4_2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power2V5:iout",
+    "name": "DragonflyMonitorData:power2V5:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power2V5:vout",
+    "name": "DragonflyMonitorData:power2V5:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power2V5:vin",
+    "name": "DragonflyMonitorData:power2V5:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power2V5:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power2V5:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power2V5:status",
+    "name": "DragonflyMonitorData:power2V5:status",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)dig:power3V3:iout",
+    "name": "DragonflyMonitorData:power3V3:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:power3V3:vout",
+    "name": "DragonflyMonitorData:power3V3:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)dig:power3V3:vin",
+    "name": "DragonflyMonitorData:power3V3:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B0",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B1",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B2",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B3",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B4",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B5",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)dig:power3V3:supplyStatus:B6",
+    "name": "DragonflyMonitorData:power3V3:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)dig:power3V3:status",
+    "name": "DragonflyMonitorData:power3V3:status",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC1:iout",
+    "name": "DragonflyMonitorData:powerADC1:iout",
+    "units": "A",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC1:vout",
+    "name": "DragonflyMonitorData:powerADC1:vout",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B2",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B3",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B4",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B5",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC1:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC1:supplyStatus:B6",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC1:status",
+    "name": "DragonflyMonitorData:powerADC1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC2:iout",
+    "name": "DragonflyMonitorData:powerADC2:iout",
+    "units": "A",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC2:vout",
+    "name": "DragonflyMonitorData:powerADC2:vout",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B3",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B4",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B5",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC2:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC2:supplyStatus:B6",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC2:status",
+    "name": "DragonflyMonitorData:powerADC2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC3:iout",
+    "name": "DragonflyMonitorData:powerADC3:iout",
+    "units": "A",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC3:vout",
+    "name": "DragonflyMonitorData:powerADC3:vout",
+    "units": "V",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status 3:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B2",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B4",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B5",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC3:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC3:supplyStatus:B6",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC3:status",
+    "name": "DragonflyMonitorData:powerADC3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC4:iout",
+    "name": "DragonflyMonitorData:powerADC4:iout",
+    "units": "A",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC4:vout",
+    "name": "DragonflyMonitorData:powerADC4:vout",
+    "units": "V",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status 4:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B2",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B3",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B5",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC4:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC4:supplyStatus:B6",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC4:status",
+    "name": "DragonflyMonitorData:powerADC4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC5:iout",
+    "name": "DragonflyMonitorData:powerADC5:iout",
+    "units": "A",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC5:vout",
+    "name": "DragonflyMonitorData:powerADC5:vout",
+    "units": "V",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status 5:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B0",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B1",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B2",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B3",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B4",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC5:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC5:supplyStatus:B6",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC5:status",
+    "name": "DragonflyMonitorData:powerADC5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC6:iout",
+    "name": "DragonflyMonitorData:powerADC6:iout",
+    "units": "A",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC6:vout",
+    "name": "DragonflyMonitorData:powerADC6:vout",
+    "units": "V",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status 6:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B0",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B1",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B2",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B3",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B4",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B5",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC6:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC6:supplyStatus:B6",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC6:status",
+    "name": "DragonflyMonitorData:powerADC6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC7:iout",
+    "name": "DragonflyMonitorData:powerADC7:iout",
+    "units": "A",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC7:vout",
+    "name": "DragonflyMonitorData:powerADC7:vout",
+    "units": "V",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status 7:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B0",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B1",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B2",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B3",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B4",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B5",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC7:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC7:supplyStatus:B6",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC7:status",
+    "name": "DragonflyMonitorData:powerADC7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Output current of regulator",
+    "pvname": "$(p)$(card)dig:powerADC8:iout",
+    "name": "DragonflyMonitorData:powerADC8:iout",
+    "units": "A",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Output voltage of regulator",
+    "pvname": "$(p)$(card)dig:powerADC8:vout",
+    "name": "DragonflyMonitorData:powerADC8:vout",
+    "units": "V",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status 8:bitfield status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B0",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B0",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B1",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B1",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B2",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B2",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B3",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B3",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B4",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B4",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B5",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B5",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:Power regulator status",
+    "pvname": "$(p)$(card)dig:powerADC8:supplyStatus:B6",
+    "name": "DragonflyMonitorData:powerADC8:supplyStatus:B6",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC 1.9V Supply 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:powerADC8:status",
+    "name": "DragonflyMonitorData:powerADC8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ADC Synthesiser Locked State:ADC Synthesiser Locked State",
+    "pvname": "$(p)$(card)dig:synthLocked",
+    "name": "DragonflyMonitorData:synthLocked",
+    "size": "1"
+  },
+  {
+    "description": "ADC Synthesiser Frequency",
+    "pvname": "$(p)$(card)dig:synthFreq",
+    "name": "DragonflyMonitorData:synthFreq",
+    "units": "MHz",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Minipod 3.3V supply",
+    "pvname": "$(p)$(card)dig:rxOptics1:vcc33",
+    "name": "DragonflyMonitorData:rxOptics1:vcc33",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Minipod 2.5V supply",
+    "pvname": "$(p)$(card)dig:rxOptics1:vcc25",
+    "name": "DragonflyMonitorData:rxOptics1:vcc25",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Minipod internal temperature",
+    "pvname": "$(p)$(card)dig:rxOptics1:temp",
+    "name": "DragonflyMonitorData:rxOptics1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 1:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan1:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel1:power",
+    "units": "uW",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 1:Optical Channel Status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan1:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel1:linkStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan1:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel1:linkStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan1:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel1:linkStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan1:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 2:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan2:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel2:power",
+    "units": "uW",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 2:Optical Channel Status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan2:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel2:linkStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan2:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel2:linkStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan2:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel2:linkStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan2:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 3:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan3:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel3:power",
+    "units": "uW",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 3:Optical Channel Status 3:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan3:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel3:linkStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan3:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel3:linkStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan3:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel3:linkStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan3:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 4:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan4:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel4:power",
+    "units": "uW",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 4:Optical Channel Status 4:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan4:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel4:linkStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan4:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel4:linkStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan4:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel4:linkStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan4:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 5:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan5:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel5:power",
+    "units": "uW",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 5:Optical Channel Status 5:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan5:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel5:linkStatus",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan5:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel5:linkStatus:B0",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan5:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel5:linkStatus:B1",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan5:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 6:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan6:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel6:power",
+    "units": "uW",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 6:Optical Channel Status 6:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan6:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel6:linkStatus",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan6:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel6:linkStatus:B0",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan6:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel6:linkStatus:B1",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan6:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 7:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan7:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel7:power",
+    "units": "uW",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 7:Optical Channel Status 7:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan7:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel7:linkStatus",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan7:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel7:linkStatus:B0",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan7:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel7:linkStatus:B1",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan7:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 8:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan8:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel8:power",
+    "units": "uW",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 8:Optical Channel Status 8:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan8:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel8:linkStatus",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan8:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel8:linkStatus:B0",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan8:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel8:linkStatus:B1",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan8:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 9:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan9:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel9:power",
+    "units": "uW",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 9:Optical Channel Status 9:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan9:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel9:linkStatus",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan9:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel9:linkStatus:B0",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan9:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel9:linkStatus:B1",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan9:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 10:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan10:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel10:power",
+    "units": "uW",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 10:Optical Channel Status 10:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan10:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel10:linkStatus",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan10:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel10:linkStatus:B0",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan10:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel10:linkStatus:B1",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan10:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 11:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan11:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel11:power",
+    "units": "uW",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 11:Optical Channel Status 11:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan11:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel11:linkStatus",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan11:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel11:linkStatus:B0",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan11:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel11:linkStatus:B1",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan11:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 12:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan12:power",
+    "name": "DragonflyMonitorData:rxOptics1:channel12:power",
+    "units": "uW",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 12:Optical Channel Status 12:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan12:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics1:channel12:linkStatus",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan12:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics1:channel12:linkStatus:B0",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan12:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics1:channel12:linkStatus:B1",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:Optical Channel Info 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:chan12:status",
+    "name": "DragonflyMonitorData:rxOptics1:channel12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics1:status",
+    "name": "DragonflyMonitorData:rxOptics1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Minipod 3.3V supply",
+    "pvname": "$(p)$(card)dig:rxOptics2:vcc33",
+    "name": "DragonflyMonitorData:rxOptics2:vcc33",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Minipod 2.5V supply",
+    "pvname": "$(p)$(card)dig:rxOptics2:vcc25",
+    "name": "DragonflyMonitorData:rxOptics2:vcc25",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Minipod internal temperature",
+    "pvname": "$(p)$(card)dig:rxOptics2:temp",
+    "name": "DragonflyMonitorData:rxOptics2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 1:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan1:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel1:power",
+    "units": "uW",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 1:Optical Channel Status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan1:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel1:linkStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan1:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel1:linkStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan1:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel1:linkStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan1:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 2:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan2:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel2:power",
+    "units": "uW",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 2:Optical Channel Status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan2:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel2:linkStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan2:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel2:linkStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan2:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel2:linkStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan2:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 3:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan3:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel3:power",
+    "units": "uW",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 3:Optical Channel Status 3:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan3:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel3:linkStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan3:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel3:linkStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan3:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel3:linkStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan3:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 4:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan4:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel4:power",
+    "units": "uW",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 4:Optical Channel Status 4:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan4:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel4:linkStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan4:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel4:linkStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan4:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel4:linkStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan4:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 5:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan5:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel5:power",
+    "units": "uW",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 5:Optical Channel Status 5:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan5:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel5:linkStatus",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan5:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel5:linkStatus:B0",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan5:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel5:linkStatus:B1",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan5:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 6:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan6:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel6:power",
+    "units": "uW",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 6:Optical Channel Status 6:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan6:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel6:linkStatus",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan6:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel6:linkStatus:B0",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan6:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel6:linkStatus:B1",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan6:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 7:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan7:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel7:power",
+    "units": "uW",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 7:Optical Channel Status 7:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan7:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel7:linkStatus",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan7:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel7:linkStatus:B0",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan7:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel7:linkStatus:B1",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan7:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 8:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan8:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel8:power",
+    "units": "uW",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 8:Optical Channel Status 8:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan8:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel8:linkStatus",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan8:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel8:linkStatus:B0",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan8:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel8:linkStatus:B1",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan8:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 9:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan9:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel9:power",
+    "units": "uW",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 9:Optical Channel Status 9:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan9:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel9:linkStatus",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan9:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel9:linkStatus:B0",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan9:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel9:linkStatus:B1",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan9:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 10:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan10:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel10:power",
+    "units": "uW",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 10:Optical Channel Status 10:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan10:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel10:linkStatus",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan10:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel10:linkStatus:B0",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan10:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel10:linkStatus:B1",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan10:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 11:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan11:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel11:power",
+    "units": "uW",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 11:Optical Channel Status 11:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan11:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel11:linkStatus",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan11:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel11:linkStatus:B0",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan11:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel11:linkStatus:B1",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan11:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 12:Input power",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan12:power",
+    "name": "DragonflyMonitorData:rxOptics2:channel12:power",
+    "units": "uW",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 12:Optical Channel Status 12:bitfield status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan12:linkStatus",
+    "name": "DragonflyMonitorData:rxOptics2:channel12:linkStatus",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan12:linkStatus:B0",
+    "name": "DragonflyMonitorData:rxOptics2:channel12:linkStatus:B0",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan12:linkStatus:B1",
+    "name": "DragonflyMonitorData:rxOptics2:channel12:linkStatus:B1",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:Optical Channel Info 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:chan12:status",
+    "name": "DragonflyMonitorData:rxOptics2:channel12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX MiniPOD 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:rxOptics2:status",
+    "name": "DragonflyMonitorData:rxOptics2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Minipod 3.3V supply",
+    "pvname": "$(p)$(card)dig:txOptics1:vcc33",
+    "name": "DragonflyMonitorData:txOptics1:vcc33",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Minipod 2.5V supply",
+    "pvname": "$(p)$(card)dig:txOptics1:vcc25",
+    "name": "DragonflyMonitorData:txOptics1:vcc25",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Minipod internal temperature",
+    "pvname": "$(p)$(card)dig:txOptics1:temp",
+    "name": "DragonflyMonitorData:txOptics1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:power",
+    "name": "DragonflyMonitorData:txOptics1:channel1:power",
+    "units": "uW",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel1:bias:value",
+    "units": "mA",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Bias current 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel1:bias:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel1:txEnabled",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Optical Channel Status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel1:linkStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel1:linkStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel1:linkStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan1:status",
+    "name": "DragonflyMonitorData:txOptics1:channel1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:power",
+    "name": "DragonflyMonitorData:txOptics1:channel2:power",
+    "units": "uW",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel2:bias:value",
+    "units": "mA",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Bias current 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel2:bias:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel2:txEnabled",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Optical Channel Status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel2:linkStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel2:linkStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel2:linkStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan2:status",
+    "name": "DragonflyMonitorData:txOptics1:channel2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:power",
+    "name": "DragonflyMonitorData:txOptics1:channel3:power",
+    "units": "uW",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel3:bias:value",
+    "units": "mA",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Bias current 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel3:bias:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel3:txEnabled",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Optical Channel Status 3:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel3:linkStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel3:linkStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel3:linkStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan3:status",
+    "name": "DragonflyMonitorData:txOptics1:channel3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:power",
+    "name": "DragonflyMonitorData:txOptics1:channel4:power",
+    "units": "uW",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel4:bias:value",
+    "units": "mA",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Bias current 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel4:bias:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel4:txEnabled",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Optical Channel Status 4:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel4:linkStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel4:linkStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel4:linkStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan4:status",
+    "name": "DragonflyMonitorData:txOptics1:channel4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:power",
+    "name": "DragonflyMonitorData:txOptics1:channel5:power",
+    "units": "uW",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel5:bias:value",
+    "units": "mA",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Bias current 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel5:bias:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel5:txEnabled",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Optical Channel Status 5:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel5:linkStatus",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel5:linkStatus:B0",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel5:linkStatus:B1",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan5:status",
+    "name": "DragonflyMonitorData:txOptics1:channel5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:power",
+    "name": "DragonflyMonitorData:txOptics1:channel6:power",
+    "units": "uW",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel6:bias:value",
+    "units": "mA",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Bias current 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel6:bias:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel6:txEnabled",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Optical Channel Status 6:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel6:linkStatus",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel6:linkStatus:B0",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel6:linkStatus:B1",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan6:status",
+    "name": "DragonflyMonitorData:txOptics1:channel6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:power",
+    "name": "DragonflyMonitorData:txOptics1:channel7:power",
+    "units": "uW",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel7:bias:value",
+    "units": "mA",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Bias current 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel7:bias:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel7:txEnabled",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Optical Channel Status 7:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel7:linkStatus",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel7:linkStatus:B0",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel7:linkStatus:B1",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan7:status",
+    "name": "DragonflyMonitorData:txOptics1:channel7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:power",
+    "name": "DragonflyMonitorData:txOptics1:channel8:power",
+    "units": "uW",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel8:bias:value",
+    "units": "mA",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Bias current 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel8:bias:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel8:txEnabled",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Optical Channel Status 8:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel8:linkStatus",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel8:linkStatus:B0",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel8:linkStatus:B1",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan8:status",
+    "name": "DragonflyMonitorData:txOptics1:channel8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:power",
+    "name": "DragonflyMonitorData:txOptics1:channel9:power",
+    "units": "uW",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel9:bias:value",
+    "units": "mA",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Bias current 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel9:bias:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel9:txEnabled",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Optical Channel Status 9:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel9:linkStatus",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel9:linkStatus:B0",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel9:linkStatus:B1",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan9:status",
+    "name": "DragonflyMonitorData:txOptics1:channel9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:power",
+    "name": "DragonflyMonitorData:txOptics1:channel10:power",
+    "units": "uW",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel10:bias:value",
+    "units": "mA",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Bias current 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel10:bias:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel10:txEnabled",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Optical Channel Status 10:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel10:linkStatus",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel10:linkStatus:B0",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel10:linkStatus:B1",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan10:status",
+    "name": "DragonflyMonitorData:txOptics1:channel10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:power",
+    "name": "DragonflyMonitorData:txOptics1:channel11:power",
+    "units": "uW",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel11:bias:value",
+    "units": "mA",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Bias current 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel11:bias:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel11:txEnabled",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Optical Channel Status 11:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel11:linkStatus",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel11:linkStatus:B0",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel11:linkStatus:B1",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan11:status",
+    "name": "DragonflyMonitorData:txOptics1:channel11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Output power",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:power",
+    "name": "DragonflyMonitorData:txOptics1:channel12:power",
+    "units": "uW",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:bias:value",
+    "name": "DragonflyMonitorData:txOptics1:channel12:bias:value",
+    "units": "mA",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Bias current 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:bias:status",
+    "name": "DragonflyMonitorData:txOptics1:channel12:bias:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:txEnabled",
+    "name": "DragonflyMonitorData:txOptics1:channel12:txEnabled",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Optical Channel Status 12:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:linkStatus",
+    "name": "DragonflyMonitorData:txOptics1:channel12:linkStatus",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics1:channel12:linkStatus:B0",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics1:channel12:linkStatus:B1",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:Optical Channel Info 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:chan12:status",
+    "name": "DragonflyMonitorData:txOptics1:channel12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics1:status",
+    "name": "DragonflyMonitorData:txOptics1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Minipod 3.3V supply",
+    "pvname": "$(p)$(card)dig:txOptics2:vcc33",
+    "name": "DragonflyMonitorData:txOptics2:vcc33",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Minipod 2.5V supply",
+    "pvname": "$(p)$(card)dig:txOptics2:vcc25",
+    "name": "DragonflyMonitorData:txOptics2:vcc25",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Minipod internal temperature",
+    "pvname": "$(p)$(card)dig:txOptics2:temp",
+    "name": "DragonflyMonitorData:txOptics2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:power",
+    "name": "DragonflyMonitorData:txOptics2:channel1:power",
+    "units": "uW",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel1:bias:value",
+    "units": "mA",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Bias current 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel1:bias:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel1:txEnabled",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Optical Channel Status 1:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel1:linkStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel1:linkStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel1:linkStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan1:status",
+    "name": "DragonflyMonitorData:txOptics2:channel1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:power",
+    "name": "DragonflyMonitorData:txOptics2:channel2:power",
+    "units": "uW",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel2:bias:value",
+    "units": "mA",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Bias current 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel2:bias:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel2:txEnabled",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Optical Channel Status 2:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel2:linkStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel2:linkStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel2:linkStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan2:status",
+    "name": "DragonflyMonitorData:txOptics2:channel2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:power",
+    "name": "DragonflyMonitorData:txOptics2:channel3:power",
+    "units": "uW",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel3:bias:value",
+    "units": "mA",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Bias current 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel3:bias:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel3:txEnabled",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Optical Channel Status 3:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel3:linkStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel3:linkStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel3:linkStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan3:status",
+    "name": "DragonflyMonitorData:txOptics2:channel3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:power",
+    "name": "DragonflyMonitorData:txOptics2:channel4:power",
+    "units": "uW",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel4:bias:value",
+    "units": "mA",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Bias current 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel4:bias:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel4:txEnabled",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Optical Channel Status 4:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel4:linkStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel4:linkStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel4:linkStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan4:status",
+    "name": "DragonflyMonitorData:txOptics2:channel4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:power",
+    "name": "DragonflyMonitorData:txOptics2:channel5:power",
+    "units": "uW",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel5:bias:value",
+    "units": "mA",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Bias current 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel5:bias:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel5:txEnabled",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Optical Channel Status 5:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel5:linkStatus",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel5:linkStatus:B0",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel5:linkStatus:B1",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan5:status",
+    "name": "DragonflyMonitorData:txOptics2:channel5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:power",
+    "name": "DragonflyMonitorData:txOptics2:channel6:power",
+    "units": "uW",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel6:bias:value",
+    "units": "mA",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Bias current 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel6:bias:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel6:txEnabled",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Optical Channel Status 6:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel6:linkStatus",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel6:linkStatus:B0",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel6:linkStatus:B1",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan6:status",
+    "name": "DragonflyMonitorData:txOptics2:channel6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:power",
+    "name": "DragonflyMonitorData:txOptics2:channel7:power",
+    "units": "uW",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel7:bias:value",
+    "units": "mA",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Bias current 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel7:bias:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel7:txEnabled",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Optical Channel Status 7:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel7:linkStatus",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel7:linkStatus:B0",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel7:linkStatus:B1",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan7:status",
+    "name": "DragonflyMonitorData:txOptics2:channel7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:power",
+    "name": "DragonflyMonitorData:txOptics2:channel8:power",
+    "units": "uW",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel8:bias:value",
+    "units": "mA",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Bias current 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel8:bias:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel8:txEnabled",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Optical Channel Status 8:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel8:linkStatus",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel8:linkStatus:B0",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel8:linkStatus:B1",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan8:status",
+    "name": "DragonflyMonitorData:txOptics2:channel8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:power",
+    "name": "DragonflyMonitorData:txOptics2:channel9:power",
+    "units": "uW",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel9:bias:value",
+    "units": "mA",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Bias current 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel9:bias:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel9:txEnabled",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Optical Channel Status 9:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel9:linkStatus",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel9:linkStatus:B0",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel9:linkStatus:B1",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan9:status",
+    "name": "DragonflyMonitorData:txOptics2:channel9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:power",
+    "name": "DragonflyMonitorData:txOptics2:channel10:power",
+    "units": "uW",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel10:bias:value",
+    "units": "mA",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Bias current 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel10:bias:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel10:txEnabled",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Optical Channel Status 10:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel10:linkStatus",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel10:linkStatus:B0",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel10:linkStatus:B1",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan10:status",
+    "name": "DragonflyMonitorData:txOptics2:channel10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:power",
+    "name": "DragonflyMonitorData:txOptics2:channel11:power",
+    "units": "uW",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel11:bias:value",
+    "units": "mA",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Bias current 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel11:bias:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel11:txEnabled",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Optical Channel Status 11:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel11:linkStatus",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel11:linkStatus:B0",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel11:linkStatus:B1",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan11:status",
+    "name": "DragonflyMonitorData:txOptics2:channel11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Output power",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:power",
+    "name": "DragonflyMonitorData:txOptics2:channel12:power",
+    "units": "uW",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Bias current",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:bias:value",
+    "name": "DragonflyMonitorData:txOptics2:channel12:bias:value",
+    "units": "mA",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Bias current 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:bias:status",
+    "name": "DragonflyMonitorData:txOptics2:channel12:bias:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Optical TX Enabled",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:txEnabled",
+    "name": "DragonflyMonitorData:txOptics2:channel12:txEnabled",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Optical Channel Status 12:bitfield status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:linkStatus",
+    "name": "DragonflyMonitorData:txOptics2:channel12:linkStatus",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:linkStatus:B0",
+    "name": "DragonflyMonitorData:txOptics2:channel12:linkStatus:B0",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:Optical Channel Status",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:linkStatus:B1",
+    "name": "DragonflyMonitorData:txOptics2:channel12:linkStatus:B1",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:Optical Channel Info 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:chan12:status",
+    "name": "DragonflyMonitorData:txOptics2:channel12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "TX MiniPOD 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:txOptics2:status",
+    "name": "DragonflyMonitorData:txOptics2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 1:Bandpass filter selection 1:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF1:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF1:selectedFilter",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 1:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF1:attenuation",
+    "name": "DragonflyMonitorData:RFoF1:attenuation",
+    "units": "dB",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 1:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF1:power",
+    "name": "DragonflyMonitorData:RFoF1:power",
+    "units": "dBm",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 1:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF1:portID",
+    "name": "DragonflyMonitorData:RFoF1:portID",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF1:status",
+    "name": "DragonflyMonitorData:RFoF1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 2:Bandpass filter selection 2:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF2:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF2:selectedFilter",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 2:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF2:attenuation",
+    "name": "DragonflyMonitorData:RFoF2:attenuation",
+    "units": "dB",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 2:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF2:power",
+    "name": "DragonflyMonitorData:RFoF2:power",
+    "units": "dBm",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 2:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF2:portID",
+    "name": "DragonflyMonitorData:RFoF2:portID",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF2:status",
+    "name": "DragonflyMonitorData:RFoF2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 3:Bandpass filter selection 3:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF3:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF3:selectedFilter",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 3:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF3:attenuation",
+    "name": "DragonflyMonitorData:RFoF3:attenuation",
+    "units": "dB",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 3:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF3:power",
+    "name": "DragonflyMonitorData:RFoF3:power",
+    "units": "dBm",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 3:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF3:portID",
+    "name": "DragonflyMonitorData:RFoF3:portID",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF3:status",
+    "name": "DragonflyMonitorData:RFoF3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 4:Bandpass filter selection 4:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF4:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF4:selectedFilter",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 4:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF4:attenuation",
+    "name": "DragonflyMonitorData:RFoF4:attenuation",
+    "units": "dB",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 4:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF4:power",
+    "name": "DragonflyMonitorData:RFoF4:power",
+    "units": "dBm",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 4:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF4:portID",
+    "name": "DragonflyMonitorData:RFoF4:portID",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF4:status",
+    "name": "DragonflyMonitorData:RFoF4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 5:Bandpass filter selection 5:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF5:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF5:selectedFilter",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 5:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF5:attenuation",
+    "name": "DragonflyMonitorData:RFoF5:attenuation",
+    "units": "dB",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 5:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF5:power",
+    "name": "DragonflyMonitorData:RFoF5:power",
+    "units": "dBm",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 5:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF5:portID",
+    "name": "DragonflyMonitorData:RFoF5:portID",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 5:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF5:status",
+    "name": "DragonflyMonitorData:RFoF5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 6:Bandpass filter selection 6:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF6:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF6:selectedFilter",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 6:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF6:attenuation",
+    "name": "DragonflyMonitorData:RFoF6:attenuation",
+    "units": "dB",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 6:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF6:power",
+    "name": "DragonflyMonitorData:RFoF6:power",
+    "units": "dBm",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 6:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF6:portID",
+    "name": "DragonflyMonitorData:RFoF6:portID",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 6:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF6:status",
+    "name": "DragonflyMonitorData:RFoF6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 7:Bandpass filter selection 7:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF7:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF7:selectedFilter",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 7:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF7:attenuation",
+    "name": "DragonflyMonitorData:RFoF7:attenuation",
+    "units": "dB",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 7:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF7:power",
+    "name": "DragonflyMonitorData:RFoF7:power",
+    "units": "dBm",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 7:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF7:portID",
+    "name": "DragonflyMonitorData:RFoF7:portID",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 7:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF7:status",
+    "name": "DragonflyMonitorData:RFoF7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 8:Bandpass filter selection 8:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF8:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF8:selectedFilter",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 8:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF8:attenuation",
+    "name": "DragonflyMonitorData:RFoF8:attenuation",
+    "units": "dB",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 8:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF8:power",
+    "name": "DragonflyMonitorData:RFoF8:power",
+    "units": "dBm",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 8:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF8:portID",
+    "name": "DragonflyMonitorData:RFoF8:portID",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 8:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF8:status",
+    "name": "DragonflyMonitorData:RFoF8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 9:Bandpass filter selection 9:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF9:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF9:selectedFilter",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 9:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF9:attenuation",
+    "name": "DragonflyMonitorData:RFoF9:attenuation",
+    "units": "dB",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 9:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF9:power",
+    "name": "DragonflyMonitorData:RFoF9:power",
+    "units": "dBm",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 9:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF9:portID",
+    "name": "DragonflyMonitorData:RFoF9:portID",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 9:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF9:status",
+    "name": "DragonflyMonitorData:RFoF9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 10:Bandpass filter selection 10:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF10:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF10:selectedFilter",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 10:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF10:attenuation",
+    "name": "DragonflyMonitorData:RFoF10:attenuation",
+    "units": "dB",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 10:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF10:power",
+    "name": "DragonflyMonitorData:RFoF10:power",
+    "units": "dBm",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 10:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF10:portID",
+    "name": "DragonflyMonitorData:RFoF10:portID",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 10:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF10:status",
+    "name": "DragonflyMonitorData:RFoF10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 11:Bandpass filter selection 11:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF11:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF11:selectedFilter",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 11:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF11:attenuation",
+    "name": "DragonflyMonitorData:RFoF11:attenuation",
+    "units": "dB",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 11:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF11:power",
+    "name": "DragonflyMonitorData:RFoF11:power",
+    "units": "dBm",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 11:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF11:portID",
+    "name": "DragonflyMonitorData:RFoF11:portID",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 11:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF11:status",
+    "name": "DragonflyMonitorData:RFoF11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 12:Bandpass filter selection 12:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF12:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF12:selectedFilter",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 12:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF12:attenuation",
+    "name": "DragonflyMonitorData:RFoF12:attenuation",
+    "units": "dB",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 12:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF12:power",
+    "name": "DragonflyMonitorData:RFoF12:power",
+    "units": "dBm",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 12:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF12:portID",
+    "name": "DragonflyMonitorData:RFoF12:portID",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 12:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF12:status",
+    "name": "DragonflyMonitorData:RFoF12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 13:Bandpass filter selection 13:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF13:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF13:selectedFilter",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 13:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF13:attenuation",
+    "name": "DragonflyMonitorData:RFoF13:attenuation",
+    "units": "dB",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 13:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF13:power",
+    "name": "DragonflyMonitorData:RFoF13:power",
+    "units": "dBm",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 13:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF13:portID",
+    "name": "DragonflyMonitorData:RFoF13:portID",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 13:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF13:status",
+    "name": "DragonflyMonitorData:RFoF13:status",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 14:Bandpass filter selection 14:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF14:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF14:selectedFilter",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 14:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF14:attenuation",
+    "name": "DragonflyMonitorData:RFoF14:attenuation",
+    "units": "dB",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 14:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF14:power",
+    "name": "DragonflyMonitorData:RFoF14:power",
+    "units": "dBm",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 14:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF14:portID",
+    "name": "DragonflyMonitorData:RFoF14:portID",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 14:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF14:status",
+    "name": "DragonflyMonitorData:RFoF14:status",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 15:Bandpass filter selection 15:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF15:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF15:selectedFilter",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 15:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF15:attenuation",
+    "name": "DragonflyMonitorData:RFoF15:attenuation",
+    "units": "dB",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 15:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF15:power",
+    "name": "DragonflyMonitorData:RFoF15:power",
+    "units": "dBm",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 15:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF15:portID",
+    "name": "DragonflyMonitorData:RFoF15:portID",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 15:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF15:status",
+    "name": "DragonflyMonitorData:RFoF15:status",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 16:Bandpass filter selection 16:Bandpass filter selection",
+    "pvname": "$(p)$(card)dig:RFoF16:selectedFilter",
+    "name": "DragonflyMonitorData:RFoF16:selectedFilter",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 16:RF Attenuation",
+    "pvname": "$(p)$(card)dig:RFoF16:attenuation",
+    "name": "DragonflyMonitorData:RFoF16:attenuation",
+    "units": "dB",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 16:Optical carrier power",
+    "pvname": "$(p)$(card)dig:RFoF16:power",
+    "name": "DragonflyMonitorData:RFoF16:power",
+    "units": "dBm",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 16:The Port Mapped ID of the RFoF port",
+    "pvname": "$(p)$(card)dig:RFoF16:portID",
+    "name": "DragonflyMonitorData:RFoF16:portID",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "RX RFoF 16:AdbeStatus",
+    "pvname": "$(p)$(card)dig:RFoF16:status",
+    "name": "DragonflyMonitorData:RFoF16:status",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 1:FPGA Vcore supply",
+    "pvname": "$(p)$(card)dig:fpga1:vccInt",
+    "name": "DragonflyMonitorData:fpga1:vccInt",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 1:FPGA Vaux supply",
+    "pvname": "$(p)$(card)dig:fpga1:vccAux",
+    "name": "DragonflyMonitorData:fpga1:vccAux",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 1:FPGA Vbram supply",
+    "pvname": "$(p)$(card)dig:fpga1:vccBram",
+    "name": "DragonflyMonitorData:fpga1:vccBram",
+    "units": "V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 1:FPGA self monitored temperature",
+    "pvname": "$(p)$(card)dig:fpga1:temp",
+    "name": "DragonflyMonitorData:fpga1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 1:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fpga1:status",
+    "name": "DragonflyMonitorData:fpga1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 2:FPGA Vcore supply",
+    "pvname": "$(p)$(card)dig:fpga2:vccInt",
+    "name": "DragonflyMonitorData:fpga2:vccInt",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 2:FPGA Vaux supply",
+    "pvname": "$(p)$(card)dig:fpga2:vccAux",
+    "name": "DragonflyMonitorData:fpga2:vccAux",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 2:FPGA Vbram supply",
+    "pvname": "$(p)$(card)dig:fpga2:vccBram",
+    "name": "DragonflyMonitorData:fpga2:vccBram",
+    "units": "V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 2:FPGA self monitored temperature",
+    "pvname": "$(p)$(card)dig:fpga2:temp",
+    "name": "DragonflyMonitorData:fpga2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 2:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fpga2:status",
+    "name": "DragonflyMonitorData:fpga2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 3:FPGA Vcore supply",
+    "pvname": "$(p)$(card)dig:fpga3:vccInt",
+    "name": "DragonflyMonitorData:fpga3:vccInt",
+    "units": "V",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 3:FPGA Vaux supply",
+    "pvname": "$(p)$(card)dig:fpga3:vccAux",
+    "name": "DragonflyMonitorData:fpga3:vccAux",
+    "units": "V",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 3:FPGA Vbram supply",
+    "pvname": "$(p)$(card)dig:fpga3:vccBram",
+    "name": "DragonflyMonitorData:fpga3:vccBram",
+    "units": "V",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 3:FPGA self monitored temperature",
+    "pvname": "$(p)$(card)dig:fpga3:temp",
+    "name": "DragonflyMonitorData:fpga3:temp",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 3:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fpga3:status",
+    "name": "DragonflyMonitorData:fpga3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 4:FPGA Vcore supply",
+    "pvname": "$(p)$(card)dig:fpga4:vccInt",
+    "name": "DragonflyMonitorData:fpga4:vccInt",
+    "units": "V",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 4:FPGA Vaux supply",
+    "pvname": "$(p)$(card)dig:fpga4:vccAux",
+    "name": "DragonflyMonitorData:fpga4:vccAux",
+    "units": "V",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 4:FPGA Vbram supply",
+    "pvname": "$(p)$(card)dig:fpga4:vccBram",
+    "name": "DragonflyMonitorData:fpga4:vccBram",
+    "units": "V",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 4:FPGA self monitored temperature",
+    "pvname": "$(p)$(card)dig:fpga4:temp",
+    "name": "DragonflyMonitorData:fpga4:temp",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Dragonfly FPGA 4:AdbeStatus",
+    "pvname": "$(p)$(card)dig:fpga4:status",
+    "name": "DragonflyMonitorData:fpga4:status",
+    "index": "4",
+    "size": "1"
+  }
+]

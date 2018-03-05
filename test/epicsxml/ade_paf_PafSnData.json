@@ -1,0 +1,3516 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)PafSn:status",
+    "name": "PafSnData:status",
+    "size": "1"
+  },
+  {
+    "description": "Controller Serial No.",
+    "pvname": "$(p)PafSn:ctrlSerialNo",
+    "name": "PafSnData:ctrlSerialNo",
+    "size": "1"
+  },
+  {
+    "description": "Controller Firmware Rev",
+    "pvname": "$(p)PafSn:ctrlFPGA_Version",
+    "name": "PafSnData:ctrlFPGA_Version",
+    "size": "1"
+  },
+  {
+    "description": "PSU CMI Serial No.",
+    "pvname": "$(p)PafSn:psuCmiSerialNo",
+    "name": "PafSnData:psuCmiSerialNo",
+    "size": "1"
+  },
+  {
+    "description": "PSU CMI Firmware Rev",
+    "pvname": "$(p)PafSn:psuCmiFPGA_Version",
+    "name": "PafSnData:psuCmiFPGA_Version",
+    "size": "1"
+  },
+  {
+    "description": "TEC CMI Serial No.",
+    "pvname": "$(p)PafSn:tecCmiSerialNo",
+    "name": "PafSnData:tecCmiSerialNo",
+    "size": "1"
+  },
+  {
+    "description": "TEC CMI Firmware Rev",
+    "pvname": "$(p)PafSn:tecCmiFPGA_Version",
+    "name": "PafSnData:tecCmiFPGA_Version",
+    "size": "1"
+  },
+  {
+    "description": " 1:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:status",
+    "name": "PafSnData:bp1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:backplane comms errors",
+    "pvname": "$(p)PafSn:bp1:errorCount",
+    "name": "PafSnData:bp1:errorCount",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:backplane serial no.",
+    "pvname": "$(p)PafSn:bp1:bpSerialNo",
+    "name": "PafSnData:bp1:backplaneSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:FPGA A Version",
+    "pvname": "$(p)PafSn:bp1:fpgaA_Version",
+    "name": "PafSnData:bp1:fpgaA_Version",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d1:status",
+    "name": "PafSnData:bp1:d1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d1:rfofSerialNo",
+    "name": "PafSnData:bp1:d1:rfofSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d1:dominoSerialNo",
+    "name": "PafSnData:bp1:d1:dominoSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d1:filterSerialNo",
+    "name": "PafSnData:bp1:d1:filterSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d1:lnaSerialNo",
+    "name": "PafSnData:bp1:d1:lnaSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 2:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d2:status",
+    "name": "PafSnData:bp1:d2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d2:rfofSerialNo",
+    "name": "PafSnData:bp1:d2:rfofSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d2:dominoSerialNo",
+    "name": "PafSnData:bp1:d2:dominoSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d2:filterSerialNo",
+    "name": "PafSnData:bp1:d2:filterSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d2:lnaSerialNo",
+    "name": "PafSnData:bp1:d2:lnaSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 3:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d3:status",
+    "name": "PafSnData:bp1:d3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d3:rfofSerialNo",
+    "name": "PafSnData:bp1:d3:rfofSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d3:dominoSerialNo",
+    "name": "PafSnData:bp1:d3:dominoSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d3:filterSerialNo",
+    "name": "PafSnData:bp1:d3:filterSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d3:lnaSerialNo",
+    "name": "PafSnData:bp1:d3:lnaSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 4:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d4:status",
+    "name": "PafSnData:bp1:d4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d4:rfofSerialNo",
+    "name": "PafSnData:bp1:d4:rfofSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d4:dominoSerialNo",
+    "name": "PafSnData:bp1:d4:dominoSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d4:filterSerialNo",
+    "name": "PafSnData:bp1:d4:filterSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d4:lnaSerialNo",
+    "name": "PafSnData:bp1:d4:lnaSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 5:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d5:status",
+    "name": "PafSnData:bp1:d5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d5:rfofSerialNo",
+    "name": "PafSnData:bp1:d5:rfofSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d5:dominoSerialNo",
+    "name": "PafSnData:bp1:d5:dominoSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d5:filterSerialNo",
+    "name": "PafSnData:bp1:d5:filterSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d5:lnaSerialNo",
+    "name": "PafSnData:bp1:d5:lnaSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 6:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d6:status",
+    "name": "PafSnData:bp1:d6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d6:rfofSerialNo",
+    "name": "PafSnData:bp1:d6:rfofSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d6:dominoSerialNo",
+    "name": "PafSnData:bp1:d6:dominoSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d6:filterSerialNo",
+    "name": "PafSnData:bp1:d6:filterSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d6:lnaSerialNo",
+    "name": "PafSnData:bp1:d6:lnaSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 7:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d7:status",
+    "name": "PafSnData:bp1:d7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d7:rfofSerialNo",
+    "name": "PafSnData:bp1:d7:rfofSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d7:dominoSerialNo",
+    "name": "PafSnData:bp1:d7:dominoSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d7:filterSerialNo",
+    "name": "PafSnData:bp1:d7:filterSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d7:lnaSerialNo",
+    "name": "PafSnData:bp1:d7:lnaSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 8:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d8:status",
+    "name": "PafSnData:bp1:d8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d8:rfofSerialNo",
+    "name": "PafSnData:bp1:d8:rfofSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d8:dominoSerialNo",
+    "name": "PafSnData:bp1:d8:dominoSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d8:filterSerialNo",
+    "name": "PafSnData:bp1:d8:filterSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d8:lnaSerialNo",
+    "name": "PafSnData:bp1:d8:lnaSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 9:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d9:status",
+    "name": "PafSnData:bp1:d9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d9:rfofSerialNo",
+    "name": "PafSnData:bp1:d9:rfofSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d9:dominoSerialNo",
+    "name": "PafSnData:bp1:d9:dominoSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d9:filterSerialNo",
+    "name": "PafSnData:bp1:d9:filterSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d9:lnaSerialNo",
+    "name": "PafSnData:bp1:d9:lnaSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 10:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d10:status",
+    "name": "PafSnData:bp1:d10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d10:rfofSerialNo",
+    "name": "PafSnData:bp1:d10:rfofSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d10:dominoSerialNo",
+    "name": "PafSnData:bp1:d10:dominoSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d10:filterSerialNo",
+    "name": "PafSnData:bp1:d10:filterSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d10:lnaSerialNo",
+    "name": "PafSnData:bp1:d10:lnaSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 11:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d11:status",
+    "name": "PafSnData:bp1:d11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d11:rfofSerialNo",
+    "name": "PafSnData:bp1:d11:rfofSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d11:dominoSerialNo",
+    "name": "PafSnData:bp1:d11:dominoSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d11:filterSerialNo",
+    "name": "PafSnData:bp1:d11:filterSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d11:lnaSerialNo",
+    "name": "PafSnData:bp1:d11:lnaSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 12:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d12:status",
+    "name": "PafSnData:bp1:d12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d12:rfofSerialNo",
+    "name": "PafSnData:bp1:d12:rfofSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d12:dominoSerialNo",
+    "name": "PafSnData:bp1:d12:dominoSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d12:filterSerialNo",
+    "name": "PafSnData:bp1:d12:filterSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d12:lnaSerialNo",
+    "name": "PafSnData:bp1:d12:lnaSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 13:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d13:status",
+    "name": "PafSnData:bp1:d13:status",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d13:rfofSerialNo",
+    "name": "PafSnData:bp1:d13:rfofSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d13:dominoSerialNo",
+    "name": "PafSnData:bp1:d13:dominoSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d13:filterSerialNo",
+    "name": "PafSnData:bp1:d13:filterSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d13:lnaSerialNo",
+    "name": "PafSnData:bp1:d13:lnaSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 14:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d14:status",
+    "name": "PafSnData:bp1:d14:status",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d14:rfofSerialNo",
+    "name": "PafSnData:bp1:d14:rfofSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d14:dominoSerialNo",
+    "name": "PafSnData:bp1:d14:dominoSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d14:filterSerialNo",
+    "name": "PafSnData:bp1:d14:filterSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d14:lnaSerialNo",
+    "name": "PafSnData:bp1:d14:lnaSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 15:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d15:status",
+    "name": "PafSnData:bp1:d15:status",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d15:rfofSerialNo",
+    "name": "PafSnData:bp1:d15:rfofSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d15:dominoSerialNo",
+    "name": "PafSnData:bp1:d15:dominoSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d15:filterSerialNo",
+    "name": "PafSnData:bp1:d15:filterSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d15:lnaSerialNo",
+    "name": "PafSnData:bp1:d15:lnaSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 16:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d16:status",
+    "name": "PafSnData:bp1:d16:status",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d16:rfofSerialNo",
+    "name": "PafSnData:bp1:d16:rfofSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d16:dominoSerialNo",
+    "name": "PafSnData:bp1:d16:dominoSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d16:filterSerialNo",
+    "name": "PafSnData:bp1:d16:filterSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d16:lnaSerialNo",
+    "name": "PafSnData:bp1:d16:lnaSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 17:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d17:status",
+    "name": "PafSnData:bp1:d17:status",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d17:rfofSerialNo",
+    "name": "PafSnData:bp1:d17:rfofSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d17:dominoSerialNo",
+    "name": "PafSnData:bp1:d17:dominoSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d17:filterSerialNo",
+    "name": "PafSnData:bp1:d17:filterSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d17:lnaSerialNo",
+    "name": "PafSnData:bp1:d17:lnaSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 18:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d18:status",
+    "name": "PafSnData:bp1:d18:status",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d18:rfofSerialNo",
+    "name": "PafSnData:bp1:d18:rfofSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d18:dominoSerialNo",
+    "name": "PafSnData:bp1:d18:dominoSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d18:filterSerialNo",
+    "name": "PafSnData:bp1:d18:filterSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d18:lnaSerialNo",
+    "name": "PafSnData:bp1:d18:lnaSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 19:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d19:status",
+    "name": "PafSnData:bp1:d19:status",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d19:rfofSerialNo",
+    "name": "PafSnData:bp1:d19:rfofSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d19:dominoSerialNo",
+    "name": "PafSnData:bp1:d19:dominoSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d19:filterSerialNo",
+    "name": "PafSnData:bp1:d19:filterSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d19:lnaSerialNo",
+    "name": "PafSnData:bp1:d19:lnaSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 20:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d20:status",
+    "name": "PafSnData:bp1:d20:status",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d20:rfofSerialNo",
+    "name": "PafSnData:bp1:d20:rfofSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d20:dominoSerialNo",
+    "name": "PafSnData:bp1:d20:dominoSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d20:filterSerialNo",
+    "name": "PafSnData:bp1:d20:filterSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d20:lnaSerialNo",
+    "name": "PafSnData:bp1:d20:lnaSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 21:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d21:status",
+    "name": "PafSnData:bp1:d21:status",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d21:rfofSerialNo",
+    "name": "PafSnData:bp1:d21:rfofSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d21:dominoSerialNo",
+    "name": "PafSnData:bp1:d21:dominoSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d21:filterSerialNo",
+    "name": "PafSnData:bp1:d21:filterSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d21:lnaSerialNo",
+    "name": "PafSnData:bp1:d21:lnaSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 22:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d22:status",
+    "name": "PafSnData:bp1:d22:status",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d22:rfofSerialNo",
+    "name": "PafSnData:bp1:d22:rfofSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d22:dominoSerialNo",
+    "name": "PafSnData:bp1:d22:dominoSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d22:filterSerialNo",
+    "name": "PafSnData:bp1:d22:filterSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d22:lnaSerialNo",
+    "name": "PafSnData:bp1:d22:lnaSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 23:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d23:status",
+    "name": "PafSnData:bp1:d23:status",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d23:rfofSerialNo",
+    "name": "PafSnData:bp1:d23:rfofSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d23:dominoSerialNo",
+    "name": "PafSnData:bp1:d23:dominoSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d23:filterSerialNo",
+    "name": "PafSnData:bp1:d23:filterSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d23:lnaSerialNo",
+    "name": "PafSnData:bp1:d23:lnaSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 24:AdbeStatus",
+    "pvname": "$(p)PafSn:bp1:d24:status",
+    "name": "PafSnData:bp1:d24:status",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp1:d24:rfofSerialNo",
+    "name": "PafSnData:bp1:d24:rfofSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:domino serial no.",
+    "pvname": "$(p)PafSn:bp1:d24:dominoSerialNo",
+    "name": "PafSnData:bp1:d24:dominoSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:filter serial no.",
+    "pvname": "$(p)PafSn:bp1:d24:filterSerialNo",
+    "name": "PafSnData:bp1:d24:filterSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:LNA serial no.",
+    "pvname": "$(p)PafSn:bp1:d24:lnaSerialNo",
+    "name": "PafSnData:bp1:d24:lnaSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 2:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:status",
+    "name": "PafSnData:bp2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:backplane comms errors",
+    "pvname": "$(p)PafSn:bp2:errorCount",
+    "name": "PafSnData:bp2:errorCount",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:backplane serial no.",
+    "pvname": "$(p)PafSn:bp2:bpSerialNo",
+    "name": "PafSnData:bp2:backplaneSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:FPGA A Version",
+    "pvname": "$(p)PafSn:bp2:fpgaA_Version",
+    "name": "PafSnData:bp2:fpgaA_Version",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 1:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d1:status",
+    "name": "PafSnData:bp2:d1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d1:rfofSerialNo",
+    "name": "PafSnData:bp2:d1:rfofSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d1:dominoSerialNo",
+    "name": "PafSnData:bp2:d1:dominoSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d1:filterSerialNo",
+    "name": "PafSnData:bp2:d1:filterSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d1:lnaSerialNo",
+    "name": "PafSnData:bp2:d1:lnaSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 2:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d2:status",
+    "name": "PafSnData:bp2:d2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d2:rfofSerialNo",
+    "name": "PafSnData:bp2:d2:rfofSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d2:dominoSerialNo",
+    "name": "PafSnData:bp2:d2:dominoSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d2:filterSerialNo",
+    "name": "PafSnData:bp2:d2:filterSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d2:lnaSerialNo",
+    "name": "PafSnData:bp2:d2:lnaSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 3:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d3:status",
+    "name": "PafSnData:bp2:d3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d3:rfofSerialNo",
+    "name": "PafSnData:bp2:d3:rfofSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d3:dominoSerialNo",
+    "name": "PafSnData:bp2:d3:dominoSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d3:filterSerialNo",
+    "name": "PafSnData:bp2:d3:filterSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d3:lnaSerialNo",
+    "name": "PafSnData:bp2:d3:lnaSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 4:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d4:status",
+    "name": "PafSnData:bp2:d4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d4:rfofSerialNo",
+    "name": "PafSnData:bp2:d4:rfofSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d4:dominoSerialNo",
+    "name": "PafSnData:bp2:d4:dominoSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d4:filterSerialNo",
+    "name": "PafSnData:bp2:d4:filterSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d4:lnaSerialNo",
+    "name": "PafSnData:bp2:d4:lnaSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 5:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d5:status",
+    "name": "PafSnData:bp2:d5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d5:rfofSerialNo",
+    "name": "PafSnData:bp2:d5:rfofSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d5:dominoSerialNo",
+    "name": "PafSnData:bp2:d5:dominoSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d5:filterSerialNo",
+    "name": "PafSnData:bp2:d5:filterSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d5:lnaSerialNo",
+    "name": "PafSnData:bp2:d5:lnaSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 6:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d6:status",
+    "name": "PafSnData:bp2:d6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d6:rfofSerialNo",
+    "name": "PafSnData:bp2:d6:rfofSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d6:dominoSerialNo",
+    "name": "PafSnData:bp2:d6:dominoSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d6:filterSerialNo",
+    "name": "PafSnData:bp2:d6:filterSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d6:lnaSerialNo",
+    "name": "PafSnData:bp2:d6:lnaSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 7:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d7:status",
+    "name": "PafSnData:bp2:d7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d7:rfofSerialNo",
+    "name": "PafSnData:bp2:d7:rfofSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d7:dominoSerialNo",
+    "name": "PafSnData:bp2:d7:dominoSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d7:filterSerialNo",
+    "name": "PafSnData:bp2:d7:filterSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d7:lnaSerialNo",
+    "name": "PafSnData:bp2:d7:lnaSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 8:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d8:status",
+    "name": "PafSnData:bp2:d8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d8:rfofSerialNo",
+    "name": "PafSnData:bp2:d8:rfofSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d8:dominoSerialNo",
+    "name": "PafSnData:bp2:d8:dominoSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d8:filterSerialNo",
+    "name": "PafSnData:bp2:d8:filterSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d8:lnaSerialNo",
+    "name": "PafSnData:bp2:d8:lnaSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 9:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d9:status",
+    "name": "PafSnData:bp2:d9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d9:rfofSerialNo",
+    "name": "PafSnData:bp2:d9:rfofSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d9:dominoSerialNo",
+    "name": "PafSnData:bp2:d9:dominoSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d9:filterSerialNo",
+    "name": "PafSnData:bp2:d9:filterSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d9:lnaSerialNo",
+    "name": "PafSnData:bp2:d9:lnaSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 10:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d10:status",
+    "name": "PafSnData:bp2:d10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d10:rfofSerialNo",
+    "name": "PafSnData:bp2:d10:rfofSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d10:dominoSerialNo",
+    "name": "PafSnData:bp2:d10:dominoSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d10:filterSerialNo",
+    "name": "PafSnData:bp2:d10:filterSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d10:lnaSerialNo",
+    "name": "PafSnData:bp2:d10:lnaSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 11:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d11:status",
+    "name": "PafSnData:bp2:d11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d11:rfofSerialNo",
+    "name": "PafSnData:bp2:d11:rfofSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d11:dominoSerialNo",
+    "name": "PafSnData:bp2:d11:dominoSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d11:filterSerialNo",
+    "name": "PafSnData:bp2:d11:filterSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d11:lnaSerialNo",
+    "name": "PafSnData:bp2:d11:lnaSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 12:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d12:status",
+    "name": "PafSnData:bp2:d12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d12:rfofSerialNo",
+    "name": "PafSnData:bp2:d12:rfofSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d12:dominoSerialNo",
+    "name": "PafSnData:bp2:d12:dominoSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d12:filterSerialNo",
+    "name": "PafSnData:bp2:d12:filterSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d12:lnaSerialNo",
+    "name": "PafSnData:bp2:d12:lnaSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 13:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d13:status",
+    "name": "PafSnData:bp2:d13:status",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d13:rfofSerialNo",
+    "name": "PafSnData:bp2:d13:rfofSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d13:dominoSerialNo",
+    "name": "PafSnData:bp2:d13:dominoSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d13:filterSerialNo",
+    "name": "PafSnData:bp2:d13:filterSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d13:lnaSerialNo",
+    "name": "PafSnData:bp2:d13:lnaSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 14:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d14:status",
+    "name": "PafSnData:bp2:d14:status",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d14:rfofSerialNo",
+    "name": "PafSnData:bp2:d14:rfofSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d14:dominoSerialNo",
+    "name": "PafSnData:bp2:d14:dominoSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d14:filterSerialNo",
+    "name": "PafSnData:bp2:d14:filterSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d14:lnaSerialNo",
+    "name": "PafSnData:bp2:d14:lnaSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 15:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d15:status",
+    "name": "PafSnData:bp2:d15:status",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d15:rfofSerialNo",
+    "name": "PafSnData:bp2:d15:rfofSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d15:dominoSerialNo",
+    "name": "PafSnData:bp2:d15:dominoSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d15:filterSerialNo",
+    "name": "PafSnData:bp2:d15:filterSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d15:lnaSerialNo",
+    "name": "PafSnData:bp2:d15:lnaSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 16:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d16:status",
+    "name": "PafSnData:bp2:d16:status",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d16:rfofSerialNo",
+    "name": "PafSnData:bp2:d16:rfofSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d16:dominoSerialNo",
+    "name": "PafSnData:bp2:d16:dominoSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d16:filterSerialNo",
+    "name": "PafSnData:bp2:d16:filterSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d16:lnaSerialNo",
+    "name": "PafSnData:bp2:d16:lnaSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 17:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d17:status",
+    "name": "PafSnData:bp2:d17:status",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d17:rfofSerialNo",
+    "name": "PafSnData:bp2:d17:rfofSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d17:dominoSerialNo",
+    "name": "PafSnData:bp2:d17:dominoSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d17:filterSerialNo",
+    "name": "PafSnData:bp2:d17:filterSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d17:lnaSerialNo",
+    "name": "PafSnData:bp2:d17:lnaSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 18:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d18:status",
+    "name": "PafSnData:bp2:d18:status",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d18:rfofSerialNo",
+    "name": "PafSnData:bp2:d18:rfofSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d18:dominoSerialNo",
+    "name": "PafSnData:bp2:d18:dominoSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d18:filterSerialNo",
+    "name": "PafSnData:bp2:d18:filterSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d18:lnaSerialNo",
+    "name": "PafSnData:bp2:d18:lnaSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 19:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d19:status",
+    "name": "PafSnData:bp2:d19:status",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d19:rfofSerialNo",
+    "name": "PafSnData:bp2:d19:rfofSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d19:dominoSerialNo",
+    "name": "PafSnData:bp2:d19:dominoSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d19:filterSerialNo",
+    "name": "PafSnData:bp2:d19:filterSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d19:lnaSerialNo",
+    "name": "PafSnData:bp2:d19:lnaSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 20:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d20:status",
+    "name": "PafSnData:bp2:d20:status",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d20:rfofSerialNo",
+    "name": "PafSnData:bp2:d20:rfofSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d20:dominoSerialNo",
+    "name": "PafSnData:bp2:d20:dominoSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d20:filterSerialNo",
+    "name": "PafSnData:bp2:d20:filterSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d20:lnaSerialNo",
+    "name": "PafSnData:bp2:d20:lnaSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 21:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d21:status",
+    "name": "PafSnData:bp2:d21:status",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d21:rfofSerialNo",
+    "name": "PafSnData:bp2:d21:rfofSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d21:dominoSerialNo",
+    "name": "PafSnData:bp2:d21:dominoSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d21:filterSerialNo",
+    "name": "PafSnData:bp2:d21:filterSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d21:lnaSerialNo",
+    "name": "PafSnData:bp2:d21:lnaSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 22:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d22:status",
+    "name": "PafSnData:bp2:d22:status",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d22:rfofSerialNo",
+    "name": "PafSnData:bp2:d22:rfofSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d22:dominoSerialNo",
+    "name": "PafSnData:bp2:d22:dominoSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d22:filterSerialNo",
+    "name": "PafSnData:bp2:d22:filterSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d22:lnaSerialNo",
+    "name": "PafSnData:bp2:d22:lnaSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 23:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d23:status",
+    "name": "PafSnData:bp2:d23:status",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d23:rfofSerialNo",
+    "name": "PafSnData:bp2:d23:rfofSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d23:dominoSerialNo",
+    "name": "PafSnData:bp2:d23:dominoSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d23:filterSerialNo",
+    "name": "PafSnData:bp2:d23:filterSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d23:lnaSerialNo",
+    "name": "PafSnData:bp2:d23:lnaSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 24:AdbeStatus",
+    "pvname": "$(p)PafSn:bp2:d24:status",
+    "name": "PafSnData:bp2:d24:status",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp2:d24:rfofSerialNo",
+    "name": "PafSnData:bp2:d24:rfofSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:domino serial no.",
+    "pvname": "$(p)PafSn:bp2:d24:dominoSerialNo",
+    "name": "PafSnData:bp2:d24:dominoSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:filter serial no.",
+    "pvname": "$(p)PafSn:bp2:d24:filterSerialNo",
+    "name": "PafSnData:bp2:d24:filterSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:LNA serial no.",
+    "pvname": "$(p)PafSn:bp2:d24:lnaSerialNo",
+    "name": "PafSnData:bp2:d24:lnaSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 3:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:status",
+    "name": "PafSnData:bp3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:backplane comms errors",
+    "pvname": "$(p)PafSn:bp3:errorCount",
+    "name": "PafSnData:bp3:errorCount",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:backplane serial no.",
+    "pvname": "$(p)PafSn:bp3:bpSerialNo",
+    "name": "PafSnData:bp3:backplaneSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:FPGA A Version",
+    "pvname": "$(p)PafSn:bp3:fpgaA_Version",
+    "name": "PafSnData:bp3:fpgaA_Version",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 1:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d1:status",
+    "name": "PafSnData:bp3:d1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d1:rfofSerialNo",
+    "name": "PafSnData:bp3:d1:rfofSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d1:dominoSerialNo",
+    "name": "PafSnData:bp3:d1:dominoSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d1:filterSerialNo",
+    "name": "PafSnData:bp3:d1:filterSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d1:lnaSerialNo",
+    "name": "PafSnData:bp3:d1:lnaSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 2:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d2:status",
+    "name": "PafSnData:bp3:d2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d2:rfofSerialNo",
+    "name": "PafSnData:bp3:d2:rfofSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d2:dominoSerialNo",
+    "name": "PafSnData:bp3:d2:dominoSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d2:filterSerialNo",
+    "name": "PafSnData:bp3:d2:filterSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d2:lnaSerialNo",
+    "name": "PafSnData:bp3:d2:lnaSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 3:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d3:status",
+    "name": "PafSnData:bp3:d3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d3:rfofSerialNo",
+    "name": "PafSnData:bp3:d3:rfofSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d3:dominoSerialNo",
+    "name": "PafSnData:bp3:d3:dominoSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d3:filterSerialNo",
+    "name": "PafSnData:bp3:d3:filterSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d3:lnaSerialNo",
+    "name": "PafSnData:bp3:d3:lnaSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 4:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d4:status",
+    "name": "PafSnData:bp3:d4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d4:rfofSerialNo",
+    "name": "PafSnData:bp3:d4:rfofSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d4:dominoSerialNo",
+    "name": "PafSnData:bp3:d4:dominoSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d4:filterSerialNo",
+    "name": "PafSnData:bp3:d4:filterSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d4:lnaSerialNo",
+    "name": "PafSnData:bp3:d4:lnaSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 5:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d5:status",
+    "name": "PafSnData:bp3:d5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d5:rfofSerialNo",
+    "name": "PafSnData:bp3:d5:rfofSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d5:dominoSerialNo",
+    "name": "PafSnData:bp3:d5:dominoSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d5:filterSerialNo",
+    "name": "PafSnData:bp3:d5:filterSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d5:lnaSerialNo",
+    "name": "PafSnData:bp3:d5:lnaSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 6:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d6:status",
+    "name": "PafSnData:bp3:d6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d6:rfofSerialNo",
+    "name": "PafSnData:bp3:d6:rfofSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d6:dominoSerialNo",
+    "name": "PafSnData:bp3:d6:dominoSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d6:filterSerialNo",
+    "name": "PafSnData:bp3:d6:filterSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d6:lnaSerialNo",
+    "name": "PafSnData:bp3:d6:lnaSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 7:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d7:status",
+    "name": "PafSnData:bp3:d7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d7:rfofSerialNo",
+    "name": "PafSnData:bp3:d7:rfofSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d7:dominoSerialNo",
+    "name": "PafSnData:bp3:d7:dominoSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d7:filterSerialNo",
+    "name": "PafSnData:bp3:d7:filterSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d7:lnaSerialNo",
+    "name": "PafSnData:bp3:d7:lnaSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 8:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d8:status",
+    "name": "PafSnData:bp3:d8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d8:rfofSerialNo",
+    "name": "PafSnData:bp3:d8:rfofSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d8:dominoSerialNo",
+    "name": "PafSnData:bp3:d8:dominoSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d8:filterSerialNo",
+    "name": "PafSnData:bp3:d8:filterSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d8:lnaSerialNo",
+    "name": "PafSnData:bp3:d8:lnaSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 9:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d9:status",
+    "name": "PafSnData:bp3:d9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d9:rfofSerialNo",
+    "name": "PafSnData:bp3:d9:rfofSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d9:dominoSerialNo",
+    "name": "PafSnData:bp3:d9:dominoSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d9:filterSerialNo",
+    "name": "PafSnData:bp3:d9:filterSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d9:lnaSerialNo",
+    "name": "PafSnData:bp3:d9:lnaSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 10:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d10:status",
+    "name": "PafSnData:bp3:d10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d10:rfofSerialNo",
+    "name": "PafSnData:bp3:d10:rfofSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d10:dominoSerialNo",
+    "name": "PafSnData:bp3:d10:dominoSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d10:filterSerialNo",
+    "name": "PafSnData:bp3:d10:filterSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d10:lnaSerialNo",
+    "name": "PafSnData:bp3:d10:lnaSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 11:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d11:status",
+    "name": "PafSnData:bp3:d11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d11:rfofSerialNo",
+    "name": "PafSnData:bp3:d11:rfofSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d11:dominoSerialNo",
+    "name": "PafSnData:bp3:d11:dominoSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d11:filterSerialNo",
+    "name": "PafSnData:bp3:d11:filterSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d11:lnaSerialNo",
+    "name": "PafSnData:bp3:d11:lnaSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 12:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d12:status",
+    "name": "PafSnData:bp3:d12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d12:rfofSerialNo",
+    "name": "PafSnData:bp3:d12:rfofSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d12:dominoSerialNo",
+    "name": "PafSnData:bp3:d12:dominoSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d12:filterSerialNo",
+    "name": "PafSnData:bp3:d12:filterSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d12:lnaSerialNo",
+    "name": "PafSnData:bp3:d12:lnaSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 13:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d13:status",
+    "name": "PafSnData:bp3:d13:status",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d13:rfofSerialNo",
+    "name": "PafSnData:bp3:d13:rfofSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d13:dominoSerialNo",
+    "name": "PafSnData:bp3:d13:dominoSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d13:filterSerialNo",
+    "name": "PafSnData:bp3:d13:filterSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d13:lnaSerialNo",
+    "name": "PafSnData:bp3:d13:lnaSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 14:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d14:status",
+    "name": "PafSnData:bp3:d14:status",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d14:rfofSerialNo",
+    "name": "PafSnData:bp3:d14:rfofSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d14:dominoSerialNo",
+    "name": "PafSnData:bp3:d14:dominoSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d14:filterSerialNo",
+    "name": "PafSnData:bp3:d14:filterSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d14:lnaSerialNo",
+    "name": "PafSnData:bp3:d14:lnaSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 15:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d15:status",
+    "name": "PafSnData:bp3:d15:status",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d15:rfofSerialNo",
+    "name": "PafSnData:bp3:d15:rfofSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d15:dominoSerialNo",
+    "name": "PafSnData:bp3:d15:dominoSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d15:filterSerialNo",
+    "name": "PafSnData:bp3:d15:filterSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d15:lnaSerialNo",
+    "name": "PafSnData:bp3:d15:lnaSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 16:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d16:status",
+    "name": "PafSnData:bp3:d16:status",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d16:rfofSerialNo",
+    "name": "PafSnData:bp3:d16:rfofSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d16:dominoSerialNo",
+    "name": "PafSnData:bp3:d16:dominoSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d16:filterSerialNo",
+    "name": "PafSnData:bp3:d16:filterSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d16:lnaSerialNo",
+    "name": "PafSnData:bp3:d16:lnaSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 17:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d17:status",
+    "name": "PafSnData:bp3:d17:status",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d17:rfofSerialNo",
+    "name": "PafSnData:bp3:d17:rfofSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d17:dominoSerialNo",
+    "name": "PafSnData:bp3:d17:dominoSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d17:filterSerialNo",
+    "name": "PafSnData:bp3:d17:filterSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d17:lnaSerialNo",
+    "name": "PafSnData:bp3:d17:lnaSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 18:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d18:status",
+    "name": "PafSnData:bp3:d18:status",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d18:rfofSerialNo",
+    "name": "PafSnData:bp3:d18:rfofSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d18:dominoSerialNo",
+    "name": "PafSnData:bp3:d18:dominoSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d18:filterSerialNo",
+    "name": "PafSnData:bp3:d18:filterSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d18:lnaSerialNo",
+    "name": "PafSnData:bp3:d18:lnaSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 19:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d19:status",
+    "name": "PafSnData:bp3:d19:status",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d19:rfofSerialNo",
+    "name": "PafSnData:bp3:d19:rfofSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d19:dominoSerialNo",
+    "name": "PafSnData:bp3:d19:dominoSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d19:filterSerialNo",
+    "name": "PafSnData:bp3:d19:filterSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d19:lnaSerialNo",
+    "name": "PafSnData:bp3:d19:lnaSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 20:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d20:status",
+    "name": "PafSnData:bp3:d20:status",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d20:rfofSerialNo",
+    "name": "PafSnData:bp3:d20:rfofSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d20:dominoSerialNo",
+    "name": "PafSnData:bp3:d20:dominoSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d20:filterSerialNo",
+    "name": "PafSnData:bp3:d20:filterSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d20:lnaSerialNo",
+    "name": "PafSnData:bp3:d20:lnaSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 21:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d21:status",
+    "name": "PafSnData:bp3:d21:status",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d21:rfofSerialNo",
+    "name": "PafSnData:bp3:d21:rfofSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d21:dominoSerialNo",
+    "name": "PafSnData:bp3:d21:dominoSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d21:filterSerialNo",
+    "name": "PafSnData:bp3:d21:filterSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d21:lnaSerialNo",
+    "name": "PafSnData:bp3:d21:lnaSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 22:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d22:status",
+    "name": "PafSnData:bp3:d22:status",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d22:rfofSerialNo",
+    "name": "PafSnData:bp3:d22:rfofSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d22:dominoSerialNo",
+    "name": "PafSnData:bp3:d22:dominoSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d22:filterSerialNo",
+    "name": "PafSnData:bp3:d22:filterSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d22:lnaSerialNo",
+    "name": "PafSnData:bp3:d22:lnaSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 23:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d23:status",
+    "name": "PafSnData:bp3:d23:status",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d23:rfofSerialNo",
+    "name": "PafSnData:bp3:d23:rfofSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d23:dominoSerialNo",
+    "name": "PafSnData:bp3:d23:dominoSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d23:filterSerialNo",
+    "name": "PafSnData:bp3:d23:filterSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d23:lnaSerialNo",
+    "name": "PafSnData:bp3:d23:lnaSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 24:AdbeStatus",
+    "pvname": "$(p)PafSn:bp3:d24:status",
+    "name": "PafSnData:bp3:d24:status",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp3:d24:rfofSerialNo",
+    "name": "PafSnData:bp3:d24:rfofSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:domino serial no.",
+    "pvname": "$(p)PafSn:bp3:d24:dominoSerialNo",
+    "name": "PafSnData:bp3:d24:dominoSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:filter serial no.",
+    "pvname": "$(p)PafSn:bp3:d24:filterSerialNo",
+    "name": "PafSnData:bp3:d24:filterSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:LNA serial no.",
+    "pvname": "$(p)PafSn:bp3:d24:lnaSerialNo",
+    "name": "PafSnData:bp3:d24:lnaSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 4:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:status",
+    "name": "PafSnData:bp4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:backplane comms errors",
+    "pvname": "$(p)PafSn:bp4:errorCount",
+    "name": "PafSnData:bp4:errorCount",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:backplane serial no.",
+    "pvname": "$(p)PafSn:bp4:bpSerialNo",
+    "name": "PafSnData:bp4:backplaneSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:FPGA A Version",
+    "pvname": "$(p)PafSn:bp4:fpgaA_Version",
+    "name": "PafSnData:bp4:fpgaA_Version",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 1:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d1:status",
+    "name": "PafSnData:bp4:d1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d1:rfofSerialNo",
+    "name": "PafSnData:bp4:d1:rfofSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d1:dominoSerialNo",
+    "name": "PafSnData:bp4:d1:dominoSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d1:filterSerialNo",
+    "name": "PafSnData:bp4:d1:filterSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 1:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d1:lnaSerialNo",
+    "name": "PafSnData:bp4:d1:lnaSerialNo",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": " 2:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d2:status",
+    "name": "PafSnData:bp4:d2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d2:rfofSerialNo",
+    "name": "PafSnData:bp4:d2:rfofSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d2:dominoSerialNo",
+    "name": "PafSnData:bp4:d2:dominoSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d2:filterSerialNo",
+    "name": "PafSnData:bp4:d2:filterSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 2:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d2:lnaSerialNo",
+    "name": "PafSnData:bp4:d2:lnaSerialNo",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": " 3:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d3:status",
+    "name": "PafSnData:bp4:d3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d3:rfofSerialNo",
+    "name": "PafSnData:bp4:d3:rfofSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d3:dominoSerialNo",
+    "name": "PafSnData:bp4:d3:dominoSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d3:filterSerialNo",
+    "name": "PafSnData:bp4:d3:filterSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 3:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d3:lnaSerialNo",
+    "name": "PafSnData:bp4:d3:lnaSerialNo",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": " 4:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d4:status",
+    "name": "PafSnData:bp4:d4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d4:rfofSerialNo",
+    "name": "PafSnData:bp4:d4:rfofSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d4:dominoSerialNo",
+    "name": "PafSnData:bp4:d4:dominoSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d4:filterSerialNo",
+    "name": "PafSnData:bp4:d4:filterSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 4:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d4:lnaSerialNo",
+    "name": "PafSnData:bp4:d4:lnaSerialNo",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": " 5:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d5:status",
+    "name": "PafSnData:bp4:d5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d5:rfofSerialNo",
+    "name": "PafSnData:bp4:d5:rfofSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d5:dominoSerialNo",
+    "name": "PafSnData:bp4:d5:dominoSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d5:filterSerialNo",
+    "name": "PafSnData:bp4:d5:filterSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 5:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d5:lnaSerialNo",
+    "name": "PafSnData:bp4:d5:lnaSerialNo",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": " 6:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d6:status",
+    "name": "PafSnData:bp4:d6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d6:rfofSerialNo",
+    "name": "PafSnData:bp4:d6:rfofSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d6:dominoSerialNo",
+    "name": "PafSnData:bp4:d6:dominoSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d6:filterSerialNo",
+    "name": "PafSnData:bp4:d6:filterSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 6:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d6:lnaSerialNo",
+    "name": "PafSnData:bp4:d6:lnaSerialNo",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": " 7:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d7:status",
+    "name": "PafSnData:bp4:d7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d7:rfofSerialNo",
+    "name": "PafSnData:bp4:d7:rfofSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d7:dominoSerialNo",
+    "name": "PafSnData:bp4:d7:dominoSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d7:filterSerialNo",
+    "name": "PafSnData:bp4:d7:filterSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 7:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d7:lnaSerialNo",
+    "name": "PafSnData:bp4:d7:lnaSerialNo",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": " 8:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d8:status",
+    "name": "PafSnData:bp4:d8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d8:rfofSerialNo",
+    "name": "PafSnData:bp4:d8:rfofSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d8:dominoSerialNo",
+    "name": "PafSnData:bp4:d8:dominoSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d8:filterSerialNo",
+    "name": "PafSnData:bp4:d8:filterSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 8:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d8:lnaSerialNo",
+    "name": "PafSnData:bp4:d8:lnaSerialNo",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": " 9:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d9:status",
+    "name": "PafSnData:bp4:d9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d9:rfofSerialNo",
+    "name": "PafSnData:bp4:d9:rfofSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d9:dominoSerialNo",
+    "name": "PafSnData:bp4:d9:dominoSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d9:filterSerialNo",
+    "name": "PafSnData:bp4:d9:filterSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 9:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d9:lnaSerialNo",
+    "name": "PafSnData:bp4:d9:lnaSerialNo",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": " 10:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d10:status",
+    "name": "PafSnData:bp4:d10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d10:rfofSerialNo",
+    "name": "PafSnData:bp4:d10:rfofSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d10:dominoSerialNo",
+    "name": "PafSnData:bp4:d10:dominoSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d10:filterSerialNo",
+    "name": "PafSnData:bp4:d10:filterSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 10:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d10:lnaSerialNo",
+    "name": "PafSnData:bp4:d10:lnaSerialNo",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": " 11:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d11:status",
+    "name": "PafSnData:bp4:d11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d11:rfofSerialNo",
+    "name": "PafSnData:bp4:d11:rfofSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d11:dominoSerialNo",
+    "name": "PafSnData:bp4:d11:dominoSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d11:filterSerialNo",
+    "name": "PafSnData:bp4:d11:filterSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 11:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d11:lnaSerialNo",
+    "name": "PafSnData:bp4:d11:lnaSerialNo",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": " 12:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d12:status",
+    "name": "PafSnData:bp4:d12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d12:rfofSerialNo",
+    "name": "PafSnData:bp4:d12:rfofSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d12:dominoSerialNo",
+    "name": "PafSnData:bp4:d12:dominoSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d12:filterSerialNo",
+    "name": "PafSnData:bp4:d12:filterSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 12:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d12:lnaSerialNo",
+    "name": "PafSnData:bp4:d12:lnaSerialNo",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": " 13:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d13:status",
+    "name": "PafSnData:bp4:d13:status",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d13:rfofSerialNo",
+    "name": "PafSnData:bp4:d13:rfofSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d13:dominoSerialNo",
+    "name": "PafSnData:bp4:d13:dominoSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d13:filterSerialNo",
+    "name": "PafSnData:bp4:d13:filterSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 13:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d13:lnaSerialNo",
+    "name": "PafSnData:bp4:d13:lnaSerialNo",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": " 14:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d14:status",
+    "name": "PafSnData:bp4:d14:status",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d14:rfofSerialNo",
+    "name": "PafSnData:bp4:d14:rfofSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d14:dominoSerialNo",
+    "name": "PafSnData:bp4:d14:dominoSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d14:filterSerialNo",
+    "name": "PafSnData:bp4:d14:filterSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 14:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d14:lnaSerialNo",
+    "name": "PafSnData:bp4:d14:lnaSerialNo",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": " 15:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d15:status",
+    "name": "PafSnData:bp4:d15:status",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d15:rfofSerialNo",
+    "name": "PafSnData:bp4:d15:rfofSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d15:dominoSerialNo",
+    "name": "PafSnData:bp4:d15:dominoSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d15:filterSerialNo",
+    "name": "PafSnData:bp4:d15:filterSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 15:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d15:lnaSerialNo",
+    "name": "PafSnData:bp4:d15:lnaSerialNo",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": " 16:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d16:status",
+    "name": "PafSnData:bp4:d16:status",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d16:rfofSerialNo",
+    "name": "PafSnData:bp4:d16:rfofSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d16:dominoSerialNo",
+    "name": "PafSnData:bp4:d16:dominoSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d16:filterSerialNo",
+    "name": "PafSnData:bp4:d16:filterSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 16:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d16:lnaSerialNo",
+    "name": "PafSnData:bp4:d16:lnaSerialNo",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": " 17:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d17:status",
+    "name": "PafSnData:bp4:d17:status",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d17:rfofSerialNo",
+    "name": "PafSnData:bp4:d17:rfofSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d17:dominoSerialNo",
+    "name": "PafSnData:bp4:d17:dominoSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d17:filterSerialNo",
+    "name": "PafSnData:bp4:d17:filterSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 17:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d17:lnaSerialNo",
+    "name": "PafSnData:bp4:d17:lnaSerialNo",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": " 18:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d18:status",
+    "name": "PafSnData:bp4:d18:status",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d18:rfofSerialNo",
+    "name": "PafSnData:bp4:d18:rfofSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d18:dominoSerialNo",
+    "name": "PafSnData:bp4:d18:dominoSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d18:filterSerialNo",
+    "name": "PafSnData:bp4:d18:filterSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 18:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d18:lnaSerialNo",
+    "name": "PafSnData:bp4:d18:lnaSerialNo",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": " 19:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d19:status",
+    "name": "PafSnData:bp4:d19:status",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d19:rfofSerialNo",
+    "name": "PafSnData:bp4:d19:rfofSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d19:dominoSerialNo",
+    "name": "PafSnData:bp4:d19:dominoSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d19:filterSerialNo",
+    "name": "PafSnData:bp4:d19:filterSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 19:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d19:lnaSerialNo",
+    "name": "PafSnData:bp4:d19:lnaSerialNo",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": " 20:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d20:status",
+    "name": "PafSnData:bp4:d20:status",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d20:rfofSerialNo",
+    "name": "PafSnData:bp4:d20:rfofSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d20:dominoSerialNo",
+    "name": "PafSnData:bp4:d20:dominoSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d20:filterSerialNo",
+    "name": "PafSnData:bp4:d20:filterSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 20:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d20:lnaSerialNo",
+    "name": "PafSnData:bp4:d20:lnaSerialNo",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": " 21:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d21:status",
+    "name": "PafSnData:bp4:d21:status",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d21:rfofSerialNo",
+    "name": "PafSnData:bp4:d21:rfofSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d21:dominoSerialNo",
+    "name": "PafSnData:bp4:d21:dominoSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d21:filterSerialNo",
+    "name": "PafSnData:bp4:d21:filterSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 21:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d21:lnaSerialNo",
+    "name": "PafSnData:bp4:d21:lnaSerialNo",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": " 22:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d22:status",
+    "name": "PafSnData:bp4:d22:status",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d22:rfofSerialNo",
+    "name": "PafSnData:bp4:d22:rfofSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d22:dominoSerialNo",
+    "name": "PafSnData:bp4:d22:dominoSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d22:filterSerialNo",
+    "name": "PafSnData:bp4:d22:filterSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 22:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d22:lnaSerialNo",
+    "name": "PafSnData:bp4:d22:lnaSerialNo",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": " 23:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d23:status",
+    "name": "PafSnData:bp4:d23:status",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d23:rfofSerialNo",
+    "name": "PafSnData:bp4:d23:rfofSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d23:dominoSerialNo",
+    "name": "PafSnData:bp4:d23:dominoSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d23:filterSerialNo",
+    "name": "PafSnData:bp4:d23:filterSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 23:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d23:lnaSerialNo",
+    "name": "PafSnData:bp4:d23:lnaSerialNo",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": " 24:AdbeStatus",
+    "pvname": "$(p)PafSn:bp4:d24:status",
+    "name": "PafSnData:bp4:d24:status",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:RFoF serial no.",
+    "pvname": "$(p)PafSn:bp4:d24:rfofSerialNo",
+    "name": "PafSnData:bp4:d24:rfofSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:domino serial no.",
+    "pvname": "$(p)PafSn:bp4:d24:dominoSerialNo",
+    "name": "PafSnData:bp4:d24:dominoSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:filter serial no.",
+    "pvname": "$(p)PafSn:bp4:d24:filterSerialNo",
+    "name": "PafSnData:bp4:d24:filterSerialNo",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": " 24:LNA serial no.",
+    "pvname": "$(p)PafSn:bp4:d24:lnaSerialNo",
+    "name": "PafSnData:bp4:d24:lnaSerialNo",
+    "index": "24",
+    "size": "1"
+  }
+]

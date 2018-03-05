@@ -1,0 +1,23 @@
+<macros>
+  <Group name="F_directCtrl:ctrl1_O" type="iocEnumBit">
+    <comment>conrol 1</comment>
+    <name>F_directCtrl:ctrl1_O</name>
+    <pv>$(p)F_directCtrl:ctrl1_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_directCtrl:ctrl2_O" type="iocEnumValue">
+    <comment>control 2:control 2</comment>
+    <name>F_directCtrl:ctrl2_O</name>
+    <pv>$(p)F_directCtrl:ctrl2_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_directCtrl:ctrl3_O" type="iocPoint">
+    <comment>control 3</comment>
+    <name>F_directCtrl:ctrl3_O</name>
+    <pv>$(p)F_directCtrl:ctrl3_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

@@ -1,0 +1,26 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_RestoreOpticalCal:exec_O",
+    "name": "F_RestoreOpticalCal:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "0 - default, 1 - restoring, 2 - restore complete, 3 - restore error:0 - default, 1 - restoring, 2 - restore complete, 3 - restore error",
+    "pvname": "$(p)F_RestoreOpticalCal:status",
+    "name": "F_RestoreOpticalCal:status",
+    "size": "1"
+  },
+  {
+    "description": "Restore progress",
+    "pvname": "$(p)F_RestoreOpticalCal:progress",
+    "name": "F_RestoreOpticalCal:progress",
+    "size": "1"
+  },
+  {
+    "description": "Error count",
+    "pvname": "$(p)F_RestoreOpticalCal:errorcount",
+    "name": "F_RestoreOpticalCal:errorcount",
+    "size": "1"
+  }
+]

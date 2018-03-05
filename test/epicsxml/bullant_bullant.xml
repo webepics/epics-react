@@ -1,0 +1,258 @@
+<macros>
+  <Group name="counter" type="iocPoint">
+    <comment>ioc local record</comment>
+    <name>counter</name>
+    <pv>$(p)$(card)counter</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="monitoringInterval_O" type="iocPoint">
+    <comment></comment>
+    <name>monitoringInterval_O</name>
+    <pv>$(p)$(card)monitoringInterval_O</pv>
+    <egu>s</egu>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="updateNow_O" type="iocEnumBit">
+    <comment></comment>
+    <name>updateNow_O</name>
+    <pv>$(p)$(card)updateNow_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="utcStr" type="iocPoint">
+    <comment></comment>
+    <name>utcStr</name>
+    <pv>$(p)$(card)utcStr</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="checkClock_O" type="iocEnumBit">
+    <comment>toggle clock checkling</comment>
+    <name>checkClock_O</name>
+    <pv>$(p)$(card)checkClock_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="clockError" type="iocPoint">
+    <comment>PC to BAT clock diff (s)</comment>
+    <name>clockError</name>
+    <pv>$(p)$(card)clockError</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame" type="iocStructure">
+    <comment></comment>
+    <name>BatFrame</name>
+    <pv>$(p)$(card)BatFrame</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="BatFrame:bat" type="iocPoint">
+    <comment>Number of uS from Janurary 1 1970</comment>
+    <name>BatFrame:bat</name>
+    <pv>$(p)$(card)BatFrame:bat</pv>
+    <egu>uS</egu>
+    <type>uint64</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:utc" type="iocPoint">
+    <comment>Universal coordinated time</comment>
+    <name>BatFrame:utc</name>
+    <pv>$(p)$(card)BatFrame:utc</pv>
+    <egu>mS</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:lmst" type="iocPoint">
+    <comment>Local mean sidreal time</comment>
+    <name>BatFrame:lmst</name>
+    <pv>$(p)$(card)BatFrame:lmst</pv>
+    <egu>mS</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:mjd" type="iocPoint">
+    <comment>Modified Julian Day Number</comment>
+    <name>BatFrame:mjd</name>
+    <pv>$(p)$(card)BatFrame:mjd</pv>
+    <egu></egu>
+    <type>uint16</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:bcdUtc" type="iocPoint">
+    <comment>UTC in BCD</comment>
+    <name>BatFrame:bcdUtc</name>
+    <pv>$(p)$(card)BatFrame:bcdUtc</pv>
+    <egu>BCD</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:bcdLmst" type="iocPoint">
+    <comment>LMST in BCD</comment>
+    <name>BatFrame:bcdLmst</name>
+    <pv>$(p)$(card)BatFrame:bcdLmst</pv>
+    <egu>BCD</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:bcdAest" type="iocPoint">
+    <comment>AEST in BCD</comment>
+    <name>BatFrame:bcdAest</name>
+    <pv>$(p)$(card)BatFrame:bcdAest</pv>
+    <egu>BCD</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:bcdDate" type="iocPoint">
+    <comment>Date in BCD</comment>
+    <name>BatFrame:bcdDate</name>
+    <pv>$(p)$(card)BatFrame:bcdDate</pv>
+    <egu>BCD</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:monthAscii" type="iocPoint">
+    <comment>Month in ASCII and month number</comment>
+    <name>BatFrame:monthAscii</name>
+    <pv>$(p)$(card)BatFrame:monthAscii</pv>
+    <egu></egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:dayOfWeekAscii" type="iocPoint">
+    <comment>Day of Week in ASCII and day number</comment>
+    <name>BatFrame:dayOfWeekAscii</name>
+    <pv>$(p)$(card)BatFrame:dayOfWeekAscii</pv>
+    <egu></egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:bcdDayOfYear" type="iocPoint">
+    <comment>Day of year number in BCD</comment>
+    <name>BatFrame:bcdDayOfYear</name>
+    <pv>$(p)$(card)BatFrame:bcdDayOfYear</pv>
+    <egu>BCD</egu>
+    <type>uint16</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:dutc" type="iocPoint">
+    <comment>dUTC</comment>
+    <name>BatFrame:dutc</name>
+    <pv>$(p)$(card)BatFrame:dutc</pv>
+    <egu>s</egu>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:bcdTickPhase" type="iocPoint">
+    <comment>1PPS tick phase in BCD</comment>
+    <name>BatFrame:bcdTickPhase</name>
+    <pv>$(p)$(card)BatFrame:bcdTickPhase</pv>
+    <egu>BCD</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:tickPhase" type="iocPoint">
+    <comment>1PPS tick phase</comment>
+    <name>BatFrame:tickPhase</name>
+    <pv>$(p)$(card)BatFrame:tickPhase</pv>
+    <egu>uS</egu>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:dut1" type="iocPoint">
+    <comment>dUT1</comment>
+    <name>BatFrame:dut1</name>
+    <pv>$(p)$(card)BatFrame:dut1</pv>
+    <egu>mS</egu>
+    <type>uint16</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus" type="iocEnum">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus</name>
+    <pv>$(p)$(card)BatFrame:batStatus</pv>
+    <egu></egu>
+    <type>label</type>
+    <size>1</size>
+  <Group name="BatFrame:batStatus" type="iocPoint">
+    <comment>BAT Frame status:bitfield status</comment>
+    <name>BatFrame:batStatus</name>
+    <pv>$(p)$(card)BatFrame:batStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B0" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B0</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B1" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B1</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B2" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B2</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B3" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B3</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B4" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B4</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B5" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B5</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:batStatus:B6" type="iocEnumBit">
+    <comment>BAT Frame status</comment>
+    <name>BatFrame:batStatus:B6</name>
+    <pv>$(p)$(card)BatFrame:batStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="BatFrame:crc" type="iocPoint">
+    <comment>CRC</comment>
+    <name>BatFrame:crc</name>
+    <pv>$(p)$(card)BatFrame:crc</pv>
+    <egu></egu>
+    <type>uint16</type>
+    <size>1</size>
+  </Group>
+  <Group name="BatFrame:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>BatFrame:status</name>
+    <pv>$(p)$(card)BatFrame:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="startupProgress" type="iocPoint">
+    <comment></comment>
+    <name>startupProgress</name>
+    <pv>$(p)$(card)startupProgress</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

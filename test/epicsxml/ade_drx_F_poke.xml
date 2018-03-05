@@ -1,0 +1,65 @@
+<macros>
+  <Group name="F_poke:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_poke:exec_O</name>
+    <pv>$(p)$(card)F_poke:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:address_O" type="iocPoint">
+    <comment>32-bit address to poke</comment>
+    <name>F_poke:address_O</name>
+    <pv>$(p)$(card)F_poke:address_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:value_O" type="iocPoint">
+    <comment>32-bit value to poke</comment>
+    <name>F_poke:value_O</name>
+    <pv>$(p)$(card)F_poke:value_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:device_O" type="iocEnumBit">
+    <comment>control/device select</comment>
+    <name>F_poke:device_O</name>
+    <pv>$(p)$(card)F_poke:device_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:result" type="iocPoint">
+    <comment>result of operation</comment>
+    <name>F_poke:result</name>
+    <pv>$(p)$(card)F_poke:result</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:portMask_O" type="iocEnumValue">
+    <comment>port mask:port mask</comment>
+    <name>F_poke:portMask_O</name>
+    <pv>$(p)$(card)F_poke:portMask_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:bullant_O" type="iocEnumBit">
+    <comment>control or data device</comment>
+    <name>F_poke:bullant_O</name>
+    <pv>$(p)$(card)F_poke:bullant_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:retRead" type="iocPoint">
+    <comment>return value from peek</comment>
+    <name>F_poke:retRead</name>
+    <pv>$(p)$(card)F_poke:retRead</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_poke:retWrite" type="iocPoint">
+    <comment>return value from poke</comment>
+    <name>F_poke:retWrite</name>
+    <pv>$(p)$(card)F_poke:retWrite</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

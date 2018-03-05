@@ -1,0 +1,211 @@
+[
+  {
+    "description": "ioc local record",
+    "pvname": "$(p)$(card)counter",
+    "name": "counter",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)monitoringInterval_O",
+    "name": "monitoringInterval_O",
+    "units": "s",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)updateNow_O",
+    "name": "updateNow_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)utcStr",
+    "name": "utcStr",
+    "size": "1"
+  },
+  {
+    "description": "toggle clock checkling",
+    "pvname": "$(p)$(card)checkClock_O",
+    "name": "checkClock_O",
+    "size": "1"
+  },
+  {
+    "description": "PC to BAT clock diff (s)",
+    "pvname": "$(p)$(card)clockError",
+    "name": "clockError",
+    "size": "1"
+  },
+  {
+    "description": "Number of uS from Janurary 1 1970",
+    "pvname": "$(p)$(card)BatFrame:bat",
+    "name": "BatFrame:bat",
+    "units": "uS",
+    "size": "1"
+  },
+  {
+    "description": "Universal coordinated time",
+    "pvname": "$(p)$(card)BatFrame:utc",
+    "name": "BatFrame:utc",
+    "units": "mS",
+    "size": "1"
+  },
+  {
+    "description": "Local mean sidreal time",
+    "pvname": "$(p)$(card)BatFrame:lmst",
+    "name": "BatFrame:lmst",
+    "units": "mS",
+    "size": "1"
+  },
+  {
+    "description": "Modified Julian Day Number",
+    "pvname": "$(p)$(card)BatFrame:mjd",
+    "name": "BatFrame:mjd",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "UTC in BCD",
+    "pvname": "$(p)$(card)BatFrame:bcdUtc",
+    "name": "BatFrame:bcdUtc",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "LMST in BCD",
+    "pvname": "$(p)$(card)BatFrame:bcdLmst",
+    "name": "BatFrame:bcdLmst",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "AEST in BCD",
+    "pvname": "$(p)$(card)BatFrame:bcdAest",
+    "name": "BatFrame:bcdAest",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "Date in BCD",
+    "pvname": "$(p)$(card)BatFrame:bcdDate",
+    "name": "BatFrame:bcdDate",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "Month in ASCII and month number",
+    "pvname": "$(p)$(card)BatFrame:monthAscii",
+    "name": "BatFrame:monthAscii",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "Day of Week in ASCII and day number",
+    "pvname": "$(p)$(card)BatFrame:dayOfWeekAscii",
+    "name": "BatFrame:dayOfWeekAscii",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "Day of year number in BCD",
+    "pvname": "$(p)$(card)BatFrame:bcdDayOfYear",
+    "name": "BatFrame:bcdDayOfYear",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "dUTC",
+    "pvname": "$(p)$(card)BatFrame:dutc",
+    "name": "BatFrame:dutc",
+    "units": "s",
+    "size": "1"
+  },
+  {
+    "description": "1PPS tick phase in BCD",
+    "pvname": "$(p)$(card)BatFrame:bcdTickPhase",
+    "name": "BatFrame:bcdTickPhase",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "1PPS tick phase",
+    "pvname": "$(p)$(card)BatFrame:tickPhase",
+    "name": "BatFrame:tickPhase",
+    "units": "uS",
+    "size": "1"
+  },
+  {
+    "description": "dUT1",
+    "pvname": "$(p)$(card)BatFrame:dut1",
+    "name": "BatFrame:dut1",
+    "units": "mS",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status:bitfield status",
+    "pvname": "$(p)$(card)BatFrame:batStatus",
+    "name": "BatFrame:batStatus",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B0",
+    "name": "BatFrame:batStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B1",
+    "name": "BatFrame:batStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B2",
+    "name": "BatFrame:batStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B3",
+    "name": "BatFrame:batStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B4",
+    "name": "BatFrame:batStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B5",
+    "name": "BatFrame:batStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)$(card)BatFrame:batStatus:B6",
+    "name": "BatFrame:batStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "CRC",
+    "pvname": "$(p)$(card)BatFrame:crc",
+    "name": "BatFrame:crc",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)BatFrame:status",
+    "name": "BatFrame:status",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)startupProgress",
+    "name": "startupProgress",
+    "size": "1"
+  }
+]

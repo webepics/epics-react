@@ -1,0 +1,16 @@
+<macros>
+  <Group name="exampleGroup:val" type="iocPoint">
+    <comment></comment>
+    <name>exampleGroup:val</name>
+    <pv>$(p)exampleGroup:val</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="exampleGroup:enum" type="iocEnumValue">
+    <comment></comment>
+    <name>exampleGroup:enum</name>
+    <pv>$(p)exampleGroup:enum</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_SaveOpticalCal:exec_O",
+    "name": "F_SaveOpticalCal:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "0 - default, 1 - saving, 2 - save complete, 3 - save error:0 - default, 1 - saving, 2 - save complete, 3 - save error",
+    "pvname": "$(p)F_SaveOpticalCal:status",
+    "name": "F_SaveOpticalCal:status",
+    "size": "1"
+  },
+  {
+    "description": "Save progress",
+    "pvname": "$(p)F_SaveOpticalCal:progress",
+    "name": "F_SaveOpticalCal:progress",
+    "size": "1"
+  }
+]

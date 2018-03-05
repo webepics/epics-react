@@ -1,0 +1,152 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_downloadHistograms:exec_O",
+    "name": "F_downloadHistograms:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_downloadHistograms:yAxis",
+    "name": "F_downloadHistograms:yAxis",
+    "size": "4096"
+  },
+  {
+    "description": "download ready count",
+    "pvname": "$(p)$(card)F_downloadHistograms:count",
+    "name": "F_downloadHistograms:count",
+    "size": "1"
+  },
+  {
+    "description": "1 if download complete",
+    "pvname": "$(p)$(card)F_downloadHistograms:done",
+    "name": "F_downloadHistograms:done",
+    "size": "1"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port1:hist",
+    "name": "F_downloadHistograms:port1:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port2:hist",
+    "name": "F_downloadHistograms:port2:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port3:hist",
+    "name": "F_downloadHistograms:port3:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port4:hist",
+    "name": "F_downloadHistograms:port4:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port5:hist",
+    "name": "F_downloadHistograms:port5:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port6:hist",
+    "name": "F_downloadHistograms:port6:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port7:hist",
+    "name": "F_downloadHistograms:port7:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port8:hist",
+    "name": "F_downloadHistograms:port8:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port9:hist",
+    "name": "F_downloadHistograms:port9:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port10:hist",
+    "name": "F_downloadHistograms:port10:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port11:hist",
+    "name": "F_downloadHistograms:port11:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port12:hist",
+    "name": "F_downloadHistograms:port12:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port13:hist",
+    "name": "F_downloadHistograms:port13:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port14:hist",
+    "name": "F_downloadHistograms:port14:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port15:hist",
+    "name": "F_downloadHistograms:port15:hist",
+    "size": "4096"
+  },
+  {
+    "description": "ADC Spectra",
+    "pvname": "$(p)$(card)F_downloadHistograms:port16:hist",
+    "name": "F_downloadHistograms:port16:hist",
+    "size": "4096"
+  },
+  {
+    "description": "PAF port",
+    "pvname": "$(p)$(card)F_downloadHistograms:port",
+    "name": "F_downloadHistograms:port",
+    "size": "16"
+  },
+  {
+    "description": "ADC RMS",
+    "pvname": "$(p)$(card)F_downloadHistograms:rms",
+    "name": "F_downloadHistograms:rms",
+    "size": "16"
+  },
+  {
+    "description": "ADC mean",
+    "pvname": "$(p)$(card)F_downloadHistograms:mean",
+    "name": "F_downloadHistograms:mean",
+    "size": "16"
+  },
+  {
+    "description": "ADC min",
+    "pvname": "$(p)$(card)F_downloadHistograms:min",
+    "name": "F_downloadHistograms:min",
+    "size": "16"
+  },
+  {
+    "description": "ADC max",
+    "pvname": "$(p)$(card)F_downloadHistograms:max",
+    "name": "F_downloadHistograms:max",
+    "size": "16"
+  }
+]

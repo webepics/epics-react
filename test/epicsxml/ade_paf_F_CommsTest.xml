@@ -1,0 +1,51 @@
+<macros>
+  <Group name="F_CommsTest:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_CommsTest:exec_O</name>
+    <pv>$(p)F_CommsTest:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CommsTest:testType_O" type="iocEnumValue">
+    <comment>0 - ctrl, 1 - ps, 2 - tec:0 - ctrl, 1 - ps, 2 - tec</comment>
+    <name>F_CommsTest:testType_O</name>
+    <pv>$(p)F_CommsTest:testType_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CommsTest:stop_O" type="iocEnumBit">
+    <comment>stop the running test</comment>
+    <name>F_CommsTest:stop_O</name>
+    <pv>$(p)F_CommsTest:stop_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CommsTest:running" type="iocEnumBit">
+    <comment>Test running</comment>
+    <name>F_CommsTest:running</name>
+    <pv>$(p)F_CommsTest:running</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CommsTest:passCount" type="iocPoint">
+    <comment>Pass count</comment>
+    <name>F_CommsTest:passCount</name>
+    <pv>$(p)F_CommsTest:passCount</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CommsTest:failCount" type="iocPoint">
+    <comment>Pass count</comment>
+    <name>F_CommsTest:failCount</name>
+    <pv>$(p)F_CommsTest:failCount</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_CommsTest:status" type="iocPoint">
+    <comment>last status</comment>
+    <name>F_CommsTest:status</name>
+    <pv>$(p)F_CommsTest:status</pv>
+    <type>char</type>
+    <size>128</size>
+  </Group>
+</macros>

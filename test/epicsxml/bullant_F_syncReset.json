@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_syncReset:exec_O",
+    "name": "F_syncReset:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_syncReset:startBat_O",
+    "name": "F_syncReset:startBat_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_syncReset:actualResetTime",
+    "name": "F_syncReset:actualResetTime",
+    "size": "1"
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "description": "Number of uS from Janurary 1 1970",
+    "pvname": "$(p)BatFrame:bat",
+    "name": "BatFrame:bat",
+    "units": "uS",
+    "size": "1"
+  },
+  {
+    "description": "Universal coordinated time",
+    "pvname": "$(p)BatFrame:utc",
+    "name": "BatFrame:utc",
+    "units": "mS",
+    "size": "1"
+  },
+  {
+    "description": "Local mean sidreal time",
+    "pvname": "$(p)BatFrame:lmst",
+    "name": "BatFrame:lmst",
+    "units": "mS",
+    "size": "1"
+  },
+  {
+    "description": "Modified Julian Day Number",
+    "pvname": "$(p)BatFrame:mjd",
+    "name": "BatFrame:mjd",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "UTC in BCD",
+    "pvname": "$(p)BatFrame:bcdUtc",
+    "name": "BatFrame:bcdUtc",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "LMST in BCD",
+    "pvname": "$(p)BatFrame:bcdLmst",
+    "name": "BatFrame:bcdLmst",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "AEST in BCD",
+    "pvname": "$(p)BatFrame:bcdAest",
+    "name": "BatFrame:bcdAest",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "Date in BCD",
+    "pvname": "$(p)BatFrame:bcdDate",
+    "name": "BatFrame:bcdDate",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "Month in ASCII and month number",
+    "pvname": "$(p)BatFrame:monthAscii",
+    "name": "BatFrame:monthAscii",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "Day of Week in ASCII and day number",
+    "pvname": "$(p)BatFrame:dayOfWeekAscii",
+    "name": "BatFrame:dayOfWeekAscii",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "Day of year number in BCD",
+    "pvname": "$(p)BatFrame:bcdDayOfYear",
+    "name": "BatFrame:bcdDayOfYear",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "dUTC",
+    "pvname": "$(p)BatFrame:dutc",
+    "name": "BatFrame:dutc",
+    "units": "s",
+    "size": "1"
+  },
+  {
+    "description": "1PPS tick phase in BCD",
+    "pvname": "$(p)BatFrame:bcdTickPhase",
+    "name": "BatFrame:bcdTickPhase",
+    "units": "BCD",
+    "size": "1"
+  },
+  {
+    "description": "1PPS tick phase",
+    "pvname": "$(p)BatFrame:tickPhase",
+    "name": "BatFrame:tickPhase",
+    "units": "uS",
+    "size": "1"
+  },
+  {
+    "description": "dUT1",
+    "pvname": "$(p)BatFrame:dut1",
+    "name": "BatFrame:dut1",
+    "units": "mS",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status:bitfield status",
+    "pvname": "$(p)BatFrame:batStatus",
+    "name": "BatFrame:batStatus",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B0",
+    "name": "BatFrame:batStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B1",
+    "name": "BatFrame:batStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B2",
+    "name": "BatFrame:batStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B3",
+    "name": "BatFrame:batStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B4",
+    "name": "BatFrame:batStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B5",
+    "name": "BatFrame:batStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "BAT Frame status",
+    "pvname": "$(p)BatFrame:batStatus:B6",
+    "name": "BatFrame:batStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "CRC",
+    "pvname": "$(p)BatFrame:crc",
+    "name": "BatFrame:crc",
+    "units": "",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)BatFrame:status",
+    "name": "BatFrame:status",
+    "size": "1"
+  }
+]

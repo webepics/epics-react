@@ -1,0 +1,30 @@
+<macros>
+  <Group name="F_setChanFreq:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_setChanFreq:exec_O</name>
+    <pv>$(p)$(card)F_setChanFreq:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setChanFreq:bandSelect_O" type="iocEnumValue">
+    <comment>filter band:filter band</comment>
+    <name>F_setChanFreq:bandSelect_O</name>
+    <pv>$(p)$(card)F_setChanFreq:bandSelect_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setChanFreq:bandList_O" type="iocPoint">
+    <comment>list of sky frequencies</comment>
+    <name>F_setChanFreq:bandList_O</name>
+    <pv>$(p)$(card)F_setChanFreq:bandList_O</pv>
+    <type>input</type>
+    <size>384</size>
+  </Group>
+  <Group name="F_setChanFreq:chans" type="iocPoint">
+    <comment>channel list from hardware</comment>
+    <name>F_setChanFreq:chans</name>
+    <pv>$(p)$(card)F_setChanFreq:chans</pv>
+    <type>int</type>
+    <size>384</size>
+  </Group>
+</macros>

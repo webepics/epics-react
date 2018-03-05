@@ -1,0 +1,203 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)FecEoInfo:status",
+    "name": "FecEoInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX level",
+    "pvname": "$(p)FecEoInfo:txMon1",
+    "name": "FecEoInfo:txMon1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX level",
+    "pvname": "$(p)FecEoInfo:txMon2",
+    "name": "FecEoInfo:txMon2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX level",
+    "pvname": "$(p)FecEoInfo:txMon3",
+    "name": "FecEoInfo:txMon3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX level",
+    "pvname": "$(p)FecEoInfo:txMon4",
+    "name": "FecEoInfo:txMon4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX level",
+    "pvname": "$(p)FecEoInfo:txMon5",
+    "name": "FecEoInfo:txMon5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO RX level",
+    "pvname": "$(p)FecEoInfo:rxMon",
+    "name": "FecEoInfo:rxMon",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control low level",
+    "pvname": "$(p)FecEoInfo:txCtrlLowMemMon1",
+    "name": "FecEoInfo:txCtrlLowMemMon1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control low level",
+    "pvname": "$(p)FecEoInfo:txCtrlLowMemMon2",
+    "name": "FecEoInfo:txCtrlLowMemMon2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control low level",
+    "pvname": "$(p)FecEoInfo:txCtrlLowMemMon3",
+    "name": "FecEoInfo:txCtrlLowMemMon3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control low level",
+    "pvname": "$(p)FecEoInfo:txCtrlLowMemMon4",
+    "name": "FecEoInfo:txCtrlLowMemMon4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control low level",
+    "pvname": "$(p)FecEoInfo:txCtrlLowMemMon5",
+    "name": "FecEoInfo:txCtrlLowMemMon5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control high level",
+    "pvname": "$(p)FecEoInfo:txCtrlHighMemMon1",
+    "name": "FecEoInfo:txCtrlHighMemMon1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control high level",
+    "pvname": "$(p)FecEoInfo:txCtrlHighMemMon2",
+    "name": "FecEoInfo:txCtrlHighMemMon2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control high level",
+    "pvname": "$(p)FecEoInfo:txCtrlHighMemMon3",
+    "name": "FecEoInfo:txCtrlHighMemMon3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control high level",
+    "pvname": "$(p)FecEoInfo:txCtrlHighMemMon4",
+    "name": "FecEoInfo:txCtrlHighMemMon4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO TX control high level",
+    "pvname": "$(p)FecEoInfo:txCtrlHighMemMon5",
+    "name": "FecEoInfo:txCtrlHighMemMon5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)FecEoInfo:gpioInfo:status",
+    "name": "FecEoInfo:gpioInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "FEC EO comms errors",
+    "pvname": "$(p)FecEoInfo:gpioInfo:errorCount",
+    "name": "FecEoInfo:gpioInfo:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "optical interlock",
+    "pvname": "$(p)FecEoInfo:gpioInfo:opticalIntlkOK",
+    "name": "FecEoInfo:gpioInfo:opticalIntlkOK",
+    "size": "1"
+  },
+  {
+    "description": "optics out high",
+    "pvname": "$(p)FecEoInfo:gpioInfo:opticsOutHigh_enabled",
+    "name": "FecEoInfo:gpioInfo:opticsOutHigh_enabled",
+    "size": "1"
+  },
+  {
+    "description": "opticsIntlkOutLow_enabled",
+    "pvname": "$(p)FecEoInfo:gpioInfo:opticsIntlkOutLow_enabled",
+    "name": "FecEoInfo:gpioInfo:opticsIntlkOutLow_enabled",
+    "size": "1"
+  },
+  {
+    "description": "laser power OK",
+    "pvname": "$(p)FecEoInfo:gpioInfo:laserPwrOK",
+    "name": "FecEoInfo:gpioInfo:laserPwrOK",
+    "size": "1"
+  },
+  {
+    "description": "tx1 error",
+    "pvname": "$(p)FecEoInfo:gpioInfo:tx1Err_L",
+    "name": "FecEoInfo:gpioInfo:tx1Err_L",
+    "size": "1"
+  },
+  {
+    "description": "tx2 error",
+    "pvname": "$(p)FecEoInfo:gpioInfo:tx2Err_L",
+    "name": "FecEoInfo:gpioInfo:tx2Err_L",
+    "size": "1"
+  },
+  {
+    "description": "tx3 error",
+    "pvname": "$(p)FecEoInfo:gpioInfo:tx3Err_L",
+    "name": "FecEoInfo:gpioInfo:tx3Err_L",
+    "size": "1"
+  },
+  {
+    "description": "tx4 error",
+    "pvname": "$(p)FecEoInfo:gpioInfo:tx4Err_L",
+    "name": "FecEoInfo:gpioInfo:tx4Err_L",
+    "size": "1"
+  },
+  {
+    "description": "tx5 error",
+    "pvname": "$(p)FecEoInfo:gpioInfo:tx5Err_L",
+    "name": "FecEoInfo:gpioInfo:tx5Err_L",
+    "size": "1"
+  },
+  {
+    "description": "door closed",
+    "pvname": "$(p)FecEoInfo:gpioInfo:doorOpen",
+    "name": "FecEoInfo:gpioInfo:doorOpen",
+    "size": "1"
+  },
+  {
+    "description": "door override",
+    "pvname": "$(p)FecEoInfo:gpioInfo:doorOverride_enabled",
+    "name": "FecEoInfo:gpioInfo:doorOverride_enabled",
+    "size": "1"
+  },
+  {
+    "description": "SPI MON PORT ACCESS",
+    "pvname": "$(p)FecEoInfo:gpioInfo:debugAttached_l",
+    "name": "FecEoInfo:gpioInfo:debugAttached_l",
+    "size": "1"
+  }
+]

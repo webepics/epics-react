@@ -1,0 +1,14 @@
+[
+  {
+    "description": "Turn FEC On/Off",
+    "pvname": "$(p)F_FecCtrl:power_O",
+    "name": "F_FecCtrl:power_O",
+    "size": "1"
+  },
+  {
+    "description": "FEC Door Interlock Override",
+    "pvname": "$(p)F_FecCtrl:doorOverride_O",
+    "name": "F_FecCtrl:doorOverride_O",
+    "size": "1"
+  }
+]

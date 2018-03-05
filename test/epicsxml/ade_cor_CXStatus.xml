@@ -1,0 +1,37 @@
+<macros>
+  <Group name="CXStatus:powerStatus" type="iocPoint">
+    <comment>power status</comment>
+    <name>CXStatus:powerStatus</name>
+    <pv>$(p)$(card)CXStatus:powerStatus</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="CXStatus:fpgaConfigured" type="iocPoint">
+    <comment>FPGA configured</comment>
+    <name>CXStatus:fpgaConfigured</name>
+    <pv>$(p)$(card)CXStatus:fpgaConfigured</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="CXStatus:band" type="iocEnumValue">
+    <comment>Band:Band</comment>
+    <name>CXStatus:band</name>
+    <pv>$(p)$(card)CXStatus:band</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="CXStatus:zoom" type="iocEnumValue">
+    <comment>Zoom mode:Zoom mode</comment>
+    <name>CXStatus:zoom</name>
+    <pv>$(p)$(card)CXStatus:zoom</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="CXStatus:channelNumbers" type="iocArray">
+    <comment>Channel Numbers</comment>
+    <name>CXStatus:channelNumbers</name>
+    <pv>$(p)$(card)CXStatus:channelNumbers</pv>
+    <type>label</type>
+    <size>1</size>
+  </Group>
+</macros>

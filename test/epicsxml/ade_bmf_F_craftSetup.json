@@ -1,0 +1,38 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_craftSetup:exec_O",
+    "name": "F_craftSetup:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "integration time (samples/frames)",
+    "pvname": "$(p)$(card)F_craftSetup:intTime_O",
+    "name": "F_craftSetup:intTime_O",
+    "size": "1"
+  },
+  {
+    "description": "number of intergrations",
+    "pvname": "$(p)$(card)F_craftSetup:intCount_O",
+    "name": "F_craftSetup:intCount_O",
+    "size": "1"
+  },
+  {
+    "description": "date mode",
+    "pvname": "$(p)$(card)F_craftSetup:mode_O",
+    "name": "F_craftSetup:mode_O",
+    "size": "1"
+  },
+  {
+    "description": "beam index",
+    "pvname": "$(p)$(card)F_craftSetup:beam_O",
+    "name": "F_craftSetup:beam_O",
+    "size": "1"
+  },
+  {
+    "description": "start event if set",
+    "pvname": "$(p)$(card)F_craftSetup:start_O",
+    "name": "F_craftSetup:start_O",
+    "size": "1"
+  }
+]

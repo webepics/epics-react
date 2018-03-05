@@ -1,0 +1,283 @@
+<macros>
+  <Group name="F_startup:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_startup:exec_O</name>
+    <pv>$(p)F_startup:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:sequence_O" type="iocPoint">
+    <comment>sequence number</comment>
+    <name>F_startup:sequence_O</name>
+    <pv>$(p)F_startup:sequence_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:sequence_RB" type="iocPoint">
+    <comment>sequence number out</comment>
+    <name>F_startup:sequence_RB</name>
+    <pv>$(p)F_startup:sequence_RB</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:inhibit_O" type="iocEnumBit">
+    <comment>inhibit startup</comment>
+    <name>F_startup:inhibit_O</name>
+    <pv>$(p)F_startup:inhibit_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:bp1:dominoMask_O" type="iocPoint">
+    <comment></comment>
+    <name>F_startup:bp1:dominoMask_O</name>
+    <pv>$(p)F_startup:bp1:dominoMask_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:bp2:dominoMask_O" type="iocPoint">
+    <comment></comment>
+    <name>F_startup:bp2:dominoMask_O</name>
+    <pv>$(p)F_startup:bp2:dominoMask_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:bp3:dominoMask_O" type="iocPoint">
+    <comment></comment>
+    <name>F_startup:bp3:dominoMask_O</name>
+    <pv>$(p)F_startup:bp3:dominoMask_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:bp4:dominoMask_O" type="iocPoint">
+    <comment></comment>
+    <name>F_startup:bp4:dominoMask_O</name>
+    <pv>$(p)F_startup:bp4:dominoMask_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:domPowerEnable_O" type="iocEnumBit">
+    <comment>turn on domino power</comment>
+    <name>F_startup:domPowerEnable_O</name>
+    <pv>$(p)F_startup:domPowerEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:lnaPowerEnable_O" type="iocEnumBit">
+    <comment>turn on lna power</comment>
+    <name>F_startup:lnaPowerEnable_O</name>
+    <pv>$(p)F_startup:lnaPowerEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:opticalPowerEnable_O" type="iocEnumBit">
+    <comment>turn on optical power</comment>
+    <name>F_startup:opticalPowerEnable_O</name>
+    <pv>$(p)F_startup:opticalPowerEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:tecPresent_O" type="iocEnumBit">
+    <comment>TEC Controller Present</comment>
+    <name>F_startup:tecPresent_O</name>
+    <pv>$(p)F_startup:tecPresent_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:psPresent_O" type="iocEnumBit">
+    <comment>PAF PSU Present</comment>
+    <name>F_startup:psPresent_O</name>
+    <pv>$(p)F_startup:psPresent_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:psEnable_O" type="iocEnumBit">
+    <comment>turn on PAF power supply</comment>
+    <name>F_startup:psEnable_O</name>
+    <pv>$(p)F_startup:psEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:tecEnable_O" type="iocEnumBit">
+    <comment>turn on TEC</comment>
+    <name>F_startup:tecEnable_O</name>
+    <pv>$(p)F_startup:tecEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:rhAlarmDisable_O" type="iocEnumBit">
+    <comment>disable RH alarm</comment>
+    <name>F_startup:rhAlarmDisable_O</name>
+    <pv>$(p)F_startup:rhAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:lowTempAlarmDisable_O" type="iocEnumBit">
+    <comment>disable low temp alarm</comment>
+    <name>F_startup:lowTempAlarmDisable_O</name>
+    <pv>$(p)F_startup:lowTempAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:hiTempAlarmDisable_O" type="iocEnumBit">
+    <comment>disable hi temp Alarm</comment>
+    <name>F_startup:hiTempAlarmDisable_O</name>
+    <pv>$(p)F_startup:hiTempAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:interlockAlarmDisable_O" type="iocEnumBit">
+    <comment>disable interloack alarm</comment>
+    <name>F_startup:interlockAlarmDisable_O</name>
+    <pv>$(p)F_startup:interlockAlarmDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:band_O" type="iocEnumValue">
+    <comment>Bandpass filter select:Bandpass filter select</comment>
+    <name>F_startup:band_O</name>
+    <pv>$(p)F_startup:band_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:band_RB" type="iocEnumValue">
+    <comment>Bandpass filter select:Bandpass filter select</comment>
+    <name>F_startup:band_RB</name>
+    <pv>$(p)F_startup:band_RB</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:atten_O" type="iocPoint">
+    <comment>attenuator level</comment>
+    <name>F_startup:atten_O</name>
+    <pv>$(p)F_startup:atten_O</pv>
+    <egu>dB</egu>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:status" type="iocPoint">
+    <comment>startup progress</comment>
+    <name>F_startup:status</name>
+    <pv>$(p)F_startup:status</pv>
+    <type>char</type>
+    <size>128</size>
+  </Group>
+  <Group name="F_startup:result" type="iocPoint">
+    <comment>startup result</comment>
+    <name>F_startup:result</name>
+    <pv>$(p)F_startup:result</pv>
+    <type>char</type>
+    <size>128</size>
+  </Group>
+  <Group name="F_startup:dominoProgress" type="iocPoint">
+    <comment>domino startup progress</comment>
+    <name>F_startup:dominoProgress</name>
+    <pv>$(p)F_startup:dominoProgress</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:fecState" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:fecState</name>
+    <pv>$(p)F_startup:fecState</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:ctrlState" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:ctrlState</name>
+    <pv>$(p)F_startup:ctrlState</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:psState" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:psState</name>
+    <pv>$(p)F_startup:psState</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:tecState" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:tecState</name>
+    <pv>$(p)F_startup:tecState</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:backplaneState" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:backplaneState</name>
+    <pv>$(p)F_startup:backplaneState</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:backplaneState1" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:backplaneState1</name>
+    <pv>$(p)F_startup:backplaneState1</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:backplaneState2" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:backplaneState2</name>
+    <pv>$(p)F_startup:backplaneState2</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:backplaneState3" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:backplaneState3</name>
+    <pv>$(p)F_startup:backplaneState3</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:backplaneState4" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:backplaneState4</name>
+    <pv>$(p)F_startup:backplaneState4</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:dominoState" type="iocEnumValue">
+    <comment></comment>
+    <name>F_startup:dominoState</name>
+    <pv>$(p)F_startup:dominoState</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:done" type="iocEnumBit">
+    <comment></comment>
+    <name>F_startup:done</name>
+    <pv>$(p)F_startup:done</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:tecPsuEnable" type="iocEnumBit">
+    <comment>TEC PSU enable output</comment>
+    <name>F_startup:tecPsuEnable</name>
+    <pv>$(p)F_startup:tecPsuEnable</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:tecPidEnable" type="iocEnumBit">
+    <comment>TEC PID enable closed loop</comment>
+    <name>F_startup:tecPidEnable</name>
+    <pv>$(p)F_startup:tecPidEnable</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:tecPidDisable" type="iocEnumBit">
+    <comment>TEC PID disable closed loop</comment>
+    <name>F_startup:tecPidDisable</name>
+    <pv>$(p)F_startup:tecPidDisable</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_startup:noComms_O" type="iocEnumBit">
+    <comment>comms fail test</comment>
+    <name>F_startup:noComms_O</name>
+    <pv>$(p)F_startup:noComms_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

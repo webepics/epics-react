@@ -1,0 +1,184 @@
+<macros>
+  <Group name="F_downloadSpectras:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_downloadSpectras:exec_O</name>
+    <pv>$(p)$(card)F_downloadSpectras:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadSpectras:intTime_O" type="iocPoint">
+    <comment>ADC Spectra integration time</comment>
+    <name>F_downloadSpectras:intTime_O</name>
+    <pv>$(p)$(card)F_downloadSpectras:intTime_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadSpectras:numChannels" type="iocPoint">
+    <comment></comment>
+    <name>F_downloadSpectras:numChannels</name>
+    <pv>$(p)$(card)F_downloadSpectras:numChannels</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadSpectras:freqRange" type="iocPoint">
+    <comment></comment>
+    <name>F_downloadSpectras:freqRange</name>
+    <pv>$(p)$(card)F_downloadSpectras:freqRange</pv>
+    <type>int</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:count" type="iocPoint">
+    <comment>download ready count</comment>
+    <name>F_downloadSpectras:count</name>
+    <pv>$(p)$(card)F_downloadSpectras:count</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadSpectras:done" type="iocPoint">
+    <comment>1 if download complete</comment>
+    <name>F_downloadSpectras:done</name>
+    <pv>$(p)$(card)F_downloadSpectras:done</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadSpectras:port1:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port1:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port1:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port2:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port2:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port2:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port3:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port3:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port3:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port4:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port4:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port4:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port5:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port5:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port5:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port6:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port6:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port6:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port7:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port7:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port7:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port8:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port8:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port8:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port9:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port9:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port9:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port10:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port10:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port10:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port11:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port11:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port11:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port12:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port12:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port12:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port13:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port13:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port13:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port14:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port14:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port14:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port15:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port15:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port15:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port16:spectra" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadSpectras:port16:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:port16:spectra</pv>
+    <type>float</type>
+    <size>768</size>
+  </Group>
+  <Group name="F_downloadSpectras:port" type="iocPoint">
+    <comment>PAF port</comment>
+    <name>F_downloadSpectras:port</name>
+    <pv>$(p)$(card)F_downloadSpectras:port</pv>
+    <type>int</type>
+    <size>16</size>
+  </Group>
+  <Group name="F_downloadSpectras:spectra" type="iocPoint">
+    <comment>ADC Spectra all ports</comment>
+    <name>F_downloadSpectras:spectra</name>
+    <pv>$(p)$(card)F_downloadSpectras:spectra</pv>
+    <type>float</type>
+    <size>12288</size>
+  </Group>
+  <Group name="F_downloadSpectras:intCounts" type="iocPoint">
+    <comment>integration counts</comment>
+    <name>F_downloadSpectras:intCounts</name>
+    <pv>$(p)$(card)F_downloadSpectras:intCounts</pv>
+    <type>int</type>
+    <size>16</size>
+  </Group>
+  <Group name="F_downloadSpectras:status" type="iocPoint">
+    <comment>download status</comment>
+    <name>F_downloadSpectras:status</name>
+    <pv>$(p)$(card)F_downloadSpectras:status</pv>
+    <type>int</type>
+    <size>16</size>
+  </Group>
+</macros>

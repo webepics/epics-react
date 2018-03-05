@@ -1,0 +1,98 @@
+[
+  {
+    "description": "connect to device:bitfield status",
+    "pvname": "$(p)$(card)F_ctrl:connect_O",
+    "name": "F_ctrl:connect_O",
+    "size": "1"
+  },
+  {
+    "description": "connect to device",
+    "pvname": "$(p)$(card)F_ctrl:connect_O",
+    "name": "F_ctrl:connect_O",
+    "size": "1"
+  },
+  {
+    "description": "connect to device",
+    "pvname": "$(p)$(card)F_ctrl:connect",
+    "name": "F_ctrl:connect",
+    "size": "1"
+  },
+  {
+    "description": "toggle emulator:bitfield status",
+    "pvname": "$(p)$(card)F_ctrl:emulator_O",
+    "name": "F_ctrl:emulator_O",
+    "size": "1"
+  },
+  {
+    "description": "toggle emulator",
+    "pvname": "$(p)$(card)F_ctrl:emulator_O",
+    "name": "F_ctrl:emulator_O",
+    "size": "1"
+  },
+  {
+    "description": "toggle emulator",
+    "pvname": "$(p)$(card)F_ctrl:emulator",
+    "name": "F_ctrl:emulator",
+    "size": "1"
+  },
+  {
+    "description": "reset PS errors",
+    "pvname": "$(p)$(card)F_ctrl:clearPSErrors_O",
+    "name": "F_ctrl:clearPSErrors_O",
+    "size": "1"
+  },
+  {
+    "description": "card state",
+    "pvname": "$(p)$(card)F_ctrl:state",
+    "name": "F_ctrl:state",
+    "size": "1"
+  },
+  {
+    "description": "Enable Cicada Monitor Data",
+    "pvname": "$(p)$(card)F_ctrl:cicadaMonEnable_O",
+    "name": "F_ctrl:cicadaMonEnable_O",
+    "size": "1"
+  },
+  {
+    "description": "cicada polling indicator",
+    "pvname": "$(p)$(card)F_ctrl:pollCicada",
+    "name": "F_ctrl:pollCicada",
+    "size": "1"
+  },
+  {
+    "description": "connect to device:bitfield status",
+    "pvname": "$(p)$(card)F_ctrl:connect_O",
+    "name": "F_ctrl:connect_O",
+    "size": "1"
+  },
+  {
+    "description": "connect to device",
+    "pvname": "$(p)$(card)F_ctrl:connect_O",
+    "name": "F_ctrl:connect_O",
+    "size": "1"
+  },
+  {
+    "description": "connect to device",
+    "pvname": "$(p)$(card)F_ctrl:connect",
+    "name": "F_ctrl:connect",
+    "size": "1"
+  },
+  {
+    "description": "toggle emulator:bitfield status",
+    "pvname": "$(p)$(card)F_ctrl:emulator_O",
+    "name": "F_ctrl:emulator_O",
+    "size": "1"
+  },
+  {
+    "description": "toggle emulator",
+    "pvname": "$(p)$(card)F_ctrl:emulator_O",
+    "name": "F_ctrl:emulator_O",
+    "size": "1"
+  },
+  {
+    "description": "toggle emulator",
+    "pvname": "$(p)$(card)F_ctrl:emulator",
+    "name": "F_ctrl:emulator",
+    "size": "1"
+  }
+]

@@ -1,0 +1,262 @@
+<macros>
+  <Group name="FecEoInfo:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>FecEoInfo:status</name>
+    <pv>$(p)FecEoInfo:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txMon" type="iocArray">
+    <comment>FEC EO TX level</comment>
+    <name>FecEoInfo:txMon</name>
+    <pv>$(p)FecEoInfo:txMon</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="FecEoInfo:txMon1" type="iocPoint">
+    <comment>FEC EO TX level</comment>
+    <name>FecEoInfo:txMon1</name>
+    <pv>$(p)FecEoInfo:txMon1</pv>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txMon2" type="iocPoint">
+    <comment>FEC EO TX level</comment>
+    <name>FecEoInfo:txMon2</name>
+    <pv>$(p)FecEoInfo:txMon2</pv>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txMon3" type="iocPoint">
+    <comment>FEC EO TX level</comment>
+    <name>FecEoInfo:txMon3</name>
+    <pv>$(p)FecEoInfo:txMon3</pv>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txMon4" type="iocPoint">
+    <comment>FEC EO TX level</comment>
+    <name>FecEoInfo:txMon4</name>
+    <pv>$(p)FecEoInfo:txMon4</pv>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txMon5" type="iocPoint">
+    <comment>FEC EO TX level</comment>
+    <name>FecEoInfo:txMon5</name>
+    <pv>$(p)FecEoInfo:txMon5</pv>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="FecEoInfo:rxMon" type="iocPoint">
+    <comment>FEC EO RX level</comment>
+    <name>FecEoInfo:rxMon</name>
+    <pv>$(p)FecEoInfo:rxMon</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlLowMemMon" type="iocArray">
+    <comment>FEC EO TX control low level</comment>
+    <name>FecEoInfo:txCtrlLowMemMon</name>
+    <pv>$(p)FecEoInfo:txCtrlLowMemMon</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="FecEoInfo:txCtrlLowMemMon1" type="iocPoint">
+    <comment>FEC EO TX control low level</comment>
+    <name>FecEoInfo:txCtrlLowMemMon1</name>
+    <pv>$(p)FecEoInfo:txCtrlLowMemMon1</pv>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlLowMemMon2" type="iocPoint">
+    <comment>FEC EO TX control low level</comment>
+    <name>FecEoInfo:txCtrlLowMemMon2</name>
+    <pv>$(p)FecEoInfo:txCtrlLowMemMon2</pv>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlLowMemMon3" type="iocPoint">
+    <comment>FEC EO TX control low level</comment>
+    <name>FecEoInfo:txCtrlLowMemMon3</name>
+    <pv>$(p)FecEoInfo:txCtrlLowMemMon3</pv>
+    <index>3</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlLowMemMon4" type="iocPoint">
+    <comment>FEC EO TX control low level</comment>
+    <name>FecEoInfo:txCtrlLowMemMon4</name>
+    <pv>$(p)FecEoInfo:txCtrlLowMemMon4</pv>
+    <index>4</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlLowMemMon5" type="iocPoint">
+    <comment>FEC EO TX control low level</comment>
+    <name>FecEoInfo:txCtrlLowMemMon5</name>
+    <pv>$(p)FecEoInfo:txCtrlLowMemMon5</pv>
+    <index>5</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="FecEoInfo:txCtrlHighMemMon" type="iocArray">
+    <comment>FEC EO TX control high level</comment>
+    <name>FecEoInfo:txCtrlHighMemMon</name>
+    <pv>$(p)FecEoInfo:txCtrlHighMemMon</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="FecEoInfo:txCtrlHighMemMon1" type="iocPoint">
+    <comment>FEC EO TX control high level</comment>
+    <name>FecEoInfo:txCtrlHighMemMon1</name>
+    <pv>$(p)FecEoInfo:txCtrlHighMemMon1</pv>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlHighMemMon2" type="iocPoint">
+    <comment>FEC EO TX control high level</comment>
+    <name>FecEoInfo:txCtrlHighMemMon2</name>
+    <pv>$(p)FecEoInfo:txCtrlHighMemMon2</pv>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlHighMemMon3" type="iocPoint">
+    <comment>FEC EO TX control high level</comment>
+    <name>FecEoInfo:txCtrlHighMemMon3</name>
+    <pv>$(p)FecEoInfo:txCtrlHighMemMon3</pv>
+    <index>3</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlHighMemMon4" type="iocPoint">
+    <comment>FEC EO TX control high level</comment>
+    <name>FecEoInfo:txCtrlHighMemMon4</name>
+    <pv>$(p)FecEoInfo:txCtrlHighMemMon4</pv>
+    <index>4</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:txCtrlHighMemMon5" type="iocPoint">
+    <comment>FEC EO TX control high level</comment>
+    <name>FecEoInfo:txCtrlHighMemMon5</name>
+    <pv>$(p)FecEoInfo:txCtrlHighMemMon5</pv>
+    <index>5</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo" type="iocStructure">
+    <comment></comment>
+    <name>FecEoInfo:gpioInfo</name>
+    <pv>$(p)FecEoInfo:gpioInfo</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="FecEoInfo:gpioInfo:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>FecEoInfo:gpioInfo:status</name>
+    <pv>$(p)FecEoInfo:gpioInfo:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:errorCount" type="iocPoint">
+    <comment>FEC EO comms errors</comment>
+    <name>FecEoInfo:gpioInfo:errorCount</name>
+    <pv>$(p)FecEoInfo:gpioInfo:errorCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:opticalIntlkOK" type="iocEnumBit">
+    <comment>optical interlock</comment>
+    <name>FecEoInfo:gpioInfo:opticalIntlkOK</name>
+    <pv>$(p)FecEoInfo:gpioInfo:opticalIntlkOK</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:opticsOutHigh_enabled" type="iocEnumBit">
+    <comment>optics out high</comment>
+    <name>FecEoInfo:gpioInfo:opticsOutHigh_enabled</name>
+    <pv>$(p)FecEoInfo:gpioInfo:opticsOutHigh_enabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:opticsIntlkOutLow_enabled" type="iocEnumBit">
+    <comment>opticsIntlkOutLow_enabled</comment>
+    <name>FecEoInfo:gpioInfo:opticsIntlkOutLow_enabled</name>
+    <pv>$(p)FecEoInfo:gpioInfo:opticsIntlkOutLow_enabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:laserPwrOK" type="iocEnumBit">
+    <comment>laser power OK</comment>
+    <name>FecEoInfo:gpioInfo:laserPwrOK</name>
+    <pv>$(p)FecEoInfo:gpioInfo:laserPwrOK</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:tx1Err_L" type="iocEnumBit">
+    <comment>tx1 error</comment>
+    <name>FecEoInfo:gpioInfo:tx1Err_L</name>
+    <pv>$(p)FecEoInfo:gpioInfo:tx1Err_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:tx2Err_L" type="iocEnumBit">
+    <comment>tx2 error</comment>
+    <name>FecEoInfo:gpioInfo:tx2Err_L</name>
+    <pv>$(p)FecEoInfo:gpioInfo:tx2Err_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:tx3Err_L" type="iocEnumBit">
+    <comment>tx3 error</comment>
+    <name>FecEoInfo:gpioInfo:tx3Err_L</name>
+    <pv>$(p)FecEoInfo:gpioInfo:tx3Err_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:tx4Err_L" type="iocEnumBit">
+    <comment>tx4 error</comment>
+    <name>FecEoInfo:gpioInfo:tx4Err_L</name>
+    <pv>$(p)FecEoInfo:gpioInfo:tx4Err_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:tx5Err_L" type="iocEnumBit">
+    <comment>tx5 error</comment>
+    <name>FecEoInfo:gpioInfo:tx5Err_L</name>
+    <pv>$(p)FecEoInfo:gpioInfo:tx5Err_L</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:doorOpen" type="iocEnumBit">
+    <comment>door closed</comment>
+    <name>FecEoInfo:gpioInfo:doorOpen</name>
+    <pv>$(p)FecEoInfo:gpioInfo:doorOpen</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:doorOverride_enabled" type="iocEnumBit">
+    <comment>door override</comment>
+    <name>FecEoInfo:gpioInfo:doorOverride_enabled</name>
+    <pv>$(p)FecEoInfo:gpioInfo:doorOverride_enabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="FecEoInfo:gpioInfo:debugAttached_l" type="iocEnumBit">
+    <comment>SPI MON PORT ACCESS</comment>
+    <name>FecEoInfo:gpioInfo:debugAttached_l</name>
+    <pv>$(p)FecEoInfo:gpioInfo:debugAttached_l</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

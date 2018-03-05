@@ -1,0 +1,1704 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)$(card)bul:status",
+    "name": "CtrlMonitorData:status",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan1:voltage",
+    "name": "CtrlMonitorData:chassisFan1:voltage",
+    "units": "%V",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan1:tacho",
+    "name": "CtrlMonitorData:chassisFan1:tacho",
+    "units": "RPM",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status 1:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B0",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B2",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B3",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B4",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B5",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:Status",
+    "pvname": "$(p)$(card)bul:chassisFan1:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan1:fanStatus:B6",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 1:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan1:status",
+    "name": "CtrlMonitorData:chassisFan1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan2:voltage",
+    "name": "CtrlMonitorData:chassisFan2:voltage",
+    "units": "%V",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan2:tacho",
+    "name": "CtrlMonitorData:chassisFan2:tacho",
+    "units": "RPM",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status 2:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B0",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B1",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B3",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B4",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B5",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:Status",
+    "pvname": "$(p)$(card)bul:chassisFan2:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan2:fanStatus:B6",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 2:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan2:status",
+    "name": "CtrlMonitorData:chassisFan2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan3:voltage",
+    "name": "CtrlMonitorData:chassisFan3:voltage",
+    "units": "%V",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan3:tacho",
+    "name": "CtrlMonitorData:chassisFan3:tacho",
+    "units": "RPM",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status 3:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B0",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B1",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B2",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B4",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B5",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:Status",
+    "pvname": "$(p)$(card)bul:chassisFan3:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan3:fanStatus:B6",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 3:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan3:status",
+    "name": "CtrlMonitorData:chassisFan3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan4:voltage",
+    "name": "CtrlMonitorData:chassisFan4:voltage",
+    "units": "%V",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan4:tacho",
+    "name": "CtrlMonitorData:chassisFan4:tacho",
+    "units": "RPM",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status 4:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B0",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B1",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B2",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B3",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B5",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:Status",
+    "pvname": "$(p)$(card)bul:chassisFan4:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan4:fanStatus:B6",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 4:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan4:status",
+    "name": "CtrlMonitorData:chassisFan4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan5:voltage",
+    "name": "CtrlMonitorData:chassisFan5:voltage",
+    "units": "%V",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan5:tacho",
+    "name": "CtrlMonitorData:chassisFan5:tacho",
+    "units": "RPM",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status 5:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B0",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B1",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B2",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B3",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B4",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:Status",
+    "pvname": "$(p)$(card)bul:chassisFan5:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan5:fanStatus:B6",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 5:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan5:status",
+    "name": "CtrlMonitorData:chassisFan5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan6:voltage",
+    "name": "CtrlMonitorData:chassisFan6:voltage",
+    "units": "%V",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan6:tacho",
+    "name": "CtrlMonitorData:chassisFan6:tacho",
+    "units": "RPM",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status 6:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B0",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B1",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B2",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B3",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B4",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B5",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:Status",
+    "pvname": "$(p)$(card)bul:chassisFan6:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan6:fanStatus:B6",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 6:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan6:status",
+    "name": "CtrlMonitorData:chassisFan6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan7:voltage",
+    "name": "CtrlMonitorData:chassisFan7:voltage",
+    "units": "%V",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan7:tacho",
+    "name": "CtrlMonitorData:chassisFan7:tacho",
+    "units": "RPM",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status 7:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B0",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B1",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B2",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B3",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B4",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B5",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:Status",
+    "pvname": "$(p)$(card)bul:chassisFan7:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan7:fanStatus:B6",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 7:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan7:status",
+    "name": "CtrlMonitorData:chassisFan7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Percentage of voltage maximum",
+    "pvname": "$(p)$(card)bul:chassisFan8:voltage",
+    "name": "CtrlMonitorData:chassisFan8:voltage",
+    "units": "%V",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Speed",
+    "pvname": "$(p)$(card)bul:chassisFan8:tacho",
+    "name": "CtrlMonitorData:chassisFan8:tacho",
+    "units": "RPM",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status 8:bitfield status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B0",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B0",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B1",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B1",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B2",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B2",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B3",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B3",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B4",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B4",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B5",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B5",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:Status",
+    "pvname": "$(p)$(card)bul:chassisFan8:fanStatus:B6",
+    "name": "CtrlMonitorData:chassisFan8:fanStatus:B6",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "Chassis Fans 8:AdbeStatus",
+    "pvname": "$(p)$(card)bul:chassisFan8:status",
+    "name": "CtrlMonitorData:chassisFan8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Speed",
+    "pvname": "$(p)$(card)bul:atxFan:tacho",
+    "name": "CtrlMonitorData:atxFan:tacho",
+    "units": "RPM",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status:bitfield status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus",
+    "name": "CtrlMonitorData:atxFan:fanStatus",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B0",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B1",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B2",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B3",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B4",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B5",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:Status",
+    "pvname": "$(p)$(card)bul:atxFan:fanStatus:B6",
+    "name": "CtrlMonitorData:atxFan:fanStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "ATX Fan:AdbeStatus",
+    "pvname": "$(p)$(card)bul:atxFan:status",
+    "name": "CtrlMonitorData:atxFan:status",
+    "size": "1"
+  },
+  {
+    "description": "Bullant Local 1:Temperature",
+    "pvname": "$(p)$(card)bul:tempLocal1:temp",
+    "name": "CtrlMonitorData:tempLocal1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bullant Local 1:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempLocal1:status",
+    "name": "CtrlMonitorData:tempLocal1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bullant Local 2:Temperature",
+    "pvname": "$(p)$(card)bul:tempLocal2:temp",
+    "name": "CtrlMonitorData:tempLocal2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bullant Local 2:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempLocal2:status",
+    "name": "CtrlMonitorData:tempLocal2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bullant FPGA:Temperature",
+    "pvname": "$(p)$(card)bul:tempFpga:temp",
+    "name": "CtrlMonitorData:tempFpga:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Bullant FPGA:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempFpga:status",
+    "name": "CtrlMonitorData:tempFpga:status",
+    "size": "1"
+  },
+  {
+    "description": "Power Supplies:Temperature",
+    "pvname": "$(p)$(card)bul:tempPower:temp",
+    "name": "CtrlMonitorData:tempPower:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Power Supplies:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempPower:status",
+    "name": "CtrlMonitorData:tempPower:status",
+    "size": "1"
+  },
+  {
+    "description": "Ethernet PHY:Temperature",
+    "pvname": "$(p)$(card)bul:tempEthernet:temp",
+    "name": "CtrlMonitorData:tempEthernet:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Ethernet PHY:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempEthernet:status",
+    "name": "CtrlMonitorData:tempEthernet:status",
+    "size": "1"
+  },
+  {
+    "description": "Fan 1:Fan Control Temperature",
+    "pvname": "$(p)$(card)bul:tempFan1:temp",
+    "name": "CtrlMonitorData:tempFan1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Fan 1:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempFan1:status",
+    "name": "CtrlMonitorData:tempFan1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Fan 2:Fan Control Temperature",
+    "pvname": "$(p)$(card)bul:tempFan2:temp",
+    "name": "CtrlMonitorData:tempFan2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Fan 2:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempFan2:status",
+    "name": "CtrlMonitorData:tempFan2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Aux 1:Bullant Chassis Temperature",
+    "pvname": "$(p)$(card)bul:tempAux1:temp",
+    "name": "CtrlMonitorData:tempAux1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Aux 1:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempAux1:status",
+    "name": "CtrlMonitorData:tempAux1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Aux 2:Bullant Chassis Temperature",
+    "pvname": "$(p)$(card)bul:tempAux2:temp",
+    "name": "CtrlMonitorData:tempAux2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Aux 2:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempAux2:status",
+    "name": "CtrlMonitorData:tempAux2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ATX 1:ATX Power Supply temperature",
+    "pvname": "$(p)$(card)bul:tempATX1:temp",
+    "name": "CtrlMonitorData:tempATX1:temp",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ATX 1:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempATX1:status",
+    "name": "CtrlMonitorData:tempATX1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "ATX 2:ATX Power Supply temperature",
+    "pvname": "$(p)$(card)bul:tempATX2:temp",
+    "name": "CtrlMonitorData:tempATX2:temp",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "ATX 2:AdbeStatus",
+    "pvname": "$(p)$(card)bul:tempATX2:status",
+    "name": "CtrlMonitorData:tempATX2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:power1V:iout",
+    "name": "CtrlMonitorData:power1V:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:power1V:vout",
+    "name": "CtrlMonitorData:power1V:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)bul:power1V:vin",
+    "name": "CtrlMonitorData:power1V:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus",
+    "name": "CtrlMonitorData:power1V:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B0",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B1",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B2",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B3",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B4",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B5",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V:supplyStatus:B6",
+    "name": "CtrlMonitorData:power1V:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA Core Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:power1V:status",
+    "name": "CtrlMonitorData:power1V:status",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:power2V5:iout",
+    "name": "CtrlMonitorData:power2V5:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:power2V5:vout",
+    "name": "CtrlMonitorData:power2V5:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)bul:power2V5:vin",
+    "name": "CtrlMonitorData:power2V5:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus",
+    "name": "CtrlMonitorData:power2V5:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B0",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B1",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B2",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B3",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B4",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B5",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power2V5:supplyStatus:B6",
+    "name": "CtrlMonitorData:power2V5:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "2.5V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:power2V5:status",
+    "name": "CtrlMonitorData:power2V5:status",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:power3V3:iout",
+    "name": "CtrlMonitorData:power3V3:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:power3V3:vout",
+    "name": "CtrlMonitorData:power3V3:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)bul:power3V3:vin",
+    "name": "CtrlMonitorData:power3V3:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus",
+    "name": "CtrlMonitorData:power3V3:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B0",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B1",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B2",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B3",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B4",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B5",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power3V3:supplyStatus:B6",
+    "name": "CtrlMonitorData:power3V3:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "3.3V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:power3V3:status",
+    "name": "CtrlMonitorData:power3V3:status",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:power1V5:iout",
+    "name": "CtrlMonitorData:power1V5:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:power1V5:vout",
+    "name": "CtrlMonitorData:power1V5:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)bul:power1V5:vin",
+    "name": "CtrlMonitorData:power1V5:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus",
+    "name": "CtrlMonitorData:power1V5:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B0",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B1",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B2",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B3",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B4",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B5",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V5:supplyStatus:B6",
+    "name": "CtrlMonitorData:power1V5:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "1.5V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:power1V5:status",
+    "name": "CtrlMonitorData:power1V5:status",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:power1V2:iout",
+    "name": "CtrlMonitorData:power1V2:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:power1V2:vout",
+    "name": "CtrlMonitorData:power1V2:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)bul:power1V2:vin",
+    "name": "CtrlMonitorData:power1V2:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus",
+    "name": "CtrlMonitorData:power1V2:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B0",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B1",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B2",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B3",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B4",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B5",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:power1V2:supplyStatus:B6",
+    "name": "CtrlMonitorData:power1V2:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "1.2V Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:power1V2:status",
+    "name": "CtrlMonitorData:power1V2:status",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:atx3V3:iout",
+    "name": "CtrlMonitorData:atx3V3:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:atx3V3:vout",
+    "name": "CtrlMonitorData:atx3V3:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B0",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B1",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B2",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B3",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B4",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B5",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx3V3:supplyStatus:B6",
+    "name": "CtrlMonitorData:atx3V3:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "3.3V ATX Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:atx3V3:status",
+    "name": "CtrlMonitorData:atx3V3:status",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:rfof5V9:iout",
+    "name": "CtrlMonitorData:rfof5V9:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Output voltage of regulator",
+    "pvname": "$(p)$(card)bul:rfof5V9:vout",
+    "name": "CtrlMonitorData:rfof5V9:vout",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B0",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B1",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B2",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B3",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B4",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B5",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:rfof5V9:supplyStatus:B6",
+    "name": "CtrlMonitorData:rfof5V9:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "5.9V RFoF Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:rfof5V9:status",
+    "name": "CtrlMonitorData:rfof5V9:status",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:atx5VStby:iout",
+    "name": "CtrlMonitorData:atx5VStby:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B0",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B1",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B2",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B3",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B4",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B5",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5VStby:supplyStatus:B6",
+    "name": "CtrlMonitorData:atx5VStby:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Standby Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:atx5VStby:status",
+    "name": "CtrlMonitorData:atx5VStby:status",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:atx5V:iout",
+    "name": "CtrlMonitorData:atx5V:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus",
+    "name": "CtrlMonitorData:atx5V:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B0",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B1",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B2",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B3",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B4",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B5",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx5V:supplyStatus:B6",
+    "name": "CtrlMonitorData:atx5V:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "5V ATX Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:atx5V:status",
+    "name": "CtrlMonitorData:atx5V:status",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Output current of regulator",
+    "pvname": "$(p)$(card)bul:atx12V:iout",
+    "name": "CtrlMonitorData:atx12V:iout",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus",
+    "name": "CtrlMonitorData:atx12V:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B0",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B1",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B2",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B3",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B4",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B5",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx12V:supplyStatus:B6",
+    "name": "CtrlMonitorData:atx12V:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "12V ATX Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:atx12V:status",
+    "name": "CtrlMonitorData:atx12V:status",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Input current of regulator",
+    "pvname": "$(p)$(card)bul:atx:iin",
+    "name": "CtrlMonitorData:atx:iin",
+    "units": "A",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Input voltage of regulator",
+    "pvname": "$(p)$(card)bul:atx:vin",
+    "name": "CtrlMonitorData:atx:vin",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status:bitfield status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus",
+    "name": "CtrlMonitorData:atx:supplyStatus",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B0",
+    "name": "CtrlMonitorData:atx:supplyStatus:B0",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B1",
+    "name": "CtrlMonitorData:atx:supplyStatus:B1",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B2",
+    "name": "CtrlMonitorData:atx:supplyStatus:B2",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B3",
+    "name": "CtrlMonitorData:atx:supplyStatus:B3",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B4",
+    "name": "CtrlMonitorData:atx:supplyStatus:B4",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B5",
+    "name": "CtrlMonitorData:atx:supplyStatus:B5",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:Power regulator status",
+    "pvname": "$(p)$(card)bul:atx:supplyStatus:B6",
+    "name": "CtrlMonitorData:atx:supplyStatus:B6",
+    "size": "1"
+  },
+  {
+    "description": "240V ATX Supply:AdbeStatus",
+    "pvname": "$(p)$(card)bul:atx:status",
+    "name": "CtrlMonitorData:atx:status",
+    "size": "1"
+  },
+  {
+    "description": "ATX total power",
+    "pvname": "$(p)$(card)bul:atxInPower",
+    "name": "CtrlMonitorData:atxInPower",
+    "units": "W",
+    "size": "1"
+  },
+  {
+    "description": "ATX 12V power",
+    "pvname": "$(p)$(card)bul:atxOutPower",
+    "name": "CtrlMonitorData:atxOutPower",
+    "units": "W",
+    "size": "1"
+  },
+  {
+    "description": "10G SFP:SFP internal temperature",
+    "pvname": "$(p)$(card)bul:sfp:temp",
+    "name": "CtrlMonitorData:sfp:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "10G SFP:SFP 3.3V supply",
+    "pvname": "$(p)$(card)bul:sfp:voltage",
+    "name": "CtrlMonitorData:sfp:voltage",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "10G SFP:SFP TX bias current",
+    "pvname": "$(p)$(card)bul:sfp:bias",
+    "name": "CtrlMonitorData:sfp:bias",
+    "units": "mA",
+    "size": "1"
+  },
+  {
+    "description": "10G SFP:SFP TX power",
+    "pvname": "$(p)$(card)bul:sfp:tx_power",
+    "name": "CtrlMonitorData:sfp:tx_power",
+    "units": "mW",
+    "size": "1"
+  },
+  {
+    "description": "10G SFP:SFP detected RX power",
+    "pvname": "$(p)$(card)bul:sfp:rx_power",
+    "name": "CtrlMonitorData:sfp:rx_power",
+    "units": "mW",
+    "size": "1"
+  },
+  {
+    "description": "10G SFP:AdbeStatus",
+    "pvname": "$(p)$(card)bul:sfp:status",
+    "name": "CtrlMonitorData:sfp:status",
+    "size": "1"
+  },
+  {
+    "description": "Bullant FPGA:FPGA Vcore supply",
+    "pvname": "$(p)$(card)bul:fpga:vccInt",
+    "name": "CtrlMonitorData:fpga:vccInt",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Bullant FPGA:FPGA Vaux supply",
+    "pvname": "$(p)$(card)bul:fpga:vccAux",
+    "name": "CtrlMonitorData:fpga:vccAux",
+    "units": "V",
+    "size": "1"
+  },
+  {
+    "description": "Bullant FPGA:FPGA self monitored temperature",
+    "pvname": "$(p)$(card)bul:fpga:temp",
+    "name": "CtrlMonitorData:fpga:temp",
+    "units": "C",
+    "size": "1"
+  },
+  {
+    "description": "Bullant FPGA:AdbeStatus",
+    "pvname": "$(p)$(card)bul:fpga:status",
+    "name": "CtrlMonitorData:fpga:status",
+    "size": "1"
+  }
+]

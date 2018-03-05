@@ -1,0 +1,56 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_poke:exec_O",
+    "name": "F_poke:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "32-bit address to poke",
+    "pvname": "$(p)$(card)F_poke:address_O",
+    "name": "F_poke:address_O",
+    "size": "1"
+  },
+  {
+    "description": "32-bit value to poke",
+    "pvname": "$(p)$(card)F_poke:value_O",
+    "name": "F_poke:value_O",
+    "size": "1"
+  },
+  {
+    "description": "control/device select",
+    "pvname": "$(p)$(card)F_poke:device_O",
+    "name": "F_poke:device_O",
+    "size": "1"
+  },
+  {
+    "description": "result of operation",
+    "pvname": "$(p)$(card)F_poke:result",
+    "name": "F_poke:result",
+    "size": "1"
+  },
+  {
+    "description": "port mask:port mask",
+    "pvname": "$(p)$(card)F_poke:portMask_O",
+    "name": "F_poke:portMask_O",
+    "size": "1"
+  },
+  {
+    "description": "control or data device",
+    "pvname": "$(p)$(card)F_poke:bullant_O",
+    "name": "F_poke:bullant_O",
+    "size": "1"
+  },
+  {
+    "description": "return value from peek",
+    "pvname": "$(p)$(card)F_poke:retRead",
+    "name": "F_poke:retRead",
+    "size": "1"
+  },
+  {
+    "description": "return value from poke",
+    "pvname": "$(p)$(card)F_poke:retWrite",
+    "name": "F_poke:retWrite",
+    "size": "1"
+  }
+]

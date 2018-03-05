@@ -1,0 +1,226 @@
+<macros>
+  <Group name="evt:WF0:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF0:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF0:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF0:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF0:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF0:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF1:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF1:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF1:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF2:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF2:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF2:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF3:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF3:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF3:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF4:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF4:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF4:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF5:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF5:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF5:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF6:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF6:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF6:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF7:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF7:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF7:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF8:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF8:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF8:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF9:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF9:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF9:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF10:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF10:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF10:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF11:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF11:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF11:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF12:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF12:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF12:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF13:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF13:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF13:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF14:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF14:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF14:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF15:edgeEventCount" type="iocPoint">
+    <comment></comment>
+    <name>evt:WF15:edgeEventCount</name>
+    <pv>$(p)$(card)evt:WF15:edgeEventCount</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF1:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF1:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF1:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF2:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF2:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF2:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF3:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF3:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF3:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF4:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF4:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF4:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF5:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF5:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF5:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF6:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF6:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF6:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF7:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF7:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF7:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF8:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF8:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF8:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF9:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF9:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF9:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF10:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF10:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF10:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF11:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF11:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF11:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF12:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF12:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF12:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF13:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF13:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF13:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF14:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF14:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF14:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="evt:WF15:enableEdgeEvent" type="iocEnumValue">
+    <comment></comment>
+    <name>evt:WF15:enableEdgeEvent</name>
+    <pv>$(p)$(card)evt:WF15:enableEdgeEvent</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

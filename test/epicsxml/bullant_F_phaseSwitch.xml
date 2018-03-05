@@ -1,0 +1,17 @@
+<macros>
+  <Group name="F_phaseSwitch:mode_O" type="iocEnumValue">
+    <comment>phase switch mode:phase switch mode</comment>
+    <name>F_phaseSwitch:mode_O</name>
+    <pv>$(p)$(card)F_phaseSwitch:mode_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_phaseSwitch:frequency_O" type="iocPoint">
+    <comment>frequency in hertz</comment>
+    <name>F_phaseSwitch:frequency_O</name>
+    <pv>$(p)$(card)F_phaseSwitch:frequency_O</pv>
+    <egu>Hz</egu>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

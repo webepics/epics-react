@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_calDownload:exec_O",
+    "name": "F_calDownload:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "cal correlator integration time",
+    "pvname": "$(p)$(card)F_calDownload:intTime_O",
+    "name": "F_calDownload:intTime_O",
+    "size": "1"
+  },
+  {
+    "description": "cal correltor download time",
+    "pvname": "$(p)$(card)F_calDownload:dlTime_O",
+    "name": "F_calDownload:dlTime_O",
+    "size": "1"
+  },
+  {
+    "description": "Reference Port Delay",
+    "pvname": "$(p)$(card)F_calDownload:refDelay_O",
+    "name": "F_calDownload:refDelay_O",
+    "size": "1"
+  },
+  {
+    "description": "Reference Port",
+    "pvname": "$(p)$(card)F_calDownload:refPort_O",
+    "name": "F_calDownload:refPort_O",
+    "size": "1"
+  },
+  {
+    "description": "Frequency Index",
+    "pvname": "$(p)$(card)F_calDownload:freqSelect_O",
+    "name": "F_calDownload:freqSelect_O",
+    "size": "1"
+  },
+  {
+    "description": "start cal correlator download",
+    "pvname": "$(p)$(card)F_calDownload:start_O",
+    "name": "F_calDownload:start_O",
+    "size": "1"
+  },
+  {
+    "description": "stop cal correlator download",
+    "pvname": "$(p)$(card)F_calDownload:stop_O",
+    "name": "F_calDownload:stop_O",
+    "size": "1"
+  }
+]

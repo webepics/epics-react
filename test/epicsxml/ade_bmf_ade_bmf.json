@@ -1,0 +1,26 @@
+[
+  {
+    "description": "reference epoch",
+    "pvname": "$(p)$(card)refEpoch_O",
+    "name": "refEpoch_O",
+    "size": "2"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)macIPAddr_O",
+    "name": "macIPAddr_O",
+    "size": "6912"
+  },
+  {
+    "description": "ref epoch from BAT",
+    "pvname": "$(p)$(card)setEpoch_O",
+    "name": "setEpoch_O",
+    "size": "1"
+  },
+  {
+    "description": "FPGA subband ID",
+    "pvname": "$(p)$(card)fpgaSubbands",
+    "name": "fpgaSubbands",
+    "size": "6"
+  }
+]

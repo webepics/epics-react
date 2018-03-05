@@ -1,0 +1,30 @@
+<macros>
+  <Group name="F_beamWeights:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_beamWeights:exec_O</name>
+    <pv>$(p)$(card)F_beamWeights:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_beamWeights:uploadDefaults_O" type="iocEnumBit">
+    <comment>upload default weights</comment>
+    <name>F_beamWeights:uploadDefaults_O</name>
+    <pv>$(p)$(card)F_beamWeights:uploadDefaults_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_beamWeights:weightsUploaded" type="iocPoint">
+    <comment>weights upload OK</comment>
+    <name>F_beamWeights:weightsUploaded</name>
+    <pv>$(p)$(card)F_beamWeights:weightsUploaded</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_beamWeights:weightsUpdated" type="iocPoint">
+    <comment>weights applied</comment>
+    <name>F_beamWeights:weightsUpdated</name>
+    <pv>$(p)$(card)F_beamWeights:weightsUpdated</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

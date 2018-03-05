@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_resetOnboardLinks:exec_O",
+    "name": "F_resetOnboardLinks:exec_O",
+    "size": "1"
+  }
+]

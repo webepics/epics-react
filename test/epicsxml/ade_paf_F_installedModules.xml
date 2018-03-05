@@ -1,0 +1,23 @@
+<macros>
+  <Group name="F_installedModules:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_installedModules:exec_O</name>
+    <pv>$(p)F_installedModules:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_installedModules:tecPresent_O" type="iocEnumBit">
+    <comment>TEC Controller Present</comment>
+    <name>F_installedModules:tecPresent_O</name>
+    <pv>$(p)F_installedModules:tecPresent_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_installedModules:psPresent_O" type="iocEnumBit">
+    <comment>PAF PSU Present</comment>
+    <name>F_installedModules:psPresent_O</name>
+    <pv>$(p)F_installedModules:psPresent_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

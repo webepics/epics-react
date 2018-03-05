@@ -1,0 +1,68 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_processCorrelations:exec_O",
+    "name": "F_processCorrelations:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "BAT from correlator",
+    "pvname": "$(p)$(card)F_processCorrelations:downloadBAT",
+    "name": "F_processCorrelations:downloadBAT",
+    "size": "1"
+  },
+  {
+    "description": "BAT from correlator download",
+    "pvname": "$(p)$(card)F_processCorrelations:timeStampBATStr",
+    "name": "F_processCorrelations:timeStampBATStr",
+    "size": "1"
+  },
+  {
+    "description": "integration epoch BAT",
+    "pvname": "$(p)$(card)F_processCorrelations:intEpochBATStr",
+    "name": "F_processCorrelations:intEpochBATStr",
+    "size": "1"
+  },
+  {
+    "description": "BAT from cor integration",
+    "pvname": "$(p)$(card)F_processCorrelations:freqTimeStampBATStr",
+    "name": "F_processCorrelations:freqTimeStampBATStr",
+    "size": "1"
+  },
+  {
+    "description": "Correlations processed count",
+    "pvname": "$(p)$(card)F_processCorrelations:downloadCount",
+    "name": "F_processCorrelations:downloadCount",
+    "size": "1"
+  },
+  {
+    "description": "Count of timeout errors",
+    "pvname": "$(p)$(card)F_processCorrelations:timeoutCount",
+    "name": "F_processCorrelations:timeoutCount",
+    "size": "1"
+  },
+  {
+    "description": "BAT error in data",
+    "pvname": "$(p)$(card)F_processCorrelations:batError",
+    "name": "F_processCorrelations:batError",
+    "size": "1"
+  },
+  {
+    "description": "count of BAT errors in data",
+    "pvname": "$(p)$(card)F_processCorrelations:batErrorCount",
+    "name": "F_processCorrelations:batErrorCount",
+    "size": "1"
+  },
+  {
+    "description": "Errors from data push",
+    "pvname": "$(p)$(card)F_processCorrelations:pushErrorCounts",
+    "name": "F_processCorrelations:pushErrorCounts",
+    "size": "6"
+  },
+  {
+    "description": "list of channel frequencies",
+    "pvname": "$(p)$(card)F_processCorrelations:skyFreqList",
+    "name": "F_processCorrelations:skyFreqList",
+    "size": "216"
+  }
+]

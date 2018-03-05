@@ -1,0 +1,9 @@
+<macros>
+  <Group name="metadata:cycleBATStr" type="iocPoint">
+    <comment></comment>
+    <name>metadata:cycleBATStr</name>
+    <pv>$(p)$(card)metadata:cycleBATStr</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+</macros>

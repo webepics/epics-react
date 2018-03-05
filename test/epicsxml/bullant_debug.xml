@@ -1,0 +1,86 @@
+<macros>
+  <Group name="debug:inhibitUpdates_O" type="iocEnumBit">
+    <comment></comment>
+    <name>debug:inhibitUpdates_O</name>
+    <pv>$(p)$(card)debug:inhibitUpdates_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:batEnabled_O" type="iocEnumBit">
+    <comment></comment>
+    <name>debug:batEnabled_O</name>
+    <pv>$(p)$(card)debug:batEnabled_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:emuMode_O" type="iocEnumValue">
+    <comment></comment>
+    <name>debug:emuMode_O</name>
+    <pv>$(p)$(card)debug:emuMode_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:emuRange_O" type="iocEnumValue">
+    <comment></comment>
+    <name>debug:emuRange_O</name>
+    <pv>$(p)$(card)debug:emuRange_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:emuReset_O" type="iocEnumBit">
+    <comment></comment>
+    <name>debug:emuReset_O</name>
+    <pv>$(p)$(card)debug:emuReset_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:emuDictSet_O" type="iocPoint">
+    <comment></comment>
+    <name>debug:emuDictSet_O</name>
+    <pv>$(p)$(card)debug:emuDictSet_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:emuDictKeys" type="iocPoint">
+    <comment></comment>
+    <name>debug:emuDictKeys</name>
+    <pv>$(p)$(card)debug:emuDictKeys</pv>
+    <type>char</type>
+    <size>512</size>
+  </Group>
+  <Group name="debug:dumpParams_O" type="iocEnumBit">
+    <comment></comment>
+    <name>debug:dumpParams_O</name>
+    <pv>$(p)$(card)debug:dumpParams_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:resetErrorCounts_O" type="iocEnumBit">
+    <comment></comment>
+    <name>debug:resetErrorCounts_O</name>
+    <pv>$(p)$(card)debug:resetErrorCounts_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:opticsDisable_O" type="iocPoint">
+    <comment></comment>
+    <name>debug:opticsDisable_O</name>
+    <pv>$(p)$(card)debug:opticsDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:rfofDisable_O" type="iocPoint">
+    <comment></comment>
+    <name>debug:rfofDisable_O</name>
+    <pv>$(p)$(card)debug:rfofDisable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="debug:noComms_O" type="iocEnumBit">
+    <comment></comment>
+    <name>debug:noComms_O</name>
+    <pv>$(p)$(card)debug:noComms_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

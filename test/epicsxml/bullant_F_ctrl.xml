@@ -1,0 +1,142 @@
+<macros>
+  <Group name="F_ctrl:connect" type="iocEnum">
+    <comment>connect to device</comment>
+    <name>F_ctrl:connect</name>
+    <pv>$(p)$(card)F_ctrl:connect</pv>
+    <type>input</type>
+    <size>1</size>
+  <Group name="F_ctrl:connect_O" type="iocPoint">
+    <comment>connect to device:bitfield status</comment>
+    <name>F_ctrl:connect_O</name>
+    <pv>$(p)$(card)F_ctrl:connect_O</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:connect_O" type="iocEnumBit">
+    <comment>connect to device</comment>
+    <name>F_ctrl:connect_O</name>
+    <pv>$(p)$(card)F_ctrl:connect_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:connect" type="iocEnumBit">
+    <comment>connect to device</comment>
+    <name>F_ctrl:connect</name>
+    <pv>$(p)$(card)F_ctrl:connect</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="F_ctrl:emulator" type="iocEnum">
+    <comment>toggle emulator</comment>
+    <name>F_ctrl:emulator</name>
+    <pv>$(p)$(card)F_ctrl:emulator</pv>
+    <type>input</type>
+    <size>1</size>
+  <Group name="F_ctrl:emulator_O" type="iocPoint">
+    <comment>toggle emulator:bitfield status</comment>
+    <name>F_ctrl:emulator_O</name>
+    <pv>$(p)$(card)F_ctrl:emulator_O</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:emulator_O" type="iocEnumBit">
+    <comment>toggle emulator</comment>
+    <name>F_ctrl:emulator_O</name>
+    <pv>$(p)$(card)F_ctrl:emulator_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:emulator" type="iocEnumBit">
+    <comment>toggle emulator</comment>
+    <name>F_ctrl:emulator</name>
+    <pv>$(p)$(card)F_ctrl:emulator</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="F_ctrl:clearPSErrors_O" type="iocEnumBit">
+    <comment>reset PS errors</comment>
+    <name>F_ctrl:clearPSErrors_O</name>
+    <pv>$(p)$(card)F_ctrl:clearPSErrors_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:state" type="iocPoint">
+    <comment>card state</comment>
+    <name>F_ctrl:state</name>
+    <pv>$(p)$(card)F_ctrl:state</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:cicadaMonEnable_O" type="iocEnumBit">
+    <comment>Enable Cicada Monitor Data</comment>
+    <name>F_ctrl:cicadaMonEnable_O</name>
+    <pv>$(p)$(card)F_ctrl:cicadaMonEnable_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:pollCicada" type="iocEnumBit">
+    <comment>cicada polling indicator</comment>
+    <name>F_ctrl:pollCicada</name>
+    <pv>$(p)$(card)F_ctrl:pollCicada</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:connect" type="iocEnum">
+    <comment>connect to device</comment>
+    <name>F_ctrl:connect</name>
+    <pv>$(p)$(card)F_ctrl:connect</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="F_ctrl:connect_O" type="iocPoint">
+    <comment>connect to device:bitfield status</comment>
+    <name>F_ctrl:connect_O</name>
+    <pv>$(p)$(card)F_ctrl:connect_O</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:connect_O" type="iocEnumBit">
+    <comment>connect to device</comment>
+    <name>F_ctrl:connect_O</name>
+    <pv>$(p)$(card)F_ctrl:connect_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:connect" type="iocEnumBit">
+    <comment>connect to device</comment>
+    <name>F_ctrl:connect</name>
+    <pv>$(p)$(card)F_ctrl:connect</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="F_ctrl:emulator" type="iocEnum">
+    <comment>toggle emulator</comment>
+    <name>F_ctrl:emulator</name>
+    <pv>$(p)$(card)F_ctrl:emulator</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="F_ctrl:emulator_O" type="iocPoint">
+    <comment>toggle emulator:bitfield status</comment>
+    <name>F_ctrl:emulator_O</name>
+    <pv>$(p)$(card)F_ctrl:emulator_O</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:emulator_O" type="iocEnumBit">
+    <comment>toggle emulator</comment>
+    <name>F_ctrl:emulator_O</name>
+    <pv>$(p)$(card)F_ctrl:emulator_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_ctrl:emulator" type="iocEnumBit">
+    <comment>toggle emulator</comment>
+    <name>F_ctrl:emulator</name>
+    <pv>$(p)$(card)F_ctrl:emulator</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

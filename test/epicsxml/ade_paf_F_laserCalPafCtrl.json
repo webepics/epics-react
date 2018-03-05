@@ -1,0 +1,26 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalPafCtrl:exec_O",
+    "name": "F_laserCalPafCtrl:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalPafCtrl:mode_O",
+    "name": "F_laserCalPafCtrl:mode_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalPafCtrl:adjustment_O",
+    "name": "F_laserCalPafCtrl:adjustment_O",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)F_laserCalPafCtrl:memMon",
+    "name": "F_laserCalPafCtrl:memMon",
+    "size": "1"
+  }
+]

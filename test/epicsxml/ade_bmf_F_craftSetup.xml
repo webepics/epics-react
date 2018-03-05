@@ -1,0 +1,44 @@
+<macros>
+  <Group name="F_craftSetup:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_craftSetup:exec_O</name>
+    <pv>$(p)$(card)F_craftSetup:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_craftSetup:intTime_O" type="iocPoint">
+    <comment>integration time (samples/frames)</comment>
+    <name>F_craftSetup:intTime_O</name>
+    <pv>$(p)$(card)F_craftSetup:intTime_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_craftSetup:intCount_O" type="iocPoint">
+    <comment>number of intergrations</comment>
+    <name>F_craftSetup:intCount_O</name>
+    <pv>$(p)$(card)F_craftSetup:intCount_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_craftSetup:mode_O" type="iocPoint">
+    <comment>date mode</comment>
+    <name>F_craftSetup:mode_O</name>
+    <pv>$(p)$(card)F_craftSetup:mode_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_craftSetup:beam_O" type="iocPoint">
+    <comment>beam index</comment>
+    <name>F_craftSetup:beam_O</name>
+    <pv>$(p)$(card)F_craftSetup:beam_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_craftSetup:start_O" type="iocPoint">
+    <comment>start event if set</comment>
+    <name>F_craftSetup:start_O</name>
+    <pv>$(p)$(card)F_craftSetup:start_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

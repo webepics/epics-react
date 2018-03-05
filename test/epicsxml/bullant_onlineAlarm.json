@@ -1,0 +1,20 @@
+[
+  {
+    "description": "take state offline",
+    "pvname": "$(p)$(card)onlineAlarm:card_O",
+    "name": "onlineAlarm:card_O",
+    "size": "1"
+  },
+  {
+    "description": "take state offline",
+    "pvname": "$(p)$(card)onlineAlarm:global_O",
+    "name": "onlineAlarm:global_O",
+    "size": "1"
+  },
+  {
+    "description": "don't auto return to online",
+    "pvname": "$(p)$(card)onlineAlarm:latched_O",
+    "name": "onlineAlarm:latched_O",
+    "size": "1"
+  }
+]

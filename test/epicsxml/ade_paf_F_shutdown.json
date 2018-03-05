@@ -1,0 +1,38 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_shutdown:exec_O",
+    "name": "F_shutdown:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "shutdown PAF FEC",
+    "pvname": "$(p)F_shutdown:shutdownFEC_O",
+    "name": "F_shutdown:shutdownFEC_O",
+    "size": "1"
+  },
+  {
+    "description": "shutdown PAF PSU",
+    "pvname": "$(p)F_shutdown:shutdownPSU_O",
+    "name": "F_shutdown:shutdownPSU_O",
+    "size": "1"
+  },
+  {
+    "description": "shutdown PAF TEC",
+    "pvname": "$(p)F_shutdown:shutdownTEC_O",
+    "name": "F_shutdown:shutdownTEC_O",
+    "size": "1"
+  },
+  {
+    "description": "shutdown TEC PSU",
+    "pvname": "$(p)F_shutdown:shutdownTECPSU_O",
+    "name": "F_shutdown:shutdownTECPSU_O",
+    "size": "1"
+  },
+  {
+    "description": "TEC PSU disable output",
+    "pvname": "$(p)F_shutdown:tecPsuDisable",
+    "name": "F_shutdown:tecPsuDisable",
+    "size": "1"
+  }
+]

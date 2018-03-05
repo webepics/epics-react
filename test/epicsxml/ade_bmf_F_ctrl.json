@@ -1,0 +1,14 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_ctrl:exec_O",
+    "name": "F_ctrl:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "port mapping",
+    "pvname": "$(p)$(card)F_ctrl:portMap_O",
+    "name": "F_ctrl:portMap_O",
+    "size": "192"
+  }
+]

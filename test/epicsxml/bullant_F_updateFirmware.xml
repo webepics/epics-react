@@ -1,0 +1,51 @@
+<macros>
+  <Group name="F_updateFirmware:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_updateFirmware:exec_O</name>
+    <pv>$(p)$(card)F_updateFirmware:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_updateFirmware:reset_O" type="iocEnumBit">
+    <comment>reset FPGA after load</comment>
+    <name>F_updateFirmware:reset_O</name>
+    <pv>$(p)$(card)F_updateFirmware:reset_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_updateFirmware:verify_O" type="iocEnumBit">
+    <comment>verify current firmware only</comment>
+    <name>F_updateFirmware:verify_O</name>
+    <pv>$(p)$(card)F_updateFirmware:verify_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_updateFirmware:firmwareOK" type="iocEnumBit">
+    <comment>firmware update / verify OK</comment>
+    <name>F_updateFirmware:firmwareOK</name>
+    <pv>$(p)$(card)F_updateFirmware:firmwareOK</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_updateFirmware:resetTrigger" type="iocEnumBit">
+    <comment>trigger for FPGA reset</comment>
+    <name>F_updateFirmware:resetTrigger</name>
+    <pv>$(p)$(card)F_updateFirmware:resetTrigger</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_updateFirmware:progress" type="iocPoint">
+    <comment>firmware update / verify progress</comment>
+    <name>F_updateFirmware:progress</name>
+    <pv>$(p)$(card)F_updateFirmware:progress</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_updateFirmware:status" type="iocEnumValue">
+    <comment>firmware erase/write cycle:firmware erase/write cycle</comment>
+    <name>F_updateFirmware:status</name>
+    <pv>$(p)$(card)F_updateFirmware:status</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

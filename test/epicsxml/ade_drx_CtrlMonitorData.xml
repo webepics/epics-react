@@ -1,0 +1,2390 @@
+<macros>
+  <Group name="bul:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>CtrlMonitorData:status</name>
+    <pv>$(p)$(card)bul:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan" type="iocArray">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan</name>
+    <pv>$(p)$(card)bul:chassisFan</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan1" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan1</name>
+    <pv>$(p)$(card)bul:chassisFan1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan1:voltage" type="iocPoint">
+    <comment>Chassis Fans 1:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan1:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan1:voltage</pv>
+    <egu>%%V</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:tacho" type="iocPoint">
+    <comment>Chassis Fans 1:Speed</comment>
+    <name>CtrlMonitorData:chassisFan1:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan1:tacho</pv>
+    <egu>RPM</egu>
+    <index>1</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan1:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 1:Status 1:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B0</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B1</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B2</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B3</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B4</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B5</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan1:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 1:Status</comment>
+    <name>CtrlMonitorData:chassisFan1:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan1:fanStatus:B6</pv>
+    <index>1</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan1:status" type="iocPoint">
+    <comment>Chassis Fans 1:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan1:status</name>
+    <pv>$(p)$(card)bul:chassisFan1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan2" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan2</name>
+    <pv>$(p)$(card)bul:chassisFan2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan2:voltage" type="iocPoint">
+    <comment>Chassis Fans 2:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan2:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan2:voltage</pv>
+    <egu>%%V</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:tacho" type="iocPoint">
+    <comment>Chassis Fans 2:Speed</comment>
+    <name>CtrlMonitorData:chassisFan2:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan2:tacho</pv>
+    <egu>RPM</egu>
+    <index>2</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan2:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 2:Status 2:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B0</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B1</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B2</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B3</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B4</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B5</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan2:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 2:Status</comment>
+    <name>CtrlMonitorData:chassisFan2:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan2:fanStatus:B6</pv>
+    <index>2</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan2:status" type="iocPoint">
+    <comment>Chassis Fans 2:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan2:status</name>
+    <pv>$(p)$(card)bul:chassisFan2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan3" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan3</name>
+    <pv>$(p)$(card)bul:chassisFan3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan3:voltage" type="iocPoint">
+    <comment>Chassis Fans 3:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan3:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan3:voltage</pv>
+    <egu>%%V</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:tacho" type="iocPoint">
+    <comment>Chassis Fans 3:Speed</comment>
+    <name>CtrlMonitorData:chassisFan3:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan3:tacho</pv>
+    <egu>RPM</egu>
+    <index>3</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan3:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 3:Status 3:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B0</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B1</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B2</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B3</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B4</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B5</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan3:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 3:Status</comment>
+    <name>CtrlMonitorData:chassisFan3:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan3:fanStatus:B6</pv>
+    <index>3</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan3:status" type="iocPoint">
+    <comment>Chassis Fans 3:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan3:status</name>
+    <pv>$(p)$(card)bul:chassisFan3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan4" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan4</name>
+    <pv>$(p)$(card)bul:chassisFan4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan4:voltage" type="iocPoint">
+    <comment>Chassis Fans 4:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan4:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan4:voltage</pv>
+    <egu>%%V</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:tacho" type="iocPoint">
+    <comment>Chassis Fans 4:Speed</comment>
+    <name>CtrlMonitorData:chassisFan4:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan4:tacho</pv>
+    <egu>RPM</egu>
+    <index>4</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan4:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 4:Status 4:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B0</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B1</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B2</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B3</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B4</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B5</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan4:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 4:Status</comment>
+    <name>CtrlMonitorData:chassisFan4:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan4:fanStatus:B6</pv>
+    <index>4</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan4:status" type="iocPoint">
+    <comment>Chassis Fans 4:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan4:status</name>
+    <pv>$(p)$(card)bul:chassisFan4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan5" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan5</name>
+    <pv>$(p)$(card)bul:chassisFan5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan5:voltage" type="iocPoint">
+    <comment>Chassis Fans 5:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan5:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan5:voltage</pv>
+    <egu>%%V</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:tacho" type="iocPoint">
+    <comment>Chassis Fans 5:Speed</comment>
+    <name>CtrlMonitorData:chassisFan5:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan5:tacho</pv>
+    <egu>RPM</egu>
+    <index>5</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan5:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 5:Status 5:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B0</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B1</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B2</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B3</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B4</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B5</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan5:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 5:Status</comment>
+    <name>CtrlMonitorData:chassisFan5:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan5:fanStatus:B6</pv>
+    <index>5</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan5:status" type="iocPoint">
+    <comment>Chassis Fans 5:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan5:status</name>
+    <pv>$(p)$(card)bul:chassisFan5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan6" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan6</name>
+    <pv>$(p)$(card)bul:chassisFan6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan6:voltage" type="iocPoint">
+    <comment>Chassis Fans 6:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan6:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan6:voltage</pv>
+    <egu>%%V</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:tacho" type="iocPoint">
+    <comment>Chassis Fans 6:Speed</comment>
+    <name>CtrlMonitorData:chassisFan6:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan6:tacho</pv>
+    <egu>RPM</egu>
+    <index>6</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan6:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 6:Status 6:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B0</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B1</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B2</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B3</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B4</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B5</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan6:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 6:Status</comment>
+    <name>CtrlMonitorData:chassisFan6:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan6:fanStatus:B6</pv>
+    <index>6</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan6:status" type="iocPoint">
+    <comment>Chassis Fans 6:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan6:status</name>
+    <pv>$(p)$(card)bul:chassisFan6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan7" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan7</name>
+    <pv>$(p)$(card)bul:chassisFan7</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan7:voltage" type="iocPoint">
+    <comment>Chassis Fans 7:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan7:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan7:voltage</pv>
+    <egu>%%V</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:tacho" type="iocPoint">
+    <comment>Chassis Fans 7:Speed</comment>
+    <name>CtrlMonitorData:chassisFan7:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan7:tacho</pv>
+    <egu>RPM</egu>
+    <index>7</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus</pv>
+    <index>7</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan7:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 7:Status 7:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus</pv>
+    <index>7</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B0</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B1</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B2</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B3</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B4</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B5</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan7:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 7:Status</comment>
+    <name>CtrlMonitorData:chassisFan7:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan7:fanStatus:B6</pv>
+    <index>7</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan7:status" type="iocPoint">
+    <comment>Chassis Fans 7:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan7:status</name>
+    <pv>$(p)$(card)bul:chassisFan7:status</pv>
+    <index>7</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan8" type="iocStructure">
+    <comment>Chassis Fans</comment>
+    <name>CtrlMonitorData:chassisFan8</name>
+    <pv>$(p)$(card)bul:chassisFan8</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan8:voltage" type="iocPoint">
+    <comment>Chassis Fans 8:Percentage of voltage maximum</comment>
+    <name>CtrlMonitorData:chassisFan8:voltage</name>
+    <pv>$(p)$(card)bul:chassisFan8:voltage</pv>
+    <egu>%%V</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:tacho" type="iocPoint">
+    <comment>Chassis Fans 8:Speed</comment>
+    <name>CtrlMonitorData:chassisFan8:tacho</name>
+    <pv>$(p)$(card)bul:chassisFan8:tacho</pv>
+    <egu>RPM</egu>
+    <index>8</index>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus" type="iocEnum">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus</pv>
+    <index>8</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:chassisFan8:fanStatus" type="iocPoint">
+    <comment>Chassis Fans 8:Status 8:bitfield status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus</pv>
+    <index>8</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B0" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B0</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B1" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B1</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B2" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B2</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B3" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B3</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B4" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B4</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B5" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B5</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:chassisFan8:fanStatus:B6" type="iocEnumBit">
+    <comment>Chassis Fans 8:Status</comment>
+    <name>CtrlMonitorData:chassisFan8:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:chassisFan8:fanStatus:B6</pv>
+    <index>8</index>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:chassisFan8:status" type="iocPoint">
+    <comment>Chassis Fans 8:AdbeStatus</comment>
+    <name>CtrlMonitorData:chassisFan8:status</name>
+    <pv>$(p)$(card)bul:chassisFan8:status</pv>
+    <index>8</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="bul:atxFan" type="iocStructure">
+    <comment>ATX Fan</comment>
+    <name>CtrlMonitorData:atxFan</name>
+    <pv>$(p)$(card)bul:atxFan</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atxFan:tacho" type="iocPoint">
+    <comment>ATX Fan:Speed</comment>
+    <name>CtrlMonitorData:atxFan:tacho</name>
+    <pv>$(p)$(card)bul:atxFan:tacho</pv>
+    <egu>RPM</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus" type="iocEnum">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atxFan:fanStatus" type="iocPoint">
+    <comment>ATX Fan:Status:bitfield status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B0" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B0</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B1" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B1</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B2" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B2</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B3" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B3</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B4" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B4</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B5" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B5</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxFan:fanStatus:B6" type="iocEnumBit">
+    <comment>ATX Fan:Status</comment>
+    <name>CtrlMonitorData:atxFan:fanStatus:B6</name>
+    <pv>$(p)$(card)bul:atxFan:fanStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atxFan:status" type="iocPoint">
+    <comment>ATX Fan:AdbeStatus</comment>
+    <name>CtrlMonitorData:atxFan:status</name>
+    <pv>$(p)$(card)bul:atxFan:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempLocal" type="iocArray">
+    <comment>Bullant Local</comment>
+    <name>CtrlMonitorData:tempLocal</name>
+    <pv>$(p)$(card)bul:tempLocal</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempLocal1" type="iocStructure">
+    <comment>Bullant Local</comment>
+    <name>CtrlMonitorData:tempLocal1</name>
+    <pv>$(p)$(card)bul:tempLocal1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempLocal1:temp" type="iocPoint">
+    <comment>Bullant Local 1:Temperature</comment>
+    <name>CtrlMonitorData:tempLocal1:temp</name>
+    <pv>$(p)$(card)bul:tempLocal1:temp</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempLocal1:status" type="iocPoint">
+    <comment>Bullant Local 1:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempLocal1:status</name>
+    <pv>$(p)$(card)bul:tempLocal1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempLocal2" type="iocStructure">
+    <comment>Bullant Local</comment>
+    <name>CtrlMonitorData:tempLocal2</name>
+    <pv>$(p)$(card)bul:tempLocal2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempLocal2:temp" type="iocPoint">
+    <comment>Bullant Local 2:Temperature</comment>
+    <name>CtrlMonitorData:tempLocal2:temp</name>
+    <pv>$(p)$(card)bul:tempLocal2:temp</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempLocal2:status" type="iocPoint">
+    <comment>Bullant Local 2:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempLocal2:status</name>
+    <pv>$(p)$(card)bul:tempLocal2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="bul:tempFpga" type="iocStructure">
+    <comment>Bullant FPGA</comment>
+    <name>CtrlMonitorData:tempFpga</name>
+    <pv>$(p)$(card)bul:tempFpga</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempFpga:temp" type="iocPoint">
+    <comment>Bullant FPGA:Temperature</comment>
+    <name>CtrlMonitorData:tempFpga:temp</name>
+    <pv>$(p)$(card)bul:tempFpga:temp</pv>
+    <egu>C</egu>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempFpga:status" type="iocPoint">
+    <comment>Bullant FPGA:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempFpga:status</name>
+    <pv>$(p)$(card)bul:tempFpga:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempPower" type="iocStructure">
+    <comment>Power Supplies</comment>
+    <name>CtrlMonitorData:tempPower</name>
+    <pv>$(p)$(card)bul:tempPower</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempPower:temp" type="iocPoint">
+    <comment>Power Supplies:Temperature</comment>
+    <name>CtrlMonitorData:tempPower:temp</name>
+    <pv>$(p)$(card)bul:tempPower:temp</pv>
+    <egu>C</egu>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempPower:status" type="iocPoint">
+    <comment>Power Supplies:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempPower:status</name>
+    <pv>$(p)$(card)bul:tempPower:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempEthernet" type="iocStructure">
+    <comment>Ethernet PHY</comment>
+    <name>CtrlMonitorData:tempEthernet</name>
+    <pv>$(p)$(card)bul:tempEthernet</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempEthernet:temp" type="iocPoint">
+    <comment>Ethernet PHY:Temperature</comment>
+    <name>CtrlMonitorData:tempEthernet:temp</name>
+    <pv>$(p)$(card)bul:tempEthernet:temp</pv>
+    <egu>C</egu>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempEthernet:status" type="iocPoint">
+    <comment>Ethernet PHY:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempEthernet:status</name>
+    <pv>$(p)$(card)bul:tempEthernet:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempFan" type="iocArray">
+    <comment>Fan</comment>
+    <name>CtrlMonitorData:tempFan</name>
+    <pv>$(p)$(card)bul:tempFan</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempFan1" type="iocStructure">
+    <comment>Fan</comment>
+    <name>CtrlMonitorData:tempFan1</name>
+    <pv>$(p)$(card)bul:tempFan1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempFan1:temp" type="iocPoint">
+    <comment>Fan 1:Fan Control Temperature</comment>
+    <name>CtrlMonitorData:tempFan1:temp</name>
+    <pv>$(p)$(card)bul:tempFan1:temp</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempFan1:status" type="iocPoint">
+    <comment>Fan 1:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempFan1:status</name>
+    <pv>$(p)$(card)bul:tempFan1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempFan2" type="iocStructure">
+    <comment>Fan</comment>
+    <name>CtrlMonitorData:tempFan2</name>
+    <pv>$(p)$(card)bul:tempFan2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempFan2:temp" type="iocPoint">
+    <comment>Fan 2:Fan Control Temperature</comment>
+    <name>CtrlMonitorData:tempFan2:temp</name>
+    <pv>$(p)$(card)bul:tempFan2:temp</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempFan2:status" type="iocPoint">
+    <comment>Fan 2:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempFan2:status</name>
+    <pv>$(p)$(card)bul:tempFan2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="bul:tempAux" type="iocArray">
+    <comment>Aux</comment>
+    <name>CtrlMonitorData:tempAux</name>
+    <pv>$(p)$(card)bul:tempAux</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempAux1" type="iocStructure">
+    <comment>Aux</comment>
+    <name>CtrlMonitorData:tempAux1</name>
+    <pv>$(p)$(card)bul:tempAux1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempAux1:temp" type="iocPoint">
+    <comment>Aux 1:Bullant Chassis Temperature</comment>
+    <name>CtrlMonitorData:tempAux1:temp</name>
+    <pv>$(p)$(card)bul:tempAux1:temp</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempAux1:status" type="iocPoint">
+    <comment>Aux 1:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempAux1:status</name>
+    <pv>$(p)$(card)bul:tempAux1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempAux2" type="iocStructure">
+    <comment>Aux</comment>
+    <name>CtrlMonitorData:tempAux2</name>
+    <pv>$(p)$(card)bul:tempAux2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempAux2:temp" type="iocPoint">
+    <comment>Aux 2:Bullant Chassis Temperature</comment>
+    <name>CtrlMonitorData:tempAux2:temp</name>
+    <pv>$(p)$(card)bul:tempAux2:temp</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempAux2:status" type="iocPoint">
+    <comment>Aux 2:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempAux2:status</name>
+    <pv>$(p)$(card)bul:tempAux2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="bul:tempATX" type="iocArray">
+    <comment>ATX</comment>
+    <name>CtrlMonitorData:tempATX</name>
+    <pv>$(p)$(card)bul:tempATX</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempATX1" type="iocStructure">
+    <comment>ATX</comment>
+    <name>CtrlMonitorData:tempATX1</name>
+    <pv>$(p)$(card)bul:tempATX1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempATX1:temp" type="iocPoint">
+    <comment>ATX 1:ATX Power Supply temperature</comment>
+    <name>CtrlMonitorData:tempATX1:temp</name>
+    <pv>$(p)$(card)bul:tempATX1:temp</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempATX1:status" type="iocPoint">
+    <comment>ATX 1:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempATX1:status</name>
+    <pv>$(p)$(card)bul:tempATX1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:tempATX2" type="iocStructure">
+    <comment>ATX</comment>
+    <name>CtrlMonitorData:tempATX2</name>
+    <pv>$(p)$(card)bul:tempATX2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:tempATX2:temp" type="iocPoint">
+    <comment>ATX 2:ATX Power Supply temperature</comment>
+    <name>CtrlMonitorData:tempATX2:temp</name>
+    <pv>$(p)$(card)bul:tempATX2:temp</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:tempATX2:status" type="iocPoint">
+    <comment>ATX 2:AdbeStatus</comment>
+    <name>CtrlMonitorData:tempATX2:status</name>
+    <pv>$(p)$(card)bul:tempATX2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="bul:power1V" type="iocStructure">
+    <comment>FPGA Core Supply</comment>
+    <name>CtrlMonitorData:power1V</name>
+    <pv>$(p)$(card)bul:power1V</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power1V:iout" type="iocPoint">
+    <comment>FPGA Core Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:power1V:iout</name>
+    <pv>$(p)$(card)bul:power1V:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:vout" type="iocPoint">
+    <comment>FPGA Core Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:power1V:vout</name>
+    <pv>$(p)$(card)bul:power1V:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:vin" type="iocPoint">
+    <comment>FPGA Core Supply:Input voltage of regulator</comment>
+    <name>CtrlMonitorData:power1V:vin</name>
+    <pv>$(p)$(card)bul:power1V:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus" type="iocEnum">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power1V:supplyStatus" type="iocPoint">
+    <comment>FPGA Core Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B0" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B1" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B2" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B3" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B4" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B5" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V:supplyStatus:B6" type="iocEnumBit">
+    <comment>FPGA Core Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:power1V:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power1V:status" type="iocPoint">
+    <comment>FPGA Core Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:power1V:status</name>
+    <pv>$(p)$(card)bul:power1V:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power2V5" type="iocStructure">
+    <comment>2.5V Supply</comment>
+    <name>CtrlMonitorData:power2V5</name>
+    <pv>$(p)$(card)bul:power2V5</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power2V5:iout" type="iocPoint">
+    <comment>2.5V Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:power2V5:iout</name>
+    <pv>$(p)$(card)bul:power2V5:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:vout" type="iocPoint">
+    <comment>2.5V Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:power2V5:vout</name>
+    <pv>$(p)$(card)bul:power2V5:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:vin" type="iocPoint">
+    <comment>2.5V Supply:Input voltage of regulator</comment>
+    <name>CtrlMonitorData:power2V5:vin</name>
+    <pv>$(p)$(card)bul:power2V5:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus" type="iocEnum">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power2V5:supplyStatus" type="iocPoint">
+    <comment>2.5V Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B0" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B1" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B2" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B3" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B4" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B5" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power2V5:supplyStatus:B6" type="iocEnumBit">
+    <comment>2.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power2V5:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:power2V5:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power2V5:status" type="iocPoint">
+    <comment>2.5V Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:power2V5:status</name>
+    <pv>$(p)$(card)bul:power2V5:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power3V3" type="iocStructure">
+    <comment>3.3V Supply</comment>
+    <name>CtrlMonitorData:power3V3</name>
+    <pv>$(p)$(card)bul:power3V3</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power3V3:iout" type="iocPoint">
+    <comment>3.3V Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:power3V3:iout</name>
+    <pv>$(p)$(card)bul:power3V3:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:vout" type="iocPoint">
+    <comment>3.3V Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:power3V3:vout</name>
+    <pv>$(p)$(card)bul:power3V3:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:vin" type="iocPoint">
+    <comment>3.3V Supply:Input voltage of regulator</comment>
+    <name>CtrlMonitorData:power3V3:vin</name>
+    <pv>$(p)$(card)bul:power3V3:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus" type="iocEnum">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power3V3:supplyStatus" type="iocPoint">
+    <comment>3.3V Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B0" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B1" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B2" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B3" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B4" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B5" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power3V3:supplyStatus:B6" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power3V3:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:power3V3:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power3V3:status" type="iocPoint">
+    <comment>3.3V Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:power3V3:status</name>
+    <pv>$(p)$(card)bul:power3V3:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power1V5" type="iocStructure">
+    <comment>1.5V Supply</comment>
+    <name>CtrlMonitorData:power1V5</name>
+    <pv>$(p)$(card)bul:power1V5</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power1V5:iout" type="iocPoint">
+    <comment>1.5V Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:power1V5:iout</name>
+    <pv>$(p)$(card)bul:power1V5:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:vout" type="iocPoint">
+    <comment>1.5V Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:power1V5:vout</name>
+    <pv>$(p)$(card)bul:power1V5:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:vin" type="iocPoint">
+    <comment>1.5V Supply:Input voltage of regulator</comment>
+    <name>CtrlMonitorData:power1V5:vin</name>
+    <pv>$(p)$(card)bul:power1V5:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus" type="iocEnum">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power1V5:supplyStatus" type="iocPoint">
+    <comment>1.5V Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B0" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B1" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B2" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B3" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B4" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B5" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V5:supplyStatus:B6" type="iocEnumBit">
+    <comment>1.5V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V5:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:power1V5:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power1V5:status" type="iocPoint">
+    <comment>1.5V Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:power1V5:status</name>
+    <pv>$(p)$(card)bul:power1V5:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power1V2" type="iocStructure">
+    <comment>1.2V Supply</comment>
+    <name>CtrlMonitorData:power1V2</name>
+    <pv>$(p)$(card)bul:power1V2</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power1V2:iout" type="iocPoint">
+    <comment>1.2V Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:power1V2:iout</name>
+    <pv>$(p)$(card)bul:power1V2:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:vout" type="iocPoint">
+    <comment>1.2V Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:power1V2:vout</name>
+    <pv>$(p)$(card)bul:power1V2:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:vin" type="iocPoint">
+    <comment>1.2V Supply:Input voltage of regulator</comment>
+    <name>CtrlMonitorData:power1V2:vin</name>
+    <pv>$(p)$(card)bul:power1V2:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus" type="iocEnum">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:power1V2:supplyStatus" type="iocPoint">
+    <comment>1.2V Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B0" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B1" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B2" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B3" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B4" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B5" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:power1V2:supplyStatus:B6" type="iocEnumBit">
+    <comment>1.2V Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:power1V2:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:power1V2:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:power1V2:status" type="iocPoint">
+    <comment>1.2V Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:power1V2:status</name>
+    <pv>$(p)$(card)bul:power1V2:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx3V3" type="iocStructure">
+    <comment>3.3V ATX Supply</comment>
+    <name>CtrlMonitorData:atx3V3</name>
+    <pv>$(p)$(card)bul:atx3V3</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx3V3:iout" type="iocPoint">
+    <comment>3.3V ATX Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:atx3V3:iout</name>
+    <pv>$(p)$(card)bul:atx3V3:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:vout" type="iocPoint">
+    <comment>3.3V ATX Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:atx3V3:vout</name>
+    <pv>$(p)$(card)bul:atx3V3:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus" type="iocEnum">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx3V3:supplyStatus" type="iocPoint">
+    <comment>3.3V ATX Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B0" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B1" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B2" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B3" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B4" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B5" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx3V3:supplyStatus:B6" type="iocEnumBit">
+    <comment>3.3V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx3V3:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:atx3V3:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx3V3:status" type="iocPoint">
+    <comment>3.3V ATX Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:atx3V3:status</name>
+    <pv>$(p)$(card)bul:atx3V3:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:rfof5V9" type="iocStructure">
+    <comment>5.9V RFoF Supply</comment>
+    <name>CtrlMonitorData:rfof5V9</name>
+    <pv>$(p)$(card)bul:rfof5V9</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:rfof5V9:iout" type="iocPoint">
+    <comment>5.9V RFoF Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:rfof5V9:iout</name>
+    <pv>$(p)$(card)bul:rfof5V9:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:vout" type="iocPoint">
+    <comment>5.9V RFoF Supply:Output voltage of regulator</comment>
+    <name>CtrlMonitorData:rfof5V9:vout</name>
+    <pv>$(p)$(card)bul:rfof5V9:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus" type="iocEnum">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:rfof5V9:supplyStatus" type="iocPoint">
+    <comment>5.9V RFoF Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B0" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B1" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B2" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B3" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B4" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B5" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:rfof5V9:supplyStatus:B6" type="iocEnumBit">
+    <comment>5.9V RFoF Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:rfof5V9:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:rfof5V9:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:rfof5V9:status" type="iocPoint">
+    <comment>5.9V RFoF Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:rfof5V9:status</name>
+    <pv>$(p)$(card)bul:rfof5V9:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx5VStby" type="iocStructure">
+    <comment>5V ATX Standby Supply</comment>
+    <name>CtrlMonitorData:atx5VStby</name>
+    <pv>$(p)$(card)bul:atx5VStby</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx5VStby:iout" type="iocPoint">
+    <comment>5V ATX Standby Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:atx5VStby:iout</name>
+    <pv>$(p)$(card)bul:atx5VStby:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus" type="iocEnum">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx5VStby:supplyStatus" type="iocPoint">
+    <comment>5V ATX Standby Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B0" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B1" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B2" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B3" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B4" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B5" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5VStby:supplyStatus:B6" type="iocEnumBit">
+    <comment>5V ATX Standby Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5VStby:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:atx5VStby:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx5VStby:status" type="iocPoint">
+    <comment>5V ATX Standby Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:atx5VStby:status</name>
+    <pv>$(p)$(card)bul:atx5VStby:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx5V" type="iocStructure">
+    <comment>5V ATX Supply</comment>
+    <name>CtrlMonitorData:atx5V</name>
+    <pv>$(p)$(card)bul:atx5V</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx5V:iout" type="iocPoint">
+    <comment>5V ATX Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:atx5V:iout</name>
+    <pv>$(p)$(card)bul:atx5V:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus" type="iocEnum">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx5V:supplyStatus" type="iocPoint">
+    <comment>5V ATX Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B0" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B1" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B2" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B3" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B4" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B5" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx5V:supplyStatus:B6" type="iocEnumBit">
+    <comment>5V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx5V:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:atx5V:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx5V:status" type="iocPoint">
+    <comment>5V ATX Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:atx5V:status</name>
+    <pv>$(p)$(card)bul:atx5V:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx12V" type="iocStructure">
+    <comment>12V ATX Supply</comment>
+    <name>CtrlMonitorData:atx12V</name>
+    <pv>$(p)$(card)bul:atx12V</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx12V:iout" type="iocPoint">
+    <comment>12V ATX Supply:Output current of regulator</comment>
+    <name>CtrlMonitorData:atx12V:iout</name>
+    <pv>$(p)$(card)bul:atx12V:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus" type="iocEnum">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx12V:supplyStatus" type="iocPoint">
+    <comment>12V ATX Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B0" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B1" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B2" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B3" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B4" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B5" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx12V:supplyStatus:B6" type="iocEnumBit">
+    <comment>12V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx12V:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:atx12V:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx12V:status" type="iocPoint">
+    <comment>12V ATX Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:atx12V:status</name>
+    <pv>$(p)$(card)bul:atx12V:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx" type="iocStructure">
+    <comment>240V ATX Supply</comment>
+    <name>CtrlMonitorData:atx</name>
+    <pv>$(p)$(card)bul:atx</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx:iin" type="iocPoint">
+    <comment>240V ATX Supply:Input current of regulator</comment>
+    <name>CtrlMonitorData:atx:iin</name>
+    <pv>$(p)$(card)bul:atx:iin</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:vin" type="iocPoint">
+    <comment>240V ATX Supply:Input voltage of regulator</comment>
+    <name>CtrlMonitorData:atx:vin</name>
+    <pv>$(p)$(card)bul:atx:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus" type="iocEnum">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:atx:supplyStatus" type="iocPoint">
+    <comment>240V ATX Supply:Power regulator status:bitfield status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B0" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B0</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B1" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B1</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B2" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B2</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B3" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B3</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B4" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B4</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B5" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B5</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atx:supplyStatus:B6" type="iocEnumBit">
+    <comment>240V ATX Supply:Power regulator status</comment>
+    <name>CtrlMonitorData:atx:supplyStatus:B6</name>
+    <pv>$(p)$(card)bul:atx:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atx:status" type="iocPoint">
+    <comment>240V ATX Supply:AdbeStatus</comment>
+    <name>CtrlMonitorData:atx:status</name>
+    <pv>$(p)$(card)bul:atx:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:atxInPower" type="iocPoint">
+    <comment>ATX total power</comment>
+    <name>CtrlMonitorData:atxInPower</name>
+    <pv>$(p)$(card)bul:atxInPower</pv>
+    <egu>W</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:atxOutPower" type="iocPoint">
+    <comment>ATX 12V power</comment>
+    <name>CtrlMonitorData:atxOutPower</name>
+    <pv>$(p)$(card)bul:atxOutPower</pv>
+    <egu>W</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:sfp" type="iocStructure">
+    <comment>10G SFP</comment>
+    <name>CtrlMonitorData:sfp</name>
+    <pv>$(p)$(card)bul:sfp</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:sfp:temp" type="iocPoint">
+    <comment>10G SFP:SFP internal temperature</comment>
+    <name>CtrlMonitorData:sfp:temp</name>
+    <pv>$(p)$(card)bul:sfp:temp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:sfp:voltage" type="iocPoint">
+    <comment>10G SFP:SFP 3.3V supply</comment>
+    <name>CtrlMonitorData:sfp:voltage</name>
+    <pv>$(p)$(card)bul:sfp:voltage</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:sfp:bias" type="iocPoint">
+    <comment>10G SFP:SFP TX bias current</comment>
+    <name>CtrlMonitorData:sfp:bias</name>
+    <pv>$(p)$(card)bul:sfp:bias</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:sfp:tx_power" type="iocPoint">
+    <comment>10G SFP:SFP TX power</comment>
+    <name>CtrlMonitorData:sfp:tx_power</name>
+    <pv>$(p)$(card)bul:sfp:tx_power</pv>
+    <egu>mW</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:sfp:rx_power" type="iocPoint">
+    <comment>10G SFP:SFP detected RX power</comment>
+    <name>CtrlMonitorData:sfp:rx_power</name>
+    <pv>$(p)$(card)bul:sfp:rx_power</pv>
+    <egu>mW</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:sfp:status" type="iocPoint">
+    <comment>10G SFP:AdbeStatus</comment>
+    <name>CtrlMonitorData:sfp:status</name>
+    <pv>$(p)$(card)bul:sfp:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="bul:fpga" type="iocStructure">
+    <comment>Bullant FPGA</comment>
+    <name>CtrlMonitorData:fpga</name>
+    <pv>$(p)$(card)bul:fpga</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="bul:fpga:vccInt" type="iocPoint">
+    <comment>Bullant FPGA:FPGA Vcore supply</comment>
+    <name>CtrlMonitorData:fpga:vccInt</name>
+    <pv>$(p)$(card)bul:fpga:vccInt</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:fpga:vccAux" type="iocPoint">
+    <comment>Bullant FPGA:FPGA Vaux supply</comment>
+    <name>CtrlMonitorData:fpga:vccAux</name>
+    <pv>$(p)$(card)bul:fpga:vccAux</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:fpga:temp" type="iocPoint">
+    <comment>Bullant FPGA:FPGA self monitored temperature</comment>
+    <name>CtrlMonitorData:fpga:temp</name>
+    <pv>$(p)$(card)bul:fpga:temp</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="bul:fpga:status" type="iocPoint">
+    <comment>Bullant FPGA:AdbeStatus</comment>
+    <name>CtrlMonitorData:fpga:status</name>
+    <pv>$(p)$(card)bul:fpga:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

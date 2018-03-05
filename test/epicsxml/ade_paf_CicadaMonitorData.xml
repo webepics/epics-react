@@ -1,0 +1,827 @@
+<macros>
+  <Group name="cicada:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>CicadaMonitorData:status</name>
+    <pv>$(p)cicada:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:tempADC" type="iocArray">
+    <comment>ADC Temperatures</comment>
+    <name>CicadaMonitorData:tempADC</name>
+    <pv>$(p)cicada:tempADC</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:tempADC1" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>CicadaMonitorData:tempADC1</name>
+    <pv>$(p)cicada:tempADC1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:tempADC1:temp" type="iocPoint">
+    <comment>ADC Temperatures 1:Temperature</comment>
+    <name>CicadaMonitorData:tempADC1:temp</name>
+    <pv>$(p)cicada:tempADC1:temp</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:tempADC1:status" type="iocPoint">
+    <comment>ADC Temperatures 1:AdbeStatus</comment>
+    <name>CicadaMonitorData:tempADC1:status</name>
+    <pv>$(p)cicada:tempADC1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:tempADC2" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>CicadaMonitorData:tempADC2</name>
+    <pv>$(p)cicada:tempADC2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:tempADC2:temp" type="iocPoint">
+    <comment>ADC Temperatures 2:Temperature</comment>
+    <name>CicadaMonitorData:tempADC2:temp</name>
+    <pv>$(p)cicada:tempADC2:temp</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:tempADC2:status" type="iocPoint">
+    <comment>ADC Temperatures 2:AdbeStatus</comment>
+    <name>CicadaMonitorData:tempADC2:status</name>
+    <pv>$(p)cicada:tempADC2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:tempADC3" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>CicadaMonitorData:tempADC3</name>
+    <pv>$(p)cicada:tempADC3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:tempADC3:temp" type="iocPoint">
+    <comment>ADC Temperatures 3:Temperature</comment>
+    <name>CicadaMonitorData:tempADC3:temp</name>
+    <pv>$(p)cicada:tempADC3:temp</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:tempADC3:status" type="iocPoint">
+    <comment>ADC Temperatures 3:AdbeStatus</comment>
+    <name>CicadaMonitorData:tempADC3:status</name>
+    <pv>$(p)cicada:tempADC3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:tempADC4" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>CicadaMonitorData:tempADC4</name>
+    <pv>$(p)cicada:tempADC4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:tempADC4:temp" type="iocPoint">
+    <comment>ADC Temperatures 4:Temperature</comment>
+    <name>CicadaMonitorData:tempADC4:temp</name>
+    <pv>$(p)cicada:tempADC4:temp</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:tempADC4:status" type="iocPoint">
+    <comment>ADC Temperatures 4:AdbeStatus</comment>
+    <name>CicadaMonitorData:tempADC4:status</name>
+    <pv>$(p)cicada:tempADC4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="cicada:rtbias" type="iocPoint">
+    <comment>Round trip TX bias current</comment>
+    <name>CicadaMonitorData:rtbias</name>
+    <pv>$(p)cicada:rtbias</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:roarbias" type="iocPoint">
+    <comment>Noise source TX bias current</comment>
+    <name>CicadaMonitorData:roarbias</name>
+    <pv>$(p)cicada:roarbias</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:rtPD" type="iocPoint">
+    <comment>Round Trip photodiode optical output power</comment>
+    <name>CicadaMonitorData:rtPD</name>
+    <pv>$(p)cicada:rtPD</pv>
+    <egu>mW</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:roarPD" type="iocPoint">
+    <comment>Noise source photodiode optical output power</comment>
+    <name>CicadaMonitorData:roarPD</name>
+    <pv>$(p)cicada:roarPD</pv>
+    <egu>mW</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3" type="iocStructure">
+    <comment>3.3V Supply</comment>
+    <name>CicadaMonitorData:vcc3v3</name>
+    <pv>$(p)cicada:vcc3v3</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc3v3:iout" type="iocPoint">
+    <comment>3.3V Supply:Output current of regulator</comment>
+    <name>CicadaMonitorData:vcc3v3:iout</name>
+    <pv>$(p)cicada:vcc3v3:iout</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:vout" type="iocPoint">
+    <comment>3.3V Supply:Output voltage of regulator</comment>
+    <name>CicadaMonitorData:vcc3v3:vout</name>
+    <pv>$(p)cicada:vcc3v3:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus" type="iocEnum">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc3v3:supplyStatus" type="iocPoint">
+    <comment>3.3V Supply:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B0" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B0</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B1" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B1</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B2" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B2</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B3" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B3</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B4" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B4</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B5" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B5</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc3v3:supplyStatus:B6" type="iocEnumBit">
+    <comment>3.3V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc3v3:supplyStatus:B6</name>
+    <pv>$(p)cicada:vcc3v3:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc3v3:status" type="iocPoint">
+    <comment>3.3V Supply:AdbeStatus</comment>
+    <name>CicadaMonitorData:vcc3v3:status</name>
+    <pv>$(p)cicada:vcc3v3:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc5v" type="iocStructure">
+    <comment>5V Supply</comment>
+    <name>CicadaMonitorData:vcc5v</name>
+    <pv>$(p)cicada:vcc5v</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc5v:iout" type="iocPoint">
+    <comment>5V Supply:Output current of regulator</comment>
+    <name>CicadaMonitorData:vcc5v:iout</name>
+    <pv>$(p)cicada:vcc5v:iout</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:vout" type="iocPoint">
+    <comment>5V Supply:Output voltage of regulator</comment>
+    <name>CicadaMonitorData:vcc5v:vout</name>
+    <pv>$(p)cicada:vcc5v:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus" type="iocEnum">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc5v:supplyStatus" type="iocPoint">
+    <comment>5V Supply:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B0" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B0</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B1" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B1</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B2" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B2</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B3" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B3</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B4" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B4</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B5" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B5</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc5v:supplyStatus:B6" type="iocEnumBit">
+    <comment>5V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc5v:supplyStatus:B6</name>
+    <pv>$(p)cicada:vcc5v:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc5v:status" type="iocPoint">
+    <comment>5V Supply:AdbeStatus</comment>
+    <name>CicadaMonitorData:vcc5v:status</name>
+    <pv>$(p)cicada:vcc5v:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc12v" type="iocStructure">
+    <comment>12V Supply</comment>
+    <name>CicadaMonitorData:vcc12v</name>
+    <pv>$(p)cicada:vcc12v</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc12v:vout" type="iocPoint">
+    <comment>12V Supply:Output voltage of regulator</comment>
+    <name>CicadaMonitorData:vcc12v:vout</name>
+    <pv>$(p)cicada:vcc12v:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus" type="iocEnum">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc12v:supplyStatus" type="iocPoint">
+    <comment>12V Supply:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B0" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B0</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B1" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B1</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B2" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B2</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B3" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B3</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B4" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B4</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B5" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B5</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc12v:supplyStatus:B6" type="iocEnumBit">
+    <comment>12V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc12v:supplyStatus:B6</name>
+    <pv>$(p)cicada:vcc12v:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc12v:status" type="iocPoint">
+    <comment>12V Supply:AdbeStatus</comment>
+    <name>CicadaMonitorData:vcc12v:status</name>
+    <pv>$(p)cicada:vcc12v:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc15v" type="iocStructure">
+    <comment>+15V unregulated</comment>
+    <name>CicadaMonitorData:vcc15v</name>
+    <pv>$(p)cicada:vcc15v</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc15v:vout" type="iocPoint">
+    <comment>+15V unregulated:Output voltage of regulator</comment>
+    <name>CicadaMonitorData:vcc15v:vout</name>
+    <pv>$(p)cicada:vcc15v:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:vin" type="iocPoint">
+    <comment>+15V unregulated:Input voltage of regulator</comment>
+    <name>CicadaMonitorData:vcc15v:vin</name>
+    <pv>$(p)cicada:vcc15v:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus" type="iocEnum">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vcc15v:supplyStatus" type="iocPoint">
+    <comment>+15V unregulated:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B0" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B0</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B1" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B1</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B2" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B2</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B3" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B3</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B4" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B4</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B5" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B5</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vcc15v:supplyStatus:B6" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>CicadaMonitorData:vcc15v:supplyStatus:B6</name>
+    <pv>$(p)cicada:vcc15v:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vcc15v:status" type="iocPoint">
+    <comment>+15V unregulated:AdbeStatus</comment>
+    <name>CicadaMonitorData:vcc15v:status</name>
+    <pv>$(p)cicada:vcc15v:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vccn5va" type="iocStructure">
+    <comment>-5V Supply for ROAR</comment>
+    <name>CicadaMonitorData:vccn5va</name>
+    <pv>$(p)cicada:vccn5va</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vccn5va:iout" type="iocPoint">
+    <comment>-5V Supply for ROAR:Output current of regulator</comment>
+    <name>CicadaMonitorData:vccn5va:iout</name>
+    <pv>$(p)cicada:vccn5va:iout</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:vout" type="iocPoint">
+    <comment>-5V Supply for ROAR:Output voltage of regulator</comment>
+    <name>CicadaMonitorData:vccn5va:vout</name>
+    <pv>$(p)cicada:vccn5va:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus" type="iocEnum">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vccn5va:supplyStatus" type="iocPoint">
+    <comment>-5V Supply for ROAR:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B0" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B0</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B1" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B1</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B2" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B2</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B3" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B3</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B4" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B4</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B5" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B5</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5va:supplyStatus:B6" type="iocEnumBit">
+    <comment>-5V Supply for ROAR:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5va:supplyStatus:B6</name>
+    <pv>$(p)cicada:vccn5va:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vccn5va:status" type="iocPoint">
+    <comment>-5V Supply for ROAR:AdbeStatus</comment>
+    <name>CicadaMonitorData:vccn5va:status</name>
+    <pv>$(p)cicada:vccn5va:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vccn5vb" type="iocStructure">
+    <comment>-5V Supply for Round Trip</comment>
+    <name>CicadaMonitorData:vccn5vb</name>
+    <pv>$(p)cicada:vccn5vb</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vccn5vb:iout" type="iocPoint">
+    <comment>-5V Supply for Round Trip:Output current of regulator</comment>
+    <name>CicadaMonitorData:vccn5vb:iout</name>
+    <pv>$(p)cicada:vccn5vb:iout</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:vout" type="iocPoint">
+    <comment>-5V Supply for Round Trip:Output voltage of regulator</comment>
+    <name>CicadaMonitorData:vccn5vb:vout</name>
+    <pv>$(p)cicada:vccn5vb:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus" type="iocEnum">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vccn5vb:supplyStatus" type="iocPoint">
+    <comment>-5V Supply for Round Trip:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B0" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B0</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B1" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B1</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B2" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B2</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B3" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B3</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B4" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B4</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B5" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B5</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn5vb:supplyStatus:B6" type="iocEnumBit">
+    <comment>-5V Supply for Round Trip:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn5vb:supplyStatus:B6</name>
+    <pv>$(p)cicada:vccn5vb:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vccn5vb:status" type="iocPoint">
+    <comment>-5V Supply for Round Trip:AdbeStatus</comment>
+    <name>CicadaMonitorData:vccn5vb:status</name>
+    <pv>$(p)cicada:vccn5vb:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vccn7v" type="iocStructure">
+    <comment>-7V Supply</comment>
+    <name>CicadaMonitorData:vccn7v</name>
+    <pv>$(p)cicada:vccn7v</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vccn7v:iout" type="iocPoint">
+    <comment>-7V Supply:Output current of regulator</comment>
+    <name>CicadaMonitorData:vccn7v:iout</name>
+    <pv>$(p)cicada:vccn7v:iout</pv>
+    <egu>mA</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus" type="iocEnum">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="cicada:vccn7v:supplyStatus" type="iocPoint">
+    <comment>-7V Supply:Power regulator status:bitfield status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B0" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B0</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B1" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B1</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B2" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B2</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B3" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B3</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B4" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B4</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B5" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B5</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:vccn7v:supplyStatus:B6" type="iocEnumBit">
+    <comment>-7V Supply:Power regulator status</comment>
+    <name>CicadaMonitorData:vccn7v:supplyStatus:B6</name>
+    <pv>$(p)cicada:vccn7v:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:vccn7v:status" type="iocPoint">
+    <comment>-7V Supply:AdbeStatus</comment>
+    <name>CicadaMonitorData:vccn7v:status</name>
+    <pv>$(p)cicada:vccn7v:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="cicada:rfAtt" type="iocPoint">
+    <comment>Cicada RF attenuator</comment>
+    <name>CicadaMonitorData:rfAtt</name>
+    <pv>$(p)cicada:rfAtt</pv>
+    <egu>dB</egu>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:opticSwitch" type="iocEnumBit">
+    <comment>Optic switch state</comment>
+    <name>CicadaMonitorData:opticSwitch</name>
+    <pv>$(p)cicada:opticSwitch</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:roarEnabled" type="iocEnumBit">
+    <comment>Cicada ROAR laser</comment>
+    <name>CicadaMonitorData:roarEnabled</name>
+    <pv>$(p)cicada:roarEnabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:rtEnabled" type="iocEnumBit">
+    <comment>Cicada RT laser</comment>
+    <name>CicadaMonitorData:rtEnabled</name>
+    <pv>$(p)cicada:rtEnabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:noiseEnabled" type="iocEnumBit">
+    <comment>Cicada noise source</comment>
+    <name>CicadaMonitorData:noiseEnabled</name>
+    <pv>$(p)cicada:noiseEnabled</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="cicada:rfRTAtt" type="iocPoint">
+    <comment>Cicada RT attenuator</comment>
+    <name>CicadaMonitorData:rfRTAtt</name>
+    <pv>$(p)cicada:rfRTAtt</pv>
+    <egu>dB</egu>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

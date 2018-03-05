@@ -1,0 +1,26 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_beamWeights:exec_O",
+    "name": "F_beamWeights:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "upload default weights",
+    "pvname": "$(p)$(card)F_beamWeights:uploadDefaults_O",
+    "name": "F_beamWeights:uploadDefaults_O",
+    "size": "1"
+  },
+  {
+    "description": "weights upload OK",
+    "pvname": "$(p)$(card)F_beamWeights:weightsUploaded",
+    "name": "F_beamWeights:weightsUploaded",
+    "size": "1"
+  },
+  {
+    "description": "weights applied",
+    "pvname": "$(p)$(card)F_beamWeights:weightsUpdated",
+    "name": "F_beamWeights:weightsUpdated",
+    "size": "1"
+  }
+]

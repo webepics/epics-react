@@ -1,0 +1,37 @@
+<macros>
+  <Group name="F_setFirmwareInfo:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_setFirmwareInfo:exec_O</name>
+    <pv>$(p)F_setFirmwareInfo:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setFirmwareInfo:cardType_O" type="iocEnumValue">
+    <comment></comment>
+    <name>F_setFirmwareInfo:cardType_O</name>
+    <pv>$(p)F_setFirmwareInfo:cardType_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setFirmwareInfo:serial_O" type="iocPoint">
+    <comment></comment>
+    <name>F_setFirmwareInfo:serial_O</name>
+    <pv>$(p)F_setFirmwareInfo:serial_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setFirmwareInfo:revision_O" type="iocPoint">
+    <comment></comment>
+    <name>F_setFirmwareInfo:revision_O</name>
+    <pv>$(p)F_setFirmwareInfo:revision_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_setFirmwareInfo:result" type="iocPoint">
+    <comment></comment>
+    <name>F_setFirmwareInfo:result</name>
+    <pv>$(p)F_setFirmwareInfo:result</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+</macros>

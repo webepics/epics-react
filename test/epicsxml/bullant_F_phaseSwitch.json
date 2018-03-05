@@ -1,0 +1,15 @@
+[
+  {
+    "description": "phase switch mode:phase switch mode",
+    "pvname": "$(p)$(card)F_phaseSwitch:mode_O",
+    "name": "F_phaseSwitch:mode_O",
+    "size": "1"
+  },
+  {
+    "description": "frequency in hertz",
+    "pvname": "$(p)$(card)F_phaseSwitch:frequency_O",
+    "name": "F_phaseSwitch:frequency_O",
+    "units": "Hz",
+    "size": "1"
+  }
+]

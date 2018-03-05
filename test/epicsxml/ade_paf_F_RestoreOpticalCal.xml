@@ -1,0 +1,30 @@
+<macros>
+  <Group name="F_RestoreOpticalCal:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_RestoreOpticalCal:exec_O</name>
+    <pv>$(p)F_RestoreOpticalCal:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_RestoreOpticalCal:status" type="iocEnumValue">
+    <comment>0 - default, 1 - restoring, 2 - restore complete, 3 - restore error:0 - default, 1 - restoring, 2 - restore complete, 3 - restore error</comment>
+    <name>F_RestoreOpticalCal:status</name>
+    <pv>$(p)F_RestoreOpticalCal:status</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_RestoreOpticalCal:progress" type="iocPoint">
+    <comment>Restore progress</comment>
+    <name>F_RestoreOpticalCal:progress</name>
+    <pv>$(p)F_RestoreOpticalCal:progress</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_RestoreOpticalCal:errorcount" type="iocPoint">
+    <comment>Error count</comment>
+    <name>F_RestoreOpticalCal:errorcount</name>
+    <pv>$(p)F_RestoreOpticalCal:errorcount</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+</macros>

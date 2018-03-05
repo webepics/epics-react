@@ -1,0 +1,51 @@
+<macros>
+  <Group name="F_beamDelay:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_beamDelay:exec_O</name>
+    <pv>$(p)$(card)F_beamDelay:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_beamDelay:toff_O" type="iocPoint">
+    <comment>time offset</comment>
+    <name>F_beamDelay:toff_O</name>
+    <pv>$(p)$(card)F_beamDelay:toff_O</pv>
+    <type>input</type>
+    <size>13824</size>
+  </Group>
+  <Group name="F_beamDelay:tslope_O" type="iocPoint">
+    <comment>time slope</comment>
+    <name>F_beamDelay:tslope_O</name>
+    <pv>$(p)$(card)F_beamDelay:tslope_O</pv>
+    <type>input</type>
+    <size>13824</size>
+  </Group>
+  <Group name="F_beamDelay:fslope_O" type="iocPoint">
+    <comment>frequency slope</comment>
+    <name>F_beamDelay:fslope_O</name>
+    <pv>$(p)$(card)F_beamDelay:fslope_O</pv>
+    <type>input</type>
+    <size>13824</size>
+  </Group>
+  <Group name="F_beamDelay:freq_O" type="iocPoint">
+    <comment>frequency</comment>
+    <name>F_beamDelay:freq_O</name>
+    <pv>$(p)$(card)F_beamDelay:freq_O</pv>
+    <type>input</type>
+    <size>13824</size>
+  </Group>
+  <Group name="F_beamDelay:coarseDelay_O" type="iocPoint">
+    <comment>coarse delay</comment>
+    <name>F_beamDelay:coarseDelay_O</name>
+    <pv>$(p)$(card)F_beamDelay:coarseDelay_O</pv>
+    <type>input</type>
+    <size>36</size>
+  </Group>
+  <Group name="F_beamDelay:loadOnComplete_O" type="iocEnumBit">
+    <comment>load new delays on completion</comment>
+    <name>F_beamDelay:loadOnComplete_O</name>
+    <pv>$(p)$(card)F_beamDelay:loadOnComplete_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

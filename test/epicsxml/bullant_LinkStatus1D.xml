@@ -1,0 +1,72 @@
+<macros>
+  <Group name="LinkStatus1D" type="iocStructure">
+    <comment></comment>
+    <name>LinkStatus1D</name>
+    <pv>$(p)$(card)LinkStatus1D</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="LinkStatus1D:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>LinkStatus1D:status</name>
+    <pv>$(p)$(card)LinkStatus1D:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:crcErrors" type="iocPoint">
+    <comment>Link CRC Errors</comment>
+    <name>LinkStatus1D:crcErrors</name>
+    <pv>$(p)$(card)LinkStatus1D:crcErrors</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:tx_overflow" type="iocPoint">
+    <comment>TX FIFO overflow count</comment>
+    <name>LinkStatus1D:tx_overflow</name>
+    <pv>$(p)$(card)LinkStatus1D:tx_overflow</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:rx_overflow" type="iocPoint">
+    <comment>RX FIFO overflow count</comment>
+    <name>LinkStatus1D:rx_overflow</name>
+    <pv>$(p)$(card)LinkStatus1D:rx_overflow</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:tx_underflow" type="iocPoint">
+    <comment>TX FIFO underflow count</comment>
+    <name>LinkStatus1D:tx_underflow</name>
+    <pv>$(p)$(card)LinkStatus1D:tx_underflow</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:rx_underflow" type="iocPoint">
+    <comment>RX FIFO underflow count</comment>
+    <name>LinkStatus1D:rx_underflow</name>
+    <pv>$(p)$(card)LinkStatus1D:rx_underflow</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:linkSourceAntenna" type="iocPoint">
+    <comment>Source antenna of link</comment>
+    <name>LinkStatus1D:linkSourceAntenna</name>
+    <pv>$(p)$(card)LinkStatus1D:linkSourceAntenna</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:linkBand" type="iocPoint">
+    <comment>ID of the link data</comment>
+    <name>LinkStatus1D:linkBand</name>
+    <pv>$(p)$(card)LinkStatus1D:linkBand</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="LinkStatus1D:linkValid" type="iocEnumBit">
+    <comment>link valid</comment>
+    <name>LinkStatus1D:linkValid</name>
+    <pv>$(p)$(card)LinkStatus1D:linkValid</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+</macros>

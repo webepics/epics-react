@@ -1,0 +1,16 @@
+<macros>
+  <Group name="F_FecCtrl:power_O" type="iocEnumBit">
+    <comment>Turn FEC On/Off</comment>
+    <name>F_FecCtrl:power_O</name>
+    <pv>$(p)F_FecCtrl:power_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_FecCtrl:doorOverride_O" type="iocEnumBit">
+    <comment>FEC Door Interlock Override</comment>
+    <name>F_FecCtrl:doorOverride_O</name>
+    <pv>$(p)F_FecCtrl:doorOverride_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

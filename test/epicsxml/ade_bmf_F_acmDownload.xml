@@ -1,0 +1,44 @@
+<macros>
+  <Group name="F_acmDownload:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_acmDownload:exec_O</name>
+    <pv>$(p)$(card)F_acmDownload:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_acmDownload:intTime_O" type="iocPoint">
+    <comment>ACM integration time</comment>
+    <name>F_acmDownload:intTime_O</name>
+    <pv>$(p)$(card)F_acmDownload:intTime_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_acmDownload:dlTime_O" type="iocPoint">
+    <comment>ACM download time</comment>
+    <name>F_acmDownload:dlTime_O</name>
+    <pv>$(p)$(card)F_acmDownload:dlTime_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_acmDownload:freqSelect_O" type="iocPoint">
+    <comment>Frequency Index</comment>
+    <name>F_acmDownload:freqSelect_O</name>
+    <pv>$(p)$(card)F_acmDownload:freqSelect_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_acmDownload:start_O" type="iocEnumBit">
+    <comment>start ACM download</comment>
+    <name>F_acmDownload:start_O</name>
+    <pv>$(p)$(card)F_acmDownload:start_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_acmDownload:stop_O" type="iocEnumBit">
+    <comment>stop ACM download</comment>
+    <name>F_acmDownload:stop_O</name>
+    <pv>$(p)$(card)F_acmDownload:stop_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

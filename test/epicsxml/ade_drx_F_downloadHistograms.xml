@@ -1,0 +1,177 @@
+<macros>
+  <Group name="F_downloadHistograms:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_downloadHistograms:exec_O</name>
+    <pv>$(p)$(card)F_downloadHistograms:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadHistograms:yAxis" type="iocPoint">
+    <comment></comment>
+    <name>F_downloadHistograms:yAxis</name>
+    <pv>$(p)$(card)F_downloadHistograms:yAxis</pv>
+    <type>int</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:count" type="iocPoint">
+    <comment>download ready count</comment>
+    <name>F_downloadHistograms:count</name>
+    <pv>$(p)$(card)F_downloadHistograms:count</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadHistograms:done" type="iocPoint">
+    <comment>1 if download complete</comment>
+    <name>F_downloadHistograms:done</name>
+    <pv>$(p)$(card)F_downloadHistograms:done</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_downloadHistograms:port1:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port1:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port1:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port2:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port2:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port2:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port3:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port3:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port3:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port4:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port4:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port4:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port5:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port5:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port5:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port6:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port6:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port6:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port7:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port7:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port7:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port8:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port8:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port8:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port9:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port9:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port9:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port10:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port10:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port10:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port11:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port11:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port11:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port12:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port12:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port12:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port13:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port13:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port13:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port14:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port14:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port14:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port15:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port15:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port15:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port16:hist" type="iocPoint">
+    <comment>ADC Spectra</comment>
+    <name>F_downloadHistograms:port16:hist</name>
+    <pv>$(p)$(card)F_downloadHistograms:port16:hist</pv>
+    <type>uint32</type>
+    <size>4096</size>
+  </Group>
+  <Group name="F_downloadHistograms:port" type="iocPoint">
+    <comment>PAF port</comment>
+    <name>F_downloadHistograms:port</name>
+    <pv>$(p)$(card)F_downloadHistograms:port</pv>
+    <type>int</type>
+    <size>16</size>
+  </Group>
+  <Group name="F_downloadHistograms:rms" type="iocPoint">
+    <comment>ADC RMS</comment>
+    <name>F_downloadHistograms:rms</name>
+    <pv>$(p)$(card)F_downloadHistograms:rms</pv>
+    <type>float</type>
+    <size>16</size>
+  </Group>
+  <Group name="F_downloadHistograms:mean" type="iocPoint">
+    <comment>ADC mean</comment>
+    <name>F_downloadHistograms:mean</name>
+    <pv>$(p)$(card)F_downloadHistograms:mean</pv>
+    <type>float</type>
+    <size>16</size>
+  </Group>
+  <Group name="F_downloadHistograms:min" type="iocPoint">
+    <comment>ADC min</comment>
+    <name>F_downloadHistograms:min</name>
+    <pv>$(p)$(card)F_downloadHistograms:min</pv>
+    <type>int</type>
+    <size>16</size>
+  </Group>
+  <Group name="F_downloadHistograms:max" type="iocPoint">
+    <comment>ADC max</comment>
+    <name>F_downloadHistograms:max</name>
+    <pv>$(p)$(card)F_downloadHistograms:max</pv>
+    <type>int</type>
+    <size>16</size>
+  </Group>
+</macros>

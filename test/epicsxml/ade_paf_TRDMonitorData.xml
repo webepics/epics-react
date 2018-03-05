@@ -1,0 +1,812 @@
+<macros>
+  <Group name="tmon:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>TRDMonitorData:status</name>
+    <pv>$(p)tmon:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempOCXO" type="iocPoint">
+    <comment>Case temperature OCXO</comment>
+    <name>TRDMonitorData:tempOCXO</name>
+    <pv>$(p)tmon:tempOCXO</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempLocal" type="iocPoint">
+    <comment>Ambient case temperature</comment>
+    <name>TRDMonitorData:tempLocal</name>
+    <pv>$(p)tmon:tempLocal</pv>
+    <egu>C</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC" type="iocArray">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC</name>
+    <pv>$(p)tmon:tempADC</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC1" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC1</name>
+    <pv>$(p)tmon:tempADC1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC1:temp" type="iocPoint">
+    <comment>ADC Temperatures 1:Temperature</comment>
+    <name>TRDMonitorData:tempADC1:temp</name>
+    <pv>$(p)tmon:tempADC1:temp</pv>
+    <egu>C</egu>
+    <index>1</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC1:status" type="iocPoint">
+    <comment>ADC Temperatures 1:AdbeStatus</comment>
+    <name>TRDMonitorData:tempADC1:status</name>
+    <pv>$(p)tmon:tempADC1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:tempADC2" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC2</name>
+    <pv>$(p)tmon:tempADC2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC2:temp" type="iocPoint">
+    <comment>ADC Temperatures 2:Temperature</comment>
+    <name>TRDMonitorData:tempADC2:temp</name>
+    <pv>$(p)tmon:tempADC2:temp</pv>
+    <egu>C</egu>
+    <index>2</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC2:status" type="iocPoint">
+    <comment>ADC Temperatures 2:AdbeStatus</comment>
+    <name>TRDMonitorData:tempADC2:status</name>
+    <pv>$(p)tmon:tempADC2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:tempADC3" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC3</name>
+    <pv>$(p)tmon:tempADC3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC3:temp" type="iocPoint">
+    <comment>ADC Temperatures 3:Temperature</comment>
+    <name>TRDMonitorData:tempADC3:temp</name>
+    <pv>$(p)tmon:tempADC3:temp</pv>
+    <egu>C</egu>
+    <index>3</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC3:status" type="iocPoint">
+    <comment>ADC Temperatures 3:AdbeStatus</comment>
+    <name>TRDMonitorData:tempADC3:status</name>
+    <pv>$(p)tmon:tempADC3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:tempADC4" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC4</name>
+    <pv>$(p)tmon:tempADC4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC4:temp" type="iocPoint">
+    <comment>ADC Temperatures 4:Temperature</comment>
+    <name>TRDMonitorData:tempADC4:temp</name>
+    <pv>$(p)tmon:tempADC4:temp</pv>
+    <egu>C</egu>
+    <index>4</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC4:status" type="iocPoint">
+    <comment>ADC Temperatures 4:AdbeStatus</comment>
+    <name>TRDMonitorData:tempADC4:status</name>
+    <pv>$(p)tmon:tempADC4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:tempADC5" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC5</name>
+    <pv>$(p)tmon:tempADC5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC5:temp" type="iocPoint">
+    <comment>ADC Temperatures 5:Temperature</comment>
+    <name>TRDMonitorData:tempADC5:temp</name>
+    <pv>$(p)tmon:tempADC5:temp</pv>
+    <egu>C</egu>
+    <index>5</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC5:status" type="iocPoint">
+    <comment>ADC Temperatures 5:AdbeStatus</comment>
+    <name>TRDMonitorData:tempADC5:status</name>
+    <pv>$(p)tmon:tempADC5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:tempADC6" type="iocStructure">
+    <comment>ADC Temperatures</comment>
+    <name>TRDMonitorData:tempADC6</name>
+    <pv>$(p)tmon:tempADC6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:tempADC6:temp" type="iocPoint">
+    <comment>ADC Temperatures 6:Temperature</comment>
+    <name>TRDMonitorData:tempADC6:temp</name>
+    <pv>$(p)tmon:tempADC6:temp</pv>
+    <egu>C</egu>
+    <index>6</index>
+    <type>uint8</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:tempADC6:status" type="iocPoint">
+    <comment>ADC Temperatures 6:AdbeStatus</comment>
+    <name>TRDMonitorData:tempADC6:status</name>
+    <pv>$(p)tmon:tempADC6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="tmon:vcoControl" type="iocPoint">
+    <comment>Phase Lock Loop Control Voltage</comment>
+    <name>TRDMonitorData:vcoControl</name>
+    <pv>$(p)tmon:vcoControl</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcoLevel" type="iocPoint">
+    <comment>VCO output power</comment>
+    <name>TRDMonitorData:vcoLevel</name>
+    <pv>$(p)tmon:vcoLevel</pv>
+    <egu>dBm</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:refPD" type="iocPoint">
+    <comment>Reference Photodiode optical input power</comment>
+    <name>TRDMonitorData:refPD</name>
+    <pv>$(p)tmon:refPD</pv>
+    <egu>mW</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:batPD" type="iocPoint">
+    <comment>BAT photodiode optical power input</comment>
+    <name>TRDMonitorData:batPD</name>
+    <pv>$(p)tmon:batPD</pv>
+    <egu>mW</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:lrdPowerA" type="iocStructure">
+    <comment>Output Level Distributor chip A</comment>
+    <name>TRDMonitorData:lrdPowerA</name>
+    <pv>$(p)tmon:lrdPowerA</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:lrdPowerA:value" type="iocPoint">
+    <comment>Output Level Distributor chip A</comment>
+    <name>TRDMonitorData:lrdPowerA:value</name>
+    <pv>$(p)tmon:lrdPowerA:value</pv>
+    <egu>dBm</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:lrdPowerA:status" type="iocPoint">
+    <comment>Output Level Distributor chip A:AdbeStatus</comment>
+    <name>TRDMonitorData:lrdPowerA:status</name>
+    <pv>$(p)tmon:lrdPowerA:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:lrdPowerB" type="iocStructure">
+    <comment>Output Level Distributor chip B</comment>
+    <name>TRDMonitorData:lrdPowerB</name>
+    <pv>$(p)tmon:lrdPowerB</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:lrdPowerB:value" type="iocPoint">
+    <comment>Output Level Distributor chip B</comment>
+    <name>TRDMonitorData:lrdPowerB:value</name>
+    <pv>$(p)tmon:lrdPowerB:value</pv>
+    <egu>dBm</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:lrdPowerB:status" type="iocPoint">
+    <comment>Output Level Distributor chip B:AdbeStatus</comment>
+    <name>TRDMonitorData:lrdPowerB:status</name>
+    <pv>$(p)tmon:lrdPowerB:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc1v8a" type="iocStructure">
+    <comment>Power to 64MHz and BAT Distributor Ics</comment>
+    <name>TRDMonitorData:vcc1v8a</name>
+    <pv>$(p)tmon:vcc1v8a</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc1v8a:iout" type="iocPoint">
+    <comment>Power to 64MHz and BAT Distributor Ics:Output current of regulator</comment>
+    <name>TRDMonitorData:vcc1v8a:iout</name>
+    <pv>$(p)tmon:vcc1v8a:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:vout" type="iocPoint">
+    <comment>Power to 64MHz and BAT Distributor Ics:Output voltage of regulator</comment>
+    <name>TRDMonitorData:vcc1v8a:vout</name>
+    <pv>$(p)tmon:vcc1v8a:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus" type="iocEnum">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc1v8a:supplyStatus" type="iocPoint">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status:bitfield status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B0" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B0</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B1" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B1</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B2" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B2</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B3" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B3</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B4" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B4</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B5" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B5</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8a:supplyStatus:B6" type="iocEnumBit">
+    <comment>Power to 64MHz and BAT Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8a:supplyStatus:B6</name>
+    <pv>$(p)tmon:vcc1v8a:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc1v8a:status" type="iocPoint">
+    <comment>Power to 64MHz and BAT Distributor Ics:AdbeStatus</comment>
+    <name>TRDMonitorData:vcc1v8a:status</name>
+    <pv>$(p)tmon:vcc1v8a:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc1v8b" type="iocStructure">
+    <comment>Power to SP1 and SP2 Distributor Ics</comment>
+    <name>TRDMonitorData:vcc1v8b</name>
+    <pv>$(p)tmon:vcc1v8b</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc1v8b:iout" type="iocPoint">
+    <comment>Power to SP1 and SP2 Distributor Ics:Output current of regulator</comment>
+    <name>TRDMonitorData:vcc1v8b:iout</name>
+    <pv>$(p)tmon:vcc1v8b:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:vout" type="iocPoint">
+    <comment>Power to SP1 and SP2 Distributor Ics:Output voltage of regulator</comment>
+    <name>TRDMonitorData:vcc1v8b:vout</name>
+    <pv>$(p)tmon:vcc1v8b:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus" type="iocEnum">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc1v8b:supplyStatus" type="iocPoint">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status:bitfield status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B0" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B0</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B1" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B1</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B2" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B2</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B3" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B3</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B4" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B4</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B5" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B5</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc1v8b:supplyStatus:B6" type="iocEnumBit">
+    <comment>Power to SP1 and SP2 Distributor Ics:Power regulator status</comment>
+    <name>TRDMonitorData:vcc1v8b:supplyStatus:B6</name>
+    <pv>$(p)tmon:vcc1v8b:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc1v8b:status" type="iocPoint">
+    <comment>Power to SP1 and SP2 Distributor Ics:AdbeStatus</comment>
+    <name>TRDMonitorData:vcc1v8b:status</name>
+    <pv>$(p)tmon:vcc1v8b:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc3v3" type="iocStructure">
+    <comment>Power to LRD</comment>
+    <name>TRDMonitorData:vcc3v3</name>
+    <pv>$(p)tmon:vcc3v3</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc3v3:iout" type="iocPoint">
+    <comment>Power to LRD:Output current of regulator</comment>
+    <name>TRDMonitorData:vcc3v3:iout</name>
+    <pv>$(p)tmon:vcc3v3:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:vout" type="iocPoint">
+    <comment>Power to LRD:Output voltage of regulator</comment>
+    <name>TRDMonitorData:vcc3v3:vout</name>
+    <pv>$(p)tmon:vcc3v3:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus" type="iocEnum">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc3v3:supplyStatus" type="iocPoint">
+    <comment>Power to LRD:Power regulator status:bitfield status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B0" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B0</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B1" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B1</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B2" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B2</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B3" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B3</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B4" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B4</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B5" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B5</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc3v3:supplyStatus:B6" type="iocEnumBit">
+    <comment>Power to LRD:Power regulator status</comment>
+    <name>TRDMonitorData:vcc3v3:supplyStatus:B6</name>
+    <pv>$(p)tmon:vcc3v3:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc3v3:status" type="iocPoint">
+    <comment>Power to LRD:AdbeStatus</comment>
+    <name>TRDMonitorData:vcc3v3:status</name>
+    <pv>$(p)tmon:vcc3v3:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc15v" type="iocStructure">
+    <comment>+15V unregulated</comment>
+    <name>TRDMonitorData:vcc15v</name>
+    <pv>$(p)tmon:vcc15v</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc15v:vout" type="iocPoint">
+    <comment>+15V unregulated:Output voltage of regulator</comment>
+    <name>TRDMonitorData:vcc15v:vout</name>
+    <pv>$(p)tmon:vcc15v:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:vin" type="iocPoint">
+    <comment>+15V unregulated:Input voltage of regulator</comment>
+    <name>TRDMonitorData:vcc15v:vin</name>
+    <pv>$(p)tmon:vcc15v:vin</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus" type="iocEnum">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vcc15v:supplyStatus" type="iocPoint">
+    <comment>+15V unregulated:Power regulator status:bitfield status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B0" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B0</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B1" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B1</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B2" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B2</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B3" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B3</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B4" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B4</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B5" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B5</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc15v:supplyStatus:B6" type="iocEnumBit">
+    <comment>+15V unregulated:Power regulator status</comment>
+    <name>TRDMonitorData:vcc15v:supplyStatus:B6</name>
+    <pv>$(p)tmon:vcc15v:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc15v:status" type="iocPoint">
+    <comment>+15V unregulated:AdbeStatus</comment>
+    <name>TRDMonitorData:vcc15v:status</name>
+    <pv>$(p)tmon:vcc15v:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vccoxo" type="iocStructure">
+    <comment>OXCO Supply</comment>
+    <name>TRDMonitorData:vccoxo</name>
+    <pv>$(p)tmon:vccoxo</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vccoxo:iout" type="iocPoint">
+    <comment>OXCO Supply:Output current of regulator</comment>
+    <name>TRDMonitorData:vccoxo:iout</name>
+    <pv>$(p)tmon:vccoxo:iout</pv>
+    <egu>A</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:vout" type="iocPoint">
+    <comment>OXCO Supply:Output voltage of regulator</comment>
+    <name>TRDMonitorData:vccoxo:vout</name>
+    <pv>$(p)tmon:vccoxo:vout</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus" type="iocEnum">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:vccoxo:supplyStatus" type="iocPoint">
+    <comment>OXCO Supply:Power regulator status:bitfield status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus</pv>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B0" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B0</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B0</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B1" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B1</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B1</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B2" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B2</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B2</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B3" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B3</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B3</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B4" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B4</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B4</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B5" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B5</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B5</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vccoxo:supplyStatus:B6" type="iocEnumBit">
+    <comment>OXCO Supply:Power regulator status</comment>
+    <name>TRDMonitorData:vccoxo:supplyStatus:B6</name>
+    <pv>$(p)tmon:vccoxo:supplyStatus:B6</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vccoxo:status" type="iocPoint">
+    <comment>OXCO Supply:AdbeStatus</comment>
+    <name>TRDMonitorData:vccoxo:status</name>
+    <pv>$(p)tmon:vccoxo:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:vcc5v" type="iocPoint">
+    <comment>Monitor ADC supply</comment>
+    <name>TRDMonitorData:vcc5v</name>
+    <pv>$(p)tmon:vcc5v</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc5v_pll" type="iocPoint">
+    <comment>Regulated VCO and PLL supply</comment>
+    <name>TRDMonitorData:vcc5v_pll</name>
+    <pv>$(p)tmon:vcc5v_pll</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:vcc6v" type="iocPoint">
+    <comment>Unregulated +6V In</comment>
+    <name>TRDMonitorData:vcc6v</name>
+    <pv>$(p)tmon:vcc6v</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:dist3va" type="iocStructure">
+    <comment>+3V Supply to distributor chip A</comment>
+    <name>TRDMonitorData:dist3va</name>
+    <pv>$(p)tmon:dist3va</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:dist3va:value" type="iocPoint">
+    <comment>+3V Supply to distributor chip A</comment>
+    <name>TRDMonitorData:dist3va:value</name>
+    <pv>$(p)tmon:dist3va:value</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:dist3va:status" type="iocPoint">
+    <comment>+3V Supply to distributor chip A:AdbeStatus</comment>
+    <name>TRDMonitorData:dist3va:status</name>
+    <pv>$(p)tmon:dist3va:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:dist3vb" type="iocStructure">
+    <comment>+3V Supply to distributor chip B</comment>
+    <name>TRDMonitorData:dist3vb</name>
+    <pv>$(p)tmon:dist3vb</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="tmon:dist3vb:value" type="iocPoint">
+    <comment>+3V Supply to distributor chip B</comment>
+    <name>TRDMonitorData:dist3vb:value</name>
+    <pv>$(p)tmon:dist3vb:value</pv>
+    <egu>V</egu>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:dist3vb:status" type="iocPoint">
+    <comment>+3V Supply to distributor chip B:AdbeStatus</comment>
+    <name>TRDMonitorData:dist3vb:status</name>
+    <pv>$(p)tmon:dist3vb:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="tmon:pllLocked" type="iocEnumValue">
+    <comment>TRD PLL Locked State:TRD PLL Locked State</comment>
+    <name>TRDMonitorData:pllLocked</name>
+    <pv>$(p)tmon:pllLocked</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:batOK" type="iocEnumValue">
+    <comment>Optical power OK:Optical power OK</comment>
+    <name>TRDMonitorData:batOK</name>
+    <pv>$(p)tmon:batOK</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="tmon:refOK" type="iocEnumValue">
+    <comment>Optical power OK:Optical power OK</comment>
+    <name>TRDMonitorData:refOK</name>
+    <pv>$(p)tmon:refOK</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

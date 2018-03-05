@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_installedModules:exec_O",
+    "name": "F_installedModules:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "TEC Controller Present",
+    "pvname": "$(p)F_installedModules:tecPresent_O",
+    "name": "F_installedModules:tecPresent_O",
+    "size": "1"
+  },
+  {
+    "description": "PAF PSU Present",
+    "pvname": "$(p)F_installedModules:psPresent_O",
+    "name": "F_installedModules:psPresent_O",
+    "size": "1"
+  }
+]

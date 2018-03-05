@@ -1,0 +1,6597 @@
+[
+  {
+    "description": "Alignment OK",
+    "pvname": "$(p)$(card)alignmentOK",
+    "name": "alignmentOK",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus",
+    "name": "alignmentStatus",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus1",
+    "name": "alignmentStatus1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:alignment error count",
+    "pvname": "$(p)$(card)alignmentStatus1:alignmentErrors",
+    "name": "alignmentStatus1:alignmentErrors",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:alignment status codes",
+    "pvname": "$(p)$(card)alignmentStatus1:statusCode",
+    "name": "alignmentStatus1:statusCode",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags",
+    "pvname": "$(p)$(card)alignmentStatus1:flags",
+    "name": "alignmentStatus1:flags",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 1 ID OK 1:stage 1 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:stage1_idOk",
+    "name": "alignmentStatus1:flags:stage1_idOk",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 2 ID OK 1:stage 2 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:stage2_idOk",
+    "name": "alignmentStatus1:flags:stage2_idOk",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 2 underrun 1:stage 2 underrun",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:align2_underrun",
+    "name": "alignmentStatus1:flags:align2_underrun",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 2 overrun 1:stage 2 overrun",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:align2_overrun",
+    "name": "alignmentStatus1:flags:align2_overrun",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 2 alignment 1:stage 2 alignment",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:align2_aligned",
+    "name": "alignmentStatus1:flags:align2_aligned",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 1 underrun 1:stage 1 underrun",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:align1_underrun",
+    "name": "alignmentStatus1:flags:align1_underrun",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 1 overrun 1:stage 1 overrun",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:align1_overrun",
+    "name": "alignmentStatus1:flags:align1_overrun",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 1:flags 1:stage 1 alignment 1:stage 1 alignment",
+    "pvname": "$(p)$(card)alignmentStatus1:flags:align1_aligned",
+    "name": "alignmentStatus1:flags:align1_aligned",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus2",
+    "name": "alignmentStatus2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:alignment error count",
+    "pvname": "$(p)$(card)alignmentStatus2:alignmentErrors",
+    "name": "alignmentStatus2:alignmentErrors",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:alignment status codes",
+    "pvname": "$(p)$(card)alignmentStatus2:statusCode",
+    "name": "alignmentStatus2:statusCode",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags",
+    "pvname": "$(p)$(card)alignmentStatus2:flags",
+    "name": "alignmentStatus2:flags",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 1 ID OK 2:stage 1 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:stage1_idOk",
+    "name": "alignmentStatus2:flags:stage1_idOk",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 2 ID OK 2:stage 2 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:stage2_idOk",
+    "name": "alignmentStatus2:flags:stage2_idOk",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 2 underrun 2:stage 2 underrun",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:align2_underrun",
+    "name": "alignmentStatus2:flags:align2_underrun",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 2 overrun 2:stage 2 overrun",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:align2_overrun",
+    "name": "alignmentStatus2:flags:align2_overrun",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 2 alignment 2:stage 2 alignment",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:align2_aligned",
+    "name": "alignmentStatus2:flags:align2_aligned",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 1 underrun 2:stage 1 underrun",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:align1_underrun",
+    "name": "alignmentStatus2:flags:align1_underrun",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 1 overrun 2:stage 1 overrun",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:align1_overrun",
+    "name": "alignmentStatus2:flags:align1_overrun",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 2:flags 2:stage 1 alignment 2:stage 1 alignment",
+    "pvname": "$(p)$(card)alignmentStatus2:flags:align1_aligned",
+    "name": "alignmentStatus2:flags:align1_aligned",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus3",
+    "name": "alignmentStatus3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:alignment error count",
+    "pvname": "$(p)$(card)alignmentStatus3:alignmentErrors",
+    "name": "alignmentStatus3:alignmentErrors",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:alignment status codes",
+    "pvname": "$(p)$(card)alignmentStatus3:statusCode",
+    "name": "alignmentStatus3:statusCode",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags",
+    "pvname": "$(p)$(card)alignmentStatus3:flags",
+    "name": "alignmentStatus3:flags",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 1 ID OK 3:stage 1 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:stage1_idOk",
+    "name": "alignmentStatus3:flags:stage1_idOk",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 2 ID OK 3:stage 2 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:stage2_idOk",
+    "name": "alignmentStatus3:flags:stage2_idOk",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 2 underrun 3:stage 2 underrun",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:align2_underrun",
+    "name": "alignmentStatus3:flags:align2_underrun",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 2 overrun 3:stage 2 overrun",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:align2_overrun",
+    "name": "alignmentStatus3:flags:align2_overrun",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 2 alignment 3:stage 2 alignment",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:align2_aligned",
+    "name": "alignmentStatus3:flags:align2_aligned",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 1 underrun 3:stage 1 underrun",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:align1_underrun",
+    "name": "alignmentStatus3:flags:align1_underrun",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 1 overrun 3:stage 1 overrun",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:align1_overrun",
+    "name": "alignmentStatus3:flags:align1_overrun",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 3:flags 3:stage 1 alignment 3:stage 1 alignment",
+    "pvname": "$(p)$(card)alignmentStatus3:flags:align1_aligned",
+    "name": "alignmentStatus3:flags:align1_aligned",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus4",
+    "name": "alignmentStatus4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:alignment error count",
+    "pvname": "$(p)$(card)alignmentStatus4:alignmentErrors",
+    "name": "alignmentStatus4:alignmentErrors",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:alignment status codes",
+    "pvname": "$(p)$(card)alignmentStatus4:statusCode",
+    "name": "alignmentStatus4:statusCode",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags",
+    "pvname": "$(p)$(card)alignmentStatus4:flags",
+    "name": "alignmentStatus4:flags",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 1 ID OK 4:stage 1 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:stage1_idOk",
+    "name": "alignmentStatus4:flags:stage1_idOk",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 2 ID OK 4:stage 2 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:stage2_idOk",
+    "name": "alignmentStatus4:flags:stage2_idOk",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 2 underrun 4:stage 2 underrun",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:align2_underrun",
+    "name": "alignmentStatus4:flags:align2_underrun",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 2 overrun 4:stage 2 overrun",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:align2_overrun",
+    "name": "alignmentStatus4:flags:align2_overrun",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 2 alignment 4:stage 2 alignment",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:align2_aligned",
+    "name": "alignmentStatus4:flags:align2_aligned",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 1 underrun 4:stage 1 underrun",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:align1_underrun",
+    "name": "alignmentStatus4:flags:align1_underrun",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 1 overrun 4:stage 1 overrun",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:align1_overrun",
+    "name": "alignmentStatus4:flags:align1_overrun",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 4:flags 4:stage 1 alignment 4:stage 1 alignment",
+    "pvname": "$(p)$(card)alignmentStatus4:flags:align1_aligned",
+    "name": "alignmentStatus4:flags:align1_aligned",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus5",
+    "name": "alignmentStatus5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:alignment error count",
+    "pvname": "$(p)$(card)alignmentStatus5:alignmentErrors",
+    "name": "alignmentStatus5:alignmentErrors",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:alignment status codes",
+    "pvname": "$(p)$(card)alignmentStatus5:statusCode",
+    "name": "alignmentStatus5:statusCode",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags",
+    "pvname": "$(p)$(card)alignmentStatus5:flags",
+    "name": "alignmentStatus5:flags",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 1 ID OK 5:stage 1 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:stage1_idOk",
+    "name": "alignmentStatus5:flags:stage1_idOk",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 2 ID OK 5:stage 2 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:stage2_idOk",
+    "name": "alignmentStatus5:flags:stage2_idOk",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 2 underrun 5:stage 2 underrun",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:align2_underrun",
+    "name": "alignmentStatus5:flags:align2_underrun",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 2 overrun 5:stage 2 overrun",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:align2_overrun",
+    "name": "alignmentStatus5:flags:align2_overrun",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 2 alignment 5:stage 2 alignment",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:align2_aligned",
+    "name": "alignmentStatus5:flags:align2_aligned",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 1 underrun 5:stage 1 underrun",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:align1_underrun",
+    "name": "alignmentStatus5:flags:align1_underrun",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 1 overrun 5:stage 1 overrun",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:align1_overrun",
+    "name": "alignmentStatus5:flags:align1_overrun",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 5:flags 5:stage 1 alignment 5:stage 1 alignment",
+    "pvname": "$(p)$(card)alignmentStatus5:flags:align1_aligned",
+    "name": "alignmentStatus5:flags:align1_aligned",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "FPGA",
+    "pvname": "$(p)$(card)alignmentStatus6",
+    "name": "alignmentStatus6",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:alignment error count",
+    "pvname": "$(p)$(card)alignmentStatus6:alignmentErrors",
+    "name": "alignmentStatus6:alignmentErrors",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:alignment status codes",
+    "pvname": "$(p)$(card)alignmentStatus6:statusCode",
+    "name": "alignmentStatus6:statusCode",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags",
+    "pvname": "$(p)$(card)alignmentStatus6:flags",
+    "name": "alignmentStatus6:flags",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 1 ID OK 6:stage 1 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:stage1_idOk",
+    "name": "alignmentStatus6:flags:stage1_idOk",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 2 ID OK 6:stage 2 ID OK",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:stage2_idOk",
+    "name": "alignmentStatus6:flags:stage2_idOk",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 2 underrun 6:stage 2 underrun",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:align2_underrun",
+    "name": "alignmentStatus6:flags:align2_underrun",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 2 overrun 6:stage 2 overrun",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:align2_overrun",
+    "name": "alignmentStatus6:flags:align2_overrun",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 2 alignment 6:stage 2 alignment",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:align2_aligned",
+    "name": "alignmentStatus6:flags:align2_aligned",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 1 underrun 6:stage 1 underrun",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:align1_underrun",
+    "name": "alignmentStatus6:flags:align1_underrun",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 1 overrun 6:stage 1 overrun",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:align1_overrun",
+    "name": "alignmentStatus6:flags:align1_overrun",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "FPGA 6:flags 6:stage 1 alignment 6:stage 1 alignment",
+    "pvname": "$(p)$(card)alignmentStatus6:flags:align1_aligned",
+    "name": "alignmentStatus6:flags:align1_aligned",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "check link valid for state change",
+    "pvname": "$(p)$(card)checkLinkValid_O",
+    "name": "checkLinkValid_O",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G",
+    "name": "LinkStatus10G",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G1",
+    "name": "LinkStatus10G1",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G1:status",
+    "name": "LinkStatus10G1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G1:crcErrors",
+    "name": "LinkStatus10G1:crcErrors",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G1:tx_overflow",
+    "name": "LinkStatus10G1:tx_overflow",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G1:rx_overflow",
+    "name": "LinkStatus10G1:rx_overflow",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G1:tx_underflow",
+    "name": "LinkStatus10G1:tx_underflow",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G1:rx_underflow",
+    "name": "LinkStatus10G1:rx_underflow",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G1:linkSourceAntenna",
+    "name": "LinkStatus10G1:linkSourceAntenna",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G1:linkBand",
+    "name": "LinkStatus10G1:linkBand",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 1:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G1:linkValid",
+    "name": "LinkStatus10G1:linkValid",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G2",
+    "name": "LinkStatus10G2",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G2:status",
+    "name": "LinkStatus10G2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G2:crcErrors",
+    "name": "LinkStatus10G2:crcErrors",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G2:tx_overflow",
+    "name": "LinkStatus10G2:tx_overflow",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G2:rx_overflow",
+    "name": "LinkStatus10G2:rx_overflow",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G2:tx_underflow",
+    "name": "LinkStatus10G2:tx_underflow",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G2:rx_underflow",
+    "name": "LinkStatus10G2:rx_underflow",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G2:linkSourceAntenna",
+    "name": "LinkStatus10G2:linkSourceAntenna",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G2:linkBand",
+    "name": "LinkStatus10G2:linkBand",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 2:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G2:linkValid",
+    "name": "LinkStatus10G2:linkValid",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G3",
+    "name": "LinkStatus10G3",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G3:status",
+    "name": "LinkStatus10G3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G3:crcErrors",
+    "name": "LinkStatus10G3:crcErrors",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G3:tx_overflow",
+    "name": "LinkStatus10G3:tx_overflow",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G3:rx_overflow",
+    "name": "LinkStatus10G3:rx_overflow",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G3:tx_underflow",
+    "name": "LinkStatus10G3:tx_underflow",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G3:rx_underflow",
+    "name": "LinkStatus10G3:rx_underflow",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G3:linkSourceAntenna",
+    "name": "LinkStatus10G3:linkSourceAntenna",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G3:linkBand",
+    "name": "LinkStatus10G3:linkBand",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 3:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G3:linkValid",
+    "name": "LinkStatus10G3:linkValid",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G4",
+    "name": "LinkStatus10G4",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G4:status",
+    "name": "LinkStatus10G4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G4:crcErrors",
+    "name": "LinkStatus10G4:crcErrors",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G4:tx_overflow",
+    "name": "LinkStatus10G4:tx_overflow",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G4:rx_overflow",
+    "name": "LinkStatus10G4:rx_overflow",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G4:tx_underflow",
+    "name": "LinkStatus10G4:tx_underflow",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G4:rx_underflow",
+    "name": "LinkStatus10G4:rx_underflow",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G4:linkSourceAntenna",
+    "name": "LinkStatus10G4:linkSourceAntenna",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G4:linkBand",
+    "name": "LinkStatus10G4:linkBand",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 4:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G4:linkValid",
+    "name": "LinkStatus10G4:linkValid",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G5",
+    "name": "LinkStatus10G5",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G5:status",
+    "name": "LinkStatus10G5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G5:crcErrors",
+    "name": "LinkStatus10G5:crcErrors",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G5:tx_overflow",
+    "name": "LinkStatus10G5:tx_overflow",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G5:rx_overflow",
+    "name": "LinkStatus10G5:rx_overflow",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G5:tx_underflow",
+    "name": "LinkStatus10G5:tx_underflow",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G5:rx_underflow",
+    "name": "LinkStatus10G5:rx_underflow",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G5:linkSourceAntenna",
+    "name": "LinkStatus10G5:linkSourceAntenna",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G5:linkBand",
+    "name": "LinkStatus10G5:linkBand",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 5:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G5:linkValid",
+    "name": "LinkStatus10G5:linkValid",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G6",
+    "name": "LinkStatus10G6",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G6:status",
+    "name": "LinkStatus10G6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G6:crcErrors",
+    "name": "LinkStatus10G6:crcErrors",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G6:tx_overflow",
+    "name": "LinkStatus10G6:tx_overflow",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G6:rx_overflow",
+    "name": "LinkStatus10G6:rx_overflow",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G6:tx_underflow",
+    "name": "LinkStatus10G6:tx_underflow",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G6:rx_underflow",
+    "name": "LinkStatus10G6:rx_underflow",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G6:linkSourceAntenna",
+    "name": "LinkStatus10G6:linkSourceAntenna",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G6:linkBand",
+    "name": "LinkStatus10G6:linkBand",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 6:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G6:linkValid",
+    "name": "LinkStatus10G6:linkValid",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G7",
+    "name": "LinkStatus10G7",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G7:status",
+    "name": "LinkStatus10G7:status",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G7:crcErrors",
+    "name": "LinkStatus10G7:crcErrors",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G7:tx_overflow",
+    "name": "LinkStatus10G7:tx_overflow",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G7:rx_overflow",
+    "name": "LinkStatus10G7:rx_overflow",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G7:tx_underflow",
+    "name": "LinkStatus10G7:tx_underflow",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G7:rx_underflow",
+    "name": "LinkStatus10G7:rx_underflow",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G7:linkSourceAntenna",
+    "name": "LinkStatus10G7:linkSourceAntenna",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G7:linkBand",
+    "name": "LinkStatus10G7:linkBand",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 7:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G7:linkValid",
+    "name": "LinkStatus10G7:linkValid",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G8",
+    "name": "LinkStatus10G8",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G8:status",
+    "name": "LinkStatus10G8:status",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G8:crcErrors",
+    "name": "LinkStatus10G8:crcErrors",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G8:tx_overflow",
+    "name": "LinkStatus10G8:tx_overflow",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G8:rx_overflow",
+    "name": "LinkStatus10G8:rx_overflow",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G8:tx_underflow",
+    "name": "LinkStatus10G8:tx_underflow",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G8:rx_underflow",
+    "name": "LinkStatus10G8:rx_underflow",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G8:linkSourceAntenna",
+    "name": "LinkStatus10G8:linkSourceAntenna",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G8:linkBand",
+    "name": "LinkStatus10G8:linkBand",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 8:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G8:linkValid",
+    "name": "LinkStatus10G8:linkValid",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G9",
+    "name": "LinkStatus10G9",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G9:status",
+    "name": "LinkStatus10G9:status",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G9:crcErrors",
+    "name": "LinkStatus10G9:crcErrors",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G9:tx_overflow",
+    "name": "LinkStatus10G9:tx_overflow",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G9:rx_overflow",
+    "name": "LinkStatus10G9:rx_overflow",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G9:tx_underflow",
+    "name": "LinkStatus10G9:tx_underflow",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G9:rx_underflow",
+    "name": "LinkStatus10G9:rx_underflow",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G9:linkSourceAntenna",
+    "name": "LinkStatus10G9:linkSourceAntenna",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G9:linkBand",
+    "name": "LinkStatus10G9:linkBand",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 9:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G9:linkValid",
+    "name": "LinkStatus10G9:linkValid",
+    "index": "9",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G10",
+    "name": "LinkStatus10G10",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G10:status",
+    "name": "LinkStatus10G10:status",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G10:crcErrors",
+    "name": "LinkStatus10G10:crcErrors",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G10:tx_overflow",
+    "name": "LinkStatus10G10:tx_overflow",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G10:rx_overflow",
+    "name": "LinkStatus10G10:rx_overflow",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G10:tx_underflow",
+    "name": "LinkStatus10G10:tx_underflow",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G10:rx_underflow",
+    "name": "LinkStatus10G10:rx_underflow",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G10:linkSourceAntenna",
+    "name": "LinkStatus10G10:linkSourceAntenna",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G10:linkBand",
+    "name": "LinkStatus10G10:linkBand",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 10:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G10:linkValid",
+    "name": "LinkStatus10G10:linkValid",
+    "index": "10",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G11",
+    "name": "LinkStatus10G11",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G11:status",
+    "name": "LinkStatus10G11:status",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G11:crcErrors",
+    "name": "LinkStatus10G11:crcErrors",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G11:tx_overflow",
+    "name": "LinkStatus10G11:tx_overflow",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G11:rx_overflow",
+    "name": "LinkStatus10G11:rx_overflow",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G11:tx_underflow",
+    "name": "LinkStatus10G11:tx_underflow",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G11:rx_underflow",
+    "name": "LinkStatus10G11:rx_underflow",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G11:linkSourceAntenna",
+    "name": "LinkStatus10G11:linkSourceAntenna",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G11:linkBand",
+    "name": "LinkStatus10G11:linkBand",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 11:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G11:linkValid",
+    "name": "LinkStatus10G11:linkValid",
+    "index": "11",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G12",
+    "name": "LinkStatus10G12",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G12:status",
+    "name": "LinkStatus10G12:status",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G12:crcErrors",
+    "name": "LinkStatus10G12:crcErrors",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G12:tx_overflow",
+    "name": "LinkStatus10G12:tx_overflow",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G12:rx_overflow",
+    "name": "LinkStatus10G12:rx_overflow",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G12:tx_underflow",
+    "name": "LinkStatus10G12:tx_underflow",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G12:rx_underflow",
+    "name": "LinkStatus10G12:rx_underflow",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G12:linkSourceAntenna",
+    "name": "LinkStatus10G12:linkSourceAntenna",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G12:linkBand",
+    "name": "LinkStatus10G12:linkBand",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 12:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G12:linkValid",
+    "name": "LinkStatus10G12:linkValid",
+    "index": "12",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G13",
+    "name": "LinkStatus10G13",
+    "index": "13",
+    "size": "1"},
+  {
+    "description": "10G Link Status 13:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G13:status",
+    "name": "LinkStatus10G13:status",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G13:crcErrors",
+    "name": "LinkStatus10G13:crcErrors",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G13:tx_overflow",
+    "name": "LinkStatus10G13:tx_overflow",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G13:rx_overflow",
+    "name": "LinkStatus10G13:rx_overflow",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G13:tx_underflow",
+    "name": "LinkStatus10G13:tx_underflow",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G13:rx_underflow",
+    "name": "LinkStatus10G13:rx_underflow",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G13:linkSourceAntenna",
+    "name": "LinkStatus10G13:linkSourceAntenna",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G13:linkBand",
+    "name": "LinkStatus10G13:linkBand",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 13:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G13:linkValid",
+    "name": "LinkStatus10G13:linkValid",
+    "index": "13",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G14",
+    "name": "LinkStatus10G14",
+    "index": "14",
+    "size": "1"},
+  {
+    "description": "10G Link Status 14:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G14:status",
+    "name": "LinkStatus10G14:status",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G14:crcErrors",
+    "name": "LinkStatus10G14:crcErrors",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G14:tx_overflow",
+    "name": "LinkStatus10G14:tx_overflow",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G14:rx_overflow",
+    "name": "LinkStatus10G14:rx_overflow",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G14:tx_underflow",
+    "name": "LinkStatus10G14:tx_underflow",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G14:rx_underflow",
+    "name": "LinkStatus10G14:rx_underflow",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G14:linkSourceAntenna",
+    "name": "LinkStatus10G14:linkSourceAntenna",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G14:linkBand",
+    "name": "LinkStatus10G14:linkBand",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 14:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G14:linkValid",
+    "name": "LinkStatus10G14:linkValid",
+    "index": "14",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G15",
+    "name": "LinkStatus10G15",
+    "index": "15",
+    "size": "1"},
+  {
+    "description": "10G Link Status 15:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G15:status",
+    "name": "LinkStatus10G15:status",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G15:crcErrors",
+    "name": "LinkStatus10G15:crcErrors",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G15:tx_overflow",
+    "name": "LinkStatus10G15:tx_overflow",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G15:rx_overflow",
+    "name": "LinkStatus10G15:rx_overflow",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G15:tx_underflow",
+    "name": "LinkStatus10G15:tx_underflow",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G15:rx_underflow",
+    "name": "LinkStatus10G15:rx_underflow",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G15:linkSourceAntenna",
+    "name": "LinkStatus10G15:linkSourceAntenna",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G15:linkBand",
+    "name": "LinkStatus10G15:linkBand",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 15:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G15:linkValid",
+    "name": "LinkStatus10G15:linkValid",
+    "index": "15",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G16",
+    "name": "LinkStatus10G16",
+    "index": "16",
+    "size": "1"},
+  {
+    "description": "10G Link Status 16:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G16:status",
+    "name": "LinkStatus10G16:status",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G16:crcErrors",
+    "name": "LinkStatus10G16:crcErrors",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G16:tx_overflow",
+    "name": "LinkStatus10G16:tx_overflow",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G16:rx_overflow",
+    "name": "LinkStatus10G16:rx_overflow",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G16:tx_underflow",
+    "name": "LinkStatus10G16:tx_underflow",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G16:rx_underflow",
+    "name": "LinkStatus10G16:rx_underflow",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G16:linkSourceAntenna",
+    "name": "LinkStatus10G16:linkSourceAntenna",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G16:linkBand",
+    "name": "LinkStatus10G16:linkBand",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 16:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G16:linkValid",
+    "name": "LinkStatus10G16:linkValid",
+    "index": "16",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G17",
+    "name": "LinkStatus10G17",
+    "index": "17",
+    "size": "1"},
+  {
+    "description": "10G Link Status 17:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G17:status",
+    "name": "LinkStatus10G17:status",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G17:crcErrors",
+    "name": "LinkStatus10G17:crcErrors",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G17:tx_overflow",
+    "name": "LinkStatus10G17:tx_overflow",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G17:rx_overflow",
+    "name": "LinkStatus10G17:rx_overflow",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G17:tx_underflow",
+    "name": "LinkStatus10G17:tx_underflow",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G17:rx_underflow",
+    "name": "LinkStatus10G17:rx_underflow",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G17:linkSourceAntenna",
+    "name": "LinkStatus10G17:linkSourceAntenna",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G17:linkBand",
+    "name": "LinkStatus10G17:linkBand",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 17:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G17:linkValid",
+    "name": "LinkStatus10G17:linkValid",
+    "index": "17",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G18",
+    "name": "LinkStatus10G18",
+    "index": "18",
+    "size": "1"},
+  {
+    "description": "10G Link Status 18:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G18:status",
+    "name": "LinkStatus10G18:status",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G18:crcErrors",
+    "name": "LinkStatus10G18:crcErrors",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G18:tx_overflow",
+    "name": "LinkStatus10G18:tx_overflow",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G18:rx_overflow",
+    "name": "LinkStatus10G18:rx_overflow",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G18:tx_underflow",
+    "name": "LinkStatus10G18:tx_underflow",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G18:rx_underflow",
+    "name": "LinkStatus10G18:rx_underflow",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G18:linkSourceAntenna",
+    "name": "LinkStatus10G18:linkSourceAntenna",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G18:linkBand",
+    "name": "LinkStatus10G18:linkBand",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 18:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G18:linkValid",
+    "name": "LinkStatus10G18:linkValid",
+    "index": "18",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G19",
+    "name": "LinkStatus10G19",
+    "index": "19",
+    "size": "1"},
+  {
+    "description": "10G Link Status 19:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G19:status",
+    "name": "LinkStatus10G19:status",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G19:crcErrors",
+    "name": "LinkStatus10G19:crcErrors",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G19:tx_overflow",
+    "name": "LinkStatus10G19:tx_overflow",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G19:rx_overflow",
+    "name": "LinkStatus10G19:rx_overflow",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G19:tx_underflow",
+    "name": "LinkStatus10G19:tx_underflow",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G19:rx_underflow",
+    "name": "LinkStatus10G19:rx_underflow",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G19:linkSourceAntenna",
+    "name": "LinkStatus10G19:linkSourceAntenna",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G19:linkBand",
+    "name": "LinkStatus10G19:linkBand",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 19:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G19:linkValid",
+    "name": "LinkStatus10G19:linkValid",
+    "index": "19",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G20",
+    "name": "LinkStatus10G20",
+    "index": "20",
+    "size": "1"},
+  {
+    "description": "10G Link Status 20:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G20:status",
+    "name": "LinkStatus10G20:status",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G20:crcErrors",
+    "name": "LinkStatus10G20:crcErrors",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G20:tx_overflow",
+    "name": "LinkStatus10G20:tx_overflow",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G20:rx_overflow",
+    "name": "LinkStatus10G20:rx_overflow",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G20:tx_underflow",
+    "name": "LinkStatus10G20:tx_underflow",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G20:rx_underflow",
+    "name": "LinkStatus10G20:rx_underflow",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G20:linkSourceAntenna",
+    "name": "LinkStatus10G20:linkSourceAntenna",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G20:linkBand",
+    "name": "LinkStatus10G20:linkBand",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 20:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G20:linkValid",
+    "name": "LinkStatus10G20:linkValid",
+    "index": "20",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G21",
+    "name": "LinkStatus10G21",
+    "index": "21",
+    "size": "1"},
+  {
+    "description": "10G Link Status 21:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G21:status",
+    "name": "LinkStatus10G21:status",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G21:crcErrors",
+    "name": "LinkStatus10G21:crcErrors",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G21:tx_overflow",
+    "name": "LinkStatus10G21:tx_overflow",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G21:rx_overflow",
+    "name": "LinkStatus10G21:rx_overflow",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G21:tx_underflow",
+    "name": "LinkStatus10G21:tx_underflow",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G21:rx_underflow",
+    "name": "LinkStatus10G21:rx_underflow",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G21:linkSourceAntenna",
+    "name": "LinkStatus10G21:linkSourceAntenna",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G21:linkBand",
+    "name": "LinkStatus10G21:linkBand",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 21:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G21:linkValid",
+    "name": "LinkStatus10G21:linkValid",
+    "index": "21",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G22",
+    "name": "LinkStatus10G22",
+    "index": "22",
+    "size": "1"},
+  {
+    "description": "10G Link Status 22:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G22:status",
+    "name": "LinkStatus10G22:status",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G22:crcErrors",
+    "name": "LinkStatus10G22:crcErrors",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G22:tx_overflow",
+    "name": "LinkStatus10G22:tx_overflow",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G22:rx_overflow",
+    "name": "LinkStatus10G22:rx_overflow",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G22:tx_underflow",
+    "name": "LinkStatus10G22:tx_underflow",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G22:rx_underflow",
+    "name": "LinkStatus10G22:rx_underflow",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G22:linkSourceAntenna",
+    "name": "LinkStatus10G22:linkSourceAntenna",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G22:linkBand",
+    "name": "LinkStatus10G22:linkBand",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 22:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G22:linkValid",
+    "name": "LinkStatus10G22:linkValid",
+    "index": "22",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G23",
+    "name": "LinkStatus10G23",
+    "index": "23",
+    "size": "1"},
+  {
+    "description": "10G Link Status 23:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G23:status",
+    "name": "LinkStatus10G23:status",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G23:crcErrors",
+    "name": "LinkStatus10G23:crcErrors",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G23:tx_overflow",
+    "name": "LinkStatus10G23:tx_overflow",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G23:rx_overflow",
+    "name": "LinkStatus10G23:rx_overflow",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G23:tx_underflow",
+    "name": "LinkStatus10G23:tx_underflow",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G23:rx_underflow",
+    "name": "LinkStatus10G23:rx_underflow",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G23:linkSourceAntenna",
+    "name": "LinkStatus10G23:linkSourceAntenna",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G23:linkBand",
+    "name": "LinkStatus10G23:linkBand",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 23:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G23:linkValid",
+    "name": "LinkStatus10G23:linkValid",
+    "index": "23",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G24",
+    "name": "LinkStatus10G24",
+    "index": "24",
+    "size": "1"},
+  {
+    "description": "10G Link Status 24:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G24:status",
+    "name": "LinkStatus10G24:status",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G24:crcErrors",
+    "name": "LinkStatus10G24:crcErrors",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G24:tx_overflow",
+    "name": "LinkStatus10G24:tx_overflow",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G24:rx_overflow",
+    "name": "LinkStatus10G24:rx_overflow",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G24:tx_underflow",
+    "name": "LinkStatus10G24:tx_underflow",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G24:rx_underflow",
+    "name": "LinkStatus10G24:rx_underflow",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G24:linkSourceAntenna",
+    "name": "LinkStatus10G24:linkSourceAntenna",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G24:linkBand",
+    "name": "LinkStatus10G24:linkBand",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 24:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G24:linkValid",
+    "name": "LinkStatus10G24:linkValid",
+    "index": "24",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G25",
+    "name": "LinkStatus10G25",
+    "index": "25",
+    "size": "1"},
+  {
+    "description": "10G Link Status 25:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G25:status",
+    "name": "LinkStatus10G25:status",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G25:crcErrors",
+    "name": "LinkStatus10G25:crcErrors",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G25:tx_overflow",
+    "name": "LinkStatus10G25:tx_overflow",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G25:rx_overflow",
+    "name": "LinkStatus10G25:rx_overflow",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G25:tx_underflow",
+    "name": "LinkStatus10G25:tx_underflow",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G25:rx_underflow",
+    "name": "LinkStatus10G25:rx_underflow",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G25:linkSourceAntenna",
+    "name": "LinkStatus10G25:linkSourceAntenna",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G25:linkBand",
+    "name": "LinkStatus10G25:linkBand",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 25:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G25:linkValid",
+    "name": "LinkStatus10G25:linkValid",
+    "index": "25",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G26",
+    "name": "LinkStatus10G26",
+    "index": "26",
+    "size": "1"},
+  {
+    "description": "10G Link Status 26:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G26:status",
+    "name": "LinkStatus10G26:status",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G26:crcErrors",
+    "name": "LinkStatus10G26:crcErrors",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G26:tx_overflow",
+    "name": "LinkStatus10G26:tx_overflow",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G26:rx_overflow",
+    "name": "LinkStatus10G26:rx_overflow",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G26:tx_underflow",
+    "name": "LinkStatus10G26:tx_underflow",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G26:rx_underflow",
+    "name": "LinkStatus10G26:rx_underflow",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G26:linkSourceAntenna",
+    "name": "LinkStatus10G26:linkSourceAntenna",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G26:linkBand",
+    "name": "LinkStatus10G26:linkBand",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 26:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G26:linkValid",
+    "name": "LinkStatus10G26:linkValid",
+    "index": "26",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G27",
+    "name": "LinkStatus10G27",
+    "index": "27",
+    "size": "1"},
+  {
+    "description": "10G Link Status 27:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G27:status",
+    "name": "LinkStatus10G27:status",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G27:crcErrors",
+    "name": "LinkStatus10G27:crcErrors",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G27:tx_overflow",
+    "name": "LinkStatus10G27:tx_overflow",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G27:rx_overflow",
+    "name": "LinkStatus10G27:rx_overflow",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G27:tx_underflow",
+    "name": "LinkStatus10G27:tx_underflow",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G27:rx_underflow",
+    "name": "LinkStatus10G27:rx_underflow",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G27:linkSourceAntenna",
+    "name": "LinkStatus10G27:linkSourceAntenna",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G27:linkBand",
+    "name": "LinkStatus10G27:linkBand",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 27:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G27:linkValid",
+    "name": "LinkStatus10G27:linkValid",
+    "index": "27",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G28",
+    "name": "LinkStatus10G28",
+    "index": "28",
+    "size": "1"},
+  {
+    "description": "10G Link Status 28:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G28:status",
+    "name": "LinkStatus10G28:status",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G28:crcErrors",
+    "name": "LinkStatus10G28:crcErrors",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G28:tx_overflow",
+    "name": "LinkStatus10G28:tx_overflow",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G28:rx_overflow",
+    "name": "LinkStatus10G28:rx_overflow",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G28:tx_underflow",
+    "name": "LinkStatus10G28:tx_underflow",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G28:rx_underflow",
+    "name": "LinkStatus10G28:rx_underflow",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G28:linkSourceAntenna",
+    "name": "LinkStatus10G28:linkSourceAntenna",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G28:linkBand",
+    "name": "LinkStatus10G28:linkBand",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 28:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G28:linkValid",
+    "name": "LinkStatus10G28:linkValid",
+    "index": "28",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G29",
+    "name": "LinkStatus10G29",
+    "index": "29",
+    "size": "1"},
+  {
+    "description": "10G Link Status 29:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G29:status",
+    "name": "LinkStatus10G29:status",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G29:crcErrors",
+    "name": "LinkStatus10G29:crcErrors",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G29:tx_overflow",
+    "name": "LinkStatus10G29:tx_overflow",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G29:rx_overflow",
+    "name": "LinkStatus10G29:rx_overflow",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G29:tx_underflow",
+    "name": "LinkStatus10G29:tx_underflow",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G29:rx_underflow",
+    "name": "LinkStatus10G29:rx_underflow",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G29:linkSourceAntenna",
+    "name": "LinkStatus10G29:linkSourceAntenna",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G29:linkBand",
+    "name": "LinkStatus10G29:linkBand",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 29:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G29:linkValid",
+    "name": "LinkStatus10G29:linkValid",
+    "index": "29",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G30",
+    "name": "LinkStatus10G30",
+    "index": "30",
+    "size": "1"},
+  {
+    "description": "10G Link Status 30:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G30:status",
+    "name": "LinkStatus10G30:status",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G30:crcErrors",
+    "name": "LinkStatus10G30:crcErrors",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G30:tx_overflow",
+    "name": "LinkStatus10G30:tx_overflow",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G30:rx_overflow",
+    "name": "LinkStatus10G30:rx_overflow",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G30:tx_underflow",
+    "name": "LinkStatus10G30:tx_underflow",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G30:rx_underflow",
+    "name": "LinkStatus10G30:rx_underflow",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G30:linkSourceAntenna",
+    "name": "LinkStatus10G30:linkSourceAntenna",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G30:linkBand",
+    "name": "LinkStatus10G30:linkBand",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 30:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G30:linkValid",
+    "name": "LinkStatus10G30:linkValid",
+    "index": "30",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G31",
+    "name": "LinkStatus10G31",
+    "index": "31",
+    "size": "1"},
+  {
+    "description": "10G Link Status 31:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G31:status",
+    "name": "LinkStatus10G31:status",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G31:crcErrors",
+    "name": "LinkStatus10G31:crcErrors",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G31:tx_overflow",
+    "name": "LinkStatus10G31:tx_overflow",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G31:rx_overflow",
+    "name": "LinkStatus10G31:rx_overflow",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G31:tx_underflow",
+    "name": "LinkStatus10G31:tx_underflow",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G31:rx_underflow",
+    "name": "LinkStatus10G31:rx_underflow",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G31:linkSourceAntenna",
+    "name": "LinkStatus10G31:linkSourceAntenna",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G31:linkBand",
+    "name": "LinkStatus10G31:linkBand",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 31:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G31:linkValid",
+    "name": "LinkStatus10G31:linkValid",
+    "index": "31",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G32",
+    "name": "LinkStatus10G32",
+    "index": "32",
+    "size": "1"},
+  {
+    "description": "10G Link Status 32:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G32:status",
+    "name": "LinkStatus10G32:status",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G32:crcErrors",
+    "name": "LinkStatus10G32:crcErrors",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G32:tx_overflow",
+    "name": "LinkStatus10G32:tx_overflow",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G32:rx_overflow",
+    "name": "LinkStatus10G32:rx_overflow",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G32:tx_underflow",
+    "name": "LinkStatus10G32:tx_underflow",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G32:rx_underflow",
+    "name": "LinkStatus10G32:rx_underflow",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G32:linkSourceAntenna",
+    "name": "LinkStatus10G32:linkSourceAntenna",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G32:linkBand",
+    "name": "LinkStatus10G32:linkBand",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 32:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G32:linkValid",
+    "name": "LinkStatus10G32:linkValid",
+    "index": "32",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G33",
+    "name": "LinkStatus10G33",
+    "index": "33",
+    "size": "1"},
+  {
+    "description": "10G Link Status 33:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G33:status",
+    "name": "LinkStatus10G33:status",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G33:crcErrors",
+    "name": "LinkStatus10G33:crcErrors",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G33:tx_overflow",
+    "name": "LinkStatus10G33:tx_overflow",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G33:rx_overflow",
+    "name": "LinkStatus10G33:rx_overflow",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G33:tx_underflow",
+    "name": "LinkStatus10G33:tx_underflow",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G33:rx_underflow",
+    "name": "LinkStatus10G33:rx_underflow",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G33:linkSourceAntenna",
+    "name": "LinkStatus10G33:linkSourceAntenna",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G33:linkBand",
+    "name": "LinkStatus10G33:linkBand",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 33:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G33:linkValid",
+    "name": "LinkStatus10G33:linkValid",
+    "index": "33",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G34",
+    "name": "LinkStatus10G34",
+    "index": "34",
+    "size": "1"},
+  {
+    "description": "10G Link Status 34:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G34:status",
+    "name": "LinkStatus10G34:status",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G34:crcErrors",
+    "name": "LinkStatus10G34:crcErrors",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G34:tx_overflow",
+    "name": "LinkStatus10G34:tx_overflow",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G34:rx_overflow",
+    "name": "LinkStatus10G34:rx_overflow",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G34:tx_underflow",
+    "name": "LinkStatus10G34:tx_underflow",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G34:rx_underflow",
+    "name": "LinkStatus10G34:rx_underflow",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G34:linkSourceAntenna",
+    "name": "LinkStatus10G34:linkSourceAntenna",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G34:linkBand",
+    "name": "LinkStatus10G34:linkBand",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 34:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G34:linkValid",
+    "name": "LinkStatus10G34:linkValid",
+    "index": "34",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G35",
+    "name": "LinkStatus10G35",
+    "index": "35",
+    "size": "1"},
+  {
+    "description": "10G Link Status 35:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G35:status",
+    "name": "LinkStatus10G35:status",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G35:crcErrors",
+    "name": "LinkStatus10G35:crcErrors",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G35:tx_overflow",
+    "name": "LinkStatus10G35:tx_overflow",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G35:rx_overflow",
+    "name": "LinkStatus10G35:rx_overflow",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G35:tx_underflow",
+    "name": "LinkStatus10G35:tx_underflow",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G35:rx_underflow",
+    "name": "LinkStatus10G35:rx_underflow",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G35:linkSourceAntenna",
+    "name": "LinkStatus10G35:linkSourceAntenna",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G35:linkBand",
+    "name": "LinkStatus10G35:linkBand",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 35:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G35:linkValid",
+    "name": "LinkStatus10G35:linkValid",
+    "index": "35",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G36",
+    "name": "LinkStatus10G36",
+    "index": "36",
+    "size": "1"},
+  {
+    "description": "10G Link Status 36:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G36:status",
+    "name": "LinkStatus10G36:status",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G36:crcErrors",
+    "name": "LinkStatus10G36:crcErrors",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G36:tx_overflow",
+    "name": "LinkStatus10G36:tx_overflow",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G36:rx_overflow",
+    "name": "LinkStatus10G36:rx_overflow",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G36:tx_underflow",
+    "name": "LinkStatus10G36:tx_underflow",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G36:rx_underflow",
+    "name": "LinkStatus10G36:rx_underflow",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G36:linkSourceAntenna",
+    "name": "LinkStatus10G36:linkSourceAntenna",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G36:linkBand",
+    "name": "LinkStatus10G36:linkBand",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 36:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G36:linkValid",
+    "name": "LinkStatus10G36:linkValid",
+    "index": "36",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G37",
+    "name": "LinkStatus10G37",
+    "index": "37",
+    "size": "1"},
+  {
+    "description": "10G Link Status 37:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G37:status",
+    "name": "LinkStatus10G37:status",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G37:crcErrors",
+    "name": "LinkStatus10G37:crcErrors",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G37:tx_overflow",
+    "name": "LinkStatus10G37:tx_overflow",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G37:rx_overflow",
+    "name": "LinkStatus10G37:rx_overflow",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G37:tx_underflow",
+    "name": "LinkStatus10G37:tx_underflow",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G37:rx_underflow",
+    "name": "LinkStatus10G37:rx_underflow",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G37:linkSourceAntenna",
+    "name": "LinkStatus10G37:linkSourceAntenna",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G37:linkBand",
+    "name": "LinkStatus10G37:linkBand",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 37:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G37:linkValid",
+    "name": "LinkStatus10G37:linkValid",
+    "index": "37",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G38",
+    "name": "LinkStatus10G38",
+    "index": "38",
+    "size": "1"},
+  {
+    "description": "10G Link Status 38:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G38:status",
+    "name": "LinkStatus10G38:status",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G38:crcErrors",
+    "name": "LinkStatus10G38:crcErrors",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G38:tx_overflow",
+    "name": "LinkStatus10G38:tx_overflow",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G38:rx_overflow",
+    "name": "LinkStatus10G38:rx_overflow",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G38:tx_underflow",
+    "name": "LinkStatus10G38:tx_underflow",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G38:rx_underflow",
+    "name": "LinkStatus10G38:rx_underflow",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G38:linkSourceAntenna",
+    "name": "LinkStatus10G38:linkSourceAntenna",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G38:linkBand",
+    "name": "LinkStatus10G38:linkBand",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 38:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G38:linkValid",
+    "name": "LinkStatus10G38:linkValid",
+    "index": "38",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G39",
+    "name": "LinkStatus10G39",
+    "index": "39",
+    "size": "1"},
+  {
+    "description": "10G Link Status 39:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G39:status",
+    "name": "LinkStatus10G39:status",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G39:crcErrors",
+    "name": "LinkStatus10G39:crcErrors",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G39:tx_overflow",
+    "name": "LinkStatus10G39:tx_overflow",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G39:rx_overflow",
+    "name": "LinkStatus10G39:rx_overflow",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G39:tx_underflow",
+    "name": "LinkStatus10G39:tx_underflow",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G39:rx_underflow",
+    "name": "LinkStatus10G39:rx_underflow",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G39:linkSourceAntenna",
+    "name": "LinkStatus10G39:linkSourceAntenna",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G39:linkBand",
+    "name": "LinkStatus10G39:linkBand",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 39:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G39:linkValid",
+    "name": "LinkStatus10G39:linkValid",
+    "index": "39",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G40",
+    "name": "LinkStatus10G40",
+    "index": "40",
+    "size": "1"},
+  {
+    "description": "10G Link Status 40:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G40:status",
+    "name": "LinkStatus10G40:status",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G40:crcErrors",
+    "name": "LinkStatus10G40:crcErrors",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G40:tx_overflow",
+    "name": "LinkStatus10G40:tx_overflow",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G40:rx_overflow",
+    "name": "LinkStatus10G40:rx_overflow",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G40:tx_underflow",
+    "name": "LinkStatus10G40:tx_underflow",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G40:rx_underflow",
+    "name": "LinkStatus10G40:rx_underflow",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G40:linkSourceAntenna",
+    "name": "LinkStatus10G40:linkSourceAntenna",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G40:linkBand",
+    "name": "LinkStatus10G40:linkBand",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 40:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G40:linkValid",
+    "name": "LinkStatus10G40:linkValid",
+    "index": "40",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G41",
+    "name": "LinkStatus10G41",
+    "index": "41",
+    "size": "1"},
+  {
+    "description": "10G Link Status 41:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G41:status",
+    "name": "LinkStatus10G41:status",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G41:crcErrors",
+    "name": "LinkStatus10G41:crcErrors",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G41:tx_overflow",
+    "name": "LinkStatus10G41:tx_overflow",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G41:rx_overflow",
+    "name": "LinkStatus10G41:rx_overflow",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G41:tx_underflow",
+    "name": "LinkStatus10G41:tx_underflow",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G41:rx_underflow",
+    "name": "LinkStatus10G41:rx_underflow",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G41:linkSourceAntenna",
+    "name": "LinkStatus10G41:linkSourceAntenna",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G41:linkBand",
+    "name": "LinkStatus10G41:linkBand",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 41:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G41:linkValid",
+    "name": "LinkStatus10G41:linkValid",
+    "index": "41",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G42",
+    "name": "LinkStatus10G42",
+    "index": "42",
+    "size": "1"},
+  {
+    "description": "10G Link Status 42:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G42:status",
+    "name": "LinkStatus10G42:status",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G42:crcErrors",
+    "name": "LinkStatus10G42:crcErrors",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G42:tx_overflow",
+    "name": "LinkStatus10G42:tx_overflow",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G42:rx_overflow",
+    "name": "LinkStatus10G42:rx_overflow",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G42:tx_underflow",
+    "name": "LinkStatus10G42:tx_underflow",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G42:rx_underflow",
+    "name": "LinkStatus10G42:rx_underflow",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G42:linkSourceAntenna",
+    "name": "LinkStatus10G42:linkSourceAntenna",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G42:linkBand",
+    "name": "LinkStatus10G42:linkBand",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 42:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G42:linkValid",
+    "name": "LinkStatus10G42:linkValid",
+    "index": "42",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G43",
+    "name": "LinkStatus10G43",
+    "index": "43",
+    "size": "1"},
+  {
+    "description": "10G Link Status 43:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G43:status",
+    "name": "LinkStatus10G43:status",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G43:crcErrors",
+    "name": "LinkStatus10G43:crcErrors",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G43:tx_overflow",
+    "name": "LinkStatus10G43:tx_overflow",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G43:rx_overflow",
+    "name": "LinkStatus10G43:rx_overflow",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G43:tx_underflow",
+    "name": "LinkStatus10G43:tx_underflow",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G43:rx_underflow",
+    "name": "LinkStatus10G43:rx_underflow",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G43:linkSourceAntenna",
+    "name": "LinkStatus10G43:linkSourceAntenna",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G43:linkBand",
+    "name": "LinkStatus10G43:linkBand",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 43:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G43:linkValid",
+    "name": "LinkStatus10G43:linkValid",
+    "index": "43",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G44",
+    "name": "LinkStatus10G44",
+    "index": "44",
+    "size": "1"},
+  {
+    "description": "10G Link Status 44:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G44:status",
+    "name": "LinkStatus10G44:status",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G44:crcErrors",
+    "name": "LinkStatus10G44:crcErrors",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G44:tx_overflow",
+    "name": "LinkStatus10G44:tx_overflow",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G44:rx_overflow",
+    "name": "LinkStatus10G44:rx_overflow",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G44:tx_underflow",
+    "name": "LinkStatus10G44:tx_underflow",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G44:rx_underflow",
+    "name": "LinkStatus10G44:rx_underflow",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G44:linkSourceAntenna",
+    "name": "LinkStatus10G44:linkSourceAntenna",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G44:linkBand",
+    "name": "LinkStatus10G44:linkBand",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 44:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G44:linkValid",
+    "name": "LinkStatus10G44:linkValid",
+    "index": "44",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G45",
+    "name": "LinkStatus10G45",
+    "index": "45",
+    "size": "1"},
+  {
+    "description": "10G Link Status 45:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G45:status",
+    "name": "LinkStatus10G45:status",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G45:crcErrors",
+    "name": "LinkStatus10G45:crcErrors",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G45:tx_overflow",
+    "name": "LinkStatus10G45:tx_overflow",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G45:rx_overflow",
+    "name": "LinkStatus10G45:rx_overflow",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G45:tx_underflow",
+    "name": "LinkStatus10G45:tx_underflow",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G45:rx_underflow",
+    "name": "LinkStatus10G45:rx_underflow",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G45:linkSourceAntenna",
+    "name": "LinkStatus10G45:linkSourceAntenna",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G45:linkBand",
+    "name": "LinkStatus10G45:linkBand",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 45:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G45:linkValid",
+    "name": "LinkStatus10G45:linkValid",
+    "index": "45",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G46",
+    "name": "LinkStatus10G46",
+    "index": "46",
+    "size": "1"},
+  {
+    "description": "10G Link Status 46:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G46:status",
+    "name": "LinkStatus10G46:status",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G46:crcErrors",
+    "name": "LinkStatus10G46:crcErrors",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G46:tx_overflow",
+    "name": "LinkStatus10G46:tx_overflow",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G46:rx_overflow",
+    "name": "LinkStatus10G46:rx_overflow",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G46:tx_underflow",
+    "name": "LinkStatus10G46:tx_underflow",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G46:rx_underflow",
+    "name": "LinkStatus10G46:rx_underflow",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G46:linkSourceAntenna",
+    "name": "LinkStatus10G46:linkSourceAntenna",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G46:linkBand",
+    "name": "LinkStatus10G46:linkBand",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 46:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G46:linkValid",
+    "name": "LinkStatus10G46:linkValid",
+    "index": "46",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G47",
+    "name": "LinkStatus10G47",
+    "index": "47",
+    "size": "1"},
+  {
+    "description": "10G Link Status 47:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G47:status",
+    "name": "LinkStatus10G47:status",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G47:crcErrors",
+    "name": "LinkStatus10G47:crcErrors",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G47:tx_overflow",
+    "name": "LinkStatus10G47:tx_overflow",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G47:rx_overflow",
+    "name": "LinkStatus10G47:rx_overflow",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G47:tx_underflow",
+    "name": "LinkStatus10G47:tx_underflow",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G47:rx_underflow",
+    "name": "LinkStatus10G47:rx_underflow",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G47:linkSourceAntenna",
+    "name": "LinkStatus10G47:linkSourceAntenna",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G47:linkBand",
+    "name": "LinkStatus10G47:linkBand",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 47:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G47:linkValid",
+    "name": "LinkStatus10G47:linkValid",
+    "index": "47",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G48",
+    "name": "LinkStatus10G48",
+    "index": "48",
+    "size": "1"},
+  {
+    "description": "10G Link Status 48:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G48:status",
+    "name": "LinkStatus10G48:status",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G48:crcErrors",
+    "name": "LinkStatus10G48:crcErrors",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G48:tx_overflow",
+    "name": "LinkStatus10G48:tx_overflow",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G48:rx_overflow",
+    "name": "LinkStatus10G48:rx_overflow",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G48:tx_underflow",
+    "name": "LinkStatus10G48:tx_underflow",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G48:rx_underflow",
+    "name": "LinkStatus10G48:rx_underflow",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G48:linkSourceAntenna",
+    "name": "LinkStatus10G48:linkSourceAntenna",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G48:linkBand",
+    "name": "LinkStatus10G48:linkBand",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 48:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G48:linkValid",
+    "name": "LinkStatus10G48:linkValid",
+    "index": "48",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G49",
+    "name": "LinkStatus10G49",
+    "index": "49",
+    "size": "1"},
+  {
+    "description": "10G Link Status 49:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G49:status",
+    "name": "LinkStatus10G49:status",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G49:crcErrors",
+    "name": "LinkStatus10G49:crcErrors",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G49:tx_overflow",
+    "name": "LinkStatus10G49:tx_overflow",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G49:rx_overflow",
+    "name": "LinkStatus10G49:rx_overflow",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G49:tx_underflow",
+    "name": "LinkStatus10G49:tx_underflow",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G49:rx_underflow",
+    "name": "LinkStatus10G49:rx_underflow",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G49:linkSourceAntenna",
+    "name": "LinkStatus10G49:linkSourceAntenna",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G49:linkBand",
+    "name": "LinkStatus10G49:linkBand",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 49:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G49:linkValid",
+    "name": "LinkStatus10G49:linkValid",
+    "index": "49",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G50",
+    "name": "LinkStatus10G50",
+    "index": "50",
+    "size": "1"},
+  {
+    "description": "10G Link Status 50:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G50:status",
+    "name": "LinkStatus10G50:status",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G50:crcErrors",
+    "name": "LinkStatus10G50:crcErrors",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G50:tx_overflow",
+    "name": "LinkStatus10G50:tx_overflow",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G50:rx_overflow",
+    "name": "LinkStatus10G50:rx_overflow",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G50:tx_underflow",
+    "name": "LinkStatus10G50:tx_underflow",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G50:rx_underflow",
+    "name": "LinkStatus10G50:rx_underflow",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G50:linkSourceAntenna",
+    "name": "LinkStatus10G50:linkSourceAntenna",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G50:linkBand",
+    "name": "LinkStatus10G50:linkBand",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 50:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G50:linkValid",
+    "name": "LinkStatus10G50:linkValid",
+    "index": "50",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G51",
+    "name": "LinkStatus10G51",
+    "index": "51",
+    "size": "1"},
+  {
+    "description": "10G Link Status 51:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G51:status",
+    "name": "LinkStatus10G51:status",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G51:crcErrors",
+    "name": "LinkStatus10G51:crcErrors",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G51:tx_overflow",
+    "name": "LinkStatus10G51:tx_overflow",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G51:rx_overflow",
+    "name": "LinkStatus10G51:rx_overflow",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G51:tx_underflow",
+    "name": "LinkStatus10G51:tx_underflow",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G51:rx_underflow",
+    "name": "LinkStatus10G51:rx_underflow",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G51:linkSourceAntenna",
+    "name": "LinkStatus10G51:linkSourceAntenna",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G51:linkBand",
+    "name": "LinkStatus10G51:linkBand",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 51:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G51:linkValid",
+    "name": "LinkStatus10G51:linkValid",
+    "index": "51",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G52",
+    "name": "LinkStatus10G52",
+    "index": "52",
+    "size": "1"},
+  {
+    "description": "10G Link Status 52:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G52:status",
+    "name": "LinkStatus10G52:status",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G52:crcErrors",
+    "name": "LinkStatus10G52:crcErrors",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G52:tx_overflow",
+    "name": "LinkStatus10G52:tx_overflow",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G52:rx_overflow",
+    "name": "LinkStatus10G52:rx_overflow",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G52:tx_underflow",
+    "name": "LinkStatus10G52:tx_underflow",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G52:rx_underflow",
+    "name": "LinkStatus10G52:rx_underflow",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G52:linkSourceAntenna",
+    "name": "LinkStatus10G52:linkSourceAntenna",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G52:linkBand",
+    "name": "LinkStatus10G52:linkBand",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 52:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G52:linkValid",
+    "name": "LinkStatus10G52:linkValid",
+    "index": "52",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G53",
+    "name": "LinkStatus10G53",
+    "index": "53",
+    "size": "1"},
+  {
+    "description": "10G Link Status 53:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G53:status",
+    "name": "LinkStatus10G53:status",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G53:crcErrors",
+    "name": "LinkStatus10G53:crcErrors",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G53:tx_overflow",
+    "name": "LinkStatus10G53:tx_overflow",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G53:rx_overflow",
+    "name": "LinkStatus10G53:rx_overflow",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G53:tx_underflow",
+    "name": "LinkStatus10G53:tx_underflow",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G53:rx_underflow",
+    "name": "LinkStatus10G53:rx_underflow",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G53:linkSourceAntenna",
+    "name": "LinkStatus10G53:linkSourceAntenna",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G53:linkBand",
+    "name": "LinkStatus10G53:linkBand",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 53:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G53:linkValid",
+    "name": "LinkStatus10G53:linkValid",
+    "index": "53",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G54",
+    "name": "LinkStatus10G54",
+    "index": "54",
+    "size": "1"},
+  {
+    "description": "10G Link Status 54:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G54:status",
+    "name": "LinkStatus10G54:status",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G54:crcErrors",
+    "name": "LinkStatus10G54:crcErrors",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G54:tx_overflow",
+    "name": "LinkStatus10G54:tx_overflow",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G54:rx_overflow",
+    "name": "LinkStatus10G54:rx_overflow",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G54:tx_underflow",
+    "name": "LinkStatus10G54:tx_underflow",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G54:rx_underflow",
+    "name": "LinkStatus10G54:rx_underflow",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G54:linkSourceAntenna",
+    "name": "LinkStatus10G54:linkSourceAntenna",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G54:linkBand",
+    "name": "LinkStatus10G54:linkBand",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 54:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G54:linkValid",
+    "name": "LinkStatus10G54:linkValid",
+    "index": "54",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G55",
+    "name": "LinkStatus10G55",
+    "index": "55",
+    "size": "1"},
+  {
+    "description": "10G Link Status 55:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G55:status",
+    "name": "LinkStatus10G55:status",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G55:crcErrors",
+    "name": "LinkStatus10G55:crcErrors",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G55:tx_overflow",
+    "name": "LinkStatus10G55:tx_overflow",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G55:rx_overflow",
+    "name": "LinkStatus10G55:rx_overflow",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G55:tx_underflow",
+    "name": "LinkStatus10G55:tx_underflow",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G55:rx_underflow",
+    "name": "LinkStatus10G55:rx_underflow",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G55:linkSourceAntenna",
+    "name": "LinkStatus10G55:linkSourceAntenna",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G55:linkBand",
+    "name": "LinkStatus10G55:linkBand",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 55:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G55:linkValid",
+    "name": "LinkStatus10G55:linkValid",
+    "index": "55",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G56",
+    "name": "LinkStatus10G56",
+    "index": "56",
+    "size": "1"},
+  {
+    "description": "10G Link Status 56:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G56:status",
+    "name": "LinkStatus10G56:status",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G56:crcErrors",
+    "name": "LinkStatus10G56:crcErrors",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G56:tx_overflow",
+    "name": "LinkStatus10G56:tx_overflow",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G56:rx_overflow",
+    "name": "LinkStatus10G56:rx_overflow",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G56:tx_underflow",
+    "name": "LinkStatus10G56:tx_underflow",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G56:rx_underflow",
+    "name": "LinkStatus10G56:rx_underflow",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G56:linkSourceAntenna",
+    "name": "LinkStatus10G56:linkSourceAntenna",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G56:linkBand",
+    "name": "LinkStatus10G56:linkBand",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 56:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G56:linkValid",
+    "name": "LinkStatus10G56:linkValid",
+    "index": "56",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G57",
+    "name": "LinkStatus10G57",
+    "index": "57",
+    "size": "1"},
+  {
+    "description": "10G Link Status 57:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G57:status",
+    "name": "LinkStatus10G57:status",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G57:crcErrors",
+    "name": "LinkStatus10G57:crcErrors",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G57:tx_overflow",
+    "name": "LinkStatus10G57:tx_overflow",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G57:rx_overflow",
+    "name": "LinkStatus10G57:rx_overflow",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G57:tx_underflow",
+    "name": "LinkStatus10G57:tx_underflow",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G57:rx_underflow",
+    "name": "LinkStatus10G57:rx_underflow",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G57:linkSourceAntenna",
+    "name": "LinkStatus10G57:linkSourceAntenna",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G57:linkBand",
+    "name": "LinkStatus10G57:linkBand",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 57:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G57:linkValid",
+    "name": "LinkStatus10G57:linkValid",
+    "index": "57",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G58",
+    "name": "LinkStatus10G58",
+    "index": "58",
+    "size": "1"},
+  {
+    "description": "10G Link Status 58:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G58:status",
+    "name": "LinkStatus10G58:status",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G58:crcErrors",
+    "name": "LinkStatus10G58:crcErrors",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G58:tx_overflow",
+    "name": "LinkStatus10G58:tx_overflow",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G58:rx_overflow",
+    "name": "LinkStatus10G58:rx_overflow",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G58:tx_underflow",
+    "name": "LinkStatus10G58:tx_underflow",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G58:rx_underflow",
+    "name": "LinkStatus10G58:rx_underflow",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G58:linkSourceAntenna",
+    "name": "LinkStatus10G58:linkSourceAntenna",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G58:linkBand",
+    "name": "LinkStatus10G58:linkBand",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 58:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G58:linkValid",
+    "name": "LinkStatus10G58:linkValid",
+    "index": "58",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G59",
+    "name": "LinkStatus10G59",
+    "index": "59",
+    "size": "1"},
+  {
+    "description": "10G Link Status 59:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G59:status",
+    "name": "LinkStatus10G59:status",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G59:crcErrors",
+    "name": "LinkStatus10G59:crcErrors",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G59:tx_overflow",
+    "name": "LinkStatus10G59:tx_overflow",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G59:rx_overflow",
+    "name": "LinkStatus10G59:rx_overflow",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G59:tx_underflow",
+    "name": "LinkStatus10G59:tx_underflow",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G59:rx_underflow",
+    "name": "LinkStatus10G59:rx_underflow",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G59:linkSourceAntenna",
+    "name": "LinkStatus10G59:linkSourceAntenna",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G59:linkBand",
+    "name": "LinkStatus10G59:linkBand",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 59:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G59:linkValid",
+    "name": "LinkStatus10G59:linkValid",
+    "index": "59",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G60",
+    "name": "LinkStatus10G60",
+    "index": "60",
+    "size": "1"},
+  {
+    "description": "10G Link Status 60:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G60:status",
+    "name": "LinkStatus10G60:status",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G60:crcErrors",
+    "name": "LinkStatus10G60:crcErrors",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G60:tx_overflow",
+    "name": "LinkStatus10G60:tx_overflow",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G60:rx_overflow",
+    "name": "LinkStatus10G60:rx_overflow",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G60:tx_underflow",
+    "name": "LinkStatus10G60:tx_underflow",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G60:rx_underflow",
+    "name": "LinkStatus10G60:rx_underflow",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G60:linkSourceAntenna",
+    "name": "LinkStatus10G60:linkSourceAntenna",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G60:linkBand",
+    "name": "LinkStatus10G60:linkBand",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 60:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G60:linkValid",
+    "name": "LinkStatus10G60:linkValid",
+    "index": "60",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G61",
+    "name": "LinkStatus10G61",
+    "index": "61",
+    "size": "1"},
+  {
+    "description": "10G Link Status 61:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G61:status",
+    "name": "LinkStatus10G61:status",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G61:crcErrors",
+    "name": "LinkStatus10G61:crcErrors",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G61:tx_overflow",
+    "name": "LinkStatus10G61:tx_overflow",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G61:rx_overflow",
+    "name": "LinkStatus10G61:rx_overflow",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G61:tx_underflow",
+    "name": "LinkStatus10G61:tx_underflow",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G61:rx_underflow",
+    "name": "LinkStatus10G61:rx_underflow",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G61:linkSourceAntenna",
+    "name": "LinkStatus10G61:linkSourceAntenna",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G61:linkBand",
+    "name": "LinkStatus10G61:linkBand",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 61:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G61:linkValid",
+    "name": "LinkStatus10G61:linkValid",
+    "index": "61",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G62",
+    "name": "LinkStatus10G62",
+    "index": "62",
+    "size": "1"},
+  {
+    "description": "10G Link Status 62:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G62:status",
+    "name": "LinkStatus10G62:status",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G62:crcErrors",
+    "name": "LinkStatus10G62:crcErrors",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G62:tx_overflow",
+    "name": "LinkStatus10G62:tx_overflow",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G62:rx_overflow",
+    "name": "LinkStatus10G62:rx_overflow",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G62:tx_underflow",
+    "name": "LinkStatus10G62:tx_underflow",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G62:rx_underflow",
+    "name": "LinkStatus10G62:rx_underflow",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G62:linkSourceAntenna",
+    "name": "LinkStatus10G62:linkSourceAntenna",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G62:linkBand",
+    "name": "LinkStatus10G62:linkBand",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 62:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G62:linkValid",
+    "name": "LinkStatus10G62:linkValid",
+    "index": "62",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G63",
+    "name": "LinkStatus10G63",
+    "index": "63",
+    "size": "1"},
+  {
+    "description": "10G Link Status 63:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G63:status",
+    "name": "LinkStatus10G63:status",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G63:crcErrors",
+    "name": "LinkStatus10G63:crcErrors",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G63:tx_overflow",
+    "name": "LinkStatus10G63:tx_overflow",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G63:rx_overflow",
+    "name": "LinkStatus10G63:rx_overflow",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G63:tx_underflow",
+    "name": "LinkStatus10G63:tx_underflow",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G63:rx_underflow",
+    "name": "LinkStatus10G63:rx_underflow",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G63:linkSourceAntenna",
+    "name": "LinkStatus10G63:linkSourceAntenna",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G63:linkBand",
+    "name": "LinkStatus10G63:linkBand",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 63:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G63:linkValid",
+    "name": "LinkStatus10G63:linkValid",
+    "index": "63",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G64",
+    "name": "LinkStatus10G64",
+    "index": "64",
+    "size": "1"},
+  {
+    "description": "10G Link Status 64:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G64:status",
+    "name": "LinkStatus10G64:status",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G64:crcErrors",
+    "name": "LinkStatus10G64:crcErrors",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G64:tx_overflow",
+    "name": "LinkStatus10G64:tx_overflow",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G64:rx_overflow",
+    "name": "LinkStatus10G64:rx_overflow",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G64:tx_underflow",
+    "name": "LinkStatus10G64:tx_underflow",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G64:rx_underflow",
+    "name": "LinkStatus10G64:rx_underflow",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G64:linkSourceAntenna",
+    "name": "LinkStatus10G64:linkSourceAntenna",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G64:linkBand",
+    "name": "LinkStatus10G64:linkBand",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 64:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G64:linkValid",
+    "name": "LinkStatus10G64:linkValid",
+    "index": "64",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G65",
+    "name": "LinkStatus10G65",
+    "index": "65",
+    "size": "1"},
+  {
+    "description": "10G Link Status 65:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G65:status",
+    "name": "LinkStatus10G65:status",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G65:crcErrors",
+    "name": "LinkStatus10G65:crcErrors",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G65:tx_overflow",
+    "name": "LinkStatus10G65:tx_overflow",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G65:rx_overflow",
+    "name": "LinkStatus10G65:rx_overflow",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G65:tx_underflow",
+    "name": "LinkStatus10G65:tx_underflow",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G65:rx_underflow",
+    "name": "LinkStatus10G65:rx_underflow",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G65:linkSourceAntenna",
+    "name": "LinkStatus10G65:linkSourceAntenna",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G65:linkBand",
+    "name": "LinkStatus10G65:linkBand",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 65:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G65:linkValid",
+    "name": "LinkStatus10G65:linkValid",
+    "index": "65",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G66",
+    "name": "LinkStatus10G66",
+    "index": "66",
+    "size": "1"},
+  {
+    "description": "10G Link Status 66:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G66:status",
+    "name": "LinkStatus10G66:status",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G66:crcErrors",
+    "name": "LinkStatus10G66:crcErrors",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G66:tx_overflow",
+    "name": "LinkStatus10G66:tx_overflow",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G66:rx_overflow",
+    "name": "LinkStatus10G66:rx_overflow",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G66:tx_underflow",
+    "name": "LinkStatus10G66:tx_underflow",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G66:rx_underflow",
+    "name": "LinkStatus10G66:rx_underflow",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G66:linkSourceAntenna",
+    "name": "LinkStatus10G66:linkSourceAntenna",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G66:linkBand",
+    "name": "LinkStatus10G66:linkBand",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 66:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G66:linkValid",
+    "name": "LinkStatus10G66:linkValid",
+    "index": "66",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G67",
+    "name": "LinkStatus10G67",
+    "index": "67",
+    "size": "1"},
+  {
+    "description": "10G Link Status 67:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G67:status",
+    "name": "LinkStatus10G67:status",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G67:crcErrors",
+    "name": "LinkStatus10G67:crcErrors",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G67:tx_overflow",
+    "name": "LinkStatus10G67:tx_overflow",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G67:rx_overflow",
+    "name": "LinkStatus10G67:rx_overflow",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G67:tx_underflow",
+    "name": "LinkStatus10G67:tx_underflow",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G67:rx_underflow",
+    "name": "LinkStatus10G67:rx_underflow",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G67:linkSourceAntenna",
+    "name": "LinkStatus10G67:linkSourceAntenna",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G67:linkBand",
+    "name": "LinkStatus10G67:linkBand",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 67:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G67:linkValid",
+    "name": "LinkStatus10G67:linkValid",
+    "index": "67",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G68",
+    "name": "LinkStatus10G68",
+    "index": "68",
+    "size": "1"},
+  {
+    "description": "10G Link Status 68:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G68:status",
+    "name": "LinkStatus10G68:status",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G68:crcErrors",
+    "name": "LinkStatus10G68:crcErrors",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G68:tx_overflow",
+    "name": "LinkStatus10G68:tx_overflow",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G68:rx_overflow",
+    "name": "LinkStatus10G68:rx_overflow",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G68:tx_underflow",
+    "name": "LinkStatus10G68:tx_underflow",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G68:rx_underflow",
+    "name": "LinkStatus10G68:rx_underflow",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G68:linkSourceAntenna",
+    "name": "LinkStatus10G68:linkSourceAntenna",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G68:linkBand",
+    "name": "LinkStatus10G68:linkBand",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 68:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G68:linkValid",
+    "name": "LinkStatus10G68:linkValid",
+    "index": "68",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G69",
+    "name": "LinkStatus10G69",
+    "index": "69",
+    "size": "1"},
+  {
+    "description": "10G Link Status 69:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G69:status",
+    "name": "LinkStatus10G69:status",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G69:crcErrors",
+    "name": "LinkStatus10G69:crcErrors",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G69:tx_overflow",
+    "name": "LinkStatus10G69:tx_overflow",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G69:rx_overflow",
+    "name": "LinkStatus10G69:rx_overflow",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G69:tx_underflow",
+    "name": "LinkStatus10G69:tx_underflow",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G69:rx_underflow",
+    "name": "LinkStatus10G69:rx_underflow",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G69:linkSourceAntenna",
+    "name": "LinkStatus10G69:linkSourceAntenna",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G69:linkBand",
+    "name": "LinkStatus10G69:linkBand",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 69:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G69:linkValid",
+    "name": "LinkStatus10G69:linkValid",
+    "index": "69",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G70",
+    "name": "LinkStatus10G70",
+    "index": "70",
+    "size": "1"},
+  {
+    "description": "10G Link Status 70:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G70:status",
+    "name": "LinkStatus10G70:status",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G70:crcErrors",
+    "name": "LinkStatus10G70:crcErrors",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G70:tx_overflow",
+    "name": "LinkStatus10G70:tx_overflow",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G70:rx_overflow",
+    "name": "LinkStatus10G70:rx_overflow",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G70:tx_underflow",
+    "name": "LinkStatus10G70:tx_underflow",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G70:rx_underflow",
+    "name": "LinkStatus10G70:rx_underflow",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G70:linkSourceAntenna",
+    "name": "LinkStatus10G70:linkSourceAntenna",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G70:linkBand",
+    "name": "LinkStatus10G70:linkBand",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 70:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G70:linkValid",
+    "name": "LinkStatus10G70:linkValid",
+    "index": "70",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G71",
+    "name": "LinkStatus10G71",
+    "index": "71",
+    "size": "1"},
+  {
+    "description": "10G Link Status 71:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G71:status",
+    "name": "LinkStatus10G71:status",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G71:crcErrors",
+    "name": "LinkStatus10G71:crcErrors",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G71:tx_overflow",
+    "name": "LinkStatus10G71:tx_overflow",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G71:rx_overflow",
+    "name": "LinkStatus10G71:rx_overflow",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G71:tx_underflow",
+    "name": "LinkStatus10G71:tx_underflow",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G71:rx_underflow",
+    "name": "LinkStatus10G71:rx_underflow",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G71:linkSourceAntenna",
+    "name": "LinkStatus10G71:linkSourceAntenna",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G71:linkBand",
+    "name": "LinkStatus10G71:linkBand",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 71:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G71:linkValid",
+    "name": "LinkStatus10G71:linkValid",
+    "index": "71",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G72",
+    "name": "LinkStatus10G72",
+    "index": "72",
+    "size": "1"},
+  {
+    "description": "10G Link Status 72:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G72:status",
+    "name": "LinkStatus10G72:status",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G72:crcErrors",
+    "name": "LinkStatus10G72:crcErrors",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G72:tx_overflow",
+    "name": "LinkStatus10G72:tx_overflow",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G72:rx_overflow",
+    "name": "LinkStatus10G72:rx_overflow",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G72:tx_underflow",
+    "name": "LinkStatus10G72:tx_underflow",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G72:rx_underflow",
+    "name": "LinkStatus10G72:rx_underflow",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G72:linkSourceAntenna",
+    "name": "LinkStatus10G72:linkSourceAntenna",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G72:linkBand",
+    "name": "LinkStatus10G72:linkBand",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 72:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G72:linkValid",
+    "name": "LinkStatus10G72:linkValid",
+    "index": "72",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G73",
+    "name": "LinkStatus10G73",
+    "index": "73",
+    "size": "1"},
+  {
+    "description": "10G Link Status 73:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G73:status",
+    "name": "LinkStatus10G73:status",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G73:crcErrors",
+    "name": "LinkStatus10G73:crcErrors",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G73:tx_overflow",
+    "name": "LinkStatus10G73:tx_overflow",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G73:rx_overflow",
+    "name": "LinkStatus10G73:rx_overflow",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G73:tx_underflow",
+    "name": "LinkStatus10G73:tx_underflow",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G73:rx_underflow",
+    "name": "LinkStatus10G73:rx_underflow",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G73:linkSourceAntenna",
+    "name": "LinkStatus10G73:linkSourceAntenna",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G73:linkBand",
+    "name": "LinkStatus10G73:linkBand",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 73:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G73:linkValid",
+    "name": "LinkStatus10G73:linkValid",
+    "index": "73",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G74",
+    "name": "LinkStatus10G74",
+    "index": "74",
+    "size": "1"},
+  {
+    "description": "10G Link Status 74:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G74:status",
+    "name": "LinkStatus10G74:status",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G74:crcErrors",
+    "name": "LinkStatus10G74:crcErrors",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G74:tx_overflow",
+    "name": "LinkStatus10G74:tx_overflow",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G74:rx_overflow",
+    "name": "LinkStatus10G74:rx_overflow",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G74:tx_underflow",
+    "name": "LinkStatus10G74:tx_underflow",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G74:rx_underflow",
+    "name": "LinkStatus10G74:rx_underflow",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G74:linkSourceAntenna",
+    "name": "LinkStatus10G74:linkSourceAntenna",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G74:linkBand",
+    "name": "LinkStatus10G74:linkBand",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 74:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G74:linkValid",
+    "name": "LinkStatus10G74:linkValid",
+    "index": "74",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G75",
+    "name": "LinkStatus10G75",
+    "index": "75",
+    "size": "1"},
+  {
+    "description": "10G Link Status 75:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G75:status",
+    "name": "LinkStatus10G75:status",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G75:crcErrors",
+    "name": "LinkStatus10G75:crcErrors",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G75:tx_overflow",
+    "name": "LinkStatus10G75:tx_overflow",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G75:rx_overflow",
+    "name": "LinkStatus10G75:rx_overflow",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G75:tx_underflow",
+    "name": "LinkStatus10G75:tx_underflow",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G75:rx_underflow",
+    "name": "LinkStatus10G75:rx_underflow",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G75:linkSourceAntenna",
+    "name": "LinkStatus10G75:linkSourceAntenna",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G75:linkBand",
+    "name": "LinkStatus10G75:linkBand",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 75:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G75:linkValid",
+    "name": "LinkStatus10G75:linkValid",
+    "index": "75",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G76",
+    "name": "LinkStatus10G76",
+    "index": "76",
+    "size": "1"},
+  {
+    "description": "10G Link Status 76:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G76:status",
+    "name": "LinkStatus10G76:status",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G76:crcErrors",
+    "name": "LinkStatus10G76:crcErrors",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G76:tx_overflow",
+    "name": "LinkStatus10G76:tx_overflow",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G76:rx_overflow",
+    "name": "LinkStatus10G76:rx_overflow",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G76:tx_underflow",
+    "name": "LinkStatus10G76:tx_underflow",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G76:rx_underflow",
+    "name": "LinkStatus10G76:rx_underflow",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G76:linkSourceAntenna",
+    "name": "LinkStatus10G76:linkSourceAntenna",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G76:linkBand",
+    "name": "LinkStatus10G76:linkBand",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 76:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G76:linkValid",
+    "name": "LinkStatus10G76:linkValid",
+    "index": "76",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G77",
+    "name": "LinkStatus10G77",
+    "index": "77",
+    "size": "1"},
+  {
+    "description": "10G Link Status 77:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G77:status",
+    "name": "LinkStatus10G77:status",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G77:crcErrors",
+    "name": "LinkStatus10G77:crcErrors",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G77:tx_overflow",
+    "name": "LinkStatus10G77:tx_overflow",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G77:rx_overflow",
+    "name": "LinkStatus10G77:rx_overflow",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G77:tx_underflow",
+    "name": "LinkStatus10G77:tx_underflow",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G77:rx_underflow",
+    "name": "LinkStatus10G77:rx_underflow",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G77:linkSourceAntenna",
+    "name": "LinkStatus10G77:linkSourceAntenna",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G77:linkBand",
+    "name": "LinkStatus10G77:linkBand",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 77:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G77:linkValid",
+    "name": "LinkStatus10G77:linkValid",
+    "index": "77",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G78",
+    "name": "LinkStatus10G78",
+    "index": "78",
+    "size": "1"},
+  {
+    "description": "10G Link Status 78:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G78:status",
+    "name": "LinkStatus10G78:status",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G78:crcErrors",
+    "name": "LinkStatus10G78:crcErrors",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G78:tx_overflow",
+    "name": "LinkStatus10G78:tx_overflow",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G78:rx_overflow",
+    "name": "LinkStatus10G78:rx_overflow",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G78:tx_underflow",
+    "name": "LinkStatus10G78:tx_underflow",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G78:rx_underflow",
+    "name": "LinkStatus10G78:rx_underflow",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G78:linkSourceAntenna",
+    "name": "LinkStatus10G78:linkSourceAntenna",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G78:linkBand",
+    "name": "LinkStatus10G78:linkBand",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 78:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G78:linkValid",
+    "name": "LinkStatus10G78:linkValid",
+    "index": "78",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G79",
+    "name": "LinkStatus10G79",
+    "index": "79",
+    "size": "1"},
+  {
+    "description": "10G Link Status 79:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G79:status",
+    "name": "LinkStatus10G79:status",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G79:crcErrors",
+    "name": "LinkStatus10G79:crcErrors",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G79:tx_overflow",
+    "name": "LinkStatus10G79:tx_overflow",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G79:rx_overflow",
+    "name": "LinkStatus10G79:rx_overflow",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G79:tx_underflow",
+    "name": "LinkStatus10G79:tx_underflow",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G79:rx_underflow",
+    "name": "LinkStatus10G79:rx_underflow",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G79:linkSourceAntenna",
+    "name": "LinkStatus10G79:linkSourceAntenna",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G79:linkBand",
+    "name": "LinkStatus10G79:linkBand",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 79:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G79:linkValid",
+    "name": "LinkStatus10G79:linkValid",
+    "index": "79",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status",
+    "pvname": "$(p)$(card)LinkStatus10G80",
+    "name": "LinkStatus10G80",
+    "index": "80",
+    "size": "1"},
+  {
+    "description": "10G Link Status 80:AdbeStatus",
+    "pvname": "$(p)$(card)LinkStatus10G80:status",
+    "name": "LinkStatus10G80:status",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:Link CRC Errors",
+    "pvname": "$(p)$(card)LinkStatus10G80:crcErrors",
+    "name": "LinkStatus10G80:crcErrors",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:TX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G80:tx_overflow",
+    "name": "LinkStatus10G80:tx_overflow",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:RX FIFO overflow count",
+    "pvname": "$(p)$(card)LinkStatus10G80:rx_overflow",
+    "name": "LinkStatus10G80:rx_overflow",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:TX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G80:tx_underflow",
+    "name": "LinkStatus10G80:tx_underflow",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:RX FIFO underflow count",
+    "pvname": "$(p)$(card)LinkStatus10G80:rx_underflow",
+    "name": "LinkStatus10G80:rx_underflow",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:Source antenna of link",
+    "pvname": "$(p)$(card)LinkStatus10G80:linkSourceAntenna",
+    "name": "LinkStatus10G80:linkSourceAntenna",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:ID of the link data",
+    "pvname": "$(p)$(card)LinkStatus10G80:linkBand",
+    "name": "LinkStatus10G80:linkBand",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "10G Link Status 80:link valid",
+    "pvname": "$(p)$(card)LinkStatus10G80:linkValid",
+    "name": "LinkStatus10G80:linkValid",
+    "index": "80",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)LinkStatusComms",
+    "name": "LinkStatusComms",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)commsLinkStat1",
+    "name": "LinkStatusComms1",
+    "index": "1",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 1:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat1:status",
+    "name": "LinkStatusComms1:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:Low speed Control Link",
+    "pvname": "$(p)$(card)commsLinkStat1:ctrlPort",
+    "name": "LinkStatusComms1:controlPort",
+    "index": "1",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 1:Low speed Control Link 1:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat1:ctrlPort:status",
+    "name": "LinkStatusComms1:controlPort:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:Low speed Control Link 1:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat1:ctrlPort:upstreamCRCErrors",
+    "name": "LinkStatusComms1:controlPort:upstreamCRCErrors",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:Low speed Control Link 1:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat1:ctrlPort:downstreamCRCErrors",
+    "name": "LinkStatusComms1:controlPort:downstreamCRCErrors",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:Low speed Control Link 1:link valid",
+    "pvname": "$(p)$(card)commsLinkStat1:ctrlPort:linkValid",
+    "name": "LinkStatusComms1:controlPort:linkValid",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:High speed Data Link",
+    "pvname": "$(p)$(card)commsLinkStat1:dataPort",
+    "name": "LinkStatusComms1:dataPort",
+    "index": "1",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 1:High speed Data Link 1:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat1:dataPort:status",
+    "name": "LinkStatusComms1:dataPort:status",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:High speed Data Link 1:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat1:dataPort:upstreamCRCErrors",
+    "name": "LinkStatusComms1:dataPort:upstreamCRCErrors",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:High speed Data Link 1:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat1:dataPort:downstreamCRCErrors",
+    "name": "LinkStatusComms1:dataPort:downstreamCRCErrors",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 1:High speed Data Link 1:link valid",
+    "pvname": "$(p)$(card)commsLinkStat1:dataPort:linkValid",
+    "name": "LinkStatusComms1:dataPort:linkValid",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)commsLinkStat2",
+    "name": "LinkStatusComms2",
+    "index": "2",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 2:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat2:status",
+    "name": "LinkStatusComms2:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:Low speed Control Link",
+    "pvname": "$(p)$(card)commsLinkStat2:ctrlPort",
+    "name": "LinkStatusComms2:controlPort",
+    "index": "2",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 2:Low speed Control Link 2:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat2:ctrlPort:status",
+    "name": "LinkStatusComms2:controlPort:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:Low speed Control Link 2:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat2:ctrlPort:upstreamCRCErrors",
+    "name": "LinkStatusComms2:controlPort:upstreamCRCErrors",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:Low speed Control Link 2:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat2:ctrlPort:downstreamCRCErrors",
+    "name": "LinkStatusComms2:controlPort:downstreamCRCErrors",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:Low speed Control Link 2:link valid",
+    "pvname": "$(p)$(card)commsLinkStat2:ctrlPort:linkValid",
+    "name": "LinkStatusComms2:controlPort:linkValid",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:High speed Data Link",
+    "pvname": "$(p)$(card)commsLinkStat2:dataPort",
+    "name": "LinkStatusComms2:dataPort",
+    "index": "2",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 2:High speed Data Link 2:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat2:dataPort:status",
+    "name": "LinkStatusComms2:dataPort:status",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:High speed Data Link 2:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat2:dataPort:upstreamCRCErrors",
+    "name": "LinkStatusComms2:dataPort:upstreamCRCErrors",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:High speed Data Link 2:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat2:dataPort:downstreamCRCErrors",
+    "name": "LinkStatusComms2:dataPort:downstreamCRCErrors",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 2:High speed Data Link 2:link valid",
+    "pvname": "$(p)$(card)commsLinkStat2:dataPort:linkValid",
+    "name": "LinkStatusComms2:dataPort:linkValid",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)commsLinkStat3",
+    "name": "LinkStatusComms3",
+    "index": "3",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 3:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat3:status",
+    "name": "LinkStatusComms3:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:Low speed Control Link",
+    "pvname": "$(p)$(card)commsLinkStat3:ctrlPort",
+    "name": "LinkStatusComms3:controlPort",
+    "index": "3",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 3:Low speed Control Link 3:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat3:ctrlPort:status",
+    "name": "LinkStatusComms3:controlPort:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:Low speed Control Link 3:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat3:ctrlPort:upstreamCRCErrors",
+    "name": "LinkStatusComms3:controlPort:upstreamCRCErrors",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:Low speed Control Link 3:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat3:ctrlPort:downstreamCRCErrors",
+    "name": "LinkStatusComms3:controlPort:downstreamCRCErrors",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:Low speed Control Link 3:link valid",
+    "pvname": "$(p)$(card)commsLinkStat3:ctrlPort:linkValid",
+    "name": "LinkStatusComms3:controlPort:linkValid",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:High speed Data Link",
+    "pvname": "$(p)$(card)commsLinkStat3:dataPort",
+    "name": "LinkStatusComms3:dataPort",
+    "index": "3",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 3:High speed Data Link 3:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat3:dataPort:status",
+    "name": "LinkStatusComms3:dataPort:status",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:High speed Data Link 3:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat3:dataPort:upstreamCRCErrors",
+    "name": "LinkStatusComms3:dataPort:upstreamCRCErrors",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:High speed Data Link 3:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat3:dataPort:downstreamCRCErrors",
+    "name": "LinkStatusComms3:dataPort:downstreamCRCErrors",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 3:High speed Data Link 3:link valid",
+    "pvname": "$(p)$(card)commsLinkStat3:dataPort:linkValid",
+    "name": "LinkStatusComms3:dataPort:linkValid",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)commsLinkStat4",
+    "name": "LinkStatusComms4",
+    "index": "4",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 4:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat4:status",
+    "name": "LinkStatusComms4:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:Low speed Control Link",
+    "pvname": "$(p)$(card)commsLinkStat4:ctrlPort",
+    "name": "LinkStatusComms4:controlPort",
+    "index": "4",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 4:Low speed Control Link 4:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat4:ctrlPort:status",
+    "name": "LinkStatusComms4:controlPort:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:Low speed Control Link 4:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat4:ctrlPort:upstreamCRCErrors",
+    "name": "LinkStatusComms4:controlPort:upstreamCRCErrors",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:Low speed Control Link 4:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat4:ctrlPort:downstreamCRCErrors",
+    "name": "LinkStatusComms4:controlPort:downstreamCRCErrors",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:Low speed Control Link 4:link valid",
+    "pvname": "$(p)$(card)commsLinkStat4:ctrlPort:linkValid",
+    "name": "LinkStatusComms4:controlPort:linkValid",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:High speed Data Link",
+    "pvname": "$(p)$(card)commsLinkStat4:dataPort",
+    "name": "LinkStatusComms4:dataPort",
+    "index": "4",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 4:High speed Data Link 4:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat4:dataPort:status",
+    "name": "LinkStatusComms4:dataPort:status",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:High speed Data Link 4:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat4:dataPort:upstreamCRCErrors",
+    "name": "LinkStatusComms4:dataPort:upstreamCRCErrors",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:High speed Data Link 4:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat4:dataPort:downstreamCRCErrors",
+    "name": "LinkStatusComms4:dataPort:downstreamCRCErrors",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 4:High speed Data Link 4:link valid",
+    "pvname": "$(p)$(card)commsLinkStat4:dataPort:linkValid",
+    "name": "LinkStatusComms4:dataPort:linkValid",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)commsLinkStat5",
+    "name": "LinkStatusComms5",
+    "index": "5",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 5:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat5:status",
+    "name": "LinkStatusComms5:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:Low speed Control Link",
+    "pvname": "$(p)$(card)commsLinkStat5:ctrlPort",
+    "name": "LinkStatusComms5:controlPort",
+    "index": "5",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 5:Low speed Control Link 5:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat5:ctrlPort:status",
+    "name": "LinkStatusComms5:controlPort:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:Low speed Control Link 5:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat5:ctrlPort:upstreamCRCErrors",
+    "name": "LinkStatusComms5:controlPort:upstreamCRCErrors",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:Low speed Control Link 5:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat5:ctrlPort:downstreamCRCErrors",
+    "name": "LinkStatusComms5:controlPort:downstreamCRCErrors",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:Low speed Control Link 5:link valid",
+    "pvname": "$(p)$(card)commsLinkStat5:ctrlPort:linkValid",
+    "name": "LinkStatusComms5:controlPort:linkValid",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:High speed Data Link",
+    "pvname": "$(p)$(card)commsLinkStat5:dataPort",
+    "name": "LinkStatusComms5:dataPort",
+    "index": "5",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 5:High speed Data Link 5:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat5:dataPort:status",
+    "name": "LinkStatusComms5:dataPort:status",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:High speed Data Link 5:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat5:dataPort:upstreamCRCErrors",
+    "name": "LinkStatusComms5:dataPort:upstreamCRCErrors",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:High speed Data Link 5:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat5:dataPort:downstreamCRCErrors",
+    "name": "LinkStatusComms5:dataPort:downstreamCRCErrors",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 5:High speed Data Link 5:link valid",
+    "pvname": "$(p)$(card)commsLinkStat5:dataPort:linkValid",
+    "name": "LinkStatusComms5:dataPort:linkValid",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status",
+    "pvname": "$(p)$(card)commsLinkStat6",
+    "name": "LinkStatusComms6",
+    "index": "6",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 6:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat6:status",
+    "name": "LinkStatusComms6:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:Low speed Control Link",
+    "pvname": "$(p)$(card)commsLinkStat6:ctrlPort",
+    "name": "LinkStatusComms6:controlPort",
+    "index": "6",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 6:Low speed Control Link 6:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat6:ctrlPort:status",
+    "name": "LinkStatusComms6:controlPort:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:Low speed Control Link 6:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat6:ctrlPort:upstreamCRCErrors",
+    "name": "LinkStatusComms6:controlPort:upstreamCRCErrors",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:Low speed Control Link 6:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat6:ctrlPort:downstreamCRCErrors",
+    "name": "LinkStatusComms6:controlPort:downstreamCRCErrors",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:Low speed Control Link 6:link valid",
+    "pvname": "$(p)$(card)commsLinkStat6:ctrlPort:linkValid",
+    "name": "LinkStatusComms6:controlPort:linkValid",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:High speed Data Link",
+    "pvname": "$(p)$(card)commsLinkStat6:dataPort",
+    "name": "LinkStatusComms6:dataPort",
+    "index": "6",
+    "size": "1"},
+  {
+    "description": "Bull to FPGA Link Status 6:High speed Data Link 6:AdbeStatus",
+    "pvname": "$(p)$(card)commsLinkStat6:dataPort:status",
+    "name": "LinkStatusComms6:dataPort:status",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:High speed Data Link 6:FPGA to Bullant CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat6:dataPort:upstreamCRCErrors",
+    "name": "LinkStatusComms6:dataPort:upstreamCRCErrors",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:High speed Data Link 6:Bullant to FPGA CRC Errors",
+    "pvname": "$(p)$(card)commsLinkStat6:dataPort:downstreamCRCErrors",
+    "name": "LinkStatusComms6:dataPort:downstreamCRCErrors",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Bull to FPGA Link Status 6:High speed Data Link 6:link valid",
+    "pvname": "$(p)$(card)commsLinkStat6:dataPort:linkValid",
+    "name": "LinkStatusComms6:dataPort:linkValid",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Link Status Sum Type:Link Status Sum Type",
+    "pvname": "$(p)$(card)linkStatusType_O",
+    "name": "linkStatusType_O",
+    "size": "1"
+  },
+  {
+    "description": "Number of 1OG links",
+    "pvname": "$(p)$(card)intLinkNum",
+    "name": "intLinkNum",
+    "size": "1"
+  },
+  {
+    "description": "Number of comms links",
+    "pvname": "$(p)$(card)dataLinkNum",
+    "name": "dataLinkNum",
+    "size": "1"
+  },
+  {
+    "description": "RX bytes/second",
+    "pvname": "$(p)$(card)rxThroughput",
+    "name": "rxThroughput",
+    "units": "bytes/s",
+    "size": "1"
+  },
+  {
+    "description": "TX bytes/second",
+    "pvname": "$(p)$(card)txThroughput",
+    "name": "txThroughput",
+    "units": "bytes/s",
+    "size": "1"
+  },
+  {
+    "description": "serial links reset",
+    "pvname": "$(p)$(card)serialLinksReset",
+    "name": "serialLinksReset",
+    "size": "1"
+  },
+  {
+    "description": "offboard links enabled",
+    "pvname": "$(p)$(card)offboardLinksEnabled",
+    "name": "offboardLinksEnabled",
+    "size": "1"
+  }
+]

@@ -1,0 +1,784 @@
+<macros>
+  <Group name="AFLevels:status" type="iocPoint">
+    <comment>AdbeStatus</comment>
+    <name>AlignmentFifoLevels:status</name>
+    <pv>$(p)$(card)AFLevels:status</pv>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels" type="iocArray">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels</name>
+    <pv>$(p)$(card)AFLevels:alignLevels</pv>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels1" type="iocStructure">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels1:status" type="iocPoint">
+    <comment>fifo align low/high levels 1:AdbeStatus</comment>
+    <name>AlignmentFifoLevels:alignLevels1:status</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:status</pv>
+    <index>1</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage1Fifo" type="iocArray">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels1:stage1Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage1Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage1Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage1Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage1Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage1Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage1Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage1Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage2Fifo" type="iocArray">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo</pv>
+    <index>1</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels1:stage2Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage2Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage2Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage2Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage2Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels1:stage2Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 1:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels1:stage2Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels1:stage2Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels2" type="iocStructure">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels2:status" type="iocPoint">
+    <comment>fifo align low/high levels 2:AdbeStatus</comment>
+    <name>AlignmentFifoLevels:alignLevels2:status</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:status</pv>
+    <index>2</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage1Fifo" type="iocArray">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels2:stage1Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage1Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage1Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage1Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage1Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage1Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage1Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage1Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage2Fifo" type="iocArray">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo</pv>
+    <index>2</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels2:stage2Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage2Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage2Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage2Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage2Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels2:stage2Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 2:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels2:stage2Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels2:stage2Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels3" type="iocStructure">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels3:status" type="iocPoint">
+    <comment>fifo align low/high levels 3:AdbeStatus</comment>
+    <name>AlignmentFifoLevels:alignLevels3:status</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:status</pv>
+    <index>3</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage1Fifo" type="iocArray">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels3:stage1Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage1Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage1Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage1Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage1Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage1Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage1Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage1Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage2Fifo" type="iocArray">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo</pv>
+    <index>3</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels3:stage2Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage2Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage2Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage2Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage2Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels3:stage2Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 3:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels3:stage2Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels3:stage2Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels4" type="iocStructure">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels4:status" type="iocPoint">
+    <comment>fifo align low/high levels 4:AdbeStatus</comment>
+    <name>AlignmentFifoLevels:alignLevels4:status</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:status</pv>
+    <index>4</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage1Fifo" type="iocArray">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels4:stage1Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage1Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage1Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage1Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage1Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage1Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage1Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage1Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage2Fifo" type="iocArray">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo</pv>
+    <index>4</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels4:stage2Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage2Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage2Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage2Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage2Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels4:stage2Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 4:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels4:stage2Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels4:stage2Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels5" type="iocStructure">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels5:status" type="iocPoint">
+    <comment>fifo align low/high levels 5:AdbeStatus</comment>
+    <name>AlignmentFifoLevels:alignLevels5:status</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:status</pv>
+    <index>5</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage1Fifo" type="iocArray">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels5:stage1Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage1Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage1Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage1Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage1Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage1Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage1Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage1Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage2Fifo" type="iocArray">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo</pv>
+    <index>5</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels5:stage2Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage2Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage2Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage2Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage2Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels5:stage2Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 5:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels5:stage2Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels5:stage2Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels6" type="iocStructure">
+    <comment>fifo align low/high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels6:status" type="iocPoint">
+    <comment>fifo align low/high levels 6:AdbeStatus</comment>
+    <name>AlignmentFifoLevels:alignLevels6:status</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:status</pv>
+    <index>6</index>
+    <type>string</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage1Fifo" type="iocArray">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels6:stage1Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage1Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage1Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage1Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage1Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage1Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 1 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage1Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage1Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage2Fifo" type="iocArray">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo</pv>
+    <index>6</index>
+    <type>label</type>
+    <size>1</size>
+  <Group name="AFLevels:alignLevels6:stage2Fifo1" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo1</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo1</pv>
+    <index>1</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage2Fifo2" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo2</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo2</pv>
+    <index>2</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage2Fifo3" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo3</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo3</pv>
+    <index>3</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage2Fifo4" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo4</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo4</pv>
+    <index>4</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage2Fifo5" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo5</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo5</pv>
+    <index>5</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  <Group name="AFLevels:alignLevels6:stage2Fifo6" type="iocPoint">
+    <comment>fifo align low/high levels 6:alignment Stage 2 FIFO high levels</comment>
+    <name>AlignmentFifoLevels:alignLevels6:stage2Fifo6</name>
+    <pv>$(p)$(card)AFLevels:alignLevels6:stage2Fifo6</pv>
+    <index>6</index>
+    <type>uint32</type>
+    <size>1</size>
+  </Group>
+  </Group>
+  </Group>
+  </Group>
+</macros>

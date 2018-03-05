@@ -1,0 +1,44 @@
+<macros>
+  <Group name="F_shutdown:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_shutdown:exec_O</name>
+    <pv>$(p)F_shutdown:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_shutdown:shutdownFEC_O" type="iocEnumBit">
+    <comment>shutdown PAF FEC</comment>
+    <name>F_shutdown:shutdownFEC_O</name>
+    <pv>$(p)F_shutdown:shutdownFEC_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_shutdown:shutdownPSU_O" type="iocEnumBit">
+    <comment>shutdown PAF PSU</comment>
+    <name>F_shutdown:shutdownPSU_O</name>
+    <pv>$(p)F_shutdown:shutdownPSU_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_shutdown:shutdownTEC_O" type="iocEnumBit">
+    <comment>shutdown PAF TEC</comment>
+    <name>F_shutdown:shutdownTEC_O</name>
+    <pv>$(p)F_shutdown:shutdownTEC_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_shutdown:shutdownTECPSU_O" type="iocEnumBit">
+    <comment>shutdown TEC PSU</comment>
+    <name>F_shutdown:shutdownTECPSU_O</name>
+    <pv>$(p)F_shutdown:shutdownTECPSU_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_shutdown:tecPsuDisable" type="iocEnumBit">
+    <comment>TEC PSU disable output</comment>
+    <name>F_shutdown:tecPsuDisable</name>
+    <pv>$(p)F_shutdown:tecPsuDisable</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+</macros>

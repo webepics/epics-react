@@ -1,0 +1,58 @@
+<macros>
+  <Group name="F_laserCalFecT1T4:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:exec_O</name>
+    <pv>$(p)F_laserCalFecT1T4:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:txNum_O" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:txNum_O</name>
+    <pv>$(p)F_laserCalFecT1T4:txNum_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:lcNum" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:lcNum</name>
+    <pv>$(p)F_laserCalFecT1T4:lcNum</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:level_O" type="iocEnumValue">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:level_O</name>
+    <pv>$(p)F_laserCalFecT1T4:level_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:adjustment_O" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:adjustment_O</name>
+    <pv>$(p)F_laserCalFecT1T4:adjustment_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:txMon" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:txMon</name>
+    <pv>$(p)F_laserCalFecT1T4:txMon</pv>
+    <type>float</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:memMon" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:memMon</name>
+    <pv>$(p)F_laserCalFecT1T4:memMon</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalFecT1T4:end_O" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalFecT1T4:end_O</name>
+    <pv>$(p)F_laserCalFecT1T4:end_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+</macros>

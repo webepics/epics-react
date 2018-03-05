@@ -1,0 +1,44 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)F_CommsTest:exec_O",
+    "name": "F_CommsTest:exec_O",
+    "size": "1"
+  },
+  {
+    "description": "0 - ctrl, 1 - ps, 2 - tec:0 - ctrl, 1 - ps, 2 - tec",
+    "pvname": "$(p)F_CommsTest:testType_O",
+    "name": "F_CommsTest:testType_O",
+    "size": "1"
+  },
+  {
+    "description": "stop the running test",
+    "pvname": "$(p)F_CommsTest:stop_O",
+    "name": "F_CommsTest:stop_O",
+    "size": "1"
+  },
+  {
+    "description": "Test running",
+    "pvname": "$(p)F_CommsTest:running",
+    "name": "F_CommsTest:running",
+    "size": "1"
+  },
+  {
+    "description": "Pass count",
+    "pvname": "$(p)F_CommsTest:passCount",
+    "name": "F_CommsTest:passCount",
+    "size": "1"
+  },
+  {
+    "description": "Pass count",
+    "pvname": "$(p)F_CommsTest:failCount",
+    "name": "F_CommsTest:failCount",
+    "size": "1"
+  },
+  {
+    "description": "last status",
+    "pvname": "$(p)F_CommsTest:status",
+    "name": "F_CommsTest:status",
+    "size": "128"
+  }
+]

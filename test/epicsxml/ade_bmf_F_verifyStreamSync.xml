@@ -1,0 +1,16 @@
+<macros>
+  <Group name="F_verifyStreamSync:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_verifyStreamSync:exec_O</name>
+    <pv>$(p)$(card)F_verifyStreamSync:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_verifyStreamSync:syncStat" type="iocEnumBit">
+    <comment>result of checking status</comment>
+    <name>F_verifyStreamSync:syncStat</name>
+    <pv>$(p)$(card)F_verifyStreamSync:syncStat</pv>
+    <type>bool</type>
+    <size>1</size>
+  </Group>
+</macros>

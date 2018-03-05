@@ -1,0 +1,30 @@
+<macros>
+  <Group name="F_laserCalPafCtrl:exec_O" type="iocEnumBit">
+    <comment></comment>
+    <name>F_laserCalPafCtrl:exec_O</name>
+    <pv>$(p)F_laserCalPafCtrl:exec_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalPafCtrl:mode_O" type="iocEnumValue">
+    <comment></comment>
+    <name>F_laserCalPafCtrl:mode_O</name>
+    <pv>$(p)F_laserCalPafCtrl:mode_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalPafCtrl:adjustment_O" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalPafCtrl:adjustment_O</name>
+    <pv>$(p)F_laserCalPafCtrl:adjustment_O</pv>
+    <type>input</type>
+    <size>1</size>
+  </Group>
+  <Group name="F_laserCalPafCtrl:memMon" type="iocPoint">
+    <comment></comment>
+    <name>F_laserCalPafCtrl:memMon</name>
+    <pv>$(p)F_laserCalPafCtrl:memMon</pv>
+    <type>int</type>
+    <size>1</size>
+  </Group>
+</macros>

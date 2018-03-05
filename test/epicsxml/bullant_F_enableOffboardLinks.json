@@ -1,0 +1,8 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)F_enableOffboardLinks:exec_O",
+    "name": "F_enableOffboardLinks:exec_O",
+    "size": "1"
+  }
+]

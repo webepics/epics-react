@@ -1,0 +1,240 @@
+[
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)tec:status",
+    "name": "PafTecInfo:status",
+    "size": "1"
+  },
+  {
+    "description": "TEC combined comms errors",
+    "pvname": "$(p)tec:totalErrors",
+    "name": "PafTecInfo:totalErrors",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)tec:adc1:status",
+    "name": "PafTecInfo:adc1:status",
+    "size": "1"
+  },
+  {
+    "description": "PSU comms errors",
+    "pvname": "$(p)tec:adc1:errorCount",
+    "name": "PafTecInfo:adc1:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)tec:adc1:cmiTemps:temp1",
+    "name": "PafTecInfo:adc1:cmiTemps:temp1",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)tec:adc1:cmiTemps:temp2",
+    "name": "PafTecInfo:adc1:cmiTemps:temp2",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)tec:adc1:cmiTemps:temp3",
+    "name": "PafTecInfo:adc1:cmiTemps:temp3",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "CMI Temps",
+    "pvname": "$(p)tec:adc1:cmiTemps:temp4",
+    "name": "PafTecInfo:adc1:cmiTemps:temp4",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp:AdbeStatus",
+    "pvname": "$(p)tec:adc2PInternal:status",
+    "name": "PafTecInfo:adc2PInternal:status",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp:ADC2 Internal Comms Errors",
+    "pvname": "$(p)tec:adc2PInternal:errorCount",
+    "name": "PafTecInfo:adc2PInternal:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 1:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp1",
+    "name": "PafTecInfo:adc2PInternal:temp1",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 2:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp2",
+    "name": "PafTecInfo:adc2PInternal:temp2",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 3:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp3",
+    "name": "PafTecInfo:adc2PInternal:temp3",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 4:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp4",
+    "name": "PafTecInfo:adc2PInternal:temp4",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 5:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp5",
+    "name": "PafTecInfo:adc2PInternal:temp5",
+    "units": "C",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 6:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp6",
+    "name": "PafTecInfo:adc2PInternal:temp6",
+    "units": "C",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 7:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp7",
+    "name": "PafTecInfo:adc2PInternal:temp7",
+    "units": "C",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "Internal Peltier Temp 8:TEC Temp",
+    "pvname": "$(p)tec:adc2PInternal:temp8",
+    "name": "PafTecInfo:adc2PInternal:temp8",
+    "units": "C",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp:AdbeStatus",
+    "pvname": "$(p)tec:adc2PExternal:status",
+    "name": "PafTecInfo:adc2PExternal:status",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp:ADC2 Internal Comms Errors",
+    "pvname": "$(p)tec:adc2PExternal:errorCount",
+    "name": "PafTecInfo:adc2PExternal:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 1:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp1",
+    "name": "PafTecInfo:adc2PExternal:temp1",
+    "units": "C",
+    "index": "1",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 2:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp2",
+    "name": "PafTecInfo:adc2PExternal:temp2",
+    "units": "C",
+    "index": "2",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 3:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp3",
+    "name": "PafTecInfo:adc2PExternal:temp3",
+    "units": "C",
+    "index": "3",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 4:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp4",
+    "name": "PafTecInfo:adc2PExternal:temp4",
+    "units": "C",
+    "index": "4",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 5:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp5",
+    "name": "PafTecInfo:adc2PExternal:temp5",
+    "units": "C",
+    "index": "5",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 6:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp6",
+    "name": "PafTecInfo:adc2PExternal:temp6",
+    "units": "C",
+    "index": "6",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 7:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp7",
+    "name": "PafTecInfo:adc2PExternal:temp7",
+    "units": "C",
+    "index": "7",
+    "size": "1"
+  },
+  {
+    "description": "External Peltier Temp 8:TEC Temp",
+    "pvname": "$(p)tec:adc2PExternal:temp8",
+    "name": "PafTecInfo:adc2PExternal:temp8",
+    "units": "C",
+    "index": "8",
+    "size": "1"
+  },
+  {
+    "description": "AdbeStatus",
+    "pvname": "$(p)tec:gpio1:status",
+    "name": "PafTecInfo:gpio1:status",
+    "size": "1"
+  },
+  {
+    "description": "TEC GPIO1 comms errors",
+    "pvname": "$(p)tec:gpio1:errorCount",
+    "name": "PafTecInfo:gpio1:errorCount",
+    "size": "1"
+  },
+  {
+    "description": "TEC Temp Alarm",
+    "pvname": "$(p)tec:gpio1:tempAlm_L",
+    "name": "PafTecInfo:gpio1:tempAlm_L",
+    "size": "1"
+  },
+  {
+    "description": "FPGA logic reset",
+    "pvname": "$(p)tec:gpio1:reset",
+    "name": "PafTecInfo:gpio1:reset",
+    "size": "1"
+  },
+  {
+    "description": "TEC output enable",
+    "pvname": "$(p)tec:gpio1:adc2GrpSelect",
+    "name": "PafTecInfo:gpio1:adc2GrpSelect",
+    "size": "1"
+  }
+]

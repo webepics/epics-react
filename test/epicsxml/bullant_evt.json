@@ -1,0 +1,194 @@
+[
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF0:edgeEventCount",
+    "name": "evt:WF0:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF0:enableEdgeEvent",
+    "name": "evt:WF0:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF1:edgeEventCount",
+    "name": "evt:WF1:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF2:edgeEventCount",
+    "name": "evt:WF2:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF3:edgeEventCount",
+    "name": "evt:WF3:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF4:edgeEventCount",
+    "name": "evt:WF4:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF5:edgeEventCount",
+    "name": "evt:WF5:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF6:edgeEventCount",
+    "name": "evt:WF6:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF7:edgeEventCount",
+    "name": "evt:WF7:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF8:edgeEventCount",
+    "name": "evt:WF8:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF9:edgeEventCount",
+    "name": "evt:WF9:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF10:edgeEventCount",
+    "name": "evt:WF10:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF11:edgeEventCount",
+    "name": "evt:WF11:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF12:edgeEventCount",
+    "name": "evt:WF12:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF13:edgeEventCount",
+    "name": "evt:WF13:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF14:edgeEventCount",
+    "name": "evt:WF14:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF15:edgeEventCount",
+    "name": "evt:WF15:edgeEventCount",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF1:enableEdgeEvent",
+    "name": "evt:WF1:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF2:enableEdgeEvent",
+    "name": "evt:WF2:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF3:enableEdgeEvent",
+    "name": "evt:WF3:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF4:enableEdgeEvent",
+    "name": "evt:WF4:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF5:enableEdgeEvent",
+    "name": "evt:WF5:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF6:enableEdgeEvent",
+    "name": "evt:WF6:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF7:enableEdgeEvent",
+    "name": "evt:WF7:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF8:enableEdgeEvent",
+    "name": "evt:WF8:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF9:enableEdgeEvent",
+    "name": "evt:WF9:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF10:enableEdgeEvent",
+    "name": "evt:WF10:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF11:enableEdgeEvent",
+    "name": "evt:WF11:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF12:enableEdgeEvent",
+    "name": "evt:WF12:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF13:enableEdgeEvent",
+    "name": "evt:WF13:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF14:enableEdgeEvent",
+    "name": "evt:WF14:enableEdgeEvent",
+    "size": "1"
+  },
+  {
+    "description": "",
+    "pvname": "$(p)$(card)evt:WF15:enableEdgeEvent",
+    "name": "evt:WF15:enableEdgeEvent",
+    "size": "1"
+  }
+]

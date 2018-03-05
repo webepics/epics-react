@@ -16,7 +16,28 @@ export default class SummaryTable extends React.Component {
 			  dataType: 'json',
 			  async: false,
 			  success: function(data) {
-				  that.pvs=data;
+				  that.pvs=[];
+				  
+				  // filter
+				  var filters = props.filter;
+				  for (var i=0; i<data.length; i++) {
+					  var matched = true;
+					  var pv = data[i];
+					  if (!filters || filters.length<1) {
+						  that.pvs.push(pv);
+						  continue;
+					  }
+					  for (var j=0; j<filters.length; j++) {
+						  var filter = filters[j];
+						  var reg = new RegExp(filter.filter);
+						  if (reg.test(pv[filter.field]))
+							  matched = true;
+						  else						  
+							  matched = false;
+					  }
+					  if (matched)
+						  that.pvs.push(pv);
+				  }
 			  }
 		});
 	}
@@ -24,7 +45,8 @@ export default class SummaryTable extends React.Component {
 	render() {
 		return (
 			<div className='summary-table'>
-			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} type={this.props.type} rows={this.props.rows}/>
+			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} 
+			    				type={this.props.type} rows={this.props.rows} title={this.props.title}/>
 			</div>
 		)
 	}
