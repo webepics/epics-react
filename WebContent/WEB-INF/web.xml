@@ -14,9 +14,19 @@
 		<servlet-class>askap.css.janus.servlets.DataFetcher</servlet-class>
 	</servlet>
 
+	<servlet>
+		<servlet-name>PVFetcher</servlet-name>
+		<servlet-class>askap.css.janus.servlets.PVFetcher</servlet-class>
+	</servlet>
+
     <servlet-mapping>
-    	<servlet-name>DataFetcher</servlet-name>
-    	<url-pattern>/DataFetcher</url-pattern>
+	    	<servlet-name>DataFetcher</servlet-name>
+	    	<url-pattern>/DataFetcher</url-pattern>
+    </servlet-mapping>	
+
+    <servlet-mapping>
+	    	<servlet-name>PVFetcher</servlet-name>
+	    	<url-pattern>/PVFetcher</url-pattern>
     </servlet-mapping>	
     
 </web-app>

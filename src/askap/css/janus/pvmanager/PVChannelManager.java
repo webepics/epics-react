@@ -6,12 +6,14 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 import org.epics.pvaClient.PvaClient;
 import org.epics.pvaClient.PvaClientChannel;
+import org.epics.pvaClient.PvaClientGetData;
 import org.epics.pvaClient.PvaClientPut;
 import org.epics.pvaccess.client.Channel.ConnectionState;
 import org.epics.pvdata.pv.Status;
 
 import askap.css.janus.util.VTypeJsonConvert;
 import askap.css.janus.websocket.Client;
+import askap.css.janus.websocket.ResponseMessage;
 
 
 public class PVChannelManager {
@@ -73,6 +75,14 @@ public class PVChannelManager {
 			return channel;
 		}
 	}
+
+	public ResponseMessage getValue(String pvName) throws Exception {
+		PvaClientGetData data = pvClient.channel(pvName, "ca").get().getData();
+		ResponseMessage response = ResponseMessage.createValueMessage(-1, pvName, VTypeJsonConvert.PVToJson(data));
+		
+		return response;
+	}
+	
 	
 	public void subscriber(String pvName, Client monitor) throws Exception {
 		

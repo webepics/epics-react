@@ -7,6 +7,24 @@ export default class SummaryTable extends React.Component {
 	
 	constructor(props) {
 		super(props);
+		
+		// code here to work out number of colums from pv: <antenna>:<subsystem>:array:size
+		var pvurl = 'PVFetcher?pvname=' + props.antenna + ':' + props.subsystem + ":array:size";
+		var that = this;
+		
+		$.ajax({
+			  url: pvurl,
+			  dataType: 'json',
+			  async: false,
+			  success: function(data) {
+				  that.shelves = [];
+				  var numColumns = data.value.value;
+				  for (var i=0; i<numColumns; i++) {
+					  that.shelves.push(props.shelves[i]);
+				  }
+			  }
+		});
+
 
 		// code here to load pv and descriptions from file specified in this.props.type
 		var jsonurl = 'DataFetcher?pvfiles=' + props.pvfiles;
@@ -46,7 +64,7 @@ export default class SummaryTable extends React.Component {
 		return (
 			<div className='summary-table'>
 			    <TableWidget pvdescription={this.pvs} antenna={this.props.antenna} subsystem={this.props.subsystem} 
-			    				type={this.props.type} shelves={this.props.shelves} title={this.props.title}/>
+			    				type={this.props.type} shelves={this.shelves} title={this.props.title}/>
 			</div>
 		)
 	}

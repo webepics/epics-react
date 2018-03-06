@@ -16,6 +16,7 @@ import org.apache.log4j.Logger;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import askap.css.janus.util.Util;
 import askap.css.janus.websocket.RequestMessage.MessageType;
 
 /**
@@ -85,18 +86,11 @@ import askap.css.janus.websocket.RequestMessage.MessageType;
 public class SocketRequestHandler {
 	
 	private static Logger logger = Logger.getLogger(SocketRequestHandler.class);
-	private static Gson theGson = null;
 	
 	private static Map<String, ClientManager> sessionClientManagerMap = new HashMap<String, ClientManager>();
-//	private static WebSocketThrottler throttler = new WebSocketThrottler();
+	private static WebSocketThrottler throttler = new WebSocketThrottler();
 	
-	public SocketRequestHandler() {
-				
-		if (theGson == null) {
-			GsonBuilder gsonbuilder = new GsonBuilder();
-			gsonbuilder.registerTypeAdapter(ResponseMessage.class, new ResponseMessage.ResponseMessageSerializer());
-			theGson = gsonbuilder.setPrettyPrinting().create();
-		}
+	public SocketRequestHandler() {				
 	}
 
 	@OnOpen
@@ -120,7 +114,7 @@ public class SocketRequestHandler {
 
 	@OnMessage
 	public void handleMessage(String message, Session session, boolean last) {
-		RequestMessage request = theGson.fromJson(message, RequestMessage.class);
+		RequestMessage request = Util.theGson.fromJson(message, RequestMessage.class);
 		
 		ClientManager manager = sessionClientManagerMap.get(session.getId());
 		if (manager==null) {			
@@ -141,7 +135,13 @@ public class SocketRequestHandler {
 		ResponseMessage response = ResponseMessage.createErrorMessage(id, pvName, errorMsg);
 		sendResponse(session, response);
 	}
+
 	
+	public static void sendResponse(Session session, ResponseMessage response) {
+		throttler.sendMessage(session, response);
+	}
+
+/*	
 	public static void sendResponse(Session session, ResponseMessage response) {				
 		synchronized (session) {		
 			if (!session.isOpen()) {
@@ -153,7 +153,7 @@ public class SocketRequestHandler {
 			}
 			
 			try {
-				String message = theGson.toJson(response);
+				String message = Util.theGson.toJson(response);
 				session.getBasicRemote().sendText(message);				
 			} catch (Exception e) {
 				logger.error("Could not send message", e);
@@ -163,24 +163,28 @@ public class SocketRequestHandler {
 			}
 		}		
 	}
-	
-	public static void send(Session session, List<String> messages) {
+*/
+	public static void send(Session session, List<ResponseMessage> messages) {	
 		synchronized (session) {                
 			if (!session.isOpen()) {
 		       logger.error("Session closed, could not send message");
-		       return;
+				ClientManager manager = sessionClientManagerMap.remove(session.getId());
+				if (manager!=null)
+					manager.close();	
+				throttler.removeSession(session);
+				return;
 			}
 		   
 			try {
-	           for (String message : messages)
-	                   session.getBasicRemote().sendText(message);
+				session.getBasicRemote().sendText(Util.theGson.toJson(messages));
 			} catch (Exception e) {
 		       logger.error("Could not send message", e);
 		       ClientManager manager = sessionClientManagerMap.remove(session.getId());
 		       if (manager!=null)
 		    	       manager.close();                
+				throttler.removeSession(session);
 			}
-        }               
+        }              
 	}
 
 }

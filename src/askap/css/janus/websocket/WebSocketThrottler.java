@@ -8,7 +8,7 @@ import javax.websocket.Session;
 
 public class WebSocketThrottler {
 	
-	HashMap<Session, List<String>> sessionMessages = new HashMap<Session, List<String>>();
+	HashMap<Session, List<ResponseMessage>> sessionMessages = new HashMap<Session, List<ResponseMessage>>();
 	
 	Thread senderThread;
 	boolean keepGoing = true;
@@ -19,16 +19,16 @@ public class WebSocketThrottler {
 			@Override
 			public void run() {
 				while (keepGoing) {
-					HashMap<Session, List<String>> sendMessages = null;
+					HashMap<Session, List<ResponseMessage>> sendMessages = null;
 					
 					synchronized (sessionMessages) {
-						sendMessages = (HashMap<Session, List<String>>) sessionMessages.clone();
+						sendMessages = (HashMap<Session, List<ResponseMessage>>) sessionMessages.clone();
 						sessionMessages.clear();
 					}
 					
 					
 					for (Session session : sendMessages.keySet()) {
-						List<String> messages = sendMessages.get(session);
+						List<ResponseMessage> messages = sendMessages.get(session);
 						SocketRequestHandler.send(session, messages);
 					}
 
@@ -49,12 +49,12 @@ public class WebSocketThrottler {
 		keepGoing = false;
 	}
 	
-	public void sendMessage(Session session, String message) {
+	public void sendMessage(Session session, ResponseMessage message) {
 		synchronized (sessionMessages) {
-			List<String> messages = sessionMessages.get(session);
+			List<ResponseMessage> messages = sessionMessages.get(session);
 			
 			if (messages==null) {
-				messages = new ArrayList<String>();
+				messages = new ArrayList<ResponseMessage>();
 				sessionMessages.put(session, messages);
 			}
 			
@@ -62,6 +62,10 @@ public class WebSocketThrottler {
 		}
 	}
 	
-	
+	public void removeSession(Session session) {
+		synchronized (sessionMessages) {
+			sessionMessages.remove(session);
+		}
+	}
 
 }

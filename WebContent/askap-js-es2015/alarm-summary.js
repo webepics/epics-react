@@ -79,11 +79,10 @@ class Header extends React.Component {
  * https://reacttraining.com/react-router/web/example/url-params
  */
 const Alignment = ({match}) => {
-	var filter = [{field:'name', filter:'alignment'}];
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment' 
     	shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-    		 pvfiles='bullant_bullant_redback_dragonfly.json' filter={filter}
-    		 title='Digital Receiver Alignment Summary' />);
+    		 pvfiles='bullant_bullant_redback_dragonfly.json' filter={[{field:'name', filter:'alignment'}]}
+    		 title='Beamformer Alignment Summary' />);
 }
 
 const Bat = ({match}) => {
@@ -95,12 +94,17 @@ const Bat = ({match}) => {
 
 const FanSpeed = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='fanspeed'
-    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
+    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
+		    pvfiles='bullant_CtrlMonitorData.json, bullant_RedbackMonitorData.json' filter={[{field:'unit', filter:'RPM'}, {field:'name', filter:'tacho'}]}
+		    	title='Beamformer Fan Speed Summary RPM'/>);
 }
 
 const Temperature = ({match}) => {
     return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='temperature'
-    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} />);
+    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
+    
+    
+    />);
 }
 
     		

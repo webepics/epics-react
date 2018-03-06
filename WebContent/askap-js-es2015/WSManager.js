@@ -121,11 +121,18 @@ export default class WSManager {
     	
     }
 
-    dispatchMessage(message) {
-	    if (message.id) {
-	        let subscriber = this.subscriptionMap.get(message.id);
-	        if (subscriber)
-	            subscriber.callback(message);
-	    }
+    dispatchMessage(messages) {
+
+	    	if (!messages)
+	    			return;
+    		
+		for (var i=0; i<messages.length; i++) {
+			var message = messages[i];
+		    if (message.id) {
+		        let subscriber = this.subscriptionMap.get(message.id);
+		        if (subscriber)
+		            subscriber.callback(message);
+		    }
+		}
 	}
 }

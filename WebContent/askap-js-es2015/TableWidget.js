@@ -23,10 +23,12 @@ export default class TableWidget extends ListBaseWidget {
 
 			rowData['description'] = this.props.pvdescription[i].description;
 			rowData['unit'] = this.props.pvdescription[i].units;
-			rowData['pvname'] = this.props.pvdescription[i].name;
+			rowData['pvname'] = this.props.pvdescription[i].pvname.replace('$(p)', '').replace('$(card)', '');
 				
 			for (var r in row) {
-				var pvName = this.props.antenna + ":" + this.props.subsystem + ":" + row[r] + ":" + this.props.pvdescription[i].name;
+				var pvName =  this.props.pvdescription[i].pvname.replace('$(p)', this.props.antenna + ":" + this.props.subsystem + ":")
+				pvName = pvName.replace('$(card)', row[r] + ":");				
+				
 				rowData[row[r]] = {'value': 'N/A', 'state': 'disconnected', 'status': 'invalid'};
 				pvrow[row[r]]  = pvName;
 			}
@@ -39,7 +41,7 @@ export default class TableWidget extends ListBaseWidget {
 		this.setState({ data: this.virtualData, showPVName: false, showDisabled: false });
 		this.connect(pvs);
 		
-		this.interval = setInterval(() => this.update(), 500);
+		this.interval = setInterval(() => this.update(), 1000);
 	}
 
 	componentWillUnmount() {

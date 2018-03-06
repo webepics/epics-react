@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import java.util.StringTokenizer;
 
@@ -15,15 +17,23 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
+import askap.css.janus.websocket.ClientManager;
+import askap.css.janus.websocket.ResponseMessage;
+
 public class Util {
 	public static Logger logger = Logger.getLogger(Util.class);
 	
-	public static final Gson theGson = (new GsonBuilder()).setPrettyPrinting().create();
+	public static final Gson theGson;
 	
 	public static String PVFILE_LOCATION = "";
 	private static Properties parset;
 	
 	static {
+		GsonBuilder gsonbuilder = new GsonBuilder();
+		gsonbuilder.registerTypeAdapter(ResponseMessage.class, new ResponseMessage.ResponseMessageSerializer());
+		theGson = gsonbuilder.setPrettyPrinting().create();
+		
+		
 		parset = new Properties();
 		try {
 			InputStream in = Util.class.getClassLoader().getResourceAsStream("epics-react.properties");
@@ -58,6 +68,6 @@ public class Util {
 		}
 		
 		return pvList;
-	}
+	}	
 	
 }

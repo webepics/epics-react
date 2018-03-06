@@ -1,6 +1,7 @@
 package askap.css.janus.util;
 
 import org.apache.log4j.Logger;
+import org.epics.pvaClient.PvaClientGetData;
 import org.epics.pvaClient.PvaClientMonitorData;
 import org.epics.pvaClient.PvaClientPutData;
 import org.epics.pvdata.property.Alarm;
@@ -163,7 +164,228 @@ public class VTypeJsonConvert {
 		JsonObject obj = new JsonObject();
 		
         boolean isScalar = monitorData.isValueScalar();
-    	boolean isScalarArray = monitorData.isValueScalarArray();
+        boolean isScalarArray = monitorData.isValueScalarArray();
+
+               
+        if (isScalar) {
+            PVScalar scalarVal = monitorData.getScalarValue();
+            ScalarType type = scalarVal.getScalar().getScalarType();
+	        // these basic types will do for prototyping
+	        if (ScalarType.pvBoolean.equals(type)) {
+	        	
+	        	boolean boolVal = ((PVBoolean) scalarVal).get();
+	        	obj.addProperty("type", "boolean");
+	        	obj.addProperty("value", boolVal);    
+	        	
+	        } else if (ScalarType.pvByte.equals(type)) {
+	        	
+	        	byte byteVal = ((PVByte) scalarVal).get();
+	        	obj.addProperty("type", "byte");
+	        	obj.addProperty("value", byteVal);    
+	        	
+	        } else if (ScalarType.pvDouble.equals(type)) {
+	
+	        	double doubleVal = ((PVDouble) scalarVal).get(); 
+	        	obj.addProperty("type", "double");
+	        	obj.addProperty("value", doubleVal);    
+	        	 
+	        } else if (ScalarType.pvFloat.equals(type)) {
+	
+	        	float floatVal = ((PVFloat) scalarVal).get(); 
+	        	obj.addProperty("type", "float");
+	        	obj.addProperty("value", floatVal);    
+	        	
+	        } else if (ScalarType.pvInt.equals(type)) {
+	        	
+	        	int intVal = ((PVInt) scalarVal).get(); 
+	        	obj.addProperty("type", "int");
+	        	obj.addProperty("value", intVal);  
+	        	
+	        } else if (ScalarType.pvLong.equals(type)) {
+	        	
+	        	long longVal = ((PVLong) scalarVal).get(); 
+	        	obj.addProperty("type", "long");
+	        	obj.addProperty("value", longVal);  
+	        	
+	        } else if (ScalarType.pvShort.equals(type)) {
+	        	
+	        	short shortVal = ((PVShort) scalarVal).get(); 
+	        	obj.addProperty("type", "short");
+	        	obj.addProperty("value", shortVal);  
+	        	
+	        } else if (ScalarType.pvString.equals(type)) {
+	
+	        	String strVal = ((PVString) scalarVal).get(); 
+	        	obj.addProperty("type", "String");
+	        	obj.addProperty("value", strVal);  
+	
+	        } else {
+				logger.error("Convert error: " + type.toString() + " not support.");	        	
+	        }
+        
+        } else if (isScalarArray) {
+        	// array types
+            PVScalarArray arrayVal = monitorData.getScalarArrayValue();
+            ScalarType type = arrayVal.getScalarArray().getElementType();
+            int len = arrayVal.getLength(); 
+                       
+	        // these basic types will do for prototyping
+	        if (ScalarType.pvBoolean.equals(type)) {
+	        	obj.addProperty("type", "booleanArray");
+	        	
+	        	BooleanArrayData data = new BooleanArrayData();
+	        	((PVBooleanArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (boolean d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        		        	
+	        } else if (ScalarType.pvByte.equals(type)) {
+
+	        	obj.addProperty("type", "byteArray");
+	        	
+	        	ByteArrayData data = new ByteArrayData();
+	        	((PVByteArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (byte d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        	
+	        } else if (ScalarType.pvDouble.equals(type)) {
+	
+	        	obj.addProperty("type", "doubleArray");
+	        	
+	        	DoubleArrayData data = new DoubleArrayData();
+	        	((PVDoubleArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (double d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        	 
+	        } else if (ScalarType.pvFloat.equals(type)) {
+	
+	        	obj.addProperty("type", "floatArray");
+	        	
+	        	FloatArrayData data = new FloatArrayData();
+	        	((PVFloatArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (float d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        	
+	        } else if (ScalarType.pvInt.equals(type)) {
+	        	
+	        	obj.addProperty("type", "intArray");
+	        	
+	        	IntArrayData data = new IntArrayData();
+	        	((PVIntArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (int d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        	
+	        } else if (ScalarType.pvLong.equals(type)) {
+	        	
+	        	obj.addProperty("type", "longArray");
+	        	
+	        	LongArrayData data = new LongArrayData();
+	        	((PVLongArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (long d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        	
+	        } else if (ScalarType.pvShort.equals(type)) {
+	        	
+	        	obj.addProperty("type", "shortArray");
+	        	
+	        	ShortArrayData data = new ShortArrayData();
+	        	((PVShortArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (short d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	        	
+	        } else if (ScalarType.pvString.equals(type)) {
+	
+	        	obj.addProperty("type", "stringArray");
+	        	
+	        	StringArrayData data = new StringArrayData();
+	        	((PVStringArray) arrayVal).get(0, len, data);
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (String d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+	        	obj.add("value", jsonArray);    
+	
+	        } else {
+	        	logger.error("Write error: " + type.toString() + " not support.");        	
+	        }
+        } else {
+        	
+        	PVStructure pvStructure = monitorData.getPVStructure();
+        	if (pvStructure!=null) {
+        		PVStructure valueField = pvStructure.getSubField(PVStructure.class, "value");
+
+        		PVInt pvIndex = valueField.getSubField(PVInt.class, "index");
+        		PVStringArray pvChoices = valueField.getSubField(PVStringArray.class, "choices");
+        		
+	        	StringArrayData data = new StringArrayData();
+	        	pvChoices.get(0, pvChoices.getLength(), data);
+        		
+        		int index = pvIndex.get();
+        		
+	        	
+	            JsonArray jsonArray = new JsonArray();
+	        	for (String d: data.data) {
+	        		jsonArray.add(new JsonPrimitive(d));
+	        	}	        	
+
+	        	obj.addProperty("type", "structure");
+	        	obj.addProperty("index", index);
+	        	obj.addProperty("value", jsonArray.get(index).getAsString());
+	        	obj.add("choices", jsonArray);	        	
+        	} else {        	
+        		logger.error("Write error: " + monitorData.toString() + " not support.");
+        	}
+        }
+              
+        // deal with timestamp
+        TimeStamp timeStamp = monitorData.getTimeStamp();
+        long ms = timeStamp.getMilliSeconds();
+        obj.addProperty("timestamp", ms);
+                
+        // deal with Alarm
+        Alarm alarm = monitorData.getAlarm();
+		JsonObject alarmObj = new JsonObject();
+		alarmObj.addProperty("severity", alarm.getSeverity().name());
+		alarmObj.addProperty("status", alarm.getStatus().name());		
+		obj.add("alarm", alarmObj);
+
+		return obj;
+	}
+
+
+	public static JsonObject PVToJson(PvaClientGetData monitorData) {
+		JsonObject obj = new JsonObject();
+		
+        boolean isScalar = monitorData.isValueScalar();
+        boolean isScalarArray = monitorData.isValueScalarArray();
 
                
         if (isScalar) {
