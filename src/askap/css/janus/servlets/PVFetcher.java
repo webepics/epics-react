@@ -13,6 +13,7 @@ import com.google.gson.JsonObject;
 
 import askap.css.janus.pvmanager.PVChannelManager;
 import askap.css.janus.util.Util;
+import askap.css.janus.util.VTypeJsonConvert;
 import askap.css.janus.websocket.ResponseMessage;
 
 
@@ -66,7 +67,8 @@ public class PVFetcher extends HttpServlet {
         }
         
         try {
-	        ResponseMessage val = PVChannelManager.getPVChannelManager().getValue(pvname);
+        	
+        		ResponseMessage val = ResponseMessage.createValueMessage(-1, pvname, PVChannelManager.getPVChannelManager().getValue(pvname));
 	        return Util.theGson.toJson(val);
         } catch (Exception e) {
 	        	obj.addProperty("status", "ERROR");

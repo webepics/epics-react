@@ -11,7 +11,7 @@ export default class WSManager {
 
     constructor() {
     	
-	    var wsUri = "ws://" + window.location.host + "/epics-react/ws/pv";	
+	    var wsUri = "ws://" + window.location.host + "/CSS/ws/pv";	
 
 	    this.channelIDIndex = 0;
 	    this.subscriptionMap = new Map();

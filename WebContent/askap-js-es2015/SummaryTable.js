@@ -9,21 +9,33 @@ export default class SummaryTable extends React.Component {
 		super(props);
 		
 		// code here to work out number of colums from pv: <antenna>:<subsystem>:array:size
-		var pvurl = 'PVFetcher?pvname=' + props.antenna + ':' + props.subsystem + ":array:size";
-		var that = this;
+		this.shelves = props.shelves;
 		
-		$.ajax({
-			  url: pvurl,
-			  dataType: 'json',
-			  async: false,
-			  success: function(data) {
-				  that.shelves = [];
-				  var numColumns = data.value.value;
-				  for (var i=0; i<numColumns; i++) {
-					  that.shelves.push(props.shelves[i]);
+		if (!props.shelves) {
+			this.shelves =[' '];
+			
+		} else if (props.shelves && props.shelves.length<24) {
+			var pvurl = 'PVFetcher?pvname=' + props.antenna + ':' + props.subsystem + ":array:size";
+			var that = this;
+			
+			$.ajax({
+				  url: pvurl,
+				  dataType: 'json',
+				  async: false,
+				  success: function(data) {
+					  that.shelves = [];
+					  
+					  if (data.status=='ERROR') {
+						  that.shelves = props.shelves;
+					  } else {
+						  var numColumns = data.value.value;
+						  for (var i=0; i<numColumns; i++) {
+							  that.shelves.push(props.shelves[i]);
+						  }
+					  }
 				  }
-			  }
-		});
+			});
+		}
 
 
 		// code here to load pv and descriptions from file specified in this.props.type

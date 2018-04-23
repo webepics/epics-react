@@ -176,7 +176,8 @@ public class SocketRequestHandler {
 			}
 		   
 			try {
-				session.getBasicRemote().sendText(Util.theGson.toJson(messages));
+				String msg = Util.theGson.toJson(messages);
+				session.getBasicRemote().sendText(msg);
 			} catch (Exception e) {
 		       logger.error("Could not send message", e);
 		       ClientManager manager = sessionClientManagerMap.remove(session.getId());

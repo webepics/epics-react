@@ -9,11 +9,11 @@ import org.epics.pvaClient.PvaClientChannel;
 import org.epics.pvaClient.PvaClientGetData;
 import org.epics.pvaClient.PvaClientPut;
 import org.epics.pvaccess.client.Channel.ConnectionState;
-import org.epics.pvdata.pv.Status;
+
+import com.google.gson.JsonObject;
 
 import askap.css.janus.util.VTypeJsonConvert;
 import askap.css.janus.websocket.Client;
-import askap.css.janus.websocket.ResponseMessage;
 
 
 public class PVChannelManager {
@@ -38,7 +38,7 @@ public class PVChannelManager {
 		return theChannelManager;
 	}
 
-	public PvaClientChannel connect(String pvName) throws Exception {
+	public JsonObject connect(String pvName) throws Exception {
 //		return this.connect(pvName, "pva");
 		return this.connect(pvName, "ca");
 	}
@@ -50,21 +50,15 @@ public class PVChannelManager {
 	 * @return
 	 * @throws Exception
 	 */
-	public PvaClientChannel connect(String pvName, String provider) throws Exception {
+	public JsonObject connect(String pvName, String provider) throws Exception {
 		
 		synchronized (pvChannelMap) {
 			PvaClientChannel channel = pvChannelMap.get(pvName);
 			if ( channel == null) {
 				channel = pvClient.createChannel(pvName, provider);
-				pvChannelMap.put(pvName, channel);
+				pvChannelMap.put(pvName, channel);				
+				channel.connect();	
 				
-				channel.issueConnect();
-				Status status = channel.waitConnect(0.5);
-				
-				if (!status.isSuccess()) {
-					logger.error("Could not connect to " + pvName + ": not connected");
-					throw new Exception("Could not connect to " + pvName + ": not connected");
-				}
 			} else {
 				ConnectionState connectionState = channel.getChannel().getConnectionState();
 				if (!connectionState.equals(ConnectionState.CONNECTED)) {
@@ -72,15 +66,13 @@ public class PVChannelManager {
 					throw new Exception("Could not connect to " + pvName + ": not connected");
 				}			
 			}
-			return channel;
+			return VTypeJsonConvert.PVToJson(channel.get().getData());
 		}
 	}
 
-	public ResponseMessage getValue(String pvName) throws Exception {
+	public JsonObject getValue(String pvName) throws Exception {
 		PvaClientGetData data = pvClient.channel(pvName, "ca").get().getData();
-		ResponseMessage response = ResponseMessage.createValueMessage(-1, pvName, VTypeJsonConvert.PVToJson(data));
-		
-		return response;
+		return VTypeJsonConvert.PVToJson(data);
 	}
 	
 	
@@ -96,7 +88,7 @@ public class PVChannelManager {
 				throw new Exception("PV " + pvName + " not connected");
 			}
 			
-			channel.monitor(monitor);
+			channel.monitor(monitor);			
 		}
 	}
 		

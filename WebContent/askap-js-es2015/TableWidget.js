@@ -22,13 +22,18 @@ export default class TableWidget extends ListBaseWidget {
 			var pvrow = {};
 
 			rowData['description'] = this.props.pvdescription[i].description;
+			rowData['index'] = this.props.pvdescription[i].index;
 			rowData['unit'] = this.props.pvdescription[i].units;
 			rowData['pvname'] = this.props.pvdescription[i].pvname.replace('$(p)', '').replace('$(card)', '');
 				
 			for (var r in row) {
 				var pvName =  this.props.pvdescription[i].pvname.replace('$(p)', this.props.antenna + ":" + this.props.subsystem + ":")
-				pvName = pvName.replace('$(card)', row[r] + ":");				
 				
+				if (row[r] && row[r].trim()) {					
+					pvName = pvName.replace('$(card)', row[r] + ":");				
+				} else {
+					pvName = pvName.replace('$(card)', '');						
+				}
 				rowData[row[r]] = {'value': 'N/A', 'state': 'disconnected', 'status': 'invalid'};
 				pvrow[row[r]]  = pvName;
 			}
@@ -53,19 +58,31 @@ export default class TableWidget extends ListBaseWidget {
 	}
 
 	processUpdate(message) {
-		if (message.type == 'connection') {
-			var indexes = this.subIdList.get(message.id);
+		var indexes = this.subIdList.get(message.id);
+
+		if (message.type=='error') {
+			this.virtualData[indexes[0]][indexes[1]]['value'] = 'N/A';		
+			this.virtualData[indexes[0]][indexes[1]]['state'] = 'disconnected';		
+			this.virtualData[indexes[0]][indexes[1]]['status'] = 'invalid';		
 			
+			return;
+		}
+		if (message.type == 'connection') {
 			if (message.connected)				
 				this.virtualData[indexes[0]][indexes[1]]['state'] = 'connected';				
 			else 
 				this.virtualData[indexes[0]][indexes[1]]['state'] = 'disconnected';
 		}
 		
-		if (message.type == 'value') {
+//		if (message.type == 'value') {
 			var indexes = this.subIdList.get(message.id);
 			
-			var val = message.value.value;			
+			var val = message.value.value;
+			
+			if (message.value.type == 'double' && message.value.value =='Infinity') {
+				val = '∞';
+			}
+			
 			if (!isNaN(val)) {
 				if (val.toFixed)
 					val = val.toFixed(2);
@@ -74,7 +91,7 @@ export default class TableWidget extends ListBaseWidget {
 			this.virtualData[indexes[0]][indexes[1]]['value'] = val;		
 			this.virtualData[indexes[0]][indexes[1]]['state'] = message.value.alarm.severity;		
 			this.virtualData[indexes[0]][indexes[1]]['status'] = message.value.alarm.severity;		
-		}
+//		}
 	}
 	
 	toggleDisplayPVName(event) {
@@ -133,7 +150,12 @@ export default class TableWidget extends ListBaseWidget {
 				      accessor: "description",
 				      minWidth: 100
 					});
-		    	
+
+		columns.push({Header: "Item",
+		      accessor: "index",
+		      minWidth: 50
+		    });
+		
 		columns.push({Header: "Unit",
 				      accessor: "unit",
 				      minWidth: 50

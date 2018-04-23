@@ -3,11 +3,9 @@ import {HashRouter as Router, Route, Link, Switch} from 'react-router-dom';
 import React, {Component} from 'react';
 import jQuery from 'jquery'
 
-import SummaryTable from './SummaryTable'
-import WSManager from './WSManager'
 import LabelWidget from './Label'
 
-class Header extends React.Component {
+export default class Header extends React.Component {
 	
 	constructor() {
 		super();
@@ -39,7 +37,7 @@ class Header extends React.Component {
 	    var location = window.location.href.split('/');
 	    var antenna = location[5];
 	    var subsystem = location[6];
-	    
+
 	    return (
 	      <div className="summary-menu">
 			<div>
@@ -67,6 +65,28 @@ class Header extends React.Component {
 	            <li className='alarm-menu-item'>
 	              <Link to={"/" + antenna + "/" + subsystem + "/temperature"}>Temperature</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_temps:alarm'}/>
 	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/voltage"}>Voltage</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_voltage:alarm'}/>
+	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/current"}>Current</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_current:alarm'}/>
+	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/txpower"}>TX Power & Bias</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_txPower:alarm'}/>
+	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/txpower"}>RX Power</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_rxPower:alarm'}/>
+	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/linkstatus10G"}>10G Links</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_linkStatus10G:alarm'}/>
+	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/linkstatusComms"}>Bull FPGA</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_linkStatusComms:alarm'}/>
+	            </li>
+	            <li className='alarm-menu-item'>
+	              <Link to={"/" + antenna + "/" + subsystem + "/commsErrors"}>Eth Comms</Link><LabelWidget pv={antenna + ':' + subsystem + ':S_commsErrors:alarm'}/>
+	            </li>
+	              
 	          </ul>
 	          	          
 	        </div>
@@ -74,58 +94,3 @@ class Header extends React.Component {
       )
 	}
 }
-
-/*
- * https://reacttraining.com/react-router/web/example/url-params
- */
-const Alignment = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='alignment' 
-    	shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-    		 pvfiles='bullant_bullant_redback_dragonfly.json' filter={[{field:'name', filter:'alignment'}]}
-    		 title='Beamformer Alignment Summary' />);
-}
-
-const Bat = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='bat'
-	     shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-         pvfiles='bullant_BatFrame.json'        	 
-        	 title='Beamformer BAT Summary'/>);
-}
-
-const FanSpeed = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='fanspeed'
-    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-		    pvfiles='bullant_CtrlMonitorData.json, bullant_RedbackMonitorData.json' filter={[{field:'unit', filter:'RPM'}, {field:'name', filter:'tacho'}]}
-		    	title='Beamformer Fan Speed Summary RPM'/>);
-}
-
-const Temperature = ({match}) => {
-    return (<SummaryTable antenna={match.params.antenna} subsystem={match.params.subsystem} type='temperature'
-    			shelves={['c01', 'c02', 'c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10', 'c11', 'c12']} 
-    
-    
-    />);
-}
-
-    		
-const app = (
-		<Router>
-		  <div>
-			<Header/>
-		    <Switch>
-		      <Route path="/:antenna/:subsystem/alignment" component={Alignment} />
-		      <Route path="/:antenna/:subsystem/bat" component={Bat} />
-		      <Route path="/:antenna/:subsystem/fanspeed" component={FanSpeed} />
-		      <Route path="/:antenna/:subsystem/temperature" component={Temperature} />
-		   </Switch>   		
-		  </div>
-		</Router>
-)
-
-jQuery(function() {
-	  ReactDOM.render(
-		  app,
-		  document.getElementById('AlarmSummary')
-	  );
-})
-

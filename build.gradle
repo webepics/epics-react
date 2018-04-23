@@ -1,36 +1,6 @@
 apply plugin: 'java'
-apply plugin: askap
 apply plugin: 'war'
 apply plugin: 'eclipse-wtp'
-
-// all the sass gradle plugins are crap. So I wrote one myself based on sass. So the problem
-// is that sass has to be installed.
-sass {
-    inputFile = 'WebContent/scss/askap.scss'
-    outputFile = 'WebContent/css/askap.css'
-}
-
-// build.dependsOn ASKAPSass
-
-class askap implements Plugin<Project> {
-    void apply(Project project) {
-	project.extensions.create("sass", SassPluginExtension)
-
-        project.task('SassPre') << {
-	    project.ASKAPSass.executable = 'sass'
-	    project.ASKAPSass.args = [project.sass.inputFile, project.sass.outputFile]
-	}
-
-        project.task('ASKAPSass', type:Exec) {
-	    dependsOn project.SassPre
-        }
-    }
-}
-
-class SassPluginExtension {
-    String inputFile
-    String outputFile
-}
 
 repositories {
     // Use 'jcenter' for resolving your dependencies.
@@ -58,18 +28,10 @@ sourceSets {
         }
 }
 
-// clean {
-//    delete "${projectDir}/WebContent/css/askap.css"
-// }
 
-
-// to build for difference environments: gradlew build -Pprofile=QA
-// 					 gradlew build -Pprofile=PROD
 processResources {
-    def profile = (project.hasProperty('profile') ? project.profile : 'qa').toLowerCase()
     include "**/log4j.properties"
-    include "**/obs_${profile}.properties"
-    rename ( "obs_${profile}.properties", 'obs.properties' )
+    include "**/epics-react.properties"
 }
 
 dependencies {

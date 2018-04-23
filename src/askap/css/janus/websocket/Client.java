@@ -7,6 +7,8 @@ import org.epics.pvaClient.PvaClientMonitor;
 import org.epics.pvaClient.PvaClientMonitorData;
 import org.epics.pvaClient.PvaClientMonitorRequester;
 
+import com.google.gson.JsonObject;
+
 import askap.css.janus.pvmanager.PVChannelManager;
 import askap.css.janus.util.VTypeJsonConvert;;
 
@@ -27,8 +29,9 @@ public class Client implements PvaClientMonitorRequester {
 		this.id = id;
 		
 		try{
-			PVChannelManager.getPVChannelManager().connect(this.pvName);
-			connected();
+			JsonObject val = PVChannelManager.getPVChannelManager().connect(this.pvName);
+			
+			connected(val);
 		} catch (Exception e) {
 			SocketRequestHandler.sendErrorResponse(e.getMessage(), pvName, this.id, this.session);			
 		}
@@ -52,9 +55,11 @@ public class Client implements PvaClientMonitorRequester {
 		}
 	}
 
-	public void connected() {
+	public void connected(JsonObject val) {
 		// send connected event
-		ResponseMessage response = ResponseMessage.createConnectedMessage(this.id, pvName, true, false);
+		ResponseMessage response = ResponseMessage.createConnectedMessage(this.id, pvName, true, false);		
+		response.value = val;
+		
 		SocketRequestHandler.sendResponse(this.session, response);
 	}
 	

@@ -41,6 +41,7 @@ public class ResponseMessage {
 				case connection:
 					obj.addProperty("connected", src.connected);
 					obj.addProperty("writeConnected", src.writeConnected);					
+					obj.add("value", src.value);
 					break;
 				case error:
 					obj.addProperty("error", src.error);
